@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Mælieiningar &mdash; Undirbúningur í eðlisfræði 2018</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon_2.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+
+	<!-- hoverrole.py css code -->
+	<style type="text/css">
+		a.tooltip {outline:none; border-bottom: thin dotted; background: #ffeedd}
+		a.tooltip strong {line-height:30px;}
+		a.tooltip:hover {text-decoration:none;} 
+		a.tooltip span {
+		    z-index:10;display:none; padding:14px 20px;
+		    margin-top:-30px; margin-left:12px;
+		    width:310px; line-height:16px;
+		}
+		a.tooltip:hover span{
+		    display:inline; position:absolute; color:#111;
+		    border:1px solid #DCA; background:#fffAF0;}
+		.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+		/*CSS3*/
+		a.tooltip span
+		{
+		    border-radius:4px;
+		    box-shadow: 5px 5px 8px #CCC;
+		}
+	</style>
+
+
+	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+    
+    <script> 
+    // the buttonText string says what will be written on the 
+    // sage cell evaluation button.
+    // It can be changed here.
+    var buttonText = "Keyra"
+    </script>
+    
+	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
+
+	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
+	
+    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+
+	<style type="text/css">
+		.sagecell .CodeMirror-scroll {
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
+		.sagecell .CodeMirror {
+			height: auto;
+		}
+	</style>
+
+    
+        <link rel="index" title="Atriðaskrá"
+              href="genindex.html"/>
+        <link rel="search" title="Leit" href="search.html"/>
+    <link rel="top" title="Undirbúningur í eðlisfræði 2018" href="index.html"/>
+        <link rel="next" title="3. Vigrar" href="Kafli03.html"/>
+        <link rel="prev" title="1. Um námsefnið" href="Kafli01.html"/>
+
+    
+    <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
+    <script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+
+    <script>top.scrolldepth_tags = []; </script>
+
+     
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Undirbúningur í eðlisfræði
+        
+
+        
+          
+          <img src="_static/hi_horiz_raunvisindadeild.png" class="logo" />
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Leit" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Kafli01.html">1. Um námsefnið</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli01.html#hva-er-elisfraei">1.1. Hvað er eðlisfræði?</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Mælieiningar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#si-einingakerfi">2.1. SI-einingakerfið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#forskeyti-si-kerfisins">2.1.1. Forskeyti SI-kerfisins</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#onnur-maelikerfi">2.2. Önnur mælikerfi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli03.html">3. Vigrar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#skilgreining">3.1. Skilgreining</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#a-lia-vigra">3.2. Að liða vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#einingarvigrar">3.3. Einingarvigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#samlagning-vigra">3.4. Samlagning vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#margfoldun-vigra">3.5. Margföldun vigra</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli04.html">4. Hraði og hröðun</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hrai">4.1. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hroun">4.2. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#myndraen-tulkun">4.3. Myndræn túlkun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#augnablikshrai-og-augnablikshroun">4.4. Augnablikshraði og augnablikshröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#yngdarhroun">4.5. Þyngdarhröðun</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli05.html">5. Hreyfing í tveimur víddum</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#kasthreyfing">5.1. Kasthreyfing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#hringhreyfing">5.2. Hringhreyfing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli06.html">6. Kraftar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#logmal-newtons">6.1. Lögmál Newtons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#fyrsta-logmal-newtons">6.1.1. Fyrsta lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#anna-logmal-newtons">6.1.2. Annað lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#rija-logmal-newtons">6.1.3. Þriðja lögmál Newtons</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#normalkraftur">6.2. Normalkraftur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#nuningskraftur">6.3. Núningskraftur</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli07.html">7. Orka</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#vinna">7.1. Vinna</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#afl">7.2. Afl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#hreyfiorka">7.3. Hreyfiorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#stouorka">7.4. Stöðuorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#orkuvarveisla">7.5. Orkuvarðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli08.html">8. Skriðþungi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#atlag">8.1. Atlag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#varveisla">8.2. Varðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli09.html">9. Verklegar tilraunir</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verklegar-aefingar">9.1. Verklegar æfingar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verkbaekur">9.2. Verkbækur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#markverir-stafir">9.3. Markverðir stafir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#staalform">9.4. Staðalform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#ovissureikningar">9.5. Óvissureikningar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="formulublad.html">10. Formúlublað</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#vigrar">10.1. Vigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hrai">10.2. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hroun">10.3. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hreyfijofnur">10.4. Hreyfijöfnur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#kraftar">10.5. Kraftar</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Undirbúningur í eðlisfræði</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>2. Mælieiningar</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Kafli02.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="maelieiningar">
+<h1>2. Mælieiningar<a class="headerlink" href="#maelieiningar" title="Varanlegur hlekkur á titilinn">¶</a></h1>
+<div class="section" id="si-einingakerfi">
+<h2>2.1. SI-einingakerfið<a class="headerlink" href="#si-einingakerfi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Í nær öllum löndum heims er notað samræmt mælikerfi, SI einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
+Lengd hefur þar grunneininguna metri og tími grunneininguna sekúnda.</p>
+<p>SI-grunneiningarnar eru sjö:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c | c | c}
+         \text{Mælistærð} &amp; \text{Eining} &amp; \text{Tákn} \\ \hline
+         \text{vegalengd} &amp; \text{metri} &amp; m \\
+   \text{tími} &amp; \text{sekúnda} &amp; s \\
+   \text{massi} &amp; \text{kílógramm} &amp; kg\\
+         \text{rafstraumur} &amp; \text{Ampere} &amp; A\\
+   \text{hitastig} &amp; \text{Kelvin} &amp; K \\
+   \text{ljósstyrkur} &amp; \text{candela} &amp; cd \\
+   \text{fjöldi} &amp; \text{mól} &amp; mól \\ \hline
+ \end{array}\end{split}\]</div>
+<p>Aðrar einingar í SI einingakerfinu eru settar saman úr grunneiningunum.
+Hraði, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).</p>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p class="last">Maður sem gengur 20 metra á 10 sekúndum hefur hraðann <span class="math notranslate nohighlight">\(20 \text{ m}/ 10 \text{ s} = 2 \text{ m/s}\)</span> .
+Það þýðir að á hverri sekúndu sem maðurinn gengur fer hann tvo metra.</p>
+</div>
+<div class="section" id="forskeyti-si-kerfisins">
+<h3>2.1.1. Forskeyti SI-kerfisins<a class="headerlink" href="#forskeyti-si-kerfisins" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Þegar fengist er við stærri mælistærðir, svo sem langar vegalengdir, er unnið með marga metra.
+Því hafa vísindamenn vanið sig á að kalla þúsund metra öðru nafni: einn kílómetra (<span class="math notranslate nohighlight">\(1000 \text{m} = 1 \text{km}\)</span>). Þegar fengist er við litlar mælistærðir, svo sem þykkt á pappír, fást aðeins brot af heilum metrum.
+Algengt er að nota millímetra, einn þúsundasta úr metra. Þetta er tekið saman í þessari töflu,
+á milli kíló og millí eru:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c|c|c}
+  \text{Forskeyti} &amp; \text{Tákn} &amp; \text{Veldi} &amp; \text{Margfeldi}\\ \hline
+  \text{Kíló} &amp; \text{k} &amp; 10^{3} &amp; 1000\\
+  \text{Hektó} &amp; \text{h} &amp; 10^{2} &amp; 100 \\
+  \text{Deka} &amp; \text{da} &amp; 10^{1} &amp; 10 \\
+  \text{--} &amp; \text{--} &amp; 10^{0} &amp; 1 \\
+  \text{Desi} &amp; \text{d} &amp; 10^{-1} &amp; 0.1\\
+  \text{Centi} &amp; \text{c} &amp; 10^{-2} &amp; 0.01\\
+  \text{Millí} &amp; \text{m} &amp; 10^{-3} &amp; 0.001 \\ \hline
+\end{array}\end{split}\]</div>
+<p>Við getum því lýst 10 metrum sem 1 dam, 100 dm eða 1000 cm.
+Mörg hafa séð svona mynd sem nota má til að breyta á milli:</p>
+<a class="reference internal image-reference" href="_images/einingahus.svg"><div align="center" class="align-center"><img alt="_images/einingahus.svg" src="_images/einingahus.svg" width="90%" /></div>
+</a>
+<p>Í eðlisfræði er líka fengist við risastór fyrirbæri (eins og stjörnuþokur úti í geimi) og allra minnstu fyrirbærin (eins og rafeindir).
+Þá þarf enn stærri forskeyti:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c|c|c}
+  \text{Forskeyti} &amp; \text{Tákn} &amp; \text{Veldi} &amp; \text{Margfeldi}\\ \hline
+  \text{Peta} &amp; \text{P} &amp; 10^{15} &amp; 1 000 000 000 000 000 \\
+  \text{Tera} &amp; \text{T} &amp; 10^{12} &amp; 1 000 000 000 000 \\
+  \text{Giga} &amp; \text{G} &amp; 10^{9} &amp; 1 000 000 000 \\
+  \text{Mega} &amp; \text{M} &amp; 10^{6} &amp; 1 000 000 \\
+  \text{Kíló} &amp; \text{k} &amp; 10^{3} &amp; 1 000\\
+  \text{--} &amp; \text{--} &amp; 10^0 &amp; 1\\
+  \text{Millí} &amp; \text{m} &amp; 10^{-3} &amp; 0.001 \\
+  \text{Míkró} &amp; \mu &amp; 10^{-6} &amp; 0.000 001 \\
+  \text{Nanó} &amp; \text{n} &amp; 10^{-9} &amp; 0.000 000 001 \\
+  \text{Píkó} &amp; \text{p} &amp; 10^{-12} &amp; 0.000 000 000 001 \\
+  \text{Femtó} &amp; \text{f} &amp; 10^{-15} &amp; 0.000 000 000 000 001 \\ \hline
+\end{array}\end{split}\]</div>
+<a class="reference internal image-reference" href="_images/einingahus2.svg"><div align="center" class="align-center"><img alt="_images/einingahus2.svg" src="_images/einingahus2.svg" width="90%" /></div>
+</a>
+<div class="admonition note">
+<p class="first admonition-title">Athugasemd</p>
+<p class="last">Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>Frá jörðinni til sólarinnar eru <span class="math notranslate nohighlight">\(1.496 \cdot 10^{11}\)</span> m. Ritum þetta með mismunandi einingum.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/sol.svg"><img alt="_images/sol.svg" src="_images/sol.svg" width="50%" /></a>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+  1.496 \cdot 10^{11} \text{ m} &amp;= 149600000000 \text{ m} \\
+  &amp; = 149.6 \cdot 10^{9} \text{ m} \\
+  &amp; = 149.6 \text{ Gm} \\
+\end{aligned}\end{split}\]</div>
+<p class="last">Það eru því 149.6 gígametrar til sólarinnar.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>Rafeind í vetnisatómi ferðast í kringum kjarnann í fjarlægðinni <span class="math notranslate nohighlight">\(5.29\cdot 10^{-11}\)</span> m.
+Ritum þetta með mismunandi einingum.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/atom.svg"><img alt="_images/atom.svg" src="_images/atom.svg" width="50%" /></a>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+  5.29 \cdot 10^{-11} \text{ m} &amp;= 0.0000000000529 \text{ m}\\
+  &amp;= 52.9 \cdot 10^{-12} \text{ m}\\
+  &amp;= 52.9 \text{ pm}\\
+\end{aligned}\end{split}\]</div>
+<p class="last">Rafeindin er því í 52.9 píkómetra fjarlægð frá kjarnanum.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>Edda á jörð sem er 12 ferkílómetrar. Hvað er lóðin margir hektarar (ferhektómetrar)?</p>
+<p><strong>Lausn</strong></p>
+<p>1 ferkílómetri er reitur sem er 1 kílómetri á hvorn kant. 1 kílómetri er 10 hektómetrar og því er:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+1 \text{ km}^2 &amp;= 1 \text{ km} \cdot 1 \text{ km} \\
+ &amp;= 10 \text{ hm} \cdot 10 \text{ hm}\\ &amp;= 100 \text{ hm}^2.
+\end{aligned}\end{split}\]</div>
+<p>Jörðin hennar Eddu er því 1200 hektarar.</p>
+<div class="last figure align-center">
+<a class="reference internal image-reference" href="_images/hektari.svg"><img alt="_images/hektari.svg" src="_images/hektari.svg" width="60%" /></a>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="onnur-maelikerfi">
+<h2>2.2. Önnur mælikerfi<a class="headerlink" href="#onnur-maelikerfi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Í Bandaríkjunum er SI-einingakerfið yfirleitt ekki notað. Þar eru lengdir mældar í  eftirfarandi einingum:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c | c | c  }
+        \text{Mælistærð} &amp; \text{Enskt heiti}&amp; \text{Grunneining} \\ \hline
+        \text{Míla} &amp; \text{mile} &amp; 1609 \text{ m} \\
+  \text{Stika} &amp;\text{yard} &amp; 0.9144 \text{ m} \\
+  \text{Fet} &amp; \text{foot} &amp;  0.3048 \text{ m} \\
+        \text{Tomma} &amp; \text{inch} &amp;  0.0254 \text{ m} \\ \hline
+\end{array}\end{split}\]</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>Jörðin hennar Eddu er 12 ferkílómetrar. Hvað eru það margar fermílur?</p>
+<p><strong>Lausn</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+  1 \text{ míla} &amp;= 1609 \text{ m} = 1.609&nbsp;\text{ km} \\
+  \left( \frac{1}{1.609} \text{ míla} \right) ^2 &amp;= (1 \text{ km})^2\\
+  0.386   \text{ míla}^2 &amp;= 1 \text{ km}^2 \\
+  12 \cdot 0.386 \text{ míla}^2 &amp;= 12 \text{ km}^2\\
+\end{aligned}\end{split}\]</div>
+<p class="last">12 ferkílómetrar eru því 4.635 fermílur.</p>
+</div>
+<p>Þar er hitastig líka mælt á Fahrenheit-kvarða, sem breyta má í Celcius með eftirfarandi formúlu:</p>
+<div class="math notranslate nohighlight">
+\[T_{°C}=\frac{5}{9}(T_{°F}-32)\]</div>
+<p>SI- einingin fyrir hitastig er hvorki Celcius-kvarðinn né Fahrenheit-kvarðinn, heldur Kelvin.
+Svona má breyta Celcius í Kelvin:</p>
+<div class="math notranslate nohighlight">
+\[T_{K}=T_{°C}-273.15\]</div>
+<p>Kelvin-kvarðinn er svipaður Celcius-kvarðanum að því leyti að aukning í hita um 1 K er jafnt aukningu í hita um 1 °C.
+Munurinn er sá að Celcius setur 0 °C við frostmark vatns þá setur Kelvin 0 við <em>alkul</em>, lægsta mögulega hitastig efnisheimsins (-273.15 °C= 0 K).
+Það eru því ekki til neikvæð hitastig á Kelvin-kvarðanum!</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Kafli03.html" class="btn btn-neutral float-right" title="3. Vigrar" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Kafli01.html" class="btn btn-neutral" title="1. Um námsefnið" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2018',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+<script src="_static/jquery.scrolldepth.js"></script>
+<script>
+    jQuery.scrollDepth({
+        percentage: false,
+        userTiming: false,
+        pixelDepth: false,
+        nonInteraction: false,
+        elements: top.scrolldepth_tags
+}); 
+</script>
+
+
+
+</body>
+</html>

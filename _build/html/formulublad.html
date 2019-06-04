@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>10. Formúlublað &mdash; Undirbúningur í eðlisfræði 2018</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon_2.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+
+	<!-- hoverrole.py css code -->
+	<style type="text/css">
+		a.tooltip {outline:none; border-bottom: thin dotted; background: #ffeedd}
+		a.tooltip strong {line-height:30px;}
+		a.tooltip:hover {text-decoration:none;} 
+		a.tooltip span {
+		    z-index:10;display:none; padding:14px 20px;
+		    margin-top:-30px; margin-left:12px;
+		    width:310px; line-height:16px;
+		}
+		a.tooltip:hover span{
+		    display:inline; position:absolute; color:#111;
+		    border:1px solid #DCA; background:#fffAF0;}
+		.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+		/*CSS3*/
+		a.tooltip span
+		{
+		    border-radius:4px;
+		    box-shadow: 5px 5px 8px #CCC;
+		}
+	</style>
+
+
+	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+    
+    <script> 
+    // the buttonText string says what will be written on the 
+    // sage cell evaluation button.
+    // It can be changed here.
+    var buttonText = "Keyra"
+    </script>
+    
+	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
+
+	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
+	
+    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+
+	<style type="text/css">
+		.sagecell .CodeMirror-scroll {
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
+		.sagecell .CodeMirror {
+			height: auto;
+		}
+	</style>
+
+    
+        <link rel="index" title="Atriðaskrá"
+              href="genindex.html"/>
+        <link rel="search" title="Leit" href="search.html"/>
+    <link rel="top" title="Undirbúningur í eðlisfræði 2018" href="index.html"/>
+        <link rel="prev" title="9. Verklegar tilraunir" href="Kafli09.html"/>
+
+    
+    <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
+    <script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+
+    <script>top.scrolldepth_tags = []; </script>
+
+     
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Undirbúningur í eðlisfræði
+        
+
+        
+          
+          <img src="_static/hi_horiz_raunvisindadeild.png" class="logo" />
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Leit" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Kafli01.html">1. Um námsefnið</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli01.html#hva-er-elisfraei">1.1. Hvað er eðlisfræði?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli02.html">2. Mælieiningar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#si-einingakerfi">2.1. SI-einingakerfið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#forskeyti-si-kerfisins">2.1.1. Forskeyti SI-kerfisins</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#onnur-maelikerfi">2.2. Önnur mælikerfi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli03.html">3. Vigrar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#skilgreining">3.1. Skilgreining</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#a-lia-vigra">3.2. Að liða vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#einingarvigrar">3.3. Einingarvigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#samlagning-vigra">3.4. Samlagning vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#margfoldun-vigra">3.5. Margföldun vigra</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli04.html">4. Hraði og hröðun</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hrai">4.1. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hroun">4.2. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#myndraen-tulkun">4.3. Myndræn túlkun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#augnablikshrai-og-augnablikshroun">4.4. Augnablikshraði og augnablikshröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#yngdarhroun">4.5. Þyngdarhröðun</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli05.html">5. Hreyfing í tveimur víddum</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#kasthreyfing">5.1. Kasthreyfing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#hringhreyfing">5.2. Hringhreyfing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli06.html">6. Kraftar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#logmal-newtons">6.1. Lögmál Newtons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#fyrsta-logmal-newtons">6.1.1. Fyrsta lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#anna-logmal-newtons">6.1.2. Annað lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli06.html#rija-logmal-newtons">6.1.3. Þriðja lögmál Newtons</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#normalkraftur">6.2. Normalkraftur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli06.html#nuningskraftur">6.3. Núningskraftur</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli07.html">7. Orka</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#vinna">7.1. Vinna</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#afl">7.2. Afl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#hreyfiorka">7.3. Hreyfiorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#stouorka">7.4. Stöðuorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#orkuvarveisla">7.5. Orkuvarðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli08.html">8. Skriðþungi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#atlag">8.1. Atlag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#varveisla">8.2. Varðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli09.html">9. Verklegar tilraunir</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verklegar-aefingar">9.1. Verklegar æfingar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verkbaekur">9.2. Verkbækur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#markverir-stafir">9.3. Markverðir stafir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#staalform">9.4. Staðalform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#ovissureikningar">9.5. Óvissureikningar</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">10. Formúlublað</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#vigrar">10.1. Vigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hrai">10.2. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hroun">10.3. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hreyfijofnur">10.4. Hreyfijöfnur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kraftar">10.5. Kraftar</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Undirbúningur í eðlisfræði</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>10. Formúlublað</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/formulublad.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="formulubla">
+<h1>10. Formúlublað<a class="headerlink" href="#formulubla" title="Varanlegur hlekkur á titilinn">¶</a></h1>
+<div class="section" id="vigrar">
+<h2>10.1. Vigrar<a class="headerlink" href="#vigrar" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+    |\bar{a}| = a &amp;= \sqrt{a_x^2 + a_y^2 + a_z^2} \\
+    \bar{a} + \bar{b} &amp;= \begin{pmatrix}a_x+b_x \\ a_y+b_y \\&nbsp;a_z+b_z \end{pmatrix} \\
+    c \cdot \bar{v} &amp;= \begin{pmatrix}c \cdot v_x\\ c \cdot v_y \\ c \cdot v_z \end{pmatrix} \\
+    \bar{a} \cdot \bar{b} &amp;= a_x b_x + a_y b_y \\
+    &amp;= a b \cos{\phi} \\
+    \bar{a} \times \bar{b} &amp;= (a_x \hat{\imath} + a_y \hat{\jmath} + a_z \hat{k}) \times (b_x \hat{\imath} + b_y \hat{\jmath} + b_z \hat{k}) \\
+    &amp;= (a_y b_z - a_z b_y)\hat{\imath} + (a_z b_x - a_x b_z)\hat{\jmath} + (a_x b_y - a_y b_x)\hat{k} \\
+    \bar{a} \times \bar{b} &amp;= -\bar{b} \times \bar{a}
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="hrai">
+<h2>10.2. Hraði<a class="headerlink" href="#hrai" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+    v &amp;= \frac{x_2-x_1}{t_2-t_1} = \frac{\Delta x}{\Delta t} \\
+    &amp;= \lim_{h \to 0} \frac{x_{t+h}-x_{t}}{(t+h) - t} = \lim_{h\to 0}\frac{x_{t+h}-x_{t}}{h} = \frac{dx}{dt} \\
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="hroun">
+<h2>10.3. Hröðun<a class="headerlink" href="#hroun" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+    a &amp;= \frac{v_2 - v_1}{t_2 - t_1} \\
+    &amp;= \lim_{h \to 0} \frac{v_{t+h}-v_{t}}{(t+h) - t} = \lim_{h\to 0}\frac{v_{t+h}-v_{t}}{h} = \frac{dv}{dt} \\
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="hreyfijofnur">
+<h2>10.4. Hreyfijöfnur<a class="headerlink" href="#hreyfijofnur" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+    v&amp;=v_0+a\cdot t \qquad &amp;\text{Hraði sem fall af tíma} \\
+    x&amp;=x_0 + v_0 \cdot t + \frac{1}{2} a\cdot t^2 \qquad &amp; \text{Staðsetning sem fall af tíma} \\
+    v^2 &amp;=v_0^2+2a\cdot (x-x_0) \qquad &amp; \text{Tímaóháða jafnan} \\
+    x-x_0 &amp;=\frac{1}{2}(v_0 + v)\cdot t \qquad &amp; \text{Færsla}
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="kraftar">
+<h2>10.5. Kraftar<a class="headerlink" href="#kraftar" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+    \Sigma \bar{F} &amp;= 0 \\
+    \bar{F} &amp;= m\bar{a} \\
+    \bar{F}_{AB} &amp;= -\bar{F}_{BA} \\
+\end{aligned}\end{split}\]</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="Kafli09.html" class="btn btn-neutral" title="9. Verklegar tilraunir" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2018',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+<script src="_static/jquery.scrolldepth.js"></script>
+<script>
+    jQuery.scrollDepth({
+        percentage: false,
+        userTiming: false,
+        pixelDepth: false,
+        nonInteraction: false,
+        elements: top.scrolldepth_tags
+}); 
+</script>
+
+
+
+</body>
+</html>

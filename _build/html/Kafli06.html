@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. Kraftar &mdash; Undirbúningur í eðlisfræði 2018</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon_2.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+
+	<!-- hoverrole.py css code -->
+	<style type="text/css">
+		a.tooltip {outline:none; border-bottom: thin dotted; background: #ffeedd}
+		a.tooltip strong {line-height:30px;}
+		a.tooltip:hover {text-decoration:none;} 
+		a.tooltip span {
+		    z-index:10;display:none; padding:14px 20px;
+		    margin-top:-30px; margin-left:12px;
+		    width:310px; line-height:16px;
+		}
+		a.tooltip:hover span{
+		    display:inline; position:absolute; color:#111;
+		    border:1px solid #DCA; background:#fffAF0;}
+		.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+		/*CSS3*/
+		a.tooltip span
+		{
+		    border-radius:4px;
+		    box-shadow: 5px 5px 8px #CCC;
+		}
+	</style>
+
+
+	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+    
+    <script> 
+    // the buttonText string says what will be written on the 
+    // sage cell evaluation button.
+    // It can be changed here.
+    var buttonText = "Keyra"
+    </script>
+    
+	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
+
+	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
+	
+    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+
+	<style type="text/css">
+		.sagecell .CodeMirror-scroll {
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
+		.sagecell .CodeMirror {
+			height: auto;
+		}
+	</style>
+
+    
+        <link rel="index" title="Atriðaskrá"
+              href="genindex.html"/>
+        <link rel="search" title="Leit" href="search.html"/>
+    <link rel="top" title="Undirbúningur í eðlisfræði 2018" href="index.html"/>
+        <link rel="next" title="7. Orka" href="Kafli07.html"/>
+        <link rel="prev" title="5. Hreyfing í tveimur víddum" href="Kafli05.html"/>
+
+    
+    <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
+    <script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+
+    <script>top.scrolldepth_tags = []; </script>
+
+     
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Undirbúningur í eðlisfræði
+        
+
+        
+          
+          <img src="_static/hi_horiz_raunvisindadeild.png" class="logo" />
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Leit" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Kafli01.html">1. Um námsefnið</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli01.html#hva-er-elisfraei">1.1. Hvað er eðlisfræði?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli02.html">2. Mælieiningar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#si-einingakerfi">2.1. SI-einingakerfið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#forskeyti-si-kerfisins">2.1.1. Forskeyti SI-kerfisins</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#onnur-maelikerfi">2.2. Önnur mælikerfi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli03.html">3. Vigrar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#skilgreining">3.1. Skilgreining</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#a-lia-vigra">3.2. Að liða vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#einingarvigrar">3.3. Einingarvigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#samlagning-vigra">3.4. Samlagning vigra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli03.html#margfoldun-vigra">3.5. Margföldun vigra</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli04.html">4. Hraði og hröðun</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hrai">4.1. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#hroun">4.2. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#myndraen-tulkun">4.3. Myndræn túlkun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#augnablikshrai-og-augnablikshroun">4.4. Augnablikshraði og augnablikshröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli04.html#yngdarhroun">4.5. Þyngdarhröðun</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli05.html">5. Hreyfing í tveimur víddum</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#kasthreyfing">5.1. Kasthreyfing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#hringhreyfing">5.2. Hringhreyfing</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Kraftar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#logmal-newtons">6.1. Lögmál Newtons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fyrsta-logmal-newtons">6.1.1. Fyrsta lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#anna-logmal-newtons">6.1.2. Annað lögmál Newtons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rija-logmal-newtons">6.1.3. Þriðja lögmál Newtons</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#normalkraftur">6.2. Normalkraftur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#nuningskraftur">6.3. Núningskraftur</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli07.html">7. Orka</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#vinna">7.1. Vinna</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#afl">7.2. Afl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#hreyfiorka">7.3. Hreyfiorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#stouorka">7.4. Stöðuorka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli07.html#orkuvarveisla">7.5. Orkuvarðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli08.html">8. Skriðþungi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#atlag">8.1. Atlag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli08.html#varveisla">8.2. Varðveisla</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli09.html">9. Verklegar tilraunir</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verklegar-aefingar">9.1. Verklegar æfingar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#verkbaekur">9.2. Verkbækur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#markverir-stafir">9.3. Markverðir stafir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#staalform">9.4. Staðalform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#ovissureikningar">9.5. Óvissureikningar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="formulublad.html">10. Formúlublað</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#vigrar">10.1. Vigrar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hrai">10.2. Hraði</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hroun">10.3. Hröðun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#hreyfijofnur">10.4. Hreyfijöfnur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formulublad.html#kraftar">10.5. Kraftar</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Undirbúningur í eðlisfræði</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>6. Kraftar</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Kafli06.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kraftar">
+<h1>6. Kraftar<a class="headerlink" href="#kraftar" title="Varanlegur hlekkur á titilinn">¶</a></h1>
+<p><em>Kraftar</em> (e. force) eru <a class="reference internal" href="Kafli03.html#s-vigrar"><span class="std std-ref">vigrar</span></a>, þ.e. <em>kraftar hafa bæði stærð og stefnu</em>.
+Einingin fyrir krafta er <em>Newton</em>. Eitt Newton er sá kraftur sem þarf til þess að gefa <span class="math notranslate nohighlight">\(1 \text{ kg}\)</span> massa hröðunina <span class="math notranslate nohighlight">\(1 \frac{\text{m}}{\text{s}^2}\)</span> .
+Kraftar eru margfeldi massa og hröðunar og því má Newton, <span class="math notranslate nohighlight">\(1\text{ N} = 1 \text{ kg}\cdot \frac{\text{m}}{\text{s}^2}\)</span> .</p>
+<div class="admonition note">
+<p class="first admonition-title">Athugasemd</p>
+<p class="last">Athugið að <em>massi</em> (e. mass) er ekki það sama og þyngd.
+Massi hlutar lýsir því hve mikið efni er í honum og er eins sama hvar í alheiminum hann er.
+<em>Þyngd</em> (e. weight) hlutar er stærð þyngdarkraftsins sem á hann verkar, margfeldi massans við þyngdarhröðunina <span class="math notranslate nohighlight">\(g\)</span>.</p>
+</div>
+<p>Kraftar eru yfirleitt táknaðir með <span class="math notranslate nohighlight">\(F\)</span> eða <span class="math notranslate nohighlight">\(f\)</span>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Athugasemd</p>
+<p class="last">Þyngdarkraftur og aðrir kraftar sem beitt er á hluti er oft táknaðir með stórum staf: <span class="math notranslate nohighlight">\(F\)</span> en viðbragðskraftar (t.d. núningur) með litlum <span class="math notranslate nohighlight">\(f\)</span> .
+Táknmálið er hinsvegar ekki heilagt en skýrist yfirleitt á samhengi.</p>
+</div>
+<div class="section" id="logmal-newtons">
+<h2>6.1. Lögmál Newtons<a class="headerlink" href="#logmal-newtons" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Enski eðlisfræðingurinn <a class="reference external" href="https://is.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a> setti fram þrjú kraftalögmál á 17. öld.</p>
+<div class="section" id="fyrsta-logmal-newtons">
+<h3>6.1.1. Fyrsta lögmál Newtons<a class="headerlink" href="#fyrsta-logmal-newtons" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>„Hlutur sem enginn kraftur verkar á helst kyrr eða ferðast áfram á jöfnum hraða.“</p>
+<p>Þetta lögmál er oft nefnt <strong>tregðulögmálið</strong>
+Ef summa allra krafta sem verka á hlutinn er núll <span class="math notranslate nohighlight">\(\left(\sum\overline{F} = 0 \right)\)</span> þá er heildarhröðunin <span class="math notranslate nohighlight">\(\overline{a}=0\)</span>.
+Hröðun er afleiða hraðans, svo ef hröðunin er núll er hraðinn <span class="math notranslate nohighlight">\(\overline{v}\)</span> er fasti.
+Munið að fasti hraðinn <span class="math notranslate nohighlight">\(v=0\)</span> þýðir að hluturinn er kyrr.</p>
+</div>
+<div class="section" id="anna-logmal-newtons">
+<h3>6.1.2. Annað lögmál Newtons<a class="headerlink" href="#anna-logmal-newtons" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[\overline{F} = m \overline{a}\]</div>
+<p>Kraftur sem verkar á hlut er margfeldi massa hlutarins og hröðunar sem hann verður fyrir.
+Kraftur og hröðun eru vigrar sem hafa sömu stefnu og massi er einskonar hlutfallsstuðull milli krafts og hröðunar.
+Þannig má túlka massa sem <em>tregðustuðul</em>, þ.e. fyrir mikinn massa fæst lítil hröðun fyrir gefinn kraft.</p>
+</div>
+<div class="section" id="rija-logmal-newtons">
+<h3>6.1.3. Þriðja lögmál Newtons<a class="headerlink" href="#rija-logmal-newtons" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[\overline{F}_{AB} = -\overline{F}_{BA}\]</div>
+<p>„Sérhvert átak á sér gagnátak.“
+<span class="math notranslate nohighlight">\(F_{AB}\)</span> er kraftur sem hlutur A veldur á B og <span class="math notranslate nohighlight">\(F_{BA}\)</span> er verkun B á A.
+Kraftarnir eru jafnstórir en stefna gegn hvorum öðrum.</p>
+</div>
+</div>
+<div class="section" id="normalkraftur">
+<h2>6.2. Normalkraftur<a class="headerlink" href="#normalkraftur" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Hlutur sem liggur kyrrstæður á borði hlýtur að vera í kraftajafnvægi (fyrst hann er ekki á hreyfingu getur ekki verið nein hröðun) og samkvæmt fyrsta lögmálinu mun hann vera kyrrstæður áfram meðan svo er.
+Þó að hluturinn se kyrrstæður þýðir það samt ekki að engir kraftar verki á hann.
+Þyngdarkrafturinn togar hann niður að borðinu og samkvæmt þriðja lögmálinu er jafnstór kraftur frá borðinu sem ýtir hlutnum upp.
+Sá kraftur er kallaður normalkraftur, oft táknaður <span class="math notranslate nohighlight">\(f_{n}\)</span> .</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/normal.svg"><img alt="_images/normal.svg" src="_images/normal.svg" width="60%" /></a>
+</div>
+<p>Normalkraftar eru hornréttir á yfirborðið sem þeir koma frá.</p>
+</div>
+<div class="section" id="nuningskraftur">
+<h2>6.3. Núningskraftur<a class="headerlink" href="#nuningskraftur" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Núningskraftar eru kraftar sem verða á milli yfirborða og vinna gegn hreyfingu þeirra miðað við hvort annað.
+Núningur finnst í nær öllum kerfum, hann er ástæða þess við getum farið um á hjóli; það er kraftur milli dekkjanna og malbiksins sem ýtir hjólinu áfram þegar dekkin snúast. Annars myndi hjólið spóla og standa í stað, eins og gerist þegar það er mikil hálka.
+Skautasvell er einmitt dæmi um kerfi þar sem er nær enginn núningur og hefur afar lítil áhrif á útreikninga dæmisins. Ef núningurinn er mjög lítill getum við leyft okkur að hunsa hann.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p><strong>(a)</strong> Ásta ætlar að toga þungan kassa eftir steypugólfi og beitir til þess krafti <span class="math notranslate nohighlight">\(F_{tog}\)</span> á kassann.
+Kassinn hreyfist ekki. Af hverju ekki?</p>
+<p><strong>(b)</strong> Ásta togar fastar og kassinn fær hröðun í átt til hennar. Hvaða kraftar verka á kassann og Ástu?</p>
+<p><strong>Lausn</strong></p>
+<p><strong>(a)</strong> Fyrst kassinn hreyfist ekki er hraði hans fasti (í núlli), og því hlýtur heildarkrafturinn sem verkar á hann að vera núll.
+Skoðum kraftana betur:</p>
+<p>Kassinn verður fyrir þyngdarkrafti <span class="math notranslate nohighlight">\(F_g\)</span> og gólfið ýtir á móti með jafnstórum en gagnstefna normalkrafti <span class="math notranslate nohighlight">\(f_n\)</span>.
+Kraftarnir tveir stytta hvorn annan út og það helst óbreytt þó Ásta togi í kassann.</p>
+<p>Fyrst kassinn hreyfist ekki þýðir það að summa kraftanna sem verka á hann er núll.
+Því hlýtur að vera núningskraftur sem er að toga á móti þegar Ásta togar í kassann.
+Á meðan kassinn hreyfist ekki er núningskrafturinn jafnstór togkraftinum sem Ásta beitir.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/asta.svg"><img alt="_images/asta.svg" src="_images/asta.svg" width="60%" /></a>
+</div>
+<p><strong>(b)</strong> Þar sem kassinn fær hröðun er heildarkrafturinn á hann ekki lengur núll.
+Togkraftur Ástu er núna meiri en núningskrafturinn.
+Þetta eru þó ekki allir kraftarnir sem verka í þessum aðstæðum. Samkvæmt 3. lögmáli Newtons koma kraftar í pörum jafnsstórra og andstæðra krafta.
+Þegar Ásta togar í kassann verður því líka til kraftur jafnstór togkraftinum sem verkar á hana.
+Ef hún stæði á sleipu gólfi myndi hún fá hröðun í átt að kassanum (og sennilega detta á hausinn), því núningskraftur hennar við gólfið yrði ekki nægur til að vega á móti togkraftinum.</p>
+<p>Því eru fjórir kraftar sem verka á Ásta og kassann: togkraftapar á milli þeirra og núningskraftur undir þeim báðum.
+Auk þess, auðvitað, verða bæði Ásta og kassinn fyrir þyngdarkrafti og normalkrafti frá gólfinu.</p>
+<div class="last figure align-center">
+<a class="reference internal image-reference" href="_images/asta2.svg"><img alt="_images/asta2.svg" src="_images/asta2.svg" width="60%" /></a>
+</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>Hokkípökkur með massa <span class="math notranslate nohighlight">\(m = 0.15\)</span> kg rennur á svelli með hraðanum <span class="math notranslate nohighlight">\(\overline{v}_0 = 5 \text{m/s}\)</span>  .
+Núningskrafturinn milli hokkípökksins og svellsins er <span class="math notranslate nohighlight">\(\overline{f}_{nún} = 0.3 \text{N}\)</span> og verkar á þann hátt að hann hægir á pökknum.</p>
+<p>Hvaða kraftar verka á pökkinn?
+Hversu langt rennur pökkurinn áður en hann stöðvast?</p>
+<p><strong>Lausn</strong></p>
+<p>Byrjum á að teikna kraftamynd.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/hockey.svg"><img alt="_images/hockey.svg" src="_images/hockey.svg" width="70%" /></a>
+</div>
+<p>Pökkurinn verður fyrir þyndarkrafti <span class="math notranslate nohighlight">\(f_g\)</span> og normalkrafti <span class="math notranslate nohighlight">\(f_n\)</span> vegna hans, auk núningskraftsins <span class="math notranslate nohighlight">\(f_{nún}\)</span>.</p>
+<p>Upphafshraðinn <span class="math notranslate nohighlight">\(v_0\)</span> er merktur inn rauður.</p>
+<p>Þyngdarkrafturinn og normalkrafturinn eru jafnstórir og gagnstefna og stytta því hvorn annan út.
+Það er því engin hreyfing í <span class="math notranslate nohighlight">\(y\)</span> stefnu og við megum gera ráð fyrir að það muni vera þannig áfram.</p>
+<p>Það er því bara hreyfing í eina stefnu, eftir x-ásnum, svo við getum sleppt hinum víddum kraftanna.
+Þá þarf ekki að pæla í stefnu vigranna, þeir sem benda í eina átt fá jákvætt gildi, en þeir sem benda í hina fá neikvætt gildi.
+Höfum því hraðann jákvæðan og núningskrafturinn neikvæðan.</p>
+<p>Látum pökkinn byrja í miðju hnitakerfisins, svo <span class="math notranslate nohighlight">\(x_0 = 0\)</span> .
+Notum annað lögmál Newtons til að finna hröðunina sem núningskrafturinn gefur pökknum, þ.e. hve mikið hann hægir á honum.</p>
+<div class="math notranslate nohighlight">
+\[f_{nún} = m a \Rightarrow a = \frac{f_{nún}}{m} = \frac{-0.3 \text{N}}{0.15 \text{kg}} = -2 \text{m/s}^2\]</div>
+<p>Takið eftir að hröðunin er neikvæð eins og krafturinn.
+Notum nú eina af <a class="reference internal" href="Kafli04.html#s-hreyfijofnur"><span class="std std-ref">hreyfijöfnunum</span></a> til að finna lokastaðsetninguna:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}v^2 - v_0^2 &amp;= 2 a (x - x_0) \\
+(0 \text{m/s})^2 - (5 \text{m/s})^2 &amp;= 2(-2\text{m/s}^2)(x-0\text{m}) \\
+\Rightarrow x &amp;= \frac{25 \text{m}^2\text{/s}^2}{4\text{m/s}^2}   = 6.25 \text{m}\end{split}\]</div>
+<p class="last">Pökkurinn rennur því  <span class="math notranslate nohighlight">\(6.25\)</span> m á svellinu áður en hann stöðvast vegna núningskraftsins.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Dæmi</p>
+<p>5 kg kassi liggur kyrrstæður á skáplani með hallann <span class="math notranslate nohighlight">\(\theta = 30°\)</span> .
+Hver er núningskrafturinn á milli kassans og skáplansins <span class="math notranslate nohighlight">\(f_{nún}\)</span>?</p>
+<p><strong>Lausn</strong></p>
+<p>Byrjum á að teikna kraftamynd.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/skaplan.svg"><img alt="_images/skaplan.svg" src="_images/skaplan.svg" width="70%" /></a>
+</div>
+<p>Þar sem kassinn er kyrrstæður er heildarkrafturinn núll.
+Núningskrafturinn <span class="math notranslate nohighlight">\(f_{nún}\)</span> liggur samsíða skáplaninu upp eftir því.
+Á kassann verkar þyngdarkraftur <span class="math notranslate nohighlight">\(f_g\)</span> beint niður.
+Normalkrafturinn <span class="math notranslate nohighlight">\(f_n\)</span> ýtir á kassann, hornrétt af yfirborði skáplansins.</p>
+<p>Skilgreinum hnitakerfið þannig að x-ásinn sé samsíða skáplaninu og y-ásinn hornrétt á hann.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/skaplanhnit.svg"><img alt="_images/skaplanhnit.svg" src="_images/skaplanhnit.svg" width="70%" /></a>
+</div>
+<p>Liðum þyngdarkraftinn í þann hluta sem er samsíða skáplaninu, <span class="math notranslate nohighlight">\(f_{g,x}\)</span> og þann sem er hornrétt á það, <span class="math notranslate nohighlight">\(f_{g,y}\)</span></p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/lidunkrafta2.svg"><img alt="_images/lidunkrafta2.svg" src="_images/lidunkrafta2.svg" width="30%" /></a>
+</div>
+<p>Til þess að kassinn haldist kyrr þurfa samanlagðir kraftar í hvora stefnu, <span class="math notranslate nohighlight">\(x\)</span> - og <span class="math notranslate nohighlight">\(y\)</span>, að vera núll.
+Því þarf normalkrafturinn að vera jafnstór <span class="math notranslate nohighlight">\(y\)</span> - þætti þyngdarkraftsins og núningskrafturinn að vera jafnstór <span class="math notranslate nohighlight">\(x\)</span> þættinum.</p>
+<p>Þyngdarkrafturinn er</p>
+<div class="math notranslate nohighlight">
+\[F_g = m \cdot g = 5 \text{kg} \cdot 9.8 \text{m/s} = 49 \text{N}\]</div>
+<p>Þá er þáttur hans samsíða skáplaninu</p>
+<div class="math notranslate nohighlight">
+\[F_{g,x} = F_g \sin{\theta} = 49 \text{N} \cdot \sin{30°} = 24.5 \text{N}\]</div>
+<p class="last">Þar með hlýtur núningskrafturinn að vera <span class="math notranslate nohighlight">\(f_{nún} = F_{g,x}= 24.5 \text{N}\)</span> .</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Kafli07.html" class="btn btn-neutral float-right" title="7. Orka" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Kafli05.html" class="btn btn-neutral" title="5. Hreyfing í tveimur víddum" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2018',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+<script src="_static/jquery.scrolldepth.js"></script>
+<script>
+    jQuery.scrollDepth({
+        percentage: false,
+        userTiming: false,
+        pixelDepth: false,
+        nonInteraction: false,
+        elements: top.scrolldepth_tags
+}); 
+</script>
+
+
+
+</body>
+</html>

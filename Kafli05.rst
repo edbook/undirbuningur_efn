@@ -239,8 +239,6 @@ Hápunktur fleygbogans er því þegar :math:`y'=0` eða:
 .. math::
   x&=\frac{-\tan(\alpha_0)v_0^2\cos^2(\alpha_0)}{g} = \frac{-\sin(\alpha_0)\cos(\alpha_0) v_0^2}{g}
 
-.. ggb:: mkyudgwh
-
 ------------------------
 
 Munið að eðlisfræði gengur ekki út á að muna jöfnur, heldur að kunna hvernig og hvenær á að nota þær.

@@ -1,19 +1,20 @@
 Orka
 ====
+Öll eðlisfræðileg kerfi hafa að geyma orku af einhverju tagi, en hún segir til um hve mikla vinnu þarf til þess að breyta ástandi kerfisins. 
 
 Varðveisla orku er eitt af mikilvægustu lögmálum eðlisfræðinnar.
 
 **Orku er ekki hægt að búa til eða eyða.** Hún getur hvorki birst upp úr þurru, né horfið sporlaust. Orka varðveitist í öllum ferlum en getur breytt um form.
 Birtingarmyndum orku má skipta í tvo meginflokka, mættisorku og hreyfiorku.
 
-*Mættisorka* er geymd á einhvern máta:
+*Mættisorka* (e. potential energy) er geymd á einhvern máta:
 
-- efnaorka (í efnatengjum)
+- efnaorka (í efnatengjum sameinda)
 - kjarnorka (í atómum)
 - stöðuorka (t.d. vegna þyngdar- og segulsviða)
 - spennuorka (t.d. í teygðum og þjöppuðum gormum)
 
-*Hreyfiorka* finnst hvar sem hlutir eru á hreyfingu:
+*Hreyfiorka* (e. kinetic energy) finnst hvar sem hlutir eru á hreyfingu:
 
 - varmarorka (titrandi atóm)
 - hljóð (titrandi efni)

@@ -26,14 +26,17 @@ Kraftar eru oftast táknaðir með :math:`F` eða :math:`f`, frá enska heitinu 
     :width: 80%
 
   Kraftvigur Ingu bendir til vinstri, þ.a. :math:`x` hnit hans er neikvætt.
+
   .. math::
     \overline{F}_I = \begin{pmatrix} -1000 \\ 0 \end{pmatrix}
 
   Kraftvigur Gunnu bendir til hægri, þ.a. :math:`x` hnit hans er jákvætt.
+
   .. math::
     \overline{F}_G = \begin{pmatrix} 1200 \\ 0 \end{pmatrix}
 
   Leggjum nú saman vigrana:
+  
   .. math::
     \begin{aligned}
     \overline{F_{net}} &= \overline{F}_I + \overline{F}_G \\

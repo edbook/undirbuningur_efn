@@ -102,7 +102,7 @@
         <link rel="search" title="Leit" href="search.html"/>
     <link rel="top" title="Undirbúningur í eðlisfræði 2019" href="index.html"/>
         <link rel="next" title="4. Hraði og hröðun" href="Kafli04.html"/>
-        <link rel="prev" title="2. Mælieiningar" href="Kafli02.html"/>
+        <link rel="prev" title="2. Atóm" href="Kafli02.html"/>
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -164,15 +164,15 @@
           
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Kafli01.html">1. Um námsefnið</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Kafli01.html#hva-er-elisfraei">1.1. Hvað er eðlisfræði?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli01.html#hva-er-efnafraei">1.1. Hvað er efnafræði?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Kafli02.html">2. Mælieiningar</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#si-einingakerfi">2.1. SI-einingakerfið</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#forskeyti-si-kerfisins">2.1.1. Forskeyti SI-kerfisins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli02.html">2. Atóm</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#frumefni">2.1. Frumefni</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#lotukerfi">2.1.1. Lotukerfið</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#rafeindaskipan">2.1.2. Rafeindaskipan</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="Kafli02.html#onnur-maelikerfi">2.2. Önnur mælikerfi</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">3. Vigrar</a><ul>
@@ -287,9 +287,6 @@ Hvert hnit er tengt einum ás í hnitakerfinu sem notað er og stærð hnitsins 
 <p>Lengd vigra er táknuð með lóðréttum strikum, algildismerkjum, <span class="math notranslate nohighlight">\(|\overline{a}|\)</span> , eða einfaldlega bókstafnum án yfirstriksins, <span class="math notranslate nohighlight">\(a\)</span> .
 Þegar vísað er í lengd vigurs eftir einhverjum ás, <em>þátt</em> hans (e. component), er það sýnt með því að merkja með heiti ássins í <em>lágvísi</em> (e. subscript); <span class="math notranslate nohighlight">\(a_x\)</span> er lengd vigursins <span class="math notranslate nohighlight">\(\overline{a}\)</span> í stefnu <span class="math notranslate nohighlight">\(x\)</span> - áss.
 Þættir vigra eru ekki vigrar sjálfir, heldur tölur.</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/vigur.svg"><img alt="_images/vigur.svg" src="_images/vigur.svg" width="60%" /></a>
-</div>
 <p>Yfirleitt er notað rétthyrnt hnitakerfi (einnig nefnt kartesískt í höfuðið á franska stærðfræðingnum René Descartes).
 Vigurinn á myndinni hér að ofan hefur lengd 4 eftir x-ásnum og 3 eftir y-ásnum, svo hnit hans eru <span class="math notranslate nohighlight">\(a_x = 4\)</span> og <span class="math notranslate nohighlight">\(a_y = 3\)</span>
 og vigurinn <span class="math notranslate nohighlight">\(\overline{a}\)</span> má þá rita:</p>
@@ -314,9 +311,6 @@ Vigurinn frá punktinum <span class="math notranslate nohighlight">\(A=(x_1,y_1)
   &amp;= \begin{pmatrix} 5-(-1) \\ 2-7 \end{pmatrix} \\
   &amp;= \begin{pmatrix} 6 \\ -5 \end{pmatrix}
 \end{aligned}\end{split}\]</div>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/vigurtveirpkt.svg"><img alt="_images/vigurtveirpkt.svg" src="_images/vigurtveirpkt.svg" width="60%" /></a>
-</div>
 <p class="last">Vigurinn <span class="math notranslate nohighlight">\(\begin{pmatrix} 6 \\ -5 \end{pmatrix}\)</span> er sá sami, hvort sem hann liggur á milli <span class="math notranslate nohighlight">\(A\)</span> og <span class="math notranslate nohighlight">\(B\)</span> eða frá upphafspunktinum til punktsins <span class="math notranslate nohighlight">\((6,-5)\)</span> .</p>
 </div>
 <p>Stundum er talað um að vigur hafi <em>hallatölu</em>  <span class="math notranslate nohighlight">\(h=\frac{a_y}{a_x}\)</span> , ef <span class="math notranslate nohighlight">\(a_x\neq 0\)</span> .
@@ -368,9 +362,6 @@ x-þáttur vigursins er þá eins og skuggi vigursins á x-ásnum.
 <div class="math notranslate nohighlight">
 \[\begin{split}\overline{a}= (4,3) = \begin{pmatrix} 4 \\ 3 \end{pmatrix}\end{split}\]</div>
 <p>en nú skulum við athuga hvernig við getum lýst honum með lengd og stefnuhorni.</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/mynd-vigur.svg"><img alt="_images/mynd-vigur.svg" src="_images/mynd-vigur.svg" width="60%" /></a>
-</div>
 <p>Lengd vigursins er eins og áður 5, en stefnuhornið finnum við með því að skoða skammhliðarnar.</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\tan(\theta) = \frac{a_y}{a_x} = \frac{3}{4}\\
@@ -396,9 +387,6 @@ Vigrarnir</p>
 \[\begin{gather}
 \hat{e}_x, \quad \hat{e}_y, \quad \hat{e}_z
 \end{gather}\]</div>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/einingarvigrar.svg"><img alt="_images/einingarvigrar.svg" src="_images/einingarvigrar.svg" width="60%" /></a>
-</div>
 <p>Einingarvigrarnir <span class="math notranslate nohighlight">\(\hat{e}_x, \hat{e}_y\)</span> og <span class="math notranslate nohighlight">\(\hat{e}_z\)</span> eru <em>línulega óháðir</em> (e. linearly independent), sem þýðir að engan þeirra er hægt að mynda úr hinum tveimur með samlagningu þeirra eða margföldun með tölu.
 Hvernig sem þú teygir á og raðar saman <span class="math notranslate nohighlight">\(\hat{\imath}\)</span> og <span class="math notranslate nohighlight">\(\hat{\jmath}\)</span> færðu aldrei út <span class="math notranslate nohighlight">\(\hat{k}\)</span> .
 Þessi eiginleiki kemur til vegna þess að einingarvigrarnir eru allir hornréttir á hvorn annan.</p>
@@ -420,9 +408,6 @@ Summa tveggja vigra <span class="math notranslate nohighlight">\(\overline{a} = 
 </div>
 <p>Myndrænt má ímynda sér að upphafspunktur seinni vigursins sé settur í endapunkt fyrri vigursins,
 og summa þeirra er frá upphafspunkti fyrri vigursins til endapunkts þess seinni.</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/vigrasamlagning.svg"><img alt="_images/vigrasamlagning.svg" src="_images/vigrasamlagning.svg" width="60%" /></a>
-</div>
 <div class="admonition note">
 <p class="first admonition-title">Athugasemd</p>
 <p>Þegar vigrar eru lagðir saman þá leggjast lengdirnar yfirleitt <strong>ekki</strong> saman.
@@ -461,9 +446,6 @@ C&amp;=(x_3,y_3)=(3,-1)
   \overline{BC} &amp;= \begin{pmatrix}x_3-x_2\\ y_3-y_2 \end{pmatrix}\\
   &amp;=\begin{pmatrix} 3-4&nbsp;\\(-1)-5\end{pmatrix} =\begin{pmatrix} -1&nbsp;\\-6\end{pmatrix}&nbsp;\\
 \end{aligned}\end{split}\]</div>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/innskots.svg"><img alt="_images/innskots.svg" src="_images/innskots.svg" width="50%" /></a>
-</div>
 <p class="last">Hér eru punktarnir teiknaðir inn ásamt vigrunum <span class="math notranslate nohighlight">\(\overline{AB}, \overline{AC} \text{ og } \overline{BC}\)</span> .</p>
 </div>
 <p>Af þessu dæmi má sjá <em>innskotsregluna</em> :</p>
@@ -502,9 +484,6 @@ Ef þættir vigranna eru þekktir er innfeldið reiknað:</p>
 <div class="admonition tip">
 <p class="first admonition-title">Dæmi</p>
 <p>Reiknum hornið á milli vigranna <span class="math notranslate nohighlight">\(\overline{a}=(2,4)\)</span> og <span class="math notranslate nohighlight">\(\overline{b}=(4,2)\)</span> :</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/innfeldi.svg"><img alt="_images/innfeldi.svg" src="_images/innfeldi.svg" width="60%" /></a>
-</div>
 <p><strong>Lausn</strong></p>
 <p>Við vitum að <span class="math notranslate nohighlight">\(\overline{a} \cdot \overline{b} = a b \cos{\phi}\)</span> , þar sem <span class="math notranslate nohighlight">\(a\)</span> og <span class="math notranslate nohighlight">\(b\)</span> eru lengdir vigranna.
 Lengdirnar eru:</p>
@@ -532,14 +511,8 @@ Krossfeldi eru reiknuð með þáttum vigranna, þ.e. vigrum gefnum á forminu <
 \overline{a} \times \overline{b} &amp;= (a_x \hat{\imath} + a_y \hat{\jmath} + a_z \hat{k}) \times (b_x \hat{\imath} + b_y \hat{\jmath} + b_z \hat{k}) \\
 &amp;= (a_y b_z - a_z b_y)\hat{\imath} + (a_z b_x - a_x b_z)\hat{\jmath} + (a_x b_y - a_y b_x)\hat{k} \\
 \end{align}\end{split}\]</div>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/krossfeldi.svg"><img alt="_images/krossfeldi.svg" src="_images/krossfeldi.svg" width="60%" /></a>
-</div>
 <p>Útkoma krossfeldisins er vigur sem er hornréttur á bæði <span class="math notranslate nohighlight">\(\overline{a}\)</span> og <span class="math notranslate nohighlight">\(\overline{b}\)</span>.
 Stefna hans ákvarðast af <strong>hægri</strong> handar reglunni:</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/hhr.svg"><img alt="_images/hhr.svg" src="_images/hhr.svg" width="60%" /></a>
-</div>
 <p>Lengd krossfeldis <span class="math notranslate nohighlight">\(\overline{a} \text{ og } \overline{b}\)</span> má reikna úr frá lengdum vigranna og horninu á milli þeirra.</p>
 <div class="math notranslate nohighlight">
 \[|\overline{a} \times \overline{b}| = |\overline{a}| |\overline{b}| \sin(\phi)\]</div>
@@ -574,7 +547,7 @@ Stefna hans ákvarðast af <strong>hægri</strong> handar reglunni:</p>
         <a href="Kafli04.html" class="btn btn-neutral float-right" title="4. Hraði og hröðun" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="Kafli02.html" class="btn btn-neutral" title="2. Mælieiningar" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="Kafli02.html" class="btn btn-neutral" title="2. Atóm" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

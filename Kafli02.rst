@@ -1,181 +1,118 @@
-Mælieiningar
-============
+Frumefni
+====
 
-SI-einingakerfið
-----------------
 
-Í nær öllum löndum heims er notað samræmt mælikerfi, SI einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
-Lengd hefur þar grunneininguna metri og tími grunneininguna sekúnda.
+Í efnafræði er efni skilgreint sem svo að það hefur massa og tekur upp pláss, þ.e. hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Eins og staðan er núna
+eru til 118 þekktar tegundir atóma, þar sem hver tegund telst sem eitt *frumefni*. Atóm, þó örsmá, eru ekki minnsta eining efnis, þar sem þau eru gerð úr jákvætt hlöðnum *róteindum* (e. `proton <https://en.wikipedia.org/wiki/Proton>`__), neikvætt hlöðnum *rafeindum* (e. `electron <https://en.wikipedia.org/wiki/Electron>`__) og  hleðslulausum *nifteindum* (e. `neutron <https://en.wikipedia.org/wiki/Neutron>`__).
+Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnan[VANTAR MYND].
 
-SI-grunneiningarnar eru sjö:
-
-.. math::
- \begin{array}{c | c | c}
-	  \text{Mælistærð} & \text{Eining} & \text{Tákn} \\ \hline
-	  \text{Vegalengd} & \text{Metri} & m \\
-    \text{Tími} & \text{Sekúnda} & s \\
-    \text{Massi} & \text{Kílógramm} & kg\\
-	  \text{Rafstraumur} & \text{Amper} & A\\
-    \text{Hitastig} & \text{Kelvin} & K \\
-    \text{Ljósstyrkur} & \text{Candela} & cd \\
-    \text{Fjöldi} & \text{Mól} & mól \\ \hline
-  \end{array}
-
-Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI einingakerfisins.
-Hraði, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).
+Frumefni eru hleðslulaus og hafa því jafnan fjölda af róteindum og rafeindum, en fjöldi þeirra ákvarðar gerð frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og myndað
+þannig mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__). Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill
+miðað við hinar tvær öreindirnar að ekki þarf að taka tillit til þeirra. Samsætur eru svo nefndar eftir massatölu sinni, s.s. C-13 hefur massatöluna 13.
 
 .. tip::
-  Maður sem gengur 20 metra á 10 sekúndum hefur hraðann :math:`20 \text{ m}/ 10 \text{ s} = 2 \text{ m/s}` .
-  Það þýðir að á hverri sekúndu sem maðurinn gengur fer hann tvo metra.
+  **Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
 
-Forskeyti SI-kerfisins
-~~~~~~~~~~~~~~~~~~~~~~
+  Kolefni hefur sætistöluna 6, og hefur því 6 róteindir og rafeindir. Nú er jafnan fyrir massatölu:
 
-Þegar fengist er við stærri mælistærðir, svo sem langar vegalengdir, er unnið með marga metra.
-Því hafa vísindamenn vanið sig á að kalla þúsund metra öðru nafni: einn kílómetra (:math:`1000 \text{m} = 1 \text{km}`). Þegar fengist er við litlar mælistærðir, svo sem þykkt á pappír, fást aðeins brot af heilum metrum.
-Algengt er að nota millímetra, einn þúsundasta úr metra. Þetta er tekið saman í þessari töflu,
-á milli kíló og millí eru:
+  .. math::
+     A=Z+N
 
-.. math::
-  \begin{array}{c|c|c}
-    \text{Forskeyti} & \text{Tákn} & \text{Veldi} & \text{Margfeldi}\\ \hline
-    \text{Kíló} & \text{k} & 10^{3} & 1000\\
-    \text{Hektó} & \text{h} & 10^{2} & 100 \\
-    \text{Deka} & \text{da} & 10^{1} & 10 \\
-    \text{--} & \text{--} & 10^{0} & 1 \\
-    \text{Desi} & \text{d} & 10^{-1} & 0.1\\
-    \text{Centi} & \text{c} & 10^{-2} & 0.01\\
-    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\ \hline
-  \end{array}
+  þar sem A er massatalan, Z er fjöldi róteinda, og N er fjöldi nifteinda.
+  Þá má sjá að fyrir massatölu 13 og 6 róteindir fæst að það eru 7 nifteindir í C-13
 
-Við getum því lýst 10 metrum sem 1 dam, 100 dm eða 1000 cm.
-Mörg hafa séð svona mynd sem nota má til að breyta á milli:
 
-.. image:: ./myndir/einingar/einingahus.svg
-  :width: 90 %
+
+
+Lotukerfið
+----------
+Fyrsta lotukerfið (e. The Periodic Table) var smíðað af `Mendeleev <https://en.wikipedia.org/wiki/Dmitri_Mendeleev>`__ árið 1869, þar sem frumefnunum var raðað eftir sætistölu (e. `atomic number <https://en.wikipedia.org/wiki/Atomic_number>`__), þ.e. fjölda róteinda. Þeim var svo hópað saman eftir efnafræðilegum eiginleikum. Þó svo að ekki hafi öll frumefnin
+verið fundin, tókst Mandeleev að mestu leyti að áætla hvar vantaði frumefni, með því að tengja sætistöluna við eiginleika frumefnisins. Einungis fyrstu 94 frumefnin finnast náttúrulega en frumefni 95-118 hafa verið smíðuð á rannsóknarstofu.
+
+.. figure:: ./myndir/atom/lotukerfi.png
   :align: center
+  :width: 100%
 
-Í eðlisfræði er líka fengist við risastór fyrirbæri (eins og stjörnuþokur úti í geimi) og allra minnstu fyrirbærin (eins og rafeindir).
-Þá þarf enn stærri forskeyti:
+Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku, sem og fá upplýsingar um ýmsa eiginleika frumefnis.
 
-.. math::
-  \begin{array}{c|c|c}
-    \text{Forskeyti} & \text{Tákn} & \text{Veldi} & \text{Margfeldi}\\ \hline
-    \text{Peta} & \text{P} & 10^{15} & 1 000 000 000 000 000 \\
-    \text{Tera} & \text{T} & 10^{12} & 1 000 000 000 000 \\
-    \text{Giga} & \text{G} & 10^{9} & 1 000 000 000 \\
-    \text{Mega} & \text{M} & 10^{6} & 1 000 000 \\
-    \text{Kíló} & \text{k} & 10^{3} & 1 000\\
-    \text{--} & \text{--} & 10^0 & 1\\
-    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\
-    \text{Míkró} & \mu & 10^{-6} & 0.000 001 \\
-    \text{Nanó} & \text{n} & 10^{-9} & 0.000 000 001 \\
-    \text{Píkó} & \text{p} & 10^{-12} & 0.000 000 000 001 \\
-    \text{Femtó} & \text{f} & 10^{-15} & 0.000 000 000 000 001 \\ \hline
-  \end{array}
+Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, sem og 18 hópa þar sem hver hópur hefur sameiginlega efnafræðilega eiginileika. Þessir hópar hafa margir hver nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
 
-.. image:: ./myndir/einingar/einingahus2.svg
-  :width: 90 %
+.. figure:: ./myndir/atom/Periodic_trends.png
   :align: center
+  :width: 50%
+
+Rafeindaskipan
+--------------
+
+Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. `shell <https://en.wikipedia.org/wiki/Electron_shell>`__) þar sem þau eru fyllt eftir orkulegri hagkvæmni.
+Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_)
+Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með *l* eða *hverfiþungaskammtatölunni* (e. ` Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
+Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni en sjá má orkuþrep hvers hvols á mynd hér fyrir neðan.
+
+.. figure:: ./myndir/atom/svigrumaskipan.png
+  :align: center
+  :width: 60%
+
+Hafa ber í huga, eins og sjá má á mynd að orkuþrep **3d** er orkuhærra en **4s**, o.s.fr.
+
+Hvernig skal finna rafeindaskipan frumefnis?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fjöldi rafeinda er jafn sætistölu frumefnis. Þá er hægt að byrja efst vinstra megin og fylla rafsvigrúmin eins og þau koma fyrir á eftirfarandi mynd, unnið til hægri og niður, að frumefninu sem leitast er eftir rafeindaskipan að. Fjöldi rafeinda á hverju svigrúmi
+er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir í s svigrúm, 6 rafeindir í p sigrúm, 10 rafeindir í d svigrúm og að lokum 14 rafeindir í f svigrúm.
+
+.. figure:: ./myndir/atom/svigrum.jpg
+  :align: center
+  :width: 80%
+
+.. tip::
+  **Hver er rafeindaskipan brennisteins? En hjá blýi?**
+
+  Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í 1s og vinnum okkur að svigrúmi 3p, þar sem brennisteinn er. Þá er rafeindaskipanin:
+
+  .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^{\textbf{4}}
+
+  Eins og sjá má eru einungis 4 rafeindir í 3p svigrúminu þar sem samanlagður fjöldi þarf að vera 16.
+
+  Hægt er að beita sömu aðferðarfræði á blý, en núna koma d og f svigrúm til leiks. Blý hefur sætistöluna 82 og því 82 rafeindir. Blý liggur í svigrúmi 6p í lotukerfinu og er það því lokastöðin. Með því að vinna sig hægri og niður fæst:
+
+  .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
+
+Gildisrafeindir
+~~~~~~~~~~~~~~~
+
+Gildisrafeindir (e. `valence electron <https://en.wikipedia.org/wiki/Valence_electron>`_) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Þessar rafeindar eru einkum þýðingarmiklar í hvarfgirni efna en frumefni
+leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. `octate rule <https://en.wikipedia.org/wiki/Octet_rule>`_).
+Þetta geta þau gert eftir nokkrum leiðum, þau geta myndað *sameind* þar sem þau deila milli sín gildisrafeindum í *efnatengjum*, eða *jónast* (e. `Ionization <https://en.wikipedia.org/wiki/Ionization>`_), en þessi ferli má sjá nánar í komandi köflum.
 
 .. note::
-  Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.
+ Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna.
 
-.. tip::
-  Frá jörðinni til sólarinnar eru :math:`1.496 \cdot 10^{11}` m. Ritum þetta með mismunandi einingum.
-
-  .. figure:: ./myndir/einingar/sol.svg
-    :align: center
-    :width: 50%
-
-  .. math::
-    \begin{aligned}
-      1.496 \cdot 10^{11} \text{ m} &= 149600000000 \text{ m} \\
-      & = 149.6 \cdot 10^{9} \text{ m} \\
-      & = 149.6 \text{ Gm} \\
-    \end{aligned}
-
-  Það eru því 149.6 gígametrar til sólarinnar.
-
-.. tip::
-  Rafeind í vetnisatómi ferðast í kringum kjarnann í fjarlægðinni :math:`5.29\cdot 10^{-11}` m.
-  Ritum þetta með mismunandi einingum.
-
-  .. figure:: ./myndir/einingar/atom.svg
-    :align: center
-    :width: 50%
-
-  .. math::
-    \begin{aligned}
-      5.29 \cdot 10^{-11} \text{ m} &= 0.0000000000529 \text{ m}\\
-      &= 52.9 \cdot 10^{-12} \text{ m}\\
-      &= 52.9 \text{ pm}\\
-    \end{aligned}
-
-  Rafeindin er því í 52.9 píkómetra fjarlægð frá kjarnanum.
+Fyrir rafeindaskipan stórra frumefna, er ekki vaninn að telja upp öll hvolfin, heldur einungis gildisrafeindirnar með tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda málið en gildisrafeindir koma meira við sögu en þær á innra hveli.
 
 .. tip::
 
-  Edda á jörð sem er 12 ferkílómetrar. Hvað er lóðin margir hektarar (ferhektómetrar)?
+ Hver er rafeindaskipan blýs, skrifað með þessum styttri rithátt?
 
-  **Lausn**
-
-  1 ferkílómetri er reitur sem er 1 kílómetri á hvorn kant. 1 kílómetri er 10 hektómetrar og því er:
+ Nú er Xenon eðalgastegundin í lotunni fyrir ofan blý. Því er byrjað þar og þá fæst:
 
   .. math::
-    \begin{aligned}
-    1 \text{ km}^2 &= 1 \text{ km} \cdot 1 \text{ km} \\
-     &= 10 \text{ hm} \cdot 10 \text{ hm}\\ &= 100 \text{ hm}^2.
-    \end{aligned}
-
-  Jörðin hennar Eddu er því 1200 hektarar.
-
-  .. figure:: ./myndir/einingar/hektari.svg
-    :align: center
-    :width: 60%
+    [Xe]6s^2 5d^{10} 4f^{14} 6p^{2}
 
 
-Önnur mælikerfi
----------------
 
-Í Bandaríkjunum er SI-einingakerfið yfirleitt ekki notað. Þar eru lengdir mældar í  eftirfarandi einingum:
 
-.. math::
-  \begin{array}{c | c | c  }
-	  \text{Mælistærð} & \text{Enskt heiti}& \text{Grunneining} \\ \hline
-	  \text{Míla} & \text{mile} & 1609 \text{ m} \\
-    \text{Stika} &\text{yard} & 0.9144 \text{ m} \\
-    \text{Fet} & \text{foot} &  0.3048 \text{ m} \\
-	  \text{Tomma} & \text{inch} &  0.0254 \text{ m} \\ \hline
-  \end{array}
 
-.. tip::
 
-  Jörðin hennar Eddu er 12 ferkílómetrar. Hvað eru það margar fermílur?
 
-  **Lausn**
 
-  .. math::
-    \begin{aligned}
-      1 \text{ míla} &= 1609 \text{ m} = 1.609 \text{ km} \\
-      \left( \frac{1}{1.609} \text{ míla} \right) ^2 &= (1 \text{ km})^2\\
-      0.386   \text{ míla}^2 &= 1 \text{ km}^2 \\
-      12 \cdot 0.386 \text{ míla}^2 &= 12 \text{ km}^2\\
-    \end{aligned}
 
-  12 ferkílómetrar eru því 4.635 fermílur.
 
-Þar er hitastig líka mælt á Fahrenheit-kvarða, sem breyta má í Celcius með eftirfarandi formúlu:
 
-.. math::
-  T_{°C}=\frac{5}{9}(T_{°F}-32)
 
-SI- einingin fyrir hitastig er hvorki Celcius-kvarðinn né Fahrenheit-kvarðinn, heldur Kelvin.
-Svona má breyta Celcius í Kelvin:
 
-.. math::
-  T_{K}=T_{°C}-273.15
+.. raw:: html
 
-Kelvin-kvarðinn er svipaður Celcius-kvarðanum að því leyti að aukning í hita um 1 K er jafnt aukningu í hita um 1 °C.
-Munurinn er sá að Celcius setur 0 °C við frostmark vatns þá setur Kelvin 0 við *alkul*, lægsta mögulega hitastig efnisheimsins (-273.15 °C= 0 K).
-Það eru því ekki til neikvæð hitastig á Kelvin-kvarðanum!
+  <iframe style="width: 600px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&bg=white"></iframe>

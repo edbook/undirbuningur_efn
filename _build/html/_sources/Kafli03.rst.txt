@@ -18,9 +18,7 @@ Lengd vigra er táknuð með lóðréttum strikum, algildismerkjum, :math:`|\ove
 Þættir vigra eru ekki vigrar sjálfir, heldur tölur.
 
 
-.. figure:: ./myndir/vigrar/vigur.svg
-   :width: 60%
-   :align: center
+
 
 Yfirleitt er notað rétthyrnt hnitakerfi (einnig nefnt kartesískt í höfuðið á franska stærðfræðingnum René Descartes).
 Vigurinn á myndinni hér að ofan hefur lengd 4 eftir x-ásnum og 3 eftir y-ásnum, svo hnit hans eru :math:`a_x = 4` og :math:`a_y = 3`
@@ -51,9 +49,6 @@ Vigurinn frá punktinum :math:`A=(x_1,y_1)` til punktsins :math:`B=(x_2,y_2)` er
       &= \begin{pmatrix} 6 \\ -5 \end{pmatrix}
     \end{aligned}
 
-  .. figure:: ./myndir/vigrar/vigurtveirpkt.svg
-    :align: center
-    :width: 60%
 
   Vigurinn :math:`\begin{pmatrix} 6 \\ -5 \end{pmatrix}` er sá sami, hvort sem hann liggur á milli :math:`A` og :math:`B` eða frá upphafspunktinum til punktsins :math:`(6,-5)` .
 
@@ -122,9 +117,7 @@ x-þáttur vigursins er þá eins og skuggi vigursins á x-ásnum.
 
   en nú skulum við athuga hvernig við getum lýst honum með lengd og stefnuhorni.
 
-  .. figure:: ./myndir/vigrar/mynd-vigur.svg
-     :width: 60%
-     :align: center
+
 
   Lengd vigursins er eins og áður 5, en stefnuhornið finnum við með því að skoða skammhliðarnar.
 
@@ -157,9 +150,7 @@ liggja samsíða :math:`x` - , :math:`y` - og  :math:`z` -  ásunum í rétthyrn
   \hat{e}_x, \quad \hat{e}_y, \quad \hat{e}_z
   \end{gather}
 
-.. figure:: ./myndir/vigrar/einingarvigrar.svg
-   :width: 60%
-   :align: center
+
 
 Einingarvigrarnir :math:`\hat{e}_x, \hat{e}_y` og :math:`\hat{e}_z` eru *línulega óháðir* (e. linearly independent), sem þýðir að engan þeirra er hægt að mynda úr hinum tveimur með samlagningu þeirra eða margföldun með tölu.
 Hvernig sem þú teygir á og raðar saman :math:`\hat{\imath}` og :math:`\hat{\jmath}` færðu aldrei út :math:`\hat{k}` .
@@ -187,9 +178,7 @@ Summa tveggja vigra :math:`\overline{a} = (a_x,a_y)` og :math:`\overline{b} = (b
 Myndrænt má ímynda sér að upphafspunktur seinni vigursins sé settur í endapunkt fyrri vigursins,
 og summa þeirra er frá upphafspunkti fyrri vigursins til endapunkts þess seinni.
 
-.. figure:: ./myndir/vigrar/vigrasamlagning.svg
-   :width: 60%
-   :align: center
+
 
 .. note::
   Þegar vigrar eru lagðir saman þá leggjast lengdirnar yfirleitt **ekki** saman.
@@ -237,9 +226,7 @@ Um samlagningu vigra gilda eftirfarandi reglur:
       &=\begin{pmatrix} 3-4 \\(-1)-5\end{pmatrix} =\begin{pmatrix} -1 \\-6\end{pmatrix} \\
     \end{aligned}
 
-  .. figure:: ./myndir/vigrar/innskots.svg
-    :align: center
-    :width: 50%
+
 
   Hér eru punktarnir teiknaðir inn ásamt vigrunum :math:`\overline{AB}, \overline{AC} \text{ og } \overline{BC}` .
 
@@ -291,9 +278,7 @@ Ef vigrarnir eru gefnir með lengd og stefnuhorni er innfeldi þeirra:
 .. tip::
     Reiknum hornið á milli vigranna :math:`\overline{a}=(2,4)` og :math:`\overline{b}=(4,2)` :
 
-    .. figure:: ./myndir/vigrar/innfeldi.svg
-      :align: center
-      :width: 60%
+
 
     **Lausn**
 
@@ -331,16 +316,12 @@ Krossfeldi eru reiknuð með þáttum vigranna, þ.e. vigrum gefnum á forminu :
   &= (a_y b_z - a_z b_y)\hat{\imath} + (a_z b_x - a_x b_z)\hat{\jmath} + (a_x b_y - a_y b_x)\hat{k} \\
   \end{align}
 
-.. figure:: ./myndir/vigrar/krossfeldi.svg
-   :width: 60%
-   :align: center
+
 
 Útkoma krossfeldisins er vigur sem er hornréttur á bæði :math:`\overline{a}` og :math:`\overline{b}`.
 Stefna hans ákvarðast af **hægri** handar reglunni:
 
-.. figure:: ./myndir/vigrar/hhr.svg
-    :width: 60%
-    :align: center
+
 
 Lengd krossfeldis :math:`\overline{a} \text{ og } \overline{b}` má reikna úr frá lengdum vigranna og horninu á milli þeirra.
 

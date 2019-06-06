@@ -13,8 +13,16 @@ Hvað er efnafræði?
 Efnafræði er grein raunvísindanna þar sem skoðað er hegðun efna; efnasambanda og frumefna, og hvernig myndun, sundrun og víxlverkun þeirra mynda alheiminn sem þekkist í dag.
 Efnafræðin er ein af grunnstoðum raunvísindanna, en hún kemur við á flestum sviðum, s.s. eðlisfræði og líffræði. Hún er því oft kölluð *miðstöð vísindanna* (e. The Central Science).
 
-Hagnýting efnafræðinnar er ekki ný af nálinni, en fundist hafa leifar af 100 þúsund ára vinnslu á  `okkur <https://is.wikipedia.org/wiki/Okkur>`__. Mannkynið hefur einnig stundað efnahvörf lengi, þar sem það elsta er
-*eldur*. Hagnýting efnafræðinnar kom langt á undan fræðilegum skilningi en fyrstu hugmyndir um tilveru atóma komu fram 380 árum f.kr. hjá `Demókrítós <https://is.wikipedia.org/wiki/Dem%C3%B3kr%C3%ADtos>`__ en hann var forsprakki *eindahyggjunar* (e. `atomism <https://en.wikipedia.org/wiki/Atomism>`__). Þessi kenning hefur að miklu leyti verið afsönnuð en
-var þó á réttri leið.
+Hagnýting efnafræðinnar er ekki ný af nálinni, en fundist hafa leifar af 100 þúsund ára gamalli vinnslu á  `okkur <https://is.wikipedia.org/wiki/Okkur>`__. Mannkynið hefur þá stundað efnahvörf lengi, þar sem það elsta er
+*bruni*. Hagnýting efnafræðinnar kom langt á undan fræðilegum skilningi en fyrstu hugmyndir um tilveru atóma komu fram 380 árum f.kr. hjá `Demókrítós <https://is.wikipedia.org/wiki/Dem%C3%B3kr%C3%ADtos>`__ en hann var forsprakki *eindahyggjunar* (e. `atomism <https://en.wikipedia.org/wiki/Atomism>`__). Þessi kenning hefur að miklu leyti verið afsönnuð en
+var þó á réttri leið. Efnafræðin sem skipulögð fræðigrein á rætur sínar að rekja til upphaf 17. aldar, en fram að því einkenndist efnafræðin af gullgerðarmönnum (e. Alchemists) svo sem `Isaac Newton <https://is.wikipedia.org/wiki/Isaac_Newton>`__ en
+orðið "Chemistry" er komið af orðinu "`Alchemy <https://en.wikipedia.org/wiki/Alchemy>`__".
+
+.. figure:: ./myndir/inng/Newton.jpg
+  :align: center
+  :width: 45%
+  
+
+Isaac Newton
 
 Mikið vatn hefur runnið til sjávar síðan þá en nútímaefnafræðin tekur fyrir breitt svið af stærð *kerfa* (e. `system <https://en.wikipedia.org/wiki/System>`__), allt frá skammtaefnafræði (e. `Quantum Chemistry <https://en.wikipedia.org/wiki/Quantum_chemistry>`__) sem tekur fyrir víxlverkun staka einda, til kjarnasamruna í sólinni.

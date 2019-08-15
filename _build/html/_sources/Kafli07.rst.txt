@@ -1,200 +1,583 @@
-Orka
-====
-Öll eðlisfræðileg kerfi hafa að geyma orku af einhverju tagi, en hún segir til um hve mikla vinnu þarf til þess að breyta ástandi kerfisins. 
+Sýrur og basar
+==============
 
-Varðveisla orku er eitt af mikilvægustu lögmálum eðlisfræðinnar.
+Til eru fleiri en ein skilgreining á sýru( e. acid), og má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýra, en hér verður einungis litið á Brønsted-Lowry sýrur, enda
+algengasta skilgreiningin. :math:`\require{mhchem}` ::math:`\require{cancel}`
 
-**Orku er ekki hægt að búa til eða eyða.** Hún getur hvorki birst upp úr þurru, né horfið sporlaust. Orka varðveitist í öllum ferlum en getur breytt um form.
-Birtingarmyndum orku má skipta í tvo meginflokka, mættisorku og hreyfiorku.
+Brønsted-Lowry sýra getur gefið af vetnisjón, :math:`\ce{H+}` en Brønsted-Lowry *basi* (e. base) tekur við þessari vetnisjón. Ekki er vaninn að skrifa "Brønsted-Lowry" fyrir framan sýrur og basa, og verður ekki gert framar. Þegar talað er um sýrur og basa, er algengara en hitt að nota
+prótóna í stað vetnisjónar. Það er vegna þess að vetni hefur einungis eina prótónu og eina rafeind. Í vetnisjónum hefur vetnið misst þessa rafeind, og prótónan situr því ein eftir.
 
-*Mættisorka* (e. potential energy) er geymd á einhvern máta:
-
-- efnaorka (í efnatengjum sameinda)
-- kjarnorka (í atómum)
-- stöðuorka (t.d. vegna þyngdar- og segulsviða)
-- spennuorka (t.d. í teygðum og þjöppuðum gormum)
-
-*Hreyfiorka* (e. kinetic energy) finnst hvar sem hlutir eru á hreyfingu:
-
-- varmarorka (titrandi atóm)
-- hljóð (titrandi efni)
-- rafsegulorka (ljós)
-- raforka (rafeindir á hreyfingu)
-
-.. tip::
-    **Orka breytir um form.**
-
-    Bolti sem fellur til jarðar hefur *stöðuorku* vegna þyngdarsviðs jarðar, sem breytist í *hreyfiorku* á meðan fallinu stendur. Við lendinguna losnar hreyfiorka boltans sem *hreyfiorka* loftsins í kringum hann í formi hljóðbylgja og mögulega varma.
-    Eftir því sem boltinn er hærra yfir yfirborðinu, því meiri stöðuorku hefur hann, og þar af leiðandi meiri hreyfiorku og hraða þegar niður er komið.
-
-    Þegar sprengja springur losnar mikil *hreyfiorka*, *varmaorka* og *rafsegulorka* (ljós) á stuttum tíma, en öll sú orka var í sprengjunni fyrir, bundin t.d. í formi *efnaorku*.
-
-
-Vinna
------
-Kraftur :math:`F` er sagður vinna *vinnu* (e. work) þegar hann flytur hlut um *vegalengd* (e. displacement) :math:`s` .
-Vinna er oft táknuð með :math:`W` :
+Sýrur er oft táknaðar með :math:`\ce{HA}`, þ.e. vetnisjón og anjón sem klofnar frá. Þessi klofningur er þá táknaður með efnajöfnunni:
 
 .. math::
-  W=F\cdot s
 
-Einingin fyrir vinnu er Joule, táknað J.
+
+  \ce{HA -> H^+ + A^-}
+
+Hafa ber þó í huga að í raun finnast ekki vetnisjónar frjálsar, heldur bindast þær vatni og mynda *hýdróníum jónir* (e. hydronium ions). Réttara væri því að skrifa efnahvarfið að ofan sem:
 
 .. math::
-  1 \text{ J} = 1 \text{ N} \cdot 1 \text{ m} = 1 \frac{\text{kg}\text{ m}^2}{\text{s}^2}
 
-Vinna er innfeldi kraftavigursins og færsluvigursins:
+  \ce{HA(aq) + H2O (l) -> H3O+ (aq) + A- (aq) }
+
+Þó svo að seinna sé réttara, er fyrra einnig notað fyrir einfaldleikann. Fyrst um sinn er því jafngilt að tala um :math:`\ce{[H+]}` og :math:`\ce{[H_3O^+]}`.
+
+Basar aftur á móti auka styrk *hýdroxíð jóna*, :math:`\ce{OH^-}`, sem hvarfast svo við prótónur og mynda vatn skv. efnajöfnunni:
+
+.. math::
+
+  \ce{H3O+(aq) + OH- (aq) -> 2H2O(l)}
+
+Þannig hafa sýrur og basar bæði sinn þátt í því að ákvarða *sýrustig* (e. acidity) lausnar.
+
+Sýrustig
+--------
+
+Sýrustig er mælt á pH skalanum þar sem er lógaritmískur skali af styrk vetnisjóna í lausn, þ.e.
+
+.. math::
+
+  \text{pH}=-\text{log}(\ce{[H^+]})
+
+Lausnir flokkast í þrennt, eftir því hvar þær eru á pH skalanum:
+
+pH<7
+  Lausnir með pH<7 eru *súrar*.
+
+pH>7
+  Lausnir með pH>7 eru *basískar* (e. basic, alkaline).
+
+pH=7
+  Lausnir með pH=7 eru *hlutlausar*, þ.e. hvorki súrar né basískar.
+
+Talað er um að pH skalinn sé frá 0-14 en hann er ekki einskorðaður við þetta bil. Þar sem pH er lógartimískur skali breytist hann hratt kringum pH=7 en síðan hægist á breytingunni til muna.
+
+Rammar sýrur og basar
+---------------------
+
+Saltsýra, :math:`\ce{HCl}`  og natríum hýdroxíð, :math:`\ce{NaOH}` klofna samkvæmt efnajöfnunum:
 
 .. math::
   \begin{aligned}
-    W&=\overline{F}\cdot\overline{s} \\
-    W&= Fs\cos(\phi)
+  \ce{HCl + H2O(l) &-> H3O+ (aq) + Cl- (aq)}\\
+  \ce{NaOH(s) &-> Na+ (aq) + OH- (aq)}
   \end{aligned}
 
-þar sem :math:`\phi` er hornið á milli vigranna.
+Þessi efnahvörf, líkt og öll önnur, hafa sinn einkennandi jafnvægisfasta, sem segir til um að hvaða leyti þær klofna. Fyrir sýrur heitir jafnvægisfastinn *sýrufasti* og er táknaður með :math:`K_a` en *basafasti* fyrir basa og er táknaður með :math:`K_b`.
 
-.. figure:: ./myndir/vinna/vinna5.svg
-  :align: center
-  :width: 70%
+Því stærri tala sem :math:`K_a` er, því sterkari sýra. Því stærri tala sem :math:`K_b` er, því sterkari basi. Fyrir sýrur með nógu stóran sýrufasta, er hægt að segja að þær klofni til fulls. Þessar sýrur eru kallaðar *rammar eða sterkar sýrur* en til eru 7 algengar rammar sýrur.
 
+*Rammir basar* eru skilgreindir á sambærilegan hátt, og talað er um 8 algenga ramma basa.
+
+
+.. raw:: html
+
+  <style>
+
+  table {
+   margin-left:auto;
+   margin-right:auto;
+  }
+
+  table, th, td {
+
+  text-align: center;
+  }
+
+  </style>
+
+
+.. table::
+  :widths: 5 7 5 9
+
+  +-------------------------------------------+-----------------------------------------------------+
+  |            Rammar sýrur                   |        Rammir basar                                 |
+  +==========================+================+======================+==============================+
+  |:math:`\ce{HCl}`          | Saltsýra       | :math:`\ce{LiOH}`    | Lithíum hýdroxíð             |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HBr}`         | Brómsýra       | :math:`\ce{NaOH}`    | Natríum hýdroxíð (vítissódi) |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HI}`          | Joðsýra        | :math:`\ce{KOH}`     | Kalíum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HNO3}`        |Saltpéturssýra  | :math:`\ce{RbOH}`    | Rúbidíum hýdroxíð            |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{H2SO4}`       |Brennisteinssýra| :math:`\ce{CsOH}`    | Sesíum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HClO4}`       |Perklórsýra     | :math:`\ce{Ca(OH)2}` | Kalsíum hýdroxíð             |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HClO3}`       | Klórsýra       | :math:`\ce{Sr(OH)2}` | Strontíum hýdroxíð           |
+  +--------------------------+----------------+----------------------+------------------------------+
+  |                          |                | :math:`\ce{Ba(OH)2}` | Baríum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+
+
+.. tip::
+
+ **Blandað er 1,00 M lausn af saltsýrulausn í vatn. Hvert er pH lausnarinnar?**
+
+ Saltsýra klofnar að öllu leyti skv. efnajöfnunni
+
+ .. math::
+
+  \begin{array}{r|llll}
+  &\ce{HCl \quad + &H2O -> &H3O+ \quad + &Cl-}\\
+    \hline
+  \text{Upphaf} & 1,0 &&0&0\\
+  \text{Jafnvægi}& 0 &&1,0 &1,0\\
+  \end{array}
+
+ Sýrustig lausnarinnar er þá:
+
+ .. math::
+
+   \begin{aligned}
+	   \ce{pH}&= -\text{log}(\ce{[H+]})\\
+            &= -\text{log}(1,0)\\
+            &= 0
+    \end{aligned}
+
+
+
+Veikar sýrur
+------------
+
+Fyrir *veikar sýrur* er ekki hægt að áætla að hún klofnar til fulls. Fyrir veiku sýruna :math:`\ce{HA}`, sem klofnar samkvæmt efnajöfnunni:
+
+.. math::
+
+ \ce{HA + H2O <=> H3O+ + A-}
+
+er jafnvægisfastinn:
+
+.. math::
+
+  K_a=\frac{\ce{[H3O+] [A-]}}{\ce{[HA]}}
+
+Þennan jafnvægisfasta þarf að notast við til að finna sýrustig í lausn með veikri sýru.
+
+.. tip::
+
+ **Ediksýra er veik sýra með** :math:`K_a=1,8 \times 10^{-5}`. **Hvert er sýrustig 1,0 M lausnar af ediksýru í vatni?**
+
+ Setjum upp töflu fyrir hvarfið:
+
+ .. math::
+
+   \begin{array}{r|llll}
+   &\ce{CH_3COOH \quad + &H2O -> &H3O+ \quad + &CH_3COOH-}\\
+    \hline
+   \text{Upphaf} & 1,0 &&0&0\\
+   \text{hvarf} & -x &&+x&+x\\
+   \hline
+   \text{Jafnvægi}& 1,0-x &&x &x\\
+   \end{array}
+
+ Þá gefur sýrufastinn:
+
+ .. math::
+
+   \begin{aligned}
+    K_a&=\frac{\ce{[H3O+] [CH_3COOH-]}}{\ce{[CH_3COOH]}}\\
+       \Rightarrow 1,8\times10^{-5} &=\frac{x^2}{1,0-x}\\
+   \end{aligned}
+
+ Fyrir svona lítinn sýrufasta m.v. upphafsstyrk er hægt að nálga :math:`1,0 -x \approx 1,0`. Þá fæst að:
+
+ .. math::
+
+  \ce{[H3O+]}=x=\sqrt{1,8\times 10^{-5}} = 0,004246 \ \mathrm{M}
+
+ Þetta gefur að lokum sýrustigið:
+
+ .. math::
+
+   \ce{pH=-log([H3O+])}=-\text{log}(-0,004246 \ \mathrm{M})=2,4
+
+ Með því að prufa stinga þessu svari í upprunalegu jöfnuna, fæst að nálgunin breytir ekki markverðum tölustaf í lokasvari.
+
+Samokabasar
+-----------
+
+.. math::
+
+ \ce{HA + H2O <=> H3O+ + A-}
+
+Þetta efnahvarf gengur í báðar áttir fyrir veikar sýrur, og styrkur :math:`\ce{[HA]}` og :math:`\ce{[A-]}` er í jafnvægi. Með því að auka styrk :math:`\ce{[A-]}` þá færi þetta hvarf *til vinstri* og yrði basískari.
+Ef notað væri einungis :math:`\ce{A-}`, gæti eftirfarandi efnahvarf gerst:
+
+.. math::
+
+  \ce{A- + H2O <=> HA + OH-}
+
+:math:`\ce{A-}` kallast því *samoka basi* (e. conjugate base) sýrunnar :math:`\ce{HA}`. Almenna reglan fyrir samoka basa er að *því veikari sem sýran er, því sterkari er samokabasinn*.
+Jafnvægið leitar þá frekar til vinstri.
+
+Hægt að tala um *samoka sýru* fyrir basa, en oftar er talað um *samoka sýru-basa par*, þar sem sýrur eiga samoka basa.
+
+.. tip::
+
+ **Nefndu samokabasa fyrir** :math:`\ce{H2SO4}` **og** :math:`\ce{HSO4-}`
+
+ Brennisteinssýran klofnar skv. efnahvarfinu:
+
+ .. math::
+
+ 	\ce{H2SO4 + H2O -> H3O+ + HSO4-}
+
+ :math:`\ce{HSO4-}` er því samoka basi brennisteinssýru. Brennisteinssýra er þó römm sýra, sem þýðir að :math:`\ce{HSO4-}` er einstaklega veikur basi. Hægt er að nálga að sterkar sýrur klofni 100% og því hægt að áætla að samokabasar sterkrar sýru sé óvirkur.
+
+ :math:`\ce{HSO4-}` telst einmitt ekki vera basi, heldur önnur sýra sem afprótónast skv. efnajöfnu:
+
+ .. math::
+
+  \ce{HSO4- + H2O <=> H3O+ + SO4^{2-}}
+
+ Samokabasi :math:`\ce{HSO4-}` er þá :math:`\ce{SO4^{2-}}`. :math:`\ce{HSO4-}` er ekki sterk sýra og :math:`\ce{SO4^{2-}}` því ekki óvirkur basi.
+
+ Brennisteinssýra er dæmi um ref:`fjörlróteindasýru <s.fjolroteindasyra>`
+
+Tvíeðli vatns
+-------------
+
+Vatn uppfyllir bæði skilyrði sýru og basa, og getur því tekið við **og** gefið prótónu. Efni sem geta þetta, eru sögð *hafa tvíeðli* (e. amphoteric).
+
+Vatn er í sérflokki í þessu, þar sem það getur *sjálfjónast* (e. self-ionize), og gert bæði í einu. Þ.e.
+
+.. math::
+
+	\ce{H2O(l) + H2O(l) <=> H3O+(aq)+ OH-(aq)}
+
+Þetta hvarf er frekar vinstri sinnað, með lítinn einkennandi jafnvægisfasta:
+
+.. math::
+
+  K_w=\ce{[H3O+][OH-]}=1,0 \times 10^{-14} \quad \text{ við } 25 \text{°C}
+
+Þetta samband gildir alltaf við 25 °C, svo að í súrum lausnum, þegar styrkur prótóna er aukinn, lækkar styrkur hýdroxíðsjóna.
+
+Þar sem að myndefnin myndast í jafnmiklu magni, er :math:`\ce{[H3O+]=1\times 10^{-7}}` í hreinu vatni.
+pH af hreinu vatni er því:
+
+.. math::
+
+ \ce{pH \ = \ -log([H3O+]) \ = \ 7}
+
+Af þeim ástæðum er lausn með sýrustig 7 talin hlutlaus.
+
+.. tip::
+
+ **Í fyrri sýnidæmi var sýnt fram á að styrkur 1,0 M lausnar af saltsýru, hafi styrk** :math:`\ce{[H3O+]=1,0}`.
+ **Hver er styrkur** :math:`\ce{[OH-]}`?
+
+ Setjum upp jafnvægi fyrir :math:`K_w`
+
+ .. math::
+
+  \begin{aligned}
+   K_w&=\ce{[H3O+][OH-]}=1,0\times 10^{-14}\\
+   &\Rightarrow 1,0\cdot \ce{[OH-]}=1,0\times 10^{-14}\\
+   \end{aligned}
+
+ Þá fæst að :math:`\ce{[OH-]=1,0\times 10^{-14}}`
+
+pOH
+~~~
+
+Samanborið og pH, sem er háð styrk prótóna, er pOH háð styrk hýdroxíðjóna. Jafnan fyrir því er þá:
+
+.. math::
+
+  \ce{pOH \ =\  -log([OH-])}
+
+Eins og var sýnt hér fyrir ofan gildir samband milli styrk þessara tveggja jóna. Þetta samband gildir einnig fyrir pH og pOH, þar sem:
+
+.. math::
+
+  \ce{pH + pOH\ = \ 14}
+
+
+
+Sýru- og basafastar fyrir samoka pör
+------------------------------------
+
+Veika sýran :math:`\ce{HA}` klofnar með efnahvarfinu:
+
+.. math::
+
+  \begin{aligned}
+  \ce{HA + H2O &<=> H3O+ + A-}\\
+  \\
+  K_{a}\ce{&=\frac{[H3O+][A-]}{[HA]}}
+  \end{aligned}
+
+
+Á sama tíma er efnahvarfið fyrir samokabasann :math:`\ce{A-}`:
+
+.. math::
+
+  \begin{aligned}
+  \ce{A- + H2O &<=> HA + OH-}\\
+  \\
+  K_{b} \ce{&=\frac{[HA][OH-]}{[A-]}}
+  \end{aligned}
+
+Með því að margfalda þessar jafnvægislíkingar kemur fram sambandið
+
+.. math::
+
+  \begin{aligned}
+  K_a K_b &= \ce{\frac{[H3O+]\bcancel{[A-]}}{\bcancel{[HA]}}}\ce{\frac{\bcancel{[HA]}[OH-]}{\bcancel{[A-]}}}\\
+          &=\ce{[H3O+][OH-]}\\
+          &=K_w
+  \end{aligned}
+
+.. tip::
+
+ **Ammóníak,** :math:`\ce{NH3}` **er basi með basafasta** :math:`K_b=1,8\times 10^{-5}`. **Hver er sýrufasti ammóníum jónar,** :math:`\ce{NH4+}`?
+
+ Ammóníum jónir virka sem sýra skv. efnajöfnu:
+
+ .. math::
+
+   \ce{NH4+ + H2O <=> H3O+ + NH3}
+
+ Ammóníak og ammóníumjónir eru því samokapar. Þá gildir:
+
+ .. math::
+
+   \begin{aligned}
+   K_a K_b &= K_w\\
+   \end{aligned}
+
+ Með umröðun fæst:
+
+ .. math::
+
+  \begin{aligned}
+  K_a &=\frac{K_w}{K_b}\\
+    &= \frac{1,0\times 10^{-14}}{1,8 \times 10^{-5}}\\
+    &=5,6\times 10^{-10}
+   \end{aligned}
+
+Böffer
+------
+
+*Böffer-lausn* (e. Buffer solution), einnig kallað stuðpúðalausn, er lausn sem helst tiltölulega stöðug í sýrustigi, þrátt fyrir viðbót sýru eða basa.
+
+Böffer-lausn er útbúin með því að blanda saman veikri sýru og salt sem inniheldur samsvarandi samokabasa. Dæmi um þetta væri t.d. blásýra, :math:`\ce{HCN}` og :math:`\ce{NaCN}`. Blásýra klofnar með efnahvarfinu:
+
+.. math::
+
+  \begin{array}{r|llll}
+  &\ce{HCN \quad + &H2O -> &H3O+ \quad + &CN-}\\
+  \hline
+  \text{Upphaf} & \ce{[HCN]}_0 &&0&\ce{[CN- ]}_0\\
+  \end{array}
+
+Ef bætt er við sýru, eykst almennt styrkur prótóna. En í þessari böffer-lausn, myndi :math:`\ce{CN-}` hvarfast við :math:`\ce{H3O+}` og sýrustig því breytast lítið.
+
+Ef bætt er við basa, eykst stykur hýdroxíðjóna. Þessar hýdroxíðjónir taka upp prótónur úr lausninni og mynda vatn. Vanalega myndi þetta hækka sýrustigið, en í staðinn þá klofnar veika sýran og bætir upp fyrir mestan hluta af þessum prótónaskorti.
+
+Stuðpúðalausnir eru því gagnlegar, þegar mikilvægt er að viðhalda sýrustigi í lausn. Stuðpúðalausnir eru lífsnauðsynlegir, en líkaminn notar þetta til að viðhalda sýrustigi í blóði við pH=7,4.
+Ef sýrustigið félli niður fyrir 6,8 eða 7,8 væri manneskjan í lífshættu!
+
+Stuðpúðalausnir geta þó ekki tekið við endalausu magni af sýru eða basa, og þegar veika sýran eða samokabasinn er uppurinn, breytist sýrustigið hratt!
+
+Reikna pH í böffer-lausn
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi. Til að einfalda málið er til jafna sem er nefnd eftir *Henderson-Hasselbach*
+
+.. math::
+
+ \ce{pH\ = \ pK_{a} + log} \left( \ce{\frac{[A-]}{[HA]}} \right)
 
 .. note::
-  Vinna getur verið jákvæð, neikvæð eða núll.
 
-  * Þegar krafturinn er í sömu stefnu og færslan, þ.e. ef hann er að vinna með hreyfingunni, er vinnan jákvæð. Ef :math:`-90°<\phi<90°` þá er :math:`\cos(\phi)>0` .
-
-  .. figure:: ./myndir/vinna/vinna2.svg
-    :align: center
-    :width: 70%
-
-  * Ef krafturinn er gagnstefna færslunni, þ.e. að vinna gegn hreyfingunni, þá er vinnan neikvæð. Ef :math:`90°<\phi< 270°` þá er :math:`\cos(\phi)<0`.
-
-  .. figure:: ./myndir/vinna/vinna3.svg
-    :align: center
-    :width: 70%
-
-  * Ef krafturinn er hornréttur á færsluna þá er vinna kraftsins á hlutinn núll. Ef :math:`\phi=90°` eða :math:`\phi=270°` þá er :math:`\cos(\phi)=0`.
-
-  .. figure:: ./myndir/vinna/vinna4.svg
-    :align: center
-    :width: 70%
+  :math:`\ce{pK_{a}}` reiknast sem :math:`\ce{-log(K_{a})}`. Þetta er enn eitt *p-fall* en þau eru alltaf reiknuð eins.
 
 .. tip::
-  Vinna togkrafts :math:`T=25 \text{ N}` við að flytja hlut vegalengdina :math:`s=10 \text{ m}` er
 
-  .. math::
-    W=F\cdot s = 25 \text{ N} \cdot 10 \text{ m} = 250 \text{ J}
+ **Útbúin er stuðpúðalausn með því að blanda saman 0,520 mólum af kolsýru,** :math:`\ce{H2CO3}` **við 0,680 mólum af natríum bíkarbónati (matarsóda),** :math:`\ce{NaHCO3}`.
 
+ **Ef** :math:`K_a\ = 4,4\times 10^{-7}` **, hvert er sýrustig lausnarinnar? Hvert er sýrustigið eftir að hafa bætt við bætt við 0,200 mólum af saltsýru?**
 
-Afl
----
-Afl er breyting á vinnu á tímabili, eða tímaafleiða vinnu:
+ Hér þarf að nota Henderson-Hasselbach en hlutfallið af mólstyrk er jafnt hlutfall móla. Því þarf ekki vita rúmmál lausnarinnar:
+
+ .. math::
+
+  \begin{aligned}
+  \ce{pH\ &= \ pK_{a} + log} \left( \ce{\frac{[A-]}{[HA]}} \right)\\
+          &= \ce{\ pK_{a} + log} \left( \ce{\frac{n_{A^-} / \bcancel{V}}{n_{HA}/\bcancel{V}}} \right)\\
+          &= -\text{log} \left(4,4\times 10^{-7} \right) +\text{log} \left( \frac{0,680 \text{ mól}}{0,520 \text{ mól}}  \right)\\
+          &= 6,47
+  \end{aligned}
+
+ Þegar sýru er bætt við, gerist eftirfarandi hvarf, og þar sem saltsýra er römm, má áætla að hvarfið fari alla leið til hægri:
+
+ .. math::
+
+   \begin{array}{r|rrrr}
+    &\ce{HCO3- & + \quad  HCl &-> \quad H2CO3 & +\quad Cl-}\\
+    \hline
+    \text{Upphaf} & \;0,680 &\,0,200 &\,0,520&\,0\\
+    \text{Hvarf} & -0,200 & -0,200 &+0,200& + 0,200\\
+    \hline
+    \text{Jafnvægi}& \;0,480 & \,0 & \,0,720 &\,0,200
+   \end{array}
+
+ Þá er hægt að stinga inn þessum nýju gildum í Henderson-Hasselbach:
+
+ .. math::
+
+  \begin{aligned}
+  \ce{pH}\ &= -\text{log} \left(4,4\times 10^{-7} \right) +\text{log} \left( \frac{0,480 \text{ mól}}{0,720 \text{ mól}}  \right)\\
+          &= 6,18
+  \end{aligned}
+
+ Eins og sjá má, breyttist sýrustigið lítið þrátt fyrir að nokkurt magn af sýru var bætt út í. Ef bætt hefði verið sama magni af sýru, út í hefðbundna lausn með sýrustig 6,4, yrði sýrustigið :math:`\approx` 0,7.
+
+Fjölróteindasýrur
+-----------------
+
+Sýrur geta haft fleiri en eina prótónu til að gefa af sér. Dæmi um þannig sýrur eru kolsýra og brennisteinssýru. Brennisteinssýra hvarfast skv. efnajöfnunum:
 
 .. math::
-  P_{meðal} = \frac{\Delta W}{\Delta t}
+
+  \begin{aligned}
+  \ce{H2SO4 + H2O &-> H3O+ + HSO4-}\\
+  \ce{HSO4- + H2O \ &<=> \ H3O+ + SO4-}
+  \end{aligned}
+
+Brennisteinssýra er römm sýra en það gildir aðeins fyrir efra hvarfið. :math:`\ce{HSO4-}` er ekki römm og hefur mun minni sýrufasta. Þetta er almenna reglan, þar sem fyrsta róteindin fer auðveldast af.
+Það er minni vilji eftir það fyrir sýruna til að gefa af sér fleiri róteindir.
+
+Fyrir fjölróteindasýrur er notað :math:`K_{a1}`, :math:`K_{a2}` og :math:`K_{a3}` eftir því um hvaða róteind er verið að ræða. Þá gildir:
 
 .. math::
-  P=\lim_{\Delta t \to 0} \frac{\Delta W}{\Delta t} = \frac{dW}{dt}
 
-Einingin fyrir afl er Watt, táknað W.
+  K_{a1}>K_{a2}>K_{a3}
 
-.. math::
-  1 W=\frac{1 \text{ J}}{1\text{ s}}
-
-
-Hreyfiorka
-----------
-Hlutir með massann :math:`m` sem fara á hraðanum :math:`v` hafa hreyfiorku (e. kinetic energy) :math:`K` :
-
-.. math::
-  K= \frac{1}{2}mv^2
-
-Hreyfiorka og vinna tengjast með þeim hætti að vinna krafts er jöfn breytingunni sem verður á hreyfiorkunni.
-
-.. math::
-  W=\Delta K=K_2-K_1 = \frac{1}{2}mv_2^2-\frac{1}{2}mv_1^2
+Fyrir fjölróteindasýrur flækist málið varðandi styrk vetnisjóna, þar sem "fleiri" en ein sýra er í lausninni. Vanalega er þó :math:`K_{a1}` svo mikið stærri að nánast allur styrkur vetnisjóna kemur frá fyrsta hvarfinu, og þannig hægt að nálga sýrustigið.
 
 .. tip::
-  Sleði með massann :math:`m=20` kg rennur eftir sléttum, láréttum snjó.
-  Þar er lítill núningur, en samt nóg til þess að hægja á sleðanum.
-  Hver er vinna núningsins ef upphafshraði sleðans er :math:`v_1 =10` m/s og lokahraðinn er :math:`v_2=5` m/s?
 
-  *Lausn*
+ **Sítrónusýra er fjölróteindasýra og klofnar skv. efnajöfnunum:**
 
-  Við vitum að vinnan :math:`W` er jöfn breytingunni á hreyfiorkunni.
-  Hreyfiorkan í upphafi er
+ .. math::
 
-  .. math::
-    K_1= \frac{1}{2} mv_1^2 =  1000 \text{ J}
-
-  Hreyfiorkan í lokin er
-
-  .. math::
-    K_2=\frac{1}{2} mv_2^2 = 250 \text{ J}
-
-  Því er vinnan
-
-  .. math::
     \begin{aligned}
-      W=K_2-K_1 &= 250 \text{ J}- 1000 \text{ J} \\
-      W&= -750 \text{ J}
+    \ce{H3C6H5O7 + H2O &-> H3O+ + H2C6O7-} & K_{a1}=7,5\times 10^{-4}\\
+    \ce{H2C6SO7- + H2O \ &<=> \ H3O+ + HC6O7^{2-}} & K_{a2}=1,7 \times 10^{-5}\\
+    \ce{HC6SO7^{2-} + H2O \ &<=> \ H3O+ + C6O7^{3-}} & K_{a3}=4,0 \times 10^{-7}
     \end{aligned}
 
-  Vinnan er neikvæð því krafturinn vinnur gegn hreyfingunni.
+ **Hver er sýrustig 1,35 M lausnar af sítrónusýru, og hver er styrkur** :math:`\ce{{C6SO7^{3-}}}` **við jafnvægi?**
 
 
-Stöðuorka
----------
-Þegar hlutir eru í *þyngdarsviði*, þ.e. nálægt yfirborði miklu stærri hlutar (eins og jarðarinnar) hafa þeir *þyngdarstöðuorku* (e. gravitational potential energy) :math:`U` :
+ Setjum upp fyrsta hvarfið í töflu:
+
+ .. math::
+
+  \begin{array}{r|rrrr}
+  &\ce{H3C6H5O7 & + \quad  H2O &-> \quad H3O+ & +\quad H2C6H5O7-}\\
+  \hline
+  \text{Upphaf} & 1,35 & &0&0\\
+  \text{Hvarf} & -x & &+x& + x\\
+  \hline
+  \text{Jafnvægi}& 1,35-x &  & x &x
+  \end{array}
+
+ Jafnvægisfastinn gefur þá:
+
+ .. math::
+
+  \ce{\frac{[H3O+][H2C6H5O7-]}{[H3C6H5O7]}} =\frac{x^2}{0,850-x}=7,5 \times 10^{-4}
+
+ Byrjum á að nálga :math:`1,35-x\approx 1,35`. Þá er :math:`x=\sqrt{1,35 \cdot 7,5\times 10^{-4}}=0,032`.
+
+ Athugum að :math:`\frac{0,032}{1,35}=0,024` svo nálgunin gaf kringum 2,4% skekkju. Næsta hvarf gefur:
+
+ .. math::
+
+  \begin{array}{r|rrrr}
+  &\ce{H2C6H5O7- & + \quad  H2O &-> \quad H3O+ & +\quad HC6H5O7^{2-}}\\
+  \hline
+  \text{Upphaf} & 0,032 & &0,032&0\\
+  \text{Hvarf} & -x & &+x& + x\\
+  \hline
+  \text{Jafnvægi}& 0,032-x &  & 0,032 +x &x
+  \end{array}
+
+ Byrjum aftur á að nálga :math:`0,032-x \approx 0,032 + x \approx  0,032`. Þá fæst:
+
+ .. math::
+
+    \frac{(0,032+x)x}{0,032-x}\approx \frac{\bcancel{0,032}\cdot x}{\bcancel{0,032}} =1,7 \times 10^{-5}
+
+ Með :math:`x` svona lágt er nálgunin góð og gild. Að lokum fyrir seinasta hvarfið fæst:
+
+ .. math::
+
+   \begin{array}{r|rrrr}
+   &\ce{HC6H5O7^{2-} & + \quad  H2O &-> \quad H3O+ & +\quad C6H5O7^{3-}}\\
+   \hline
+   \text{Upphaf} & 1,7 \times 10^{-5} & &0,032&0\\
+   \text{Hvarf} & -x & &+x& + x\\
+   \hline
+   \text{Jafnvægi}& 1,7 \times 10^{-5}-x &  & 0,032 +x &x
+   \end{array}
+
+ Með sambærilegum nálgunum og áður fæst:
+
+ .. math::
+
+  \begin{aligned}
+  \frac{0,032 \cdot x}{1,7\times 10^{-5}}&=4,0 \times 10^{-7}\\
+  \Rightarrow x &=  \frac{4,0 \times 10^{-7}\cdot 1,7\times 10^{-5}}{0,032}\\
+  \Rightarrow x &= 2,1 \times 10^{-10}
+  \end{aligned}
+
+ Nálgunin var enn á ný gild. Eins og sjá má þá var það gilt að nálga sýrustigið einungis út frá fyrsta hvarfinu, þ.e.
+
+ .. math::
+
+  \ce{pH= log(0,032)} = 1,5
+
+ Að lokum er styrkur :math:`\ce{C6H5O7^{3-}}` einungis :math:`2,1 \times 10^{-10} \text{ M}`
+
+Fyrir fjölróteindasýrur þá virðist eflaust sem svo að seinni róteindirnar séu gagnslausar, þar sem sýrustigið ákvarðast af mestu leyti á fyrsta hvarfinu. Það er þó ekki öll sagan, því þessar róteindir geta *hlutleyst* basa.
+
+
+Hlutleysing
+-----------
+
+*Hlutleysing* (e. neutralization) er efnahvarf þar sem sýru er bætt í basíska lausn, eða öfugt, til að gera hana hlutlausa, þ.e. með sýrustig nær 7. Hlutleysing byggir á efnahvarfinu:
 
 .. math::
-  U = mgy
 
-þar sem :math:`y` er hæð massans yfir einhverjum tilteknum viðmiðunarpunkti, sem er oft yfirborð jarðarinnar.
+  \ce{H3O+ + OH- -> 2 H2O}
 
+Lausn er sögð hafa náð jafngildipunkti þegar blandað hefur verið jafn mörgum mólum af basa og mólum af sýru, eða öfugt. Við jafngildispunkt er ekkert lengur sem tekur á móti viðbættum styrk af sýru eða basa, og sýrustigið tekur því stökk.
 
-Orkuvarðveisla
---------------
-Orka er einn eðliseiginleika sem er *varðveittur*, þ.e. hún getur aldrei birst upp úr þurru né horfið sporlaust.
-Hún getur aðeins breytt um form, t.d. þá getur stöðuorka orðið að hreyfiorku og öfugt.
+Fyrir lausn sem byrjar basísk, er hægt að lýsa þessu myndrænt, en til að áætla hvernig kúrfan er nákvæmlega þarf að vita hversu rammur basinn og hversu römm sýran er.
 
-Þegar hlutur fellur til jarðar úr einhverri hæð minnkar stöðuorka hans, en á móti kemur að hann fer hraðar, þ.e. hreyfiorka hlutarins eykst. Sé ekki núningur er öll orka kerfisins annað hvort stöðuorka eða hreyfiorka og þá gildir að:
+.. figure:: ./myndir/syrur/jafn.svg
+  :width: 80%
+  :align: center
 
-.. math::
-  K_1+U_1 = K_2+U_2
+Jafngildispunkt er hægt að meta sem hálf leiðin upp eða niður "brekkuna".
 
-.. tip::
-  0.5 kg steinn fellur úr kyrrstöðu í 20 metra hæð til jarðar.
-  Hver er hraði hans rétt áður en hann skellur á yfirborði jarðarinnar?
+Hægt er að skipta hlutleysingum í fjögur tilvik:
 
-  *Lausn*
+Sterk sýra og sterkur basi
+  Jafngildispunktur við pH=7.
 
-  Gerum ráð fyrir að loftmótsstaðan hafi engin áhrif, þ.e. að það verði ekki núningur milli steinsins og loftsins sem umlykur hann.
+Veik sýra og sterkur basi
+  Jafngildispunktur við pH>7. Við jafngildispunkt er einungis samokabasi sýrunnar í lausninni, sem gerir hana basíska.
 
-  Í upphafi er hreyfiorka steinsins núll (:math:`K_1=0`), fyrst hann fellur úr kyrrstöðu, en stöðuorka hans er:
+Sterk sýra og veikur basi
+  Jafngildispunktur við pH<7.
 
-  .. math::
-    U_1=mgy=0.5 \text{ kg}\cdot  9.8 \text{m/s}^2\cdot 20 \text{ m} = 98 \text{ J}
-
-  Rétt áður en steinninn skellur á yfirborði jarðarinnar í 0 metra hæð er stöðuorkan orðin að núlli (:math:`U_2=0`), en steinninn er á fleygiferð.
-  Öll stöðuorka steinsins í upphafi er nú orðin að hreyfiorku.
-  Því er:
-
-  .. math::
-    \begin{aligned}
-    K_1+U_1&=K_2+U_2\\
-    0+ U_1&=K_2+0 \\
-    U_1 &= \frac{1}{2}mv_2^2 \\
-    2 \cdot U_1 / m &= v_2^2 \\
-    v&=\sqrt{2\cdot98\text{ J} /20\text{ kg}} = 3.13 \text{m/s}
-    \end{aligned}
-
-  .. figure:: ./myndir/vinna/steinn.svg
-    :align: center
-    :width: 40%
-
-
-
-
-.. fjalla um gorma?
-.. spurs með heildaframsetningu vinnu, of snemma?
+Veik sýra og veikur basi
+  Hér fer það eftir hvor er sterkari, þ.e. hvor er stærri :math:`K_a` eða :math:`K_b`. Sterkari sýra gefur pH<7 og öfugt.

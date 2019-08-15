@@ -1,7 +1,7 @@
 .. _s.frumefni:
 
 Frumefni
-====
+========
 
 
 Í efnafræði er efni skilgreint sem svo að það hefur massa og tekur upp pláss, þ.e. hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Eins og staðan er núna
@@ -48,7 +48,7 @@ Rafeindaskipan
 
 Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. `shell <https://en.wikipedia.org/wiki/Electron_shell>`__) þar sem þau eru fyllt eftir orkulegri hagkvæmni.
 Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_)
-Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með *l* eða *hverfiþungaskammtatölunni* (e. ` Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
+Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með :math:`\ell` eða *hverfiþungaskammtatölunni* (e. `Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
 Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni en sjá má orkuþrep hvers hvols á mynd hér fyrir neðan.
 
 .. figure:: ./myndir/atom/svigrumaskipan.png
@@ -82,6 +82,10 @@ er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir 
   .. math::
       1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
 
+.. warning::
+  Þetta er ekki algilt, en fyrir suma hliðarmálma er þetta ekki endilega orkulega hagkvæmast, og þarf þá að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
+
+
 Gildisrafeindir
 ~~~~~~~~~~~~~~~
 
@@ -90,7 +94,7 @@ leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *átturegl
 Þetta geta þau gert eftir nokkrum leiðum, þau geta myndað *sameind* þar sem þau deila milli sín gildisrafeindum í *efnatengjum*, eða *jónast* (e. `Ionization <https://en.wikipedia.org/wiki/Ionization>`_), en þessi ferli má sjá nánar í komandi köflum.
 
 .. note::
- Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna.
+ Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvargjarnar eða óvirkar (e. inert)
 
 Fyrir rafeindaskipan stórra frumefna, er ekki vaninn að telja upp öll hvolfin, heldur einungis gildisrafeindirnar með tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda málið en gildisrafeindir koma meira við sögu en þær á innra hveli.
 
@@ -103,9 +107,50 @@ Fyrir rafeindaskipan stórra frumefna, er ekki vaninn að telja upp öll hvolfin
   .. math::
     [Xe]6s^2 5d^{10} 4f^{14} 6p^{2}
 
+Rafeindaskipan áframhald
+~~~~~~~~~~~~~~~~~~~~~~~~
 
+Rafeindir hafa fjórar skammtatölur, þ.e. *n*, :math:`\ell` en einnig *m*:math:`_{\ell}` og *m*:math:`_S`. *m*:math:`_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og segir til um í hvaða átt svigrúmið snýr. *m*:math:`_S`  eða *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_) segir aftur á móti til um *spuna* rafeindarinnar.
+Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur, og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
+Þá fær hvert hvolf og undirhvolf línu eða kassa sem rafeindir eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa, sem stjórnar segulskammtatölunni, og er tvöfalt færri en fjöldi rafeinda á fullu undirhvolfi.
+Að lokum eru svo rafeindirnar táknaðar sem örvar sem snúa upp eða niður. Þetta tilgreinir spuna rafeindarinnar. Fullt hvolf hefur þá rafeind bæði upp og niður í hverjum kassa.
 
+.. tip::
 
+ **Tilgreindu fulla rafeindaskipan brennisteins**
+
+ Brennisteinn hefur 5 gildisrafeindir, og þar af 2 á 3s og 4 á 4p. Byrjum á að teikna upp kassana fyrir svigrúmin.
+
+  .. figure:: ./myndir/atom/syni1.svg
+    :align: center
+    :width: 40%
+
+ Byrjum á því að fylla inn í 3s svigrúmið:
+
+  .. figure:: ./myndir/atom/syni2.svg
+    :align: center
+    :width: 40%
+
+ Með einungis 4 rafeindir er 3p svigrúmið ekki fullt og því þarf að passa hvernig fylla skal í það. Það skal ávallt fyrst fylla í alla kassana með einungis einni ör, og eftirstandandi rafeindir fylltar inn eftir það. Þ.e. *ekki setja tvær örvar í kassa, meðan það eru enn tómir kassar*.
+ Það er gert til að fylgja eftir svokallaðari *reglu Hund's*.
+
+  .. figure:: ./myndir/atom/syni3.svg
+    :align: center
+    :width: 40%
+
+  .. figure:: ./myndir/atom/syni4.svg
+    :align: center
+    :width: 40%
+
+.. begin-toggle::
+  :label: Hund's regla
+  :starthidden: False
+  
+*Regla Hund's* segir til um að það sé orkulega hagkvæmast og þannig stöðugast þegar rafeindir skipa sér stakar á svigrúm, meðan kostur er. Þær hafa þá sama spuna.
+
+Þessi regla er oft kölluð *strætisvagnareglan*, þar sem vaninn er að setjast ekki í sætisröð með öðrum, ef það er tóm sætisröð í vagninum.
+
+.. end-toggle::
 
 
 

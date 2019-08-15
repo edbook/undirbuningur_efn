@@ -1,314 +1,440 @@
-Hreyfing í tveimur víddum
-=========================
-Hingað til hefur verið fjallað um einvíða hreyfingu, þar sem staðsetning, hraði og hröðun eru öll eftir sömu beinu línunni.
-Í eðlisfræði er hins vegar nauðsynlegt að geta lýst hreyfingu í tveimur og jafnvel þremur víddum.
+Efnajafnvægi
+============
+
+Fram að þessu hefur verið áætlað að efnahvörf gerast einungis í aðra áttina, þ.e.
+
+.. math::
+
+	A+B \rightarrow C +D \quad 	\text{hraði}=k[A]^m[B]^n
+
+Það sem getur einnig gerst er að hvarfið fari í *öfuga átt*
+
+.. math::
+
+  C+D \rightarrow A+ B
+
+Hraðalíkan fyrir þetta afturábak hvarf væri þá
+
+.. math::
+
+	\text{hraði}=k`[C]^k[D]^l
+
+Ef hvörfin eru hvorug núllta stigs *eykst* hraðinn á afturábak hvarfinu þegar líður á upprunalega hvarfið, enda eykst styrkur :math:`[C]` og :math:`[D]`. Að sama leyti *minnkar* hraðinn á upprunalega hvarfinu. Þegar þessir tveir hraðar jafnast út,
+nær hvarfið *jafnvægi* (e. equilibrium).
+
+Þegar efnahvarf nær jafnvægi má segja að það sé hætt, en það er ekki alveg rétt. Bæði efnahvörfin eru enn í fullu gangi, bara fara jafnhratt. Það *myndast því jafn mikið efni og hvarfast aftur.*
+
+Fyrir þetta efnahvarf væri myndun C og D kallað að "efnahvarfið gangi til hægri" og afturábak hvarfið væri að "ganga til vinstri".
+
+Fyrir hvörf þar sem hvarfefnin hvarfast ekki að öllu leyti, og það nær jafnvægi, er notað örvar í báðar áttir í efnajöfnunni. Þ.e. :math:`\leftrightharpoons` í stað :math:`\rightarrow`. Hér má athuga að öll hvörf ná jafnvægi, en oft má nálga að hvarf gangi alveg til hægri, og nota þá venjulega ör.
+
+Jafnvægisfasti
+--------------
+
+Hvert hvarf hefur einkennandi *jafnvægisfasta* (e. equilibrium constant) fyrir ákveðið hitastig. Jafnvægisfastinn er táknaður með :math:`K` og er einingarlaus.
+
+.. math::
+
+  aA +bB+ \dots \leftrightharpoons nN + mM + \dots
+
+Jafnan fyrir jafnvægisfasta þessa hvarfs væri:
+
+.. math::
+
+  K=\frac{[N]^n[M]^m \dots }{[A]^a[B]^b \dots }
+
+Þessi jafna er einnig gjarnan kölluð *jafnvægislíking* til aðgreiningar, og segir til um hlutfall styrks við jafnvægi. Þennan jafnvægisfasta er hægt að fletta upp fyrir flest hvörf við algeng hitastig s.s. stofuhita.
 
 .. tip::
-  Flugvél setur stefnuna beint norður á við og flýgur á hraðanum :math:`v_f= 20 \text{ m/s}`. Það er hvöss vestanátt, :math:`v_v =15\text{ m/s}`, sem vélin berst með. Hver er hraði flugvélarinnar og stefna hraðans miðað við jörðu?
 
-  .. figure:: ./myndir/2d/flugvel.svg
-    :align: center
-    :width: 40%
-
-  Hér notum við vigursamlagningu. Hreyflar vélarinnar gefa henni hraða :math:`v_f` í stefnu norður (stefnu :math:`y` - áss). Þá er:
+ **Á Íslandi stofnaði CRI fyrstu verksmiðju heims sem umbreytir koldíoxíð í útblæstri í nothæft metanól. Þetta er gert samkvæmt efnaformúlunni:**
 
   .. math::
 
-  	\overline{v}_f = \begin{pmatrix} 0 \\ 20 \end{pmatrix}
+  	CO_2+ 3H_2 \leftrightharpoons CH_3OH + H_2O
 
-  Vindurinn blæs frá vestri til austurs, til hægri (í stefnu :math:`x` - áss). Því er:
+ **Hver er jafnvægislíking hvarfsins?**
 
-  .. math::
+ Jafnvægislíking hvarfsins er:
 
-  	\overline{v}_v = \begin{pmatrix} 15 \\ 0 \end{pmatrix}
+ .. math::
 
-  Leggjum nú saman vigrana :math:`\overline{v}_f` og :math:`\overline{v}_v`:
+   K=\frac{ [CH_3OH][H_2O] }{ [CO_2][H_2]^3}
 
-  .. math::
-    \begin{aligned}
-  	\overline{v} &= \overline{v}_f + \overline{v}_v \\
-    &= \begin{pmatrix} 0 \\ 20 \end{pmatrix} + \begin{pmatrix} 15 \\ 0 \end{pmatrix} \\
-    &= \begin{pmatrix} 15 \\ 20 \end{pmatrix}
-    \end{aligned}
+Jafnvægisfasti tekur gildi á breiðu bili, en t.d. er jafnvægisfasti bruna vetnis með stærðargráðu :math:`~10^{80}`, en jafnvægistfasti fyrir bruna niturs í lofti er með stærðargráðu :math:`10^{-31}` við stofuhita. Þessi munur myndi útskýra af hverju það er ekkert vetni í andrúmsloftinu, en nitur og loft getur lifað í samlyndi þar.
 
-  Hraði flugvélarinnar miðað við jörðina er því lengdin á :math:`\overline{v}`:
+Jafnvægi fyrir gös
+----------------------
 
-  .. math::
-    \begin{aligned}
-  	|\overline{v}| &= \sqrt{15^2+20^2} \\
-    &=\sqrt{625} \\
-    &= 25
-    \end{aligned}
+Fyrir efnahvörf sem eiga sér stað á gasfasa er oft ekki notaður styrkur, heldur *hlutþrýstingur* (e. partial pressure) efna. Þá er ekki notað styrkur í hornklofa, :math:`[A]` heldur :math:`P_A` í jafnvægislíkingunni. Til aðgreiningar er notað :math:`K_c` fyrir jafnvægi í lausn en
+:math:`K_p` fyrir jafnvægi í gasfasa.
 
-  Vélin er því að fara á :math:`25` m/s, en stefna hraðans er í norðaustur.
+.. math::
 
-Hlutur á hreyfingu hefur breytilega staðsetningu sem táknuð má með ferli í hnitakerfi.
-Ferillinn er bein lína ef hraði hlutarins hefur fasta stefnu, þ.e. hluturinn hefur enga hröðun eða ef hröðunin er samsíða hreyfingunni. Ef hröðunin er ekki samsíða hreyfingunni þá veldur hún breytingu á stefnu hraðans og þá beygir ferillinn.
+  aA(g) +bB(g)+ \dots \leftrightharpoons nN(g) + mM(g) + \dots
 
-Hraði hlutarins er snertill við feril hlutarins og
-hröðun hans bendir alltaf inn í kúpta hluta ferilsins.
+Fyrir þetta efnahvarf væri jafnvægisfastinn í gasfasa:
 
-Hröðunarvigurinn hefur stefnu óháð staðsetningu og hraða hlutar, en segir til um hvernig hraðinn og stefna hans eru að breytast.
+.. math::
 
-.. image:: ./myndir/2d/hrodun.svg
-    :align: center
-    :width: 40%
+  K=\frac{P_N^n P_M^m \dots }{P_A^a P_B^b \dots }
 
-*Kasthreyfingar* og *hringhreyfingar* eru algengar tvívíðar hreyfingar.
+:math:`K_p` er ekki endilega sama talan og :math:`K_c` en jafnan til að breyta á milli þeirra er
 
-Kasthreyfing
-------------
-Kasthreyfing (e. projectile motion) er þegar hlutur er á hreyfingu í þyngdarsviði og verður ekki fyrir neinni hröðun nema þyngdarhröðun.
-Í okkar einfölduðu kerfum er gerum við ráð fyrir að loftmótstaða sé engin,
-svo allir *kastferlar* (e. trajectories) verða hluti af fleygboga.
+.. math::
+
+  K_p=(RT)^{\Delta n} K_c
+
+Þar sem :math:`R` er gasfastinn :math:`0,083145 \,\frac{\text{bar L}}{\text{K mól}}`, :math:`T` er hitastigið í kelvin. Að lokum er :math:` \Delta n ` mismunur á mólum fyrir og eftir hvarfið, þ.e.
+
+.. math::
+
+  \Delta n = (n+m+ \dots) - (a+ b+ \dots)
+
+Ef það eru jafnmörg mól af efnum fyrir og eftir hvarfið, þá gildir :math:`(RT)^0=1` og :math:`K_p=K_c`.
 
 .. tip::
-    Tveir eins boltar eru látnir falla til jarðar úr sömu hæð, bolta 1 er sleppt úr kyrrstöðu en bolta 2 er kastað lárétt áfram.
-    Gerum ráð fyrir engri loftmótstöðu.
-    Hvor boltanna lendir á undan?
 
-    **Lausn**
+ **Gefið er efnahvarfið:**
 
-    Á báða boltana verkar sama þyngdarafl, svo þeir fá sömu hröðun niður sem nemur þyngdarhröðuninni og fá báðir sívaxandi hraða niður á við.
+ .. math::
 
-    Bolti 1 mun því hreyfast lóðrétt niður á við.
-    Bolti 2 mun halda áfram að hreyfast lárétt því hann verður ekki fyrir neinni hröðun í lárétta stefnu (fyrsta lögmál Newtons).
-    Hröðunin sem bolti 2 verður fyrir lóðrétt hefur engin áhrif á lárétta hreyfingu hans (og lárétta hreyfingin hefur engin áhrif á lóðrétta hröðun).
+    2SO_2(g) +O_2(g) \leftrightharpoons 2SO_3(g) \quad \quad \quad \quad K_p=3,4 \text{ fyrir } 1000 \text{ K}
 
-    Boltarnir tveir byrjuðu báðir með sama lóðrétta hraðann (engan) og verða fyrir sömu lóðréttu hröðuninni.
-    Þeir ferðast því samtímis niður á við og lenda því *á sama tíma*.
+ **Hver er** :math:`K_c` **fyrir hvarfið við 1000 K?**
 
-    .. image:: ./myndir/2d/tveirboltar.svg
-        :align: center
-        :width: 40%
+ Nú er jafnan:
 
-    Ferill bolta 1 er lóðrétt strik en ferill bolta 2 er fleygbogi, því hann hefur hreyfingu í tvær stefnur.
+ .. math::
 
-Við lausn dæma um kasthreyfingar eru :ref:`hraðajöfnurnar<s.hreyfijofnur>` notaðar.
-Það borgar sig að teikna mynd til að átta sig á dæminu.
-Þá þarf að ákveða hnitakerfi, en venjan er að hafa x-ás láréttan og y- (eða z-) ás lóðréttan upp þannig á þyngdarhröðun bendi niður.
-Upphafspunkt hreyfingarinnar er þægilegast að setja í miðju hnitakerfisins, enda geta hnitin :math:`(x_0,y_0)=(0,0)` einfaldað reikning töluvert.
-Hafið svo í huga að þar sem þyngdarhröðunin er einungis í :math:`y`-stefnuna eru jöfnurnar fyrir staðsetningu sem fall af tíma eftirfarandi:
+  K_p=(RT)^{\Delta n} K_c
 
-.. math::
-    \begin{aligned}
-        x &= x_0 + v_{0,x} \cdot t \\
-        y &= y_0 + v_{0,y} \cdot t + \frac{1}{2} g \cdot t^2
-    \end{aligned}
+ Þar sem:
 
-.. tip::
-    Sagan segir að landið Gambía á vesturströnd Afríku hafi orðið til þegar breski flotinn sigldi upp Gambíuána, skaut úr fallbyssum sínum á báða borða og eignuðu sér landið innan færis fallbyssanna.
-    Ef upphafshraði fallbyssukúlu er :math:`\overline{v} = (v_x, v_y) = (50,42)` m/s, hversu breið yrði Gambía?
+ .. math::
 
-    **Lausn**
+  \Delta n =2 -(2+1) =-1
 
-    Byrjum á að teikna mynd.
-    Stillum hnitakerfinu upp þannig að fallbyssan sé í :math:`(x_0,y_0) = (0,0)`, x-ásinn liggi út frá ánni í skotstefnuna og y-ásinn er upp.
-    Gerum ráð fyrir að hæð lendingarstaðarins sé jöfn hæð fallbyssunnar, þ.e. :math:`y_1=0` .
-    Takið eftir að :math:`y`-ásinn er skilgreindur upp en þá er  þannig að þyngdarhröðunin er neikvæð (:math:`g=-9.8` m/s).
+ Nú er hægt að einangra :math:`K_c` og stinga inn gildum:
 
-    .. image:: ./myndir/2d/gambia.svg
-        :align: center
-        :width: 60%
+ .. math::
 
-    Við vitum að kúlan muni lenda á jörðinni, þannig að lokahnit kúlunnar eru :math:`(x_1,y_1) = (x_1,0)`.
-    Rifjum upp hreyfijöfnurnar og notum þá sem gefur staðsetningu sem fall af tíma.
-    Viljum finna tímann :math:`t_1` þegar :math:`y_1=0` .
-
-    .. math::
-        \begin{aligned}
-            y_1 &= y_0 + v_{0,y} \cdot t + \frac{1}{2} a \cdot t^2 \\
-            0 &= 0 + v_{0,y} \cdot t + \frac{1}{2} g \cdot t^2
-        \end{aligned}
-
-    Þetta er annars stigs margliða með óþekkta stærð :math:`t` sem við leysum:
-
-    .. math::
-        \begin{aligned}
-            & a \cdot t^2 + b \cdot t + c = 0 \\
-            & a= \frac{1}{2} \text{g} \\
-            & b= v_{0,y} = 42 m/s \\
-            & c=0 \\
-        \end{aligned}
-
-        \begin{aligned}
-            \Rightarrow t &= \frac{-b \pm \sqrt{b^2-4\text{a}c}}{2\text{a}} \\
-            &= \frac{-v_{0,y} \pm \sqrt{v_{0,y}^2-4 \cdot \frac{1}{2} g}}{2 \cdot \frac{1}{2} g} \\
-            &= \frac{-42 \pm \sqrt{42^2-2 \cdot (-9.8)}}{-9.8} \\
-            &= \begin{cases} 0 \text{ s} = t_0\\
-                             8.58 \text{ s} = t_1
-                \end{cases}
-        \end{aligned}
-
-    Það eru tvær lausnir á jöfnunni því :math:`y`-hnitið er 0 bæði í upphafi og enda ferils kúlunnar.
-    Nú getum við notað sömu hreyfijöfnu, í þetta skipti fyrir :math:`x`-hnitin, til að finna hversu langt fallbyssan drífur.
-    Athugið að þyngdarhröðunin er lóðrétt svo hún hefur ekki áhrif á lárétta :math:`x`-þátt hraðans.
-
-    .. math::
-        \begin{aligned}
-            x_1 &= x_0 + v_0 \cdot t_1\\
-            &= 0 + 50 \cdot 8.58  \\
-            &= 429 \text{ m}
-        \end{aligned}
-
-    Fallbyssukúlan lendir því 429 metrum frá ánni og breidd Gambíu er tvöföld sú lengd: 858 m.
-
-
-Finnum nú jöfnu fyrir ferlinum sem hlutur ferðast eftir í loftinu og sannfærum okkur um að hann sé fleygbogi.
-Skoðum hlut sem hefur upphafshraða :math:`v_0` í stefnu hornsins :math:`\alpha_0` og upphafsstaðsetningu :math:`(0,0)` .
-
-Byrjum á því að liða :math:`v_0` í :math:`x` - og :math:`y` - stefnu.
-
-.. math::
   \begin{aligned}
-    v_{0x} &= v_0\cos(\alpha_0) \\
-    v_{0y} &= v_0\sin(\alpha_0)
+
+  K_c &= \frac{ K_p}{(RT)^ {\Delta n} }\\
+      &= \frac{3,4} { \left(0,083145\,\frac{\text{bar L}}{\text{K mól}} \cdot 1000\text{ K}\right)^{-1}}\\
+      &=280
+
   \end{aligned}
-
-.. figure:: ./myndir/2d/v0split.svg
-  :align: center
-  :width: 50%
-
-Því næst notum við :ref:`hreyfijöfnurnar <s.hreyfijofnur>`.
-Hröðunin í :math:`x` - stefnu er núll svo staðsetningin í :math:`x` - stefnu er
-
-.. math::
-  x=v_{0x} t = v_0\cos(\alpha_0)t
-
-Hröðunin í :math:`y` - stefnu er :math:`g` og bendir niður á við (:math:`g<0`) svo staðsetningin í :math:`y-` stefnu er:
-
-.. math::
-  y=v_{0y} t + \frac{1}{2}gt^2 = v_0\sin(\alpha_0) t+ \frac{1}{2}gt^2
-
-Einangrum :math:`t` út frá jöfnunni fyrir :math:`x`, :math:`t=x/(v_0\cos(\alpha_0))` og setjum inn í jöfnuna fyrir :math:`y` . Þá fæst
-
-.. math::
-  \begin{aligned}
-    y& =v_0\sin(\alpha_0)t + \frac{1}{2}gt^2 \\
-    y&= v_0\sin(\alpha_0) \cdot \frac{x}{v_0\cos(\alpha_0)} + \frac{1}{2}g  \left(\frac{x}{v_0\cos(\alpha_0)}\right)^2\\
-    y&= \frac{\sin(\alpha_0)}{\cos(\alpha_0)} x + \frac{1}{2}g \frac{x^2}{v_0^2\cos^2(\alpha)} \\
-    y&=\tan(\alpha_0) x + \frac{g}{2v_0\cos^2(\alpha_0)}x^2
-  \end{aligned}
-
-Ferill hlutar í kasthreyfingu hefur því lögun fleygboga :math:`y=ax^2+bx+c` þar sem
-
-.. math::
-  \begin{aligned}
-    a&=\frac{g}{2v_0\cos^2(\alpha_0)}\\
-    b&=\tan(\alpha_0) \\
-    c&=0
-  \end{aligned}
-
-.. figure:: ./myndir/2d/kasthr.svg
-  :align: center
-  :width: 80%
-
-------------------------
-
-Út frá jöfnunni er meðal annars hægt að sjá hvar hluturinn lendir.
-Þá finnum við fyrir hvaða :math:`x` hæð boltans :math:`y` er núll, sem er þegar :math:`x=0` (upphaf) og þegar
-
-.. math::
-  \begin{aligned}
-    x&=\frac{-2\tan(\alpha_0)v_0^2\cos^2(\alpha_0)}{g}\\
-    &=\frac{-2\sin(\alpha_0)\cos(\alpha_0)v_0^2}{g} \\
-    &= \frac{-\sin(2\alpha_0)v_0^2}{g} \\
-  \end{aligned}
-
-því :math:`\sin(2\alpha)=2\sin(\alpha)\cos(\alpha)` .
-
-------------------------
-
-Það er líka hægt að finna hámarkshæð hlutar í kasthreyfingu með því að finna hágildi þessarrar jöfnu.
-Þá finnum við hvar afleiða fallsins með tilliti til :math:`x` er núll.
-
-Afleiðan er
-
-.. math::
-  y'=\tan(\alpha_0)+\frac{g}{v_0^2\cos^2(\alpha_0)}x
-
-Hápunktur fleygbogans er því þegar :math:`y'=0` eða:
-
-.. math::
-  \begin{aligned}
-    x&=\frac{-\tan(\alpha_0)v_0^2\cos^2(\alpha_0)}{g} \\
-    &= \frac{-\sin(\alpha_0)\cos(\alpha_0) v_0^2}{g}\\
-    &= \frac{sin(2\alpha_0)v_0^2}{2g}
-  \end{aligned}
-
-.. math::
-  x&=\frac{-\tan(\alpha_0)v_0^2\cos^2(\alpha_0)}{g} = \frac{-\sin(\alpha_0)\cos(\alpha_0) v_0^2}{g}
-
-------------------------
-
-Munið að eðlisfræði gengur ekki út á að muna jöfnur, heldur að kunna hvernig og hvenær á að nota þær.
-Til dæmis er ástæðulaust að leggja mikla vinnu í að muna þessar formúlur, þegar það er lítið mál að leiða þær út frá hreyfijöfnunum eða að fletta þeim upp.
-
-------------------------
-
-
-Hringhreyfing
--------------
-
-Hröðunarvigurinn hefur stefnu óháða stefnu hraðavigursins, en segir til um hvernig hraðavigurinn er að breytast.
-Þægilegt er að vinna með vigurinn í tveimur hlutum, annars vegar þáttinn samsíða hraðavigrinum :math:`a_\parallel`
-og hins vegar hornrétta þáttinn :math:`a_\perp` en þættir hröðunarvigursins hafa mismunandi áhrif á hraðavigurinn.
-.. Þessir þættir eru líka táknaðir með :math:`a_{tan}` (tangential: eins og snertill) og :math:`a_{rad}` (radial: eins og radíus).
-
-.. figure:: ./myndir/2d/tvividd.svg
-    :width: 60%
-    :align: center
-
-:math:`a_\parallel` hefur meiri áhrif á lengd hraðavigursins, sem oft er kölluð *ferð* hlutarins (e. speed).
-
-:math:`a_\perp` hefur meiri áhrif á stefnu hraðavigursins, þ.e. segir til um hvernig hluturinn er að beygja.
-
-Ef hlutur hefur bara hröðun sem er hornrétt á hraðavigurinn (:math:`a_\paralell =0`) þá beygir hluturinn endalaust í sömu áttina en lengd hraðavigursins er föst, þ.e. *ferð* hlutarins er fasti.
 
 .. note::
-  Í kaflanum um hreyfingar í einni vídd kom fram að þegar hröðun hlutar væri núll þá væri hraði hlutarins fasti, en það kemur til vegna þess að þá er
+
+  *Hvert fóru einingarnar í dæminu að ofan?*
+
+  Jafnvægisfastinn, :math:`K` er upphaflega skilgreindur út frá *virkni* (e. activity) og er því einingslaus. Ef :math:`\Delta n \neq 0` eru jafnvægisfastar :math:`K_c` og :math:`K_p` tæknilega séð ekki einingarlausir.
+  Þessum einingum er þó almennt sleppt að þessu sinni.
+
+  Það verður ekki farið nánar út í virkni hér.
+
+Jafnvægi fyrir vökva og fast efni
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fyrir hvörf þar sem annað hvort myndefni eða hvarfefni eru ekki í lausn eða í gasi, þ.e. vökvi eða fast efni, koma þau efni **ekki** fram í jafnvægislíkingunni.
 
 .. tip::
-    Hringekja snýst með jöfnum hraða.
-    Barn á hringekjunni hefur hraðavigur sem er snertill við hringinn í staðsetningu barnsins.
-    Þar sem snúningshraðinn er jafn er ferð barnsins fasti, en hraðavigurinn er samt sem áður stöðugt að breytast.
-    Stefnan er það eina sem breytist svo barnið hlýtur að hafa hröðun sem er hornrétt á hraðann, þ.e. beint inn að miðjunni.
 
-    .. figure:: ./myndir/2d/hringekja.svg
-        :align: center
-        :width: 60%
+ **Til að útbúa sement fyrir steypu þarf að byrja á því að brjóta niður kalsíum karbónat skv. formúlunni:**
 
-    Þessi hröðun kallast *miðsóknarhröðun* (e.centripetal acceleration).
+ .. math::
 
-Eins og áður segir vísar hröðunarvigur alltaf inn í kúpta hluta ferilsins.
-Þegar hröðunin er bara hornrétt á hraðann er talað um *jafna hringhreyfingu* (e.uniform circular motion).
-Þá gilda eftirfarandi jöfnur:
+    CaCO_3(s) \rightarrow CaO(s)+CO_2(g)
+
+ **en þetta efnahvarf er talið vera allt að 5% af koldíoxíð útblæstri mannkynsins. Hver er jafnvægisfasti,** :math:`K_p` **, fyrir hvarfið sem og** :math:`\Delta n`?
+
+ Hér liggur beint við að koldíoxíð er eina efnið sem er ekki á föstu- né vökvaformi. Þá er:
+
+ .. math::
+
+   \begin{aligned}
+   K_p&=P_{CO_2} 	& \Delta n=(1)-(0)=1
+   \end{aligned}
+
+Jafnvægisfasti fyrir sameinuð hvörf
+-----------------------------------
+
+Hægt er að sameina efnaformúlu í heildarformúlu. Þegar það er gert, er hægt að finna jafnvægisfasta fyrir heildarhvarfið, út frá jafnvægisföstum efnaformúlunna sem hvarfið var smíðað úr.
+
+- Þegar lagt er saman tvö efnahvörf, eru jafnvægisfastarnir *margfaldaðir.*
+
+  .. math::
+
+    \begin{array}{c|c}
+    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
+      \hline
+    A \rightarrow B & K \\
+    B \rightarrow C & K` \\
+      \hline
+    A \rightarrow C & K \cdot K`\\
+    \end{array}
+
+
+- Þegar hvarf með jafnvægisfasta :math:`K` er snúið við, er nýji jafnvægisfastinn :math:`1/K`.
+
+  .. math::
+
+    \begin{array}{c|c}
+    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
+      \hline
+    A \rightarrow B & K \\
+    B \rightarrow A & 1/K \\
+    \end{array}
+
+- Þegar efnahvarf er margfaldað með :math:`x`, fer jafnvægisfastinn *í* :math:`x` *veldi*.
+
+  .. math::
+
+    \begin{array}{c|c}
+    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
+      \hline
+    A \rightarrow B & K \\
+    2A \rightarrow 2B & K^2 \\
+    \frac{1}{2}A \rightarrow \frac 12 B &\sqrt{K}\\
+    \end{array}
+
+Hvarfkvóti
+----------
+
+*Hvarfkvóti* (e. reaction quotient) fyrir hvarfið:
 
 .. math::
-    \begin{aligned}
-        v &= \frac{2 \pi R}{T} \\
-        |\vec{a}|= a_\perp &= \frac{v^2}{R}\\
-        &= \frac{4 \pi^2 R}{T^2}
-    \end{aligned}
 
-Þar sem :math:`R` er radíus hringferilsins og :math:`T` er umferðartíminn (tíminn sem það tekur að fara einn hring).
+  aA+ bB \rightarrow cC + dD
 
-------------------------
+Hefur sömu jöfnu og jafnvægisfastinn:
 
-Þegar hlutur í hringhreyfingu hefur ekki fasta ferð er talað um *ójafna hringhreyfingu* (e.nonuniform circular motion).
-Þá er hröðunarvigurinn ekki hornréttur á hraðann og lengd hraðavigursins breytileg með tíma.
+.. math::
 
-Takið eftir að stærðirnar :math:`\frac{d |\overline{v}|}{dt}` og :math:`\Bigl|\frac{d \overline{v}}{dt}\Bigr|` eru ekki endilega jafnar.
-Sú fyrri, afleiða ferðarinnar :math:`|\overline{v}|`, er sá þáttur hröðunarinnar sem er samsíða hraðanum, :math:`a_{\parallel}`.
-Hún er núll í jafnri hringhreyfingu þar sem ferðin er fasti.
-Sú seinni er stærð afleiðu hraðans sem er stærð hröðunarvigursins.
-Hún er aðeins núll þegar hraðavigurinn er fasti, þ.e. þegar engin hröðun er. Þá ferðast hluturinn í beina línu með föstum hraða.
+  Q_c=\frac{[C]^c[D]^d}{[A]^a[B]^b}
+
+Munurinn á hvarfkvótanum og jafnvægisfastanum er sá að hvarfkvóti er fyrir ákveðinn tíma, ekki þegar hvarfið hefur náð jafnvægi. Hvarfkvótinn er því ekki fasti, heldur breytist hann með tíma. Hann byrjar oft í 0 og endar í jafnvægisfastanum.
+
+.. figure:: ./myndir/equi/hvarfkvoti.svg
+  :width: 40%
+  :align: center
+
+Hvarfkvóti nýtist til að spá fyrir um hvert hvarfið stefnir:
+
+
+:math:`Q<K`
+  Hvarfið stefnir til hægri.
+
+:math:`Q=K`
+  Hvarfið hefur náð jafnvægi.
+
+:math:`Q>K`
+  Hvarfið stefnir til vinstri.
 
 .. tip::
-    Lykkja á rússíbana er dæmi um ójafna hringhreyfingu.
-    Ferð rússíbanavagnsins er ekki fasti á meðan hann ferðast eftir lykkjunni, heldur er mest neðst og minnst efst.
-    Takið eftir hvernig hröðunavigurinn breytist og reynið að sjá fyrir ykkur þætti hans á mismunandi stöðum í lykkjunni.
 
-    .. figure:: ./myndir/vinna/nonuniform.svg
-        :width: 40%
-        :align: center
+ **Ammóníak myndast með efnahvarfinu:**
+
+ .. math::
+
+    \begin{aligned}
+    N_2(g)+3H_2(g) &\leftrightharpoons 2NH_3(g) & K&=152 \text{ við } 500 \text{ K}
+    \end{aligned}
+
+ **Á ákveðnum tíma er styrkur efnanna:** :math:`[N_2]=0,800\text{ M}`, :math:`[H_2]= 0,070 \text{ M}` **og** :math:`[NH_3]=0,350 \text{ M}`. **Hvert stefnir hvarfið?**
+
+ .. math::
+
+  \begin{aligned}
+   Q_c&=\frac{[NH_3]^2}{[N_2][H_2]^3}\\
+      &=\frac{0,350 ^2}{0.800\cdot 0,070^3}\\
+      &=446
+  \end{aligned}
+
+ Sjáum að :math:`Q>K` og hvarfið stefnir því til *vinstri* og myndar meira af hvarfefnunum.
+
+Jafnvægisreikningar
+-------------------
+
+Klassísk dæmi er að reikna styrk við jafnvægi. Til þess þarf að setja upp jöfnu þar sem styrknum er lýst með t.d. breytunni :math:`x` og leyst er fyrir :math:`x` með algebru.
+
+.. math::
+
+	A+2B \rightarrow C
+
+Fyrir þetta efnahvarf væri styrkur A við jafnvægi :math:`[A]_0-x`, B væri :math:`[B]_0-2x` og C væri :math:`[C]_0+x`. Í þessu tilfelli er :math:`x` *mól hvörfuð/mynduð við jafnvægi*. Þá getur verið gott að setja upp í töflu til að halda utan um styrkinn.
+
+.. tip::
+
+ .. math::
+
+   A \rightarrow B \quad \quad\quad K_c=3,4
+
+ **Ef byrjað er með 3,00 mól af A, í 2,00 L af vatni, hver er styrkur B við jafnvægi?**
+
+ Hér þarf að byrja á því að finna upphafsstyrk A:
+
+ .. math::
+
+    [A]_0=\frac{3,00 \text{ mól}}{2,00 \text{ L}} = 1,50 \text{ M}
+
+ Þá er hægt að setja upp í töflu:
+
+ .. math::
+
+    \begin{array}{c|c|c}
+    \text{Efni}&A&B\\
+      \hline
+    \text{Upphafsstyrkur}&1,50\text{ M} & 0 \\
+    \text{Hvarf}&-x & +x\\
+      \hline
+    \text{Jafnvægisstyrkur} &1,50-x&  x\\
+    \end{array}
+
+ Jafnvægisfastinn er þá:
+
+ .. math::
+
+  K=\frac{[B]}{[A]} =\frac{x}{1,50-x}=3,4
+
+ Fyrir jafnvægisreikninga eru einingar oft geymdar í bili. Þá fæst með því að einangra :math:`x`:
+
+ .. math::
+
+  \begin{aligned}
+  & \quad \, \,\frac x{1,50-x}=3,4\\
+  &\Leftrightarrow x=3,4(1,50-x)\\
+  &\Leftrightarrow x+3,4x = 5,1\\
+  &\Leftrightarrow x= \frac{5,1}{4,4}\\
+  &\Leftrightarrow x= 1,16
+  \end{aligned}
+
+ Þá er :math:`[B]=x=1,16 \text{ M}`.
+
+Algebran flækist hratt þegar fleiri en tvö efni eru í hvarfinu. Þá er mikilvægt að geta rifjað upp gamla stærðfræðitakta og leyst fyrir annars stigs margliðu. Fyrir enn flóknari dæmi, getur þurft að beita svo enn flóknari aðferðum sem ekki verður farið í hér.
+
+.. begin-toggle::
+  :label: Leysa annars stigs margliðu
+  :starthidden: True
+
+Margliðan
+
+.. math::
+
+  ax^2 + bx + c =0
+
+hefur rætur (lausnir):
+
+.. math::
+
+  x= \frac{-b +\sqrt{b^2-4ac}}{2a} \quad \text{eða} \quad x= \frac{-b -\sqrt{b^2-4ac}}{2a}
+
+Margliðan hefur því oftast *tvær* lausnir en oft er hægt að útiloka aðra þeirra, út frá rökhugsun. T.d. getur styrkur efnis ekki orðið neikvæður.
+
+.. end-toggle::
+
+.. tip::
+
+ **Díniturtetraoxíð brotnar niður í niturdíoxíð skv. efnaformúlunni:**
+
+ .. math::
+
+  N_2O_4(g) \leftrightharpoons 2 NO_2(g) \quad \quad \quad K_c=4,6 \times 10^{-3} \, \text{ við } 25°C
+
+ **Ef gefið er að** :math:`[N_2O_4]_0=0.450 \text {M}`, **hver er styrkur** :math:`NO_2` **við jafnvægi?**
+
+ Gott er að byrja á að setja upp töflu:
+
+  .. math::
+
+    \begin{array}{c|c|c}
+    \text{Efni}&N_2O_4 & NO_2\\
+      \hline
+    \text{Upphafsstyrkur}&0,450\text{ M} & 0 \\
+    \text{Hvarf}&-x & +2x\\
+        \hline
+    \text{Jafnvægisstyrkur} &0,450-x&  2x\\
+    \end{array}
+
+ Jafnvægisfastinn er þá:
+
+  .. math::
+
+    K=\frac{[NO_2]^2}{[N_2O_4]}=\frac{x^2}{0,450-x}= 4,6\times 10^{-3}
+
+ Þá er hægt að setja upp og einfalda annars stigs jöfnuna:
+
+ .. math::
+
+  \begin{aligned}
+  \frac{x^2}{0,450-x}&= 4,6\times 10^{-3}\\
+  x^2 &=4,6\times 10^{-3}(0,450 -x)\\
+  x^2 +4,6\times 10^{-3} -2,07 \times 10^{-3}&=0\\
+  \end{aligned}
+
+ Þessi jafna hefur lausnir:
+
+ .. math::
+
+  \begin{aligned}
+  x&= \frac{-b +\sqrt{b^2-4ac}}{2a}\\
+  &= \frac{-4,6\times 10^{-3} +\sqrt{(4,6\times 10^{-3})^2-4\cdot1\cdot 2,07\times10^{-3}}}{2\cdot 1}\\
+  &= 0,043525
+  \end{aligned}
+
+ Sambærilega fæst hin lausninÞ
+
+ .. math::
+
+  \begin{aligned}
+  x&= \frac{-b -\sqrt{b^2-4ac}}{2a}\\
+  &= -0,047585
+  \end{aligned}
+
+ Sjá má að seinni lausnin er ekki gild, þar sem styrkur :math:`NO_2` getur ekki verið neikvæður. Fyrri lausnin er því svarið, en þá fæst að lokum, með þremur markverðum tölustöfum:
+
+ .. math::
+
+   [NO_2]=2x= 0,0871 \text{ M}
+
+
+Nálgun
+~~~~~~
+
+Til þess að spara tíma í þessum útreikningum, eða einfaldlega gera jöfnur leysanlegar, getur þurft að *nálga* lausnirnar. Þá eru tekin út atriði sem skipta litla sem engu máli, til að einfalda jöfnuna.
+Sem dæmi um þetta má nefna af ef jafnvægisfastinn er lítill, er :math:`x` lítið. Ef upphafstyrkurinn er ekki mjög lítill er oft hægt að nálga t.d. :math:`[A]_0-x\approx [A]_0`.
+
+Nálgunin :math:`[A]_0-x\approx [A]_0` getur haft tvenns konar áhrif. Ef :math:`x` breytir einungis ómarkverðum tölustöfum, hefur það engin áhrif og er næstum alltaf góð hugmynd. Ef :math:`x` breytir markverðum tölustafi  í upphafsgildi, þá getur ennþá verið góð hugmynd að nálga, og fer það eftir nákvæmni sem þarf að hverju sinni.
+
+Ef :math:`x` er lítið er hægt að nálga í samlagninu, en **aldrei** í margföldun.
+
+.. tip::
+
+ **Hvað fengist úr dæminu fyrir ofan með nálgun, og hversu mikil væri skekkjan?**
+
+ Jafnvægisfastinn úr dæminu að ofan var:
+
+ .. math::
+
+    K=\frac{[NO_2]^2}{[N_2O_4]}=\frac{x^2}{0,450-x}= 4,6\times 10^{-3}
+
+ Með nálgun að :math:`0,450-x\approx 0,450` einfaldast jafnan og verður:
+
+ .. math::
+
+  \begin{aligned}
+  x^2&=4,6\times 10^{-3} \cdot 0,450\\
+  \Rightarrow x &=\sqrt{2,07\times 10^{-3}}\\
+   &=0,0455
+   \end{aligned}
+
+ Þá fæst:
+
+  .. math::
+
+    [NO_2]=2x= 0,0910 \text{ M}
+
+ Með því að bera saman svörin fæst að :math:`\frac{0,0910}{0,0871}=1,045`. Það þýðir að nálgunin yfirskýtur rétta gildið um :math:`4,5 \%`

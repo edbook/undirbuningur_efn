@@ -1,6 +1,395 @@
-.. _s.Sameindir og efnahvörf:
+.. _s.Sameindir:
 
 Sameindir
 =========
 
-Sameindir myndast þegar tvær eða fleiri 
+*Sameindir* (e. molecule) myndast þegar tvö eða fleiri atóm koma saman og tengjast efnatengjum. Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`H_2` eða nitur í andrúmslofti, :math:`N_2`.
+Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`H_2O`. Sameindir geta haft tvenns konar tengi, *jónatengi* (e. `ionic bonding <https://en.wikipedia.org/wiki/Ionic_bonding>`_) eða *samgild tengi* (e. `covalent bonding <https://en.wikipedia.org/wiki/Covalent_bond>`_).
+
+Samgild tengi
+-------------
+
+Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda báðum kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
+rafeindir geta fyllt ysta hvolfið á báðum atómum.
+
+Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar
+dreifast ójafnt milli atóma, og þau fá því eiginlegan hleðslumun. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
+Sjá má *rafdrægni* (e. electronegativity) frumefnanna hér að neðan.
+
+.. figure:: ./myndir/sameindir/rafneikvaedni.jpg
+  :align: center
+  :width: 100%
+
+Eins og sést þá eykst rafdrægni **til hægri** og **upp** lotukerfið. Rafdrægni er einnig kallað *rafneikvæðni*.
+
+Til að finna hvernig tengi er milli efna, er hægt að nota þessi gildi fyrir rafdrægni. Ef munurinn á gildunum er 0-0,4 er þetta óskautað samgilt tengi.
+Ef munurinn er 0,5-1,6 er tengið skautað samgilt. Sé það hærri en það, þ.e. 1,7-4,0 er það jónatengi.
+
+.. tip::
+
+ **Hvernig er tengin milli vetnis og súrefnis í vatni?**
+
+ Vetni hefur rafdrægni 2,1 en súrefni 3,5. Þetta gefur rafeindamun upp á 1,4 og tengin flokkast því sem *skautuð samgild*.
+
+ .. figure:: ./myndir/sameindir/rafeindathettleiki.png
+   :align: center
+   :width: 40%
+
+ Hérna táknar rautt rafeindaþéttleika en blátt rafeindasnauð svæði. Súrefnið er rafneikvæðara og tekur því rafeindir til sín.
+
+
+Lewis myndir
+~~~~~~~~~~~~
+
+*Lewis Myndir* eða *Punktformúlur* er leið til að sýna samgild tengi og *stök rafeindapör* (e. lone pair) á sameindum. Gildisrafeindir eru táknaðar með punktum
+sem dreifast um efnið á sem stöðugastan máta. Til að teikna lewis mynd af sameind eru nokkur skref:
+
+1. Ákveða heildarfjölda gildisrafeinda . LINKUR Á GILDISRAFEINDAKAFLANN
+
+2. Setja minnst rafneikvæðasta atómið í miðjuna og tengja sameindina með tveggja rafeinda tengi.
+
+3. Er hægt að dreifa eftirstandandi rafeindum sem stökum rafeindapörum svo að áttureglan sé uppfyllt? Ef svo, má sleppa næsta skrefi.
+
+4. Ef ekki eru nægar rafeindir fyrir átturegluna er hægt að búa til *tvítengi* milli atóma með því að bæta við 2 rafeindum í tengið. Ef það dugar ekki,
+   er hægt að bæta við tveimur enn og gera *þrítengi*.
+
+5. Athuga *formlega hleðslu*. Þetta er gert með því að taka saman fjölda rafeina í stökum rafeindapörum og helming rafeinda í tengjum.
+   Þessi fjöldi er svo borinn saman við gildisrafeindir, og atóm er gefin jákvæð hleðsla ef þessar rafeindir eru færri, og öfugt.
+
+6. Reyna að lágmarka formlegu hleðsluna, sem og láta hana passa fyrir rafdrægni frumefnanna. Þ.e. láta rafneikvæðari frumefnið hafa neikvæðari hleðslu. Passa þó að ekki brjóta átturegluna.
+
+.. warning::
+
+	Áttureglan gildir ekki fyrir allar sameindir og til eru þrjár undartekningar:
+
+  Oddatala gildisrafeinda.
+    Ekki er hægt að uppfylla áttureglan fyrir efni s.s. :math:`ClO` en þar eru einungis 6+7=13 gildisrafeindir. Klór mun því einungis hafa 7 rafeindir.
+
+  Of fáar rafeindir.
+    Fyrir efni sem innihalda bór og beryllíum, er hægt að mynda stöðugar sameindir án þess að uppfylla átturegluna, s.s. :math:`BeCl_2` og :math:`BF_3`. Einnig mun vetni alltaf hafa að hámarki 2 rafeindir.
+
+  Of margar rafeindir.
+    Stærri frumefni, s.s. lota 3 eða neðar, geta víkkað út ysta rafeindahvelið með d-svigrúmi. Þessi frumefni geta því haft fleiri en 8 rafeindir á ysta hveli,
+    og yfirskjóta átturegluna. Dæmi um þetta væri :math:`PF_5` en þar hefur fosfór 10 rafeindir.
+
+.. tip::
+
+	**Hver er Lewis mynd** :math:`CO_2`?
+
+  - Kolefni hefur 4 gildisrafeindir og súrefni 6. Höfum því 4+6+6=16 gildisrafeindir.
+  - Kolefni er ekki jafn rafneikvætt og súrefni og fer því í miðjuna. Þá fæst:
+
+  .. figure:: ./myndir/sameindir/lewis1.svg
+    :align: center
+    :width: 20%
+
+  - Ekki er hægt að uppfylla átturegluna með eftirstandandi 12 rafeindum, heldur þarf 16. Það vantar því 4 upp á og bætum því 4 rafeindum við tengin. Þetta gefur annaðhvort tvö tvítengi eða stakt þrítengi.
+    Tvítengi liggur beinna við:
+
+    .. figure:: ./myndir/sameindir/lewis2.svg
+      :align: center
+      :width: 20%
+
+    Áttureglan er nú uppfyllt alls staðar.
+
+  - Nú skal athuga formlegu hleðsluna. Súrefnin hafa 4 stakar rafeindir og 4 rafeindar í tengjum, þar af 2 sínum megin, þ.e. 6 rafeindir í heildina.
+    Súrefni hefur 6 gildisrafeindir og  því er formlega hleðslan 0. Kolefni hefur 8 rafeindir í tengjum, þar af 4 sínum megin. Kolefni hefur 4 gildisrafeindir og
+    formlega hleðslan því 0 allstaðar.
+
+Vok myndir
+++++++++++
+
+Þetta er ekki öll sagan, en fyrir sum efni þarf að lýsa Lewis-myndum með *vok myndum* (e. resonance). Þessu er best lýst með dæmi.
+
+.. tip::
+
+ **Hver er lewis mynd fyrir nítrat jón,** :math:`NO_3^-`?
+
+ - Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu, og þ.a.l. bætist við rafeind*. Þá eru 5+3(6)+1=24 gildisrafeindir.
+
+ - Nitrið fer í miðjuna og þá fæst:
+
+ .. figure:: ./myndir/sameindir/nitrid1.svg
+   :align: center
+   :width: 20%
+
+ - Núna eru 18 rafeindir eftir, en það vantar 20 til að uppfylla átturegluna alls staðar. Það vantar því tvítengi einhvers staðar, en *hvar?* Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vok myndir við sögu.
+   Við teiknum upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
+
+   .. figure:: ./myndir/sameindir/nitrid2.svg
+     :align: center
+     :width: 60%
+
+ - Nitrið hefur 4 rafeindir kringum sig, en hafði 5 gildisrafeindir og fær því +1 hleðslu. Þau súrefnisatóm sem eru ekki tvítengd hafa 7 rafeindir kringum sig, og fá því -1 hleðslu. Þriðja súrefnisatómið hefur 6 kringum sig og því hleðslulaust.
+   Heildarhleðslan er því +1-1-1=-1. Þetta stemmir við neikvæðu hleðslu nítratsins.
+
+Hafa ber í huga að í náttúrunni finnast ekki sameindir sem líkjast stakri vok mynd, heldur samblanda af öllum þremur. Þetta er sambærilegt og að lýsa nashyrning fyrir krakka sem blanda af einhyrningi og dreka.
+Hvorugt er til, en þetta getur gefið hugmynd um útlit raunverulegs hluts.
+
+Til er annar og algengari ritháttur fyrir samgild tengi, og það er að teikna strik í stað tveggja punkta.
+
+
+Nafnakerfi fyrir sameindir
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fyrir tvíatóma sameindir kemur fyrra frumefnið óbreytt en seinna frumefnið fær -íð (e. ide) endingu. Undantekningin á þessu eru eftirfarandi frumefni:
+
+Kolefni
+  Efni með kolefni sem fyrra frumefni byrja á *kol-*
+
+Brennisteinn
+  Efni með brennistein sem seinna frumefni fá endinguna -*súlfíð*
+
+Súrefni
+  Efni með súrefni sem seinna frumefni fá endinguna -*oxíð*
+
+Nitur
+  Efni með nitur sem seinna frumefni fá endinguna -*nítríð*
+
+Vetni
+  Efni með vetni sem seinna frumefni fá endinguna -*hýdríð*
+
+Sameindir geta þó haft mismunandi fjölda af hvoru atómi, en nituroxíð getur lýst :math:`NO`, :math:`NO_2`, :math:`N_2O` o.s.fr. Til aðgreiningar eru notuð eftirfarandi *forskeyti* til að lýsa fjölda atóma í sameind:
+
+.. raw:: html
+
+  <style>
+
+  table {
+   margin-left:auto;
+   margin-right:auto;
+  }
+
+  table, th, td {
+
+  text-align: center;
+  }
+
+  </style>
+
+  <table style= "width:100%" class="colwidths-given docutils center" border="1">
+  <colgroup>
+  <col width="14%">
+  <col width="19%">
+  <col width="14%">
+  <col width="19%">
+  <col width="14%">
+  <col width="19%">
+  </colgroup>
+  <tbody valign="top">
+  <tr class="row-odd"><td>1</td>
+    <td>mónó-</td>
+    <td>5</td>
+    <td>penta-</td>
+    <td>9</td>
+    <td>nóna-</td>
+  </tr>
+  <tr class="row-even"><td>2</td>
+    <td>dí-</td>
+    <td>6</td>
+    <td>hexa-</td>
+    <td>10</td>
+    <td>deca-</td>
+  </tr>
+    <tr class="row-odd"><td>3</td>
+      <td>trí-</td>
+      <td>7</td>
+      <td>hepta-</td>
+      <td>11</td>
+      <td>undeca-</td>
+    </tr>
+    <tr class="row-even"><td>4</td>
+      <td>tetra-</td>
+      <td>8</td>
+      <td>octa-</td>
+      <td>12</td>
+      <td>dódeca-</td>
+    </tr>
+  </tbody>
+  </table>
+
+Eina breyting á þessu, er ef seinna frumefnið byrjar á sérhljóð, þá er sleppt -a eða -ó endingu í forskeyti. Einnig er ekki vaninn að byrja nafn á mónó-, þ.e. ekki þarf að tilgreina að það sé eitt atóm af fyrra frumefni.
+
+.. tip::
+
+ **Hvert er nafn** :math:`SF_6` **og** :math:`OsO_4`? **Hver er efnaformúla koltetraklóríðs?**
+
+ - :math:`SF_6` er brennisteinshexaflúoríð
+ - :math:`OsO_4` er osmíumtetroxíð. Hérna er sleppt -a í endanum á forskeyti.
+ - Koltetraklóríð er :math:`CCl_4`
+
+Jónatengi
+---------
+
+Frumefni eltast við að uppfylla átturegluna, þ.e. hafa átta gildisrafeindir. Frumefni í flokki alkalímálma hefur eina gildisrafeind, en frumefni í flokki halógena hefur sjö. Alkalímálmurinn vill losa sig við þessa einu rafeind til þess að fá stöðuga rafeindahýsingu eðalgastegundurinn á undan.
+Sambærilega vill halógen fá seinustu rafeindina til að fá átta gildisrafeindir og þar með rafeinaskipun eðalgastegundarinnar í lotunni. Þannig eiga efni til að senda rafeindir sín á milli og *jónast*.
+
+Dæmi um þetta væri t.d. *jónaefnið* borðsalt, :math:`NaCl` en þar hefur natríum gefið klóríð rafeind.
+Natríum jónin verður við það plúshlaðin en klóríð jónin neikvætt hlaðin. Þetta er táknað sem :math:`Na^+` og :math:`Cl^-`.
+
+Þessi mismunur í hleðslu myndar *rafkrafta* sem heldur jónunum saman. Jónaefnið sem heild er þá með hlutlausa hleðslu.
+
+.. tip::
+
+ **Hver er rafeindahýsing** :math:`Na^+` **og** :math:`Cl^-`?
+
+  .. math::
+    \begin{array}{ c | c | c | c }
+    Na & Na^+ &Cl &Cl^-\\
+      \hline
+    [Ne]3s^1 &[Ne] & [Ne]3s^2 3p^5 & [Ne]3s^23p^6 \text{ eða } [Ar] \\
+    \end{array}
+
+ Þessi rafeindahýsing er mun fýsilegri og því eru alkalímálmar og halógenar mjög hvarfgjarnir og finnast sjaldan sem hreint frumefni.
+
+Þetta eru þó ekki einu gerðirnar af jónum, en jarðalkalímálmar s.s. kalsíum hafa tvær gildisrafeindir. Til þess að uppfylla átturegluna getur það gefið tvær rafeindir og fengið hleðsluna 2+, þ.e :math:`Ca^{2+}`.
+Til þess að kalsíum myndi jónaefni þarf því aðra jón með hleðsluna 2-, eða tvær jónir með hleðslu 1-, s.s. :math:`CaCl_2`.
+
+Hliðarmálmar get einnig jónast og tekið hleðslu á bilinu +1 til +4. Sum frumefni geta jafnvel myndað fleiri en eina gerð af jón, t.d. járn. Járn getur losað sig við 2 eða 3 rafeindir og því myndað bæði :math:`Fe^{2+}` eða :math:`Fe^{3+}`.
+
+Jónir geta einnig verið flóknari en stök frumefni og myndað þá *fjölatóma jónir* (e. polyatomic ions) eða *sameindajónir*, s.s. súlfat, :math:`SO_4^{3-}` eða ammóníum :math:`NH_4^+`.
+
+Jónir finnast sem vökvar og fast efni, en aldrei á gasfasa. Það er vegna þess að þau þurfa að mynda kristalgrind, þar sem jákvæðar jónir og neikvæðar eru á víxl. Þessa grind er ekki hægt að viðhalda sem gas. Vegna þessarar grindar eru jónaefni hörð og brothætt, á föstu formi.  Þau geta einnig verið uppleyst
+í vökva og leitt rafmagn. Þess má geta að afjónað vatn, þ.e. vatn með engum jónum í, leiðir *ekki* rafmagn. Vatn og rafmagn hefur lengi verið talið hættuleg blanda, en það er í raun jónirnar í vatninu og rafmagn.
+
+
+
+Nafnakerfi fyrir jónaefni
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jákvætt hlaðnar jónir eru kallaðar *katjónir* (e. cations), en neikvætt hlaðnar jónir *anjónir* (e. anions).
+
+Fyrir einatóma jónir, er auðvelt af gefa jónunum nafn. Katjónir fá enga endingu, en anjónir fá -íð (e. ide) endingu. Dæmi um þetta væri t.d. að kalsíum jónir og klóríð jónir
+mynda svo kalsíumklóríð. Þetta er eins og fyrir sameindir en munurinn er að ekki þarf að taka fram fjöldan af hvorri jón, heldur er hlutfallið gefið með hleðslunni.
+
+Fyrir þá hliðarmálma sem geta tekið mismunandi hleðslu er síðan venjan að tilgreina hleðslu með rómverskum stöfum í sviga eftir katjóninni. Til dæmis væri jónin :math:`Fe^{2+}` járn(II) og :math:`Pb^{4+}` blý(IV).
+Þetta er ekki gert fyrir þau frumefni sem jónast aðeins á einn hátt.
+
+Nafnakerfið fyrir *oxóanjónir* (.e oxyanions) er svo fylgjandi öðrum reglum, en það eru fjölatóma jónir, þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda
+af súrefni og tekur þá mismunandi endingar.
+
+Hægt er að líta á þetta sem svo að það sé grunnjón sem endar á *-at* (e.-ate). Ef það bætist við eitt súrefnisatóm, tekur jónin forskeytið *per-*. Ef fækkað er hins vegar um eitt súrefnisatóm
+fær jónin endinguna *-ít* (e. -ite), og ef fækkar er aftur um súrefnsatóm, fær jónin forskeytið *hýpó-* (e.hypo). Þetta skýrist eflaust betur í töflu fyrir neðan:
+
+.. table::
+  :widths: 5 7 5 7 5 7 5
+
+  +------------------------------+--------------------------+--------------------------+----------------------------+
+  |             hýpó-...-ít      |          -ít             |           -at            |   per-...-at               |
+  +=================+============+=================+========+=================+========+=================+==========+
+  | :math:`ClO^-`   | hýpóklórít | :math:`ClO_2^-` | klórít | :math:`ClO_3^-` | klórat | :math:`ClO_4^-` | perklórat|
+  +-----------------+------------+-----------------+--------+-----------------+--------+-----------------+----------+
+  | :math:`BrO^-`   | hýpóbrómít | :math:`BrO_2^-` | brómít | :math:`BrO_3^-` | brómat | :math:`BrO_4^-` | perbrómat|
+  +-----------------+------------+-----------------+--------+-----------------+--------+-----------------+----------+
+  |:math:`PO_2^{3-}`| hýpófosfít |:math:`PO_3^{3-}`| fosfít |:math:`PO_4^{3-}`| fosfat |                            |
+  +-----------------+------------+-----------------+--------+-----------------+--------+----------------------------+
+  |:math:`SO_2^{2-}`| hýpósúlfít |:math:`SO_3^{2-}`| súlfít |:math:`SO_4^{2-}`| súlfat |                            |
+  +-----------------+------------+-----------------+--------+-----------------+--------+----------------------------+
+  |                              |:math:`NO_2^{-}` | nítrít | :math:`NO_3^{-}`| nítrat |                            |
+  +------------------------------+-----------------+--------+-----------------+--------+----------------------------+
+  |                                                         |:math:`CO_3^{2-}`|karbónat|                            |
+  +---------------------------------------------------------+-----------------+--------+----------------------------+
+
+
+
+Þessi listi er ekki tæmandi og athuga ber að ekki er til allar fjórar jónir fyrir öll efni. Þessi nafnagift er byggð á
+*oxunartölu* (e. oxidation state) frumefnisins sem stendur með súrefninu.
+
+Oxunartölur
+-----------
+Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
+jónarinnar en fyrir sameindir með samgild efnatengi, er það ekki. Munurinn er í raun sá að þrátt fyrir að hafa gefið af
+sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið.
+
+Það er því oft auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili, og getur
+tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms eykst er það að *oxast*, en *afoxast* þegar hún lækkar.
+
+.. tip::
+  **Í svokölluðum oxunar-afoxunar hvörfum er annað efnið að oxast en hitt að afoxast. Dæmi um þetta er t.d.**
+
+  .. math::
+    Zn(s)+2H^+ \rightarrow Zn^{2+}+H_2(g)
+
+  **Hvort er sinkið, eða vetnið að oxast, og hvort er að afoxast?**
+
+  Oxunartala sinks er 0 í byrjun en verður +2. Það er því að *oxast*.
+
+  Oxunartala vetnis fer úr +1 í 0, og er því að *afoxast*
+
+Greina oxunartölu atóms í sameind
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hægt er að sjá allar möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
+en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglur:
+
+1. Oxunartala hreins frumefnis, s.s. :math:`Al(s)` eða tvíatóma sameind, s.s. :math:`H_2` er alltaf 0.
+
+2. Oxunartala einatóma jóna er jöfn hleðslu hennar, en fyrir fjölatóma jónir eru samanlagðar oxunartölur jafnar
+   hleðslu jónarinnar. Fyrir fjölatóma sameindir eru samanlagðar oxunartölur 0.
+
+3. Oxunartala jóna alkalímálma er alltaf +1 en oxunartala jarðalkalímálma er alltaf +2.
+
+4. Oxunartala súrefnis er yfirleitt -2, með tvær undartekningar þó. Ef súrefnið myndar *peroxíð* s.s. :math:`H_2O_2` hafa bæði súrefnisatómin
+   oxunartölu -1. Ef súrefni er bundið við flúor getur það einnig tekið oxunartölu +1.
+
+5. Oxunartala vetnis er yfirleitt +1, en vetni getur myndað hýdríð þegar það tengist málmi og fengið oxunartölu -1.
+
+6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar
+   þeir tengjast súrefni eða flúor.
+
+.. tip::
+
+  **Hver er oxunartala kolefnis í natríum bíkarbónati,** :math:`NaHCO_3` **, betur þekkt sem matarsódi?**
+
+  Sameindin hefur enga hleðslu og því þurfa samanlagðar oxunartölur að vera jafnar 0. Nú er hægt að gefa öllum
+  atómum nema kolefninu oxunartölu, og finna þá hvað kolefnið þarf að vera til að summan sé jöfn 0.
+
+  - Natríum er alkalímálmur og hefur því oxunartölu +1
+  - Vetnið er ekki í málmtengi og og hefur því oxunartölu +1
+  - Súrefnið myndar ekki peroxíð, né er bundið flúor, svo það hefur oxunartölu -2.
+
+  Nú er hægt að setja upp jöfnuna:
+
+  .. math::
+    1 + 1 + C + 3(-2)=0
+
+  Með því að leysa fyrir C fæst að oxunartala kolefnis þarf að vera *4*.
+
+
+Málmtengi
+---------
+
+Málmatóm tengjast hver öðrum með svokölluðum *málmtengjum* (e. metallic bonding). Þá gefa málmarnir frá sér rafeindir sem ferðast nánast frjálsar um. og halda plúshlöðnu málmatómunum saman. Þetta myndar
+því eins konar fylkingu af katjónum í sjó af rafeindum. Þetta er ekki hárrétt lýsing, en dugar í bili. Þetta er ólíkt hinum efnatengjunum að því leyti að ekki þarf ákveðin hlutföll af efnum. Þessi tengi leiða af sér *fimm* einkennandi eiginleika.
+
+Góð varmaleiðni
+  Varmi er í raun hreyfiorka atóma, og hiti er þá hve hratt atómin hreyfast. Þegar atóm hitna, geta þau hitað atóm í kringum sig með árekstrum, en við árekstra dreifist varmaorkan. Í málmtengjum eru atómin þétt saman og frjálsari. Þar af leiðandi
+  eru árekstrar örir og málmar hafa mikla varmaleiðni.
+
+Góð rafleiðni
+  Rafmagn er í raun bara flutningur á rafeindum, en rafeindir geta ferðast nánast frjálsar í málmtengjum. Því er góð rafleiðni í málmum.
+
+Mótanleiki
+  Þar sem að málmatóm mynda ekki hefðbundin efnatengi sín á milli í kristalbyggingunni, er hægt að móta málma án þess að þeir brotni. Losaralegu tenglsin milli katjónanna og rafeindar geta brotnað og endurnýjað sig auðveldlega annars staðar.
+
+Gljái
+  Hægt er að pússa upp málma svo að ysta lag "rafeindasjávarins" endurkasti ljósi. Málmar eru ógegnsæir þegar þeir ná ákveðnari lágmarksþykkt.
+
+Hár eðlismassi, sem og hátt bræðslumark og suðumark.
+  Málmatómin liggja þétt saman sem veldur háum eðlismassa. Málmtengin eru einnig í heildina sterk og því þarf mikinn hita til að rjúfa þau. Þess vegna er bræðslumark og suðumark málma hátt. Undantekning á þessu er *kvikasilfur*, en
+  það er eini málmurinn sem er fljótandi við stofuhita.
+
+Millisameindakraftar
+--------------------
+
+Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum. Helstu kraftarnir eru *tvípóls-tvípóls kraftar*, *jón-tvípól kraftar*, *London kraftar* og *vetnistengi*.
+
+
+Tvípóls-tvípóls kraftar
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól.
+
+
+Fasar
+-----

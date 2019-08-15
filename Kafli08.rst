@@ -1,158 +1,510 @@
-Skriðþungi
-==========
+Varmaefnafræði
+==============
 
-Hugsum okkur hlut sem hefur fastan massa :math:`m`. Nú verður þessi hlutur fyrir einhverjum kröftum, en skv. fyrsta lögmáli Newtons getum við skrifað:
+
+Orka
+----
+*Orka* (e. energy) er almennt skilgreind sem geta til að framkvæma vinnu eða mynda *varma* (e. heat). :math:`\require{mhchem}` ::math:`\require{cancel}`
+
+Orka getur tekið á sig mörg form, s.s. *hreyfiorku* (e. kinetic energy), *varmaorku* (e. thermal energy), *stöðuorku* (e. potential energy) sem og *efnaorku* (e. chemical energy). Þessi form af orku tengjast með *fyrsta lögmáli varmafræðinnar* (e. First Law of Thermodynamics) sem segir til um að ekki sé hægt að búa
+til, né eyða orku. Einungis er hægt að breyta um form á henni. SI-einingin fyrir orku er *Joule*, táknað :math:`\text{J}`
+
+Til þess að ræða eiginleika orku er gagnlegt að skilgreina *kerfi* (e. system) og *umhverfi* (e. surroundings)
+
+Kerfi
+  Kerfið er viðfangsefnið sem verið er að skoða. Þetta gæti t.d. verið kaffibolli ef verið væri að fylgjast með hitanum í honum.
+  Kerfi er því í raun einfaldlega það sem er skilgreint sem kerfi.
+
+Umhverfi
+  Umhverfi umlykur kerfið. Tæknilega séð myndi það þýða allur alheimurinn að frádregnu kerfinu sem var skilgreint.
+
+Kerfi kallast *opið* þegar efni og orka get flætt á milli kerfis og umhverfis. Kerfi kallast *lokað* þegar einungis orka getur flætt á milli, en ekki varmi.
+Að lokum kallast kerfi *einangrað* ef hvorki efni né orka getur flætt til eða frá umhverfis.
+
+Varmaorka
+---------
+
+Þegar hlutir eru sagðir hitna eru í raun atóm og sameindir að hreyfast meira. Varmaorka hluta má því líta á sem hreyfiorka eindanna.
+
+Hitastig er því í raun ekkert annað en mælikvarði á hve hratt eindir hreyfast.
+
+Varmi er orka sem flyst til eða frá kerfis, þar sem þessi flutningur er knúinn af *hitamismun*. Varmi flæðir *alltaf* frá heitari aðstæðum til þeirra kaldari.
+
+Því meiri varmi sem berst í kerfi, því meira hitnar það. Þetta gerist í ákveðnu hlutfalli en þetta hlutfall er kallað *varmarýmd* (e. heat capacity) og er breytilegt fyrir hvert og eitt kerfi.
+
+Varmarýmd getur tekið mismunandi gildi og fer það eftir þáttum svo sem:
+
+- Hvaða efni er í kerfinu
+- Hve mikið af efni er í kerfinu
+
+Til að samræma þessi gildi er skilgreindur *eðlisvarmi* (e. specific heat). Hann er skilgreindur fyrir hvert og eitt efni, í stað kerfis. Eðlisvarmi er þá orkan sem þarf til að hita eitt gramm af efni um eina gráðu celsius eða kelvin.
+Eðlisvarmi hefur því eininguna
 
 .. math::
-  \sum \overline{F} = m\overline{a}
 
-þar sem :math:`\overline{a}` er hröðunin sem hluturinn fær vegna kraftanna. Þar sem hröðun er tímaafleiða hraða, :math:`\overline{a} = \frac{d\overline{v}}{dt}`, þá getum við skrifað:
+    \mathrm{J \left/ \middle( g\! \cdot \!K \right)}  \quad \text{eða} \quad \mathrm{J \left/ \middle( g  \! \cdot \!  \!°C \right)}
 
-.. math::
-  \sum \overline{F} = m \frac{d\overline{v}}{dt}
-
-Við skilgreinum *skriðþunga* hlutar á hreyfingu sem margfeldi massans og hraðans sem hann er á.
+Þá er einnig notað *kaloría* (e. calorie) yfir eðlisvarma vatns, þ.e.
 
 .. math::
-  \overline{p}=m\overline{v}
 
-Massamikill hlutur á miklum hraða hefur því mikinn skriðþunga á meðan massalitlir hlutir á hægri hreyfingu mjög lítinn.
+  1 \, \mathrm{cal} = 4,186 \, \frac{ \mathrm{J}}{\text{g}_{\mathrm{H_2O}} \! \cdot \! \mathrm{K}}
 
+Til að finna varmarýmd kerfis þarf að leggja saman eðlismassa allra efna, margfaldaðan við massa af hverju efni. Jafnan sem tengir varmaorku við hitastigsbreytingu er:
 
+.. math::
+
+  q= m\cdot c \cdot \Delta T
+
+Hér táknar :math:`q ` varmaorku, :math:`m` massa efnis, :math:`c` er eðlisvarmi og :math:`\Delta T` er hitastigsbreyting. Einnig er hægt að taka eðlisvarma og massann saman og nota varmarýmd, :math:`C`, í staðinn:
+
+.. math::
+
+  q = C \cdot \Delta T
 
 .. tip::
-  :math:`m=1600` kg bíll keyrir áfram á :math:`v=5` m/s.
-  Skriðþungi hans er :math:`P=mv= 1600\text{ kg}\cdot 5 \text{m} /\text{s} = 8000 \text{ kg } \text{m} /\text{s}`.
-  Hér er massamikill hlutur á hægri hreyfingu. Væri bíllinn að fara tvöfalt hraðar myndi skriðþunginn tvöfaldast líka.
 
-  Byssukúla hefur hraðann :math:`v=965` m/s og hefur massann :math:`4.2` g :math:`=0.0042` kg.
-  Skriðþungi hennar er þá  :math:`P=mv =0.0042\text{kg} \cdot 965\text{m} /\text{s} = 40.5  \text{ kg } \text{m} /\text{s}`. Hér er massalítill hlutur á miklum hraða, næstum tvöföldum hljóðhraða.
+ **Hvað þarf mikla varmaorku til að hita 13,4 g af vatni frá 3,0 °C til 100 °C.**
 
-Einnig gildir að summa kraftanna sem verka á hlut er jöfn breytingunni sem verður á skriðþunga hlutarins.
+ Hér þarf að nota jöfnuna að ofan og stinga inn gildunum. Eðlisvarmi vatns er fengin úr skilgreiningu
+ á kalóríu.
+
+ .. math::
+
+  \begin{aligned}
+  q &= m\cdot c \cdot (T_f - T_i)\\
+    &= 13,4 \text{g} \cdot 4,186  \, \frac{ \mathrm{J}}{\text{g} \! \cdot \! \mathrm{K}} \cdot (100°C - 3°C)\\
+    &= 5400 \text{ J}\\
+    &= 5,4 \text{ kJ}
+  \end{aligned}
+
+
+
+Efnaorka
+--------
+
+Efnaorka er orkan sem býr í efnatengjum sameindar en almenna reglan er:
+
+- Orka losnar þegar efnatengi eru mynduð.
+- Það kostar orku að rjúfa efnatengi.
+
+Fasabreyting
+~~~~~~~~~~~~
+
+Efni getur gert meira en hitnað, en við ákveðin hitastig skipta þau um fasa. Þetta er vel þekkt úr daglegu lífi þar sem við hefðbundinn þrýsting við sjávarmál, þ.e. 1 atm, bráðnar klaki við 0 °C og vatn sýður við 100 °C.
+
+Það sem gerist þegar klaki bráðnar er að vatnssameindirnar geta ekki hreyft sig hraðar í kristalbygginu. Til þess að geta tekið við meiri varma, rjúfa sameindirnar kristaltengin sín á milli og myndað vökva. Þegar vatn sýður aftur á móti, rjúfa sameindirnar alla millisameindakrafta, og hver sameind fer sína leið.
+
+Þetta kostar tiltölulega mikla orku að rjúfa öll þessi tengi en það kostar 334 J/g að bræða klaka en 2265 J að láta gramm af vatni gufa upp. Eins og sjá má eru þessi gildi mun stærri en 4,2 J/g sem kostar að hita vatn um eina gráðu.
+
+Innri orka
+----------
+
+Innri orka kerfis er öll uppsöfnuð sú orka sem býr í kerfinu, s.s. varmaorka og efnaorka. Innri orkan er almennt táknuð með :math:`U` en ekki er hægt að mæla tölulegt *algildi*  (e. absolute value) fyrir innri orku. Hinsvegar er hægt að mæla breytingu í innri orku og því er oftar talað um :math:`\Delta U`
+
+Orka var skilgreind sem hæfileiki til að framkvæma vinnu eða mynda varma, svo því er hægt að setja upp jöfnu fyrir innri orku:
 
 .. math::
-  \sum \overline{F} = \frac{d\overline{p}}{dt}
 
-Þetta þýðir því að það ef koma á massamiklum hlut á mikla hreyfingu úr kyrrstöðu þarf mikinn kraft.
-Hugsaðu þér að þú sért að versla í innkaupakerru. Í upphafi ferðarinnar er kerran tóm og hún lætur auðveldlega að stjórn. Eftir því sem vörurnar safnast í hana, þyngist hún og það verður sífellt erfiðara (krefst meiri krafts) að koma henni af stað. Að sama skapi er erfitt að stoppa hana sé hún komin á skrið.
+  \Delta U = q + w
 
-Atlag
+þar sem :math:`q` er varmi og :math:`w` er vinna. Orka kerfisins eykst ef :math:`\Delta U` er jákvætt, en til þess að það gerist þarf varmi að berast í kerfi eða vinna unnin á því.
+
+.. figure:: ./myndir/varmi/orka.png
+  :width: 80%
+  :align: center
+
+Innri orka er dæmi um *ástandsfall*, en varmi og vinna eru ekki ástandsföll.
+
+Ástandsfall
+~~~~~~~~~~~
+
+Ástandsföll (e. state function) er þegar einungis lokaástand og upphafsástand skiptir máli.
+
+Ef litið er á sunnudagsgöngu frá fjöru upp á tind Esjunnar, þá getur verið sniðugt að velja vel hvaða leið skal fara. Ef það er þó verið að tala um hæð yfir sjávarmáli, þá skiptir leiðin aftur á móti engu máli. Sama hvað hlið fjallsins er valin, er heildarhækkunin 914 metrar. Hæð yfir sjávarmáli er einmitt ástandsfall.
+
+Fyrir ástandsföll, líkt og innri orku er hægt að reikna breytinguna með jöfnunni:
+
+.. math::
+
+  \Delta U = U_f - U_i
+
+Þetta virðist algild jafna en fyrir föll sem eru ekki ástandsföll er jafnan ekki algild. Lengd ferðar er t.d. ekki ástandsfall.
+
+Ef keyrt er frá Reykjavík til Hafnarfjarðar sýnir kílómetramælirinn mismunandi tölur, eftir því hvort það var komið við á Egilsstöðum eða ekki.
+
+Vinna
 -----
-Hugsum okkur hlut sem verður fyrir kröftum (sem hafa summuna :math:`\sum \overline{F}`) frá tímanum :math:`t_1` til tímans :math:`t_2`. Þá er *atlag* kraftsins margfeldi kraftanna við lengd tímabilsins:
+
+Vinna getur verið ýmis konar, en í efnafræði er einna helst talað um *þrýstings-rúmmáls vinnu* (e. pressure-volume work). Þetta er einnig kallað P-V vinna, til styttingar.
+
+Í daglegu lífi sést þessi vinna einna helst sem bruni eldsneytis í bílvélum. Þegar eldsneyti
+brennur eykst þrýstingur. Fyrir hreyfanlegan stimpil (e. piston) þá eykur hann rúmmálið svo að þrýstingurinn
+verður jafn þrýstingnum umhverfis stimplinum.
+
+.. figure:: ./myndir/varmi/stimpill.svg
+  :width: 100%
+  :align: center
+
+Jafnan fyrir P-V vinnu er þá:
 
 .. math::
-  \overline{J} = \sum \overline{F}(t_2-t_1) = \sum \overline{F} \Delta t
 
-Ef hluturinn verður fyrir sama kraftinum allt tímabilið þá er atlagið jafnt breytingunni á skriðþungnanum:
+  w= -P\Delta V
+
+Þar sem :math:`P` er ytri þrýstingur bullunar, og :math:`\Delta V` er breyting á rúmmáli. Formerkin gæti ruglað marga, en jákvæð vinna þýðir að vinna er *unnin* á kerfinu. Þegar rúmmál eykst, er kerfið að vinna vinnu á umhverfið, en til að vinnna vinnu á kerfið, þarf að þjappa rúmmálinu saman.
+
+Þetta er sambærilegt og fyrir gorma, þar sem þarf að beita afli til að þjappa honum saman. Með því er verið að beita vinnu á gorminn og auka innri orku hans. Þessi innri orka losnar svo út í umhverfið þegar gorminum er sleppt og hann nær upphaflegu stöðu.
+
+Vermi
+-----
+
+Vermi (e. enthalpy) er ástandsfall sem er hvað mest notað í varmaefnafræði.
+
+Ef litið er aftur á jöfnuna fyrir innri orku, en vinnan einskorðuð við P-V vinnu:
 
 .. math::
-  \overline{J} = \overline{p_2} - \overline{p_1} = \Delta \overline{p}
+
+  \begin{aligned}
+  \Delta U&=q+w\\
+   \Rightarrow \Delta U&=q-P\Delta V \\
+   \Rightarrow \quad \, q&= \Delta U+P \Delta V\\
+   \end{aligned}
+
+Þessi varmi, :math:`q` er kallaður vermi, og táknaður með :math:`\Delta H` til aðgreiningar. Þetta er varminn sem losnar við efnahvarf. Vermi skiptist í tvennt:
+
+:math:`\Delta H<0`
+  Þegar vermisbreytingin er neikvæð, gefur efnahvarfið frá sér orku og kallast *útvermið* (e. exothermic)
+
+:math:`\Delta H>0`
+  Þegar vermisbreytingin er jákvæð, tekur efnahvarfið til sín orku og kallast *innvermið* (e. endothermic)
+
+Sambærilegt og fyrir innri orku er ekki hægt að mæla algildi, heldur er notað :math:`\Delta H`.
+Hægt er að finna töflugildi fyrir efni, þar sem stöðugasta form efnisins er skilgreint sem núllpunktur.
+Dæmi um það er t.d. :math:`\ce{H2}` og :math:`\ce{N2}`. Þessar töflur má finna í mörgum kennslubókum sem og á netinu, s.s. `hér <https://www.chem.wisc.edu/deptfiles/genchem/netorial/modules/thermodynamics/table.htm>`_
+
+Í töflum er almennt tekið fram :math:`\Delta H_f°` en :math:`°` stendur fyrir staðalaðstæður, þ.e. 25°C og 1 atm þrýsting. :math:`_f` stendur fyrir *formation*, eða *myndun*. :math:`\Delta H_f°` er því kallað *staðalmyndunarvermi* (e. standard heat of formation)
+
+Finna vermisbreytingu fyrir efnahvarf
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jafnan til að finna vermisbreytingu fyrir efnahvarf er:
+
+.. math::
+
+	\Delta H°=\sum n_p \Delta H_f°(\text{myndefni})-\sum n_r \Delta H_f°(\text{hvarfefni})
+
+Þetta er ekki mjög ítarleg jafna en ef litið er á efnahvarfið:
+
+.. math::
+
+  \ce{aA + bB -> cC + dD}
+
+Fyrir þetta efnahvarf er vermisbreytingin:
+
+.. math::
+
+ \Delta H°=\Big( \ce{c} \Delta H_f° ( \ce{C} ) + \ce{d} \Delta H_f°( \ce{D} )  \Big) - \Big( \ce{a} \Delta H_f°( \ce{A} ) + \ce{b} \Delta H_f°( \ce{B} ) \Big)
 
 .. tip::
-  Hvað þarf að beita miklum (jöfnum) krafti til þess að stöðva 50 kg innkaupakerru sem fer á 6 m/s, ef það þarf að takast á 3 sekúndum?
 
-  .. figure:: ./myndir/skrth/kerra.svg
-    :align: center
-    :width: 60%
+ **Með því að nota gögnin frá** `þessari <https://www.chem.wisc.edu/deptfiles/genchem/netorial/modules/thermodynamics/table.htm>`_ **síðu, hver er varminn sem myndast við bruna metans við 25°C:**
 
-  Skriðþunginn í upphafi er :math:`p_1 = mv_1 = 50 \text{ kg} \cdot 6 \text{m/s} = 300 \text{kg m/s}` . Skriðþunginn í lokin er :math:`p_2 = 0` því :math:`v_2=0`. Við gerum ráð fyrir að aðeins einn kraftur verki, :math:`\overline{F}`, svo :math:`\sum \overline{F} = \overline{F}` . Þar sem krafturinn verkar bara í einni vídd þá dugar að hugsa bara um stærð vigursins, :math:`F`. Hér er :math:`\Delta t = 3 \text{ s}`
+ .. math::
+
+  \ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(g)}
+
+ Byrjum á að setja upp jöfnuna:
+
+ .. math::
+
+  \Delta H° = \Delta H_f° ( \ce{CO2(g)})  + 2 \Delta H_f°(\ce{H2O(g)}) - \Big( \Delta H_f° ( \ce{CH4(g)})   +2\Delta H_f° ( \ce{O2(g)}) \Big)
+
+ Nú er hægt að leita upp gildum fyrir þessar tölur, en eins og sjá má fæst :math:`\Delta H°(\ce{O2})=0` þar sem :math:`\ce{O2}` er stöðugasta form súrefnis. Þá fæst:
+
+ .. math::
+
+   \begin{aligned}
+   \Delta H° &= -393.51 \text{ kJ/mól} -2 \cdot 241.82 \text{kJ/mól} - \Big(-74.81 \text{ kJ/mól} + 0 \text{ kJ/mól})\\
+             &= -802,34 \text{ kJ/mól}
+   \end{aligned}
+
+ Fyrir hvert mól af metani sem er brennt, losnar því 802,34 kJ af varma út í umhverfið. Hafa ber þó í huga að þessar tölur eru einungis fyrir 25°C, en ólíklegt er að það hitastig
+ haldi sér í bruna.
+
+Þessir reikningar eru gerðir mögulegir af *Lögmáli Hess*
+
+Lögmál Hess
+~~~~~~~~~~~
+
+Lögmál Hess segir til um að ekki skipti máli fyrir vermisbreytingu, hvort að hvarfið er gert í mörgum skrefum eða ekki. Þetta er vegna þess að vermi er ástandsfall, og bara upphafs- og lokagildi skipta máli.
+
+.. figure:: ./myndir/varmi/hess.svg
+  :width: 60%
+  :align: center
+
+Þar sem ekki skiptir máli hvora leið er farið að ofan, er hægt að setja fram jöfnuna:
+
+.. math::
+
+  \Delta H_1 + \Delta H_2 + \Delta H_3 + \dots = \Delta H
+
+Í viðbót við lögmál Hess, er gagnlegt að hafa tvær eftirfarandi reglur í huga:
+
+Vermisbreyting er í línulegu sambandi við fjölda móla.
+  Þetta þýðir að ef margfaldað er fjöldann af mólum, margfaldast vermisbreytingin með sömu tölu.
 
   .. math::
+
     \begin{aligned}
-    J=F\Delta t &= \Delta p  = p_2-p_1\\
-    F &= \frac{p_2-p_1}{\Delta t} \\
-     &= \frac{0-300 \text{kg m/s}}{3 \text{ s}} \\
-     &= -100 \text{ N}
+    \ce{2N2 + O2 &-> 2N2O}   &    \Delta H°=66,36 \text{ kJ/mól}\\
+    \ce{N2 + \frac12 O2 &-> N2O}   &    \Delta H°=33,18 \text{ kJ/mól}
     \end{aligned}
 
-  Krafturinn fær neikvætt gildi því hann bendir á móti hreyfingunni.
+Vermisbreyting fær öfugt formerki ef hvarfið snýst við.
+  .. math::
+
+    \begin{aligned}
+    \ce{2N2O &-> 2N2 + O2}   &    \Delta H°=-66,36 \text{ kJ/mól}\\
+    \end{aligned}
+
+
+.. tip::
+
+ **Hvert er** :math:`\Delta H` **fyrir myndun metans úr kolmónoxíð?**
+
+ .. math::
+
+  \ce{CO(g) + 3H2(g) -> CH4(g) + H2O(g)}
+
+ **Gefið er** :math:`\Delta H` **fyrir eftirfarandi hvörf:**
+
+ .. math::
+
+  	 \begin{aligned}
+     \ce{2C(s,graphite) + O2(g) &-> 2CO(g)}  &  \Delta H_1&=-221,05 \text{ kJ/mól} \\
+     \ce{C(s,graphite) + 2H2(g) &-> CH4(g)}  &  \Delta H_2&=-74.81 \text{ kJ/mól}\\
+     \ce{2H2(g) + O2(g) &-> 2H2O(g)}  &  \Delta H_3&= -483,64\text{ kJ/mól}\\
+      \end{aligned}
+
+ Til þess að mynda efnahvarfið, þarf að raða upp þessum hvörfum svo þau myndi upphaflega hvarfið. Til þess að gera það þarf að margfalda og snúa við hvörfunum svo að kolmónoxíð, vatn og metan sé í réttum hlutföllum og réttum megin við örina:
+
+ .. math::
+
+   \begin{aligned}
+   \ce{ CO(g) &->\bcancel{C(graphite)} + \bcancel{\frac 12 O2(g)} }  &  -\frac 12 &\Delta H_1 \\
+   \ce{\bcancel{C(graphite)} + 2H2(g) &-> CH4(g)}  &  &\Delta H_2\\
+   \ce{H2(g) + \bcancel{\frac 12 O2(g)} &-> H2O(g)}  &  \frac 12&\Delta H_3\\
+   \hline
+   \ce{CO(g) + 3H2(g) &-> CH4(g) + H2O(g)}& \mkern-36mu -\frac 12 \Delta H_1 + \Delta H_2 + \frac 12&\Delta H_3
+   \end{aligned}
+
+ Þá er vermisbreytining fyrir hvarfið:
+
+ .. math::
+
+  \begin{aligned}
+  \Delta H &= -\frac 12 \Delta H_1 + \Delta H_2 + \frac 12\Delta H_3\\
+           &= -\frac 12(-221,05 \text{ kJ/mól}) + (-74.81 \text{ kJ/mól}) + \frac 12(-483,64\text{ kJ/mól})\\
+           &= -427,16 \text {kJ/mól}
+  \end{aligned}
+
+Óreiða
+------
+
+Óreiða (e. entropy) er mælikvarði á sjálfgengni. Sumir hlutir gerast aðeins í aðra áttina, líkt og þegar sullast úr mjólkufernu.
+Þó beðið væri til eilífðarnóns, er stjarnfræðilega ólíklegt að mjólkin safnist aftur í fernuna að sjálfu sér. Heitur kaffibolli kólnar, en hitnar aldrei að sjálfu sér.
+Þetta er afleiðing annars lögmál varmafræðinnar:
+
+Annað lögmál varmafræðinnar
+  Heildaróreiða alheimsins einungis eykst
 
 
 
-Varðveisla
-----------
-Ef summa allra kraftanna sem verka á kerfi er núll, þá er breyting heildarskriðþunga kerfis með tilliti til tíma líka jafnt núll. Það merkir að heildarskriðþungi kerfis breytist ekki, en skriðþungar hlutanna innan kerfisins geta breyst, en summa þeirra er alltaf sú sama.
+Óreiða er skilgreind út frá fjölda míkróástanda (e. microstate). Ef opnað er fyrir súerfniskút, lekur súrefnið út, þangað til að þrýstingurinn er jafn í kútnum og í andrúmsloftinu.
+Ef ein kúla á myndinni táknar eina sameind, má sjá að flest míkróástönd fæst þegar jafn margar sameindir eru utan og innan kútsins. Þess vegna leitast þrýstingur við að jafnast út.
 
-.. note::
-  Skriðþungi er varðveittur ef engir kraftar koma utan frá.
-
-Hugsum okkur tvær kúlur sem renna á núningslausu borði. Þær hafa ekki endilega sama massann en önnur þeirra (2) er kyrr á meðan hin (1) hefur hraðann :math:`v_0`. Þá er skriðþungi kerfisins :math:`m_1v_0`. Hvað gerist þegar þær rekast saman?
-
-.. figure:: ./myndir/skrth/skrth1.svg
+.. figure:: ./myndir/varmi/astond2.png
+  :width: 100%
   :align: center
-  :width: 60%
 
-Áður en kúlurnar skella saman þá er heildarskriðþungi kerfisins margfeldi :math:`v_0` við massa kúlu 1. Við áreksturinn varðveitist skriðþunginn, svo við vitum að skriðþunginn eftir áreksturinn er sá sami og fyrir. Þegar seinni kúlan tekur við öllum skriðþunganum og fær hraðann :math:`v_2` á meðan hin stöðvast þá er talað um *fjaðrandi árekstur*.
+Óreiða er táknuð með :math:`S` og míkróástönd með :math:`\Omega`. Þessi hugtök tengjast svo með jöfnunni:
 
-.. note::
-  Í fjaðrandi árekstrum er bæði skriðþungi og hreyfiorka kerfisins varðveitt.
+.. math::
+  S=k_B\text{ln}(\Omega)
 
-.. figure:: ./myndir/skrth/skrth2.svg
+Þar sem :math:`k_B` er Boltzmann fastinn, þ.e. :math:`k_B = 1,38\times 10^{-23} \text{ J/K}`.
+
+Líkt og innri orka og vermi, er óreiða ástandsfall. Þá gildir:
+
+.. math::
+
+  \Delta S= S_f-S_i
+
+Óreiða frumefna og efnasambanda stefnir á núll við alkul, en það er einmitt *þriðja lögmál varmafræðinnar*.
+
+Óreiðan eykst með auknum hita, þrýstingi og rúmmáli, en einnig með fösum
+
+.. figure:: ./myndir/varmi/fasar.png
+  :width: 70%
   :align: center
-  :width: 60%
 
-Fyrst skriðþunginn er varðveittur þá er:
-
-.. math::
-  m_1 v_0 = m_2 v_2
-
-þ.a. hraði seinni kúlunnar eftir áreksturinn er:
-
-.. math::
-  v_2 = \frac{m_1 v_0}{m_2}
-
-Ef kúlurnar tvær hafa sama massann :math:`m_1=m_2` þá mun seinni kúlan fara áfram með hraðanum :math:`v_2=v_0`
-
--------------
-
-En hvað ef kúlurnar eru þannig gerðar að þær klístrist saman við áreksturinn? Þá er talað um *fullkomlega ófjaðrandi árekstur* og kúlurnar myndu ferðast áfram, klesstar saman, en með annan hraða en fyrir árekstur.
-
-.. note::
-  Í ófjaðrandi árekstrum er skriðþungi kerfisins varðveittur, en hreyfiorkan *ekki*.
-
-.. figure:: ./myndir/skrth/skrth3.svg
+.. figure:: ./myndir/varmi/fasar2.svg
+  :width: 40%
   :align: center
-  :width: 60%
 
-Hér er skriðþunginn líka varðveittur, svo:
+
+
+Óreiðubreyting efnahvarfa
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Aukin óreiða er drifkafturinn sem efnahvarf þarfnast til að gerast að sjálfu sér. Til þess að efnahvarf sé sjálfgengt þarf óreiða alheimsins að aukast, þ.e.
 
 .. math::
-  m_1v_0 = m_1v_1+m_2v_2 = (m_1+m_2)v_1
 
-því þær fara á sama hraða eftir áreksturinn :math:`v_1=v_2`. Því er hraðinn sem þær fara á:
+  \Delta S_{\text{alheimur}} =\Delta S_{\text{kerfi}} + \Delta S_{\text{umhverfi}} > 0
+
+Hægt er að reikna óreiðubreytingu við efnahvarf sambærilegt og fyrir vermi:
 
 .. math::
-  v_1=v_2 = \frac{m_1v_0}{m_1+m_2}
 
-Ef kúlurnar hafa sama massann :math:`m_1=m_2` þá er hraðinn sem kúlurnar ferðast saman á hálfur upprunalegi hraðinn: :math:`v_1=v_2=\frac12 v_0`.
+  \Delta S°=\sum n_p S°(\text{myndefni})-\sum n_r S°(\text{hvarfefni})
 
+Til að finna óreiðubreytinguna fyrir umhverfið, er ekki nóg að fletta upp í töflu, heldur einnig hitastigið í umhverfinu.
+Fyrir jafnan þrýsting er jafnan fyrir það:
+
+.. math::
+
+  \Delta S_{\text{umhverfi}} = \frac {\Delta H}T
+
+.. tip::
+
+ **Hver er óreiðubreyting við staðalaðstæður fyrir niðurbrot vetnisperoxíðs**
+
+ .. math::
+
+    \ce{2H2O2(l) -> O2(g) + 2H2O(l)}
+
+ Með því að nota sömu `síðu <https://www.chem.wisc.edu/deptfiles/genchem/netorial/modules/thermodynamics/table.htm>`_ og áður og fletta upp gildunum, fæst:
+
+ .. math::
+
+  \begin{aligned}
+  \Delta S° &= S°(\ce{O2(g)})+ 2S°(\ce{H2O(l)})- 2S°(\ce{H2O2(l)})\\
+            &= 205,138 \text{ J}/(\text{K}\!\cdot\! \text{mól})+ 2\cdot 69,91 \text{ J}/(\text{K}\!\cdot\! \text{mól}) -2\cdot 109,6 \text{ J}/(\text{K}\!\cdot\! \text{mól})\\
+            &=125,8 \text{ J}/(\text{K}\!\cdot\! \text{mól})
+  \end{aligned}
+
+Gibbs frí orka
 --------------
 
-Til er millistig af þessu tvennu: ófjaðrandi árekstur þar sem hreyfiorkan er ekki varðveitt, en hlutirnir ferðast ekki á sama hraða eftir árekstur.
-
-.. figure:: ./myndir/skrth/skrth5.svg
-  :align: center
-  :width: 45%
-
-Það getur gerst að fyrri kúlan ýti seinni af stað en haldi sjálf áfram. Þá þarf að gilda að samanlagður skriðþungi kúlnanna eftir áreksturinn sé jafn skriðþunganum fyrir áreksturinn:
+Í staðinn fyrir að reikna óreiðuna fyrir bæði kerfið og umhverfið, er það tekið saman í *Gibbs fría orku* (e. Gibbs free energy). Þetta er einnig ástandsfall og er táknað með :math:`G`, en jafnan fyrir gibbs fríu orku er:
 
 .. math::
-  m_1v_0 = m_1v_1+m_2v_2
 
-Þetta er jafna með tvær óþekktar stærðir, :math:`v_1` og :math:`v_2`. Því eru til *óendanlega margar* lausnir á þessu verkefni og við myndum þurfa meiri upplýsingar, t.d. að önnur kúlan endi á að fara þrefalt hraðar en hin (:math:`v_2 = 3v_1`) . Í raunveruleikanum myndi þetta ráðast af eiginleikum efnanna.
+    \Delta G = \Delta H-T\Delta S
 
-Það eru líka til lausnir þar sem fyrri kúlan fær hraða í gagnstæða átt og skoppar til baka. Þá er :math:`v_1<0`
-
-
-.. figure:: ./myndir/skrth/skrth4.svg
-  :align: center
-  :width: 60%
-
+Hérna er :math:`T` hitastigið í kelvin. Hagnaðurinn við að skilgreina þessa Gibbs fríu orku er að þetta er einfalt til að áætla sjálfgengni:
 
 .. math::
-  \begin{array}{ c | c }
-   \hline
-  \text{Fjaðrandi árekstur} & \text{Hreyfiorkan er varðveitt} \\ \hline
-  \text{Ófjaðrandi árekstur} & \text{Hreyfiorkan er ekki varðveitt} \\ \hline
-  \text{Fullkomlega ófjaðrandi árekstur} & \text{Hlutirnir ferðast áfram með sama hraða} \\ \hline
+
+  \begin{array}{cc}
+  \Delta G < 0  & \text{Sjálfgengt ferli}\\
+  \Delta G = 0  & \text{Ferli er við jafnvægi}\\
+  \Delta G > 0  & \text{Ósjálfgengt ferli}\\
   \end{array}
+
+.. figure:: ./myndir/varmi/gibbs.svg
+  :width: 40%
+  :align: center
+
+Þessi jafna er háð hitastigi og hvarf getur verið sjálfgengt einungis fyrir nógu há hitastig. Þetta er hægt að flokka í eftirfarandi tilfelli:
+
+.. math::
+
+  \begin{array}{cc|l}
+  \Delta H  & \Delta S & \text{Sjálfgengni}\\
+  \hline
+  +  &  - & \text{Nei}\\
+  +  &  + & \text{Já, við hátt hitastig}\\
+  -  &  - & \text{Já, ekki við hátt hitastig} \\
+  -  &  + & \text{Já}
+  \end{array}
+
+Einnig er hægt að finna töflugildin fyrir :math:`\Delta G_f°` og reikna fyrir efnahvarf, samsvarandi og áður:
+
+.. math::
+
+  \Delta G°=\sum n_p G_f°(\text{myndefni})-\sum n_r G_f°(\text{hvarfefni})
+
+Samsvarandi og fyrir vermi er :math:`\Delta G_f°=0` fyrir stöðugasta form efnisins.
+
+
+
+.. tip::
+
+ **Hvert er** :math:`\Delta G_f°` **fyrir bruna própansgas?**
+
+ .. math::
+
+  \ce{C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(g)}
+
+ Með því að nota enn á ný gögn `héðan <https://www.chem.wisc.edu/deptfiles/genchem/netorial/modules/thermodynamics/table.htm>`_, eru tvær aðferðir sem hægt er að nota. Byrjum á þeirri einfaldari.
+ Það fæst með því að reikna með jöfnunni:
+
+ .. math::
+
+  \begin{aligned}
+  \Delta G° &= \sum n_p G_f°(\text{myndefni})-\sum n_r G_f°(\text{hvarfefni})\\
+            &= 3(\Delta G_f°\ce{CO2})+4\Delta G_f°(\ce{H2O}) - \Big(\Delta G_f°(\ce{C3H8}) + 5\cancelto{0}{\Delta G_f°(\ce{O2})} \Big)\\
+            &= 3(-394,36 \text{ kJ/mól})+ 4(-228,57\text{ kJ/mól}) - (-23,49\text{ kJ/mól})\\
+            &= -2074 \text{ kJ/mól}
+  \end{aligned}
+
+ Hin aðferðin hefði verið að reikna :math:`\Delta H_f°` og  :math:`\Delta S°` fyrst. Það hefði gefið
+
+ .. math::
+
+  \begin{aligned}
+   \Delta H_f°&=-2044 \text{ kJ/mól}\\
+   \Delta S°&=100,9 \text{ J}/(\text{K}\!\cdot \! \text{mól})
+     \end{aligned}
+
+ Hér þarf að passa að einingarnar eru ekki þær sömu (:math:`\text{kJ}` og :math:`\text{J}`). Fyrir staðalaðstæður, er þá hægt að reikna:
+
+ .. math::
+
+    \begin{aligned}
+   \Delta G° &= -2044 \text{ kJ/mól} - 298,15 \text{ K}\cdot 100,9 \text{ J}/(\text{K}\!\cdot \! \text{mól})\cdot \frac{1 \text{ kJ}}{1000 \text{ J}}\\
+             &=-2074 \text{ kJ/mól}
+   \end{aligned}
+
+ Eins og sjá má, þá er vermið mun áhrifameira, við lág hitastig. Þetta hvarf er *sjálfgengt*.
+
+Virkjunarorka
+-------------
+
+Bruni própansgas er sjálfgengur, og hvarfið gengur hjálparlaust. Þrátt fyrir það, er hægt að blanda própangasi við súrefni í herbergi, án þess að kvikni í því.
+Það er vegna þess að hvarfið hefur *virkjunarorku* (e. activation energy). Efnin þurfa utanaðkomandi orku til að geta byrjað hvarfið. Þess vegna er ekki nóg að skrúfa frá gaskútnum á grillinu,
+heldur þarf einnig að kveikja í því. Eldurinn af eldspýtu er fullfær um að veita efninu þessa orku sem þarf. Eftir að kveikt er í gasinu, brennur það svo sjálkrafa, þangað til annað efnið klárast.
+
+Þetta má sjá hér á grafi, þar sem virkjunarorkan er táknuð með :math:`E_A`:
+
+.. figure:: ./myndir/varmi/virkjunarorka.svg
+  :width: 60%
+  :align: center
+
+Líkt og fyrir skíðamann stefnir hvarfið niður brekkuna. Til þess að gera það, verður það þó að klífa þennan hól.
+
+Efnahvati
+~~~~~~~~~
+
+Virkjunarorka ræður miklu þegar kemur að hraða efnahvarfs. Fyrir efnaverksmiðju, er hentugast að hvarf gerist sem hraðast.
+Til þess er notað *efnahvati* (e. catalyst). Efnahvati hraðar hvarfinu, með því að lækka magn virkjunarorku sem þarf. Þ.e. efnahvati *lækkar virkjunarhólinn*.
+
+
+.. figure:: ./myndir/varmi/virkjunar2.svg
+  :width: 60%
+  :align: center
+
+Efnahvatar breyta þannig virkjunarorku  og hraða hvarfs, en breyta ekki :math:`\Delta H`, :math:`\Delta G` eða :math:`\Delta S`

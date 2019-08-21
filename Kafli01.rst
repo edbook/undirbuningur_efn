@@ -4,7 +4,7 @@ Um námsefnið
 
 Farið er yfir helstu atriði efnafræðinnar sem gott er að hafa góð tök á í upphafi námsins en efnið er sett fram til að gefa verðandi nemendum tækifæri til að skerpa á þessum atriðum áður en kennsla hefst.
 
-Hafa ber í huga að í námskeiðum í efnafræði er líklega farið ítarlegra í flest þessara atriða. Þetta er þó allt námsefni sem flestir hafa séð í menntaskóla, og því gott að hafa séð þetta áður. Þessi síða gæti einnig nýst
+Hafa ber í huga að í námskeiðum í efnafræði er líklega farið ítarlegra í flest þessara atriða. Þetta er að miklu leyti námsefni sem margir hafa séð í menntaskóla og því getur reynst vel að rifja það upp. Þessi síða gæti einnig nýst
 til hliðsjónar í efnafræðinámskeiðum.
 
 

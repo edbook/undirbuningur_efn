@@ -169,8 +169,9 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Kafli02.html">2. Einingar og reikniaðferðir</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="Kafli02.html#si-einingakerfi">2.1. SI-einingakerfið</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#forskeyti-si-kerfisins">2.1.1. Forskeyti SI-kerfisins</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#breyta-um-formerki">2.1.2. Breyta um formerki</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#kelvin">2.1.1. Kelvin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#forskeyti-si-kerfisins">2.1.2. Forskeyti SI-kerfisins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli02.html#breyta-um-formerki">2.1.3. Breyta um formerki</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli02.html#markverir-tolustafir">2.2. Markverðir tölustafir</a><ul>
@@ -209,6 +210,8 @@
 <li class="toctree-l2"><a class="reference internal" href="Kafli04.html#malmtengi">4.4. Málmtengi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli04.html#millisameindakraftar">4.5. Millisameindakraftar</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="Kafli04.html#tvipols-tvipols-kraftar">4.5.1. Tvípóls-tvípóls kraftar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli04.html#london-kraftur">4.5.2. London kraftur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli04.html#jons-jons-kraftar">4.5.3. Jóns-jóns kraftar</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli04.html#fasar">4.6. Fasar</a></li>
@@ -228,15 +231,6 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli05.html#sameinu-efnahvorf">5.4. Sameinuð efnahvörf</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli05.html#takmarkandi-hvarfefni">5.5. Takmarkandi hvarfefni</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Kafli05.html#hraafraei">5.6. Hraðafræði</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#ahrif-styrks-hvarfefna-a-hraa">5.6.1. Áhrif styrks hvarfefna á hraða</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#hraafasti">5.6.2. Hraðafasti</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#nullta-stigs-hvarf">5.6.3. Núllta stigs hvarf</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#fyrsta-stigs-hvarf">5.6.4. Fyrsta stigs hvarf</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#annars-stigs-hvarf">5.6.5. Annars stigs hvarf</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Kafli05.html#akvara-stig-hvarfefnis">5.6.6. Ákvarða stig hvarfefnis</a></li>
-</ul>
-</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Kafli06.html">6. Kjörgaslögmálið</a><ul>
@@ -297,6 +291,12 @@
 <li class="toctree-l2"><a class="reference internal" href="Kafli09.html#hvarfkvoti">9.4. Hvarfkvóti</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Kafli09.html#jafnvaegisreikningar">9.5. Jafnvægisreikningar</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="Kafli09.html#nalgun">9.5.1. Nálgun</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli09.html#regla-le-chatelier">9.6. Regla Le Châtelier</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli09.html#breyting-a-styrk">9.6.1. Breyting á styrk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli09.html#breyting-a-rummali-og-rysting">9.6.2. Breyting á rúmmáli og þrýsting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli09.html#breyting-a-hitastigi">9.6.3. Breyting á hitastigi</a></li>
 </ul>
 </li>
 </ul>
@@ -365,8 +365,8 @@
 <div class="math notranslate nohighlight">
 \[\text{hraði} =\frac{\Delta[Fe^{2+}]}{\Delta t}=\frac{-\Delta[Fe^{3+}]}{\Delta t}\]</div>
 <div class="admonition note">
-<p class="first admonition-title">Athugasemd</p>
-<p class="last"><span class="math notranslate nohighlight">\(\Delta\)</span> er gríski bókstafurinn „Delta“ og í efnafræði táknar hann <em>breytingu</em>. <span class="math notranslate nohighlight">\(\Delta[Fe^{2+}]\)</span> er því breyting á styrk járn(II) jóna og er reiknaður sem lokagildi mínus upphafsgildi.</p>
+<p class="admonition-title">Athugasemd</p>
+<p><span class="math notranslate nohighlight">\(\Delta\)</span> er gríski bókstafurinn „Delta“ og í efnafræði táknar hann <em>breytingu</em>. <span class="math notranslate nohighlight">\(\Delta[Fe^{2+}]\)</span> er því breyting á styrk járn(II) jóna og er reiknaður sem lokagildi mínus upphafsgildi.</p>
 </div>
 <p>Styrkur járn(III) jóna minnkar eftir því sem líður á efnahvarfið, og <span class="math notranslate nohighlight">\(\Delta[Fe^{3+}]\)</span> er því neikvæð stærð. Til þess að efnahvarf haldi áfram þarf hraðinn að vera jákvæður, og því er notað mínusmerki fyrir framan breytingu á hvarfefnum. Til að samræma þessar tölur þarf einnig að deila með mólhlutfallsstuðlinum í efnajöfnunni.</p>
 <div class="math notranslate nohighlight">
@@ -376,7 +376,7 @@
 \[\text{hraði} =-\frac{1}a\frac{\Delta[A]}{\Delta t}=-\frac{1}b\frac{\Delta[B]}{\Delta t}=\frac{1}c\frac{\Delta[C]}{\Delta t}=\frac{1}d\frac{\Delta[D]}{\Delta t}\]</div>
 <p>Til að mæla hraða efnahvarfs er nóg að fylgjast með einu efni, og hægt er að reikna breytingu á styrk hinna efnanna.</p>
 <div class="admonition tip">
-<p class="first admonition-title">Dæmi</p>
+<p class="admonition-title">Dæmi</p>
 <p><strong>Vetnisperoxíð er algengt sótthreinsefni fyrir sár, en það brotnar niður samkvæmt efnahvarfinu:</strong></p>
 <div class="math notranslate nohighlight">
 \[2H_2O_2\text{(aq)} \rightarrow 2H_2O\text{(l)} + O_2\text{(g)}\]</div>
@@ -384,7 +384,7 @@
 <p>Hér var fylgst með vetnisperoxíðinu og því fæst:</p>
 <div class="math notranslate nohighlight">
 \[\text{hraði}= -\frac{1}{2}\frac{\Delta [H_2O_2]}{\Delta t}=-\frac{1}{2}\frac{(0,035\,\text{M}-0,120\,\text{M})}{(89\,\text{s}-0\,\text{s})}=9,55 \times 10^{-4} \text{M/s}\]</div>
-<p class="last">Þetta er meðalhraði hvarfsins yfir þennan tíma.</p>
+<p>Þetta er meðalhraði hvarfsins yfir þennan tíma.</p>
 </div>
 <p>Hraði getur verið breytilegur í gegnum hvarfið, og þetta er því einungis gilt til að finna meðalhraða yfir þann tíma sem var mælt. Til að finna hraðann á hverju augnabliki þyrfti að <em>diffra</em> en hraðinn er hægt að skrifa sem <span class="math notranslate nohighlight">\(-\frac{1}{a} \frac{d[A]}{dt}\)</span>.
 Ekki er nauðsynlegt að vera vel að sér í diffri fyrir hraðafræðina, og hún mun einungis koma fram í sönnunum hér, sem eru einungis fyrir áhugasama.</p>
@@ -415,8 +415,8 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 <a class="reference internal image-reference" href="_images/zero.svg"><img alt="_images/zero.svg" src="_images/zero.svg" width="45%" /></a>
 </div>
 <div class="admonition note">
-<p class="first admonition-title">Athugasemd</p>
-<p class="last">Algengur ritháttur að nota undirskriftina <span class="math notranslate nohighlight">\(_0\)</span> eða <span class="math notranslate nohighlight">\(_i\)</span> fyrir upphafsgildi. Þetta stendur fyrir <span class="math notranslate nohighlight">\(t=0\)</span> eða „initial“. Að sömu leyti er einnig oft notað <span class="math notranslate nohighlight">\(_f\)</span> fyrir „final“ til að tilgreina lokagildi. Notað er undirskriftin <span class="math notranslate nohighlight">\(_t\)</span> til að tákna gildi fyrir ákveðinn tíma <span class="math notranslate nohighlight">\(t\)</span>.</p>
+<p class="admonition-title">Athugasemd</p>
+<p>Algengur ritháttur að nota undirskriftina <span class="math notranslate nohighlight">\(_0\)</span> eða <span class="math notranslate nohighlight">\(_i\)</span> fyrir upphafsgildi. Þetta stendur fyrir <span class="math notranslate nohighlight">\(t=0\)</span> eða „initial“. Að sömu leyti er einnig oft notað <span class="math notranslate nohighlight">\(_f\)</span> fyrir „final“ til að tilgreina lokagildi. Notað er undirskriftin <span class="math notranslate nohighlight">\(_t\)</span> til að tákna gildi fyrir ákveðinn tíma <span class="math notranslate nohighlight">\(t\)</span>.</p>
 </div>
 <p>Fyrir núllta stigs hvörf er auðvelt að ákvarða hraðafastann, <span class="math notranslate nohighlight">\(k\)</span>, en hann, margfaldaður við <span class="math notranslate nohighlight">\(a\)</span> er neikvæð hallatalan á grafinu. Þ.e.</p>
 <div class="math notranslate nohighlight">
@@ -425,7 +425,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 <div class="math notranslate nohighlight">
 \[[A]_t=-akt+ [A]_0\]</div>
 <div class="admonition tip">
-<p class="first admonition-title">Dæmi</p>
+<p class="admonition-title">Dæmi</p>
 <p><strong>Gefið er að eftirfarandi efnahvarf sé núllta stigs.</strong></p>
 <div class="math notranslate nohighlight">
 \[A -&gt; B + C\]</div>
@@ -433,7 +433,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 <p>Hér er hægt að nota báðar jöfnur en notum þá fyrri. Hér er <span class="math notranslate nohighlight">\([A]_0=0,180\text{ M}\)</span>, <span class="math notranslate nohighlight">\([A]_f=0 \text{ M}\)</span> og <span class="math notranslate nohighlight">\(t_f=4 \text{ mín}\)</span>, <span class="math notranslate nohighlight">\(t_0= 0 \text{ mín}\)</span>. Ef gildin eru upphafs- og lokagildi einfaldast jafnan í:</p>
 <div class="math notranslate nohighlight">
 \[k=\frac{[A]_0}{t_f}=\frac{0,180 \text{ M}}{4 \text{mín}}=0,045\text{ M/mín}\]</div>
-<p class="last">Hérna er hraðafastinn gefinn upp með einingu M/mín, en einnig væri hægt að breyta í M/sek. Enginn regla er á því hvað skal nota en oft er hægt að meta bestu eininguna út frá stærðargráðu fastans.</p>
+<p>Hérna er hraðafastinn gefinn upp með einingu M/mín, en einnig væri hægt að breyta í M/sek. Enginn regla er á því hvað skal nota en oft er hægt að meta bestu eininguna út frá stærðargráðu fastans.</p>
 </div>
 </div>
 <div class="section" id="fyrsta-stigs-hvarf">
@@ -459,7 +459,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
             element.style.display = "block"
     };
 </script>
-<div class="admonition note"><p class="first admonition-title"><a href="javascript:showhide(document.getElementById('toggleblock4'))">Sönnun</a></p><div id="toggleblock4" style="display: none"><br/><p><strong>Ekki þarf að kunna sannanir og er fyrst um sinn einungis fyrir áhugsama</strong></p>
+<div class="admonition note"><p class="first admonition-title"><a href="javascript:showhide(document.getElementById('toggleblock2'))">Sönnun</a></p><div id="toggleblock2" style="display: none"><br/><p><strong>Ekki þarf að kunna sannanir og er fyrst um sinn einungis fyrir áhugsama</strong></p>
 <p>Fyrir fyrsta stigs hvarf gildir:</p>
 <div class="math notranslate nohighlight">
 \[\text{hraði} =-\frac{1}a\frac{d[A]}{dt}=k[A]\]</div>
@@ -474,7 +474,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 <a class="reference internal image-reference" href="_images/fyrsta.svg"><img alt="_images/fyrsta.svg" src="_images/fyrsta.svg" width="45%" /></a>
 </div>
 <div class="admonition tip">
-<p class="first admonition-title">Dæmi</p>
+<p class="admonition-title">Dæmi</p>
 <p><strong>Borðsykur, eða súkrósi er tvísykra sem brotnar niður í líkamanum í glúkósa og frúktósa skv. efnajöfnunni:</strong></p>
 <div class="math notranslate nohighlight">
 \[C_{12}H_{22}O_{11} + H_2O \rightarrow C_6H_{12}O_6 + C_6H_{12}O_6\]</div>
@@ -486,7 +486,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
   &amp;=-4,7929\\
 \end{aligned}\end{split}\]</div>
 <p>Til að losna við lografallið er tekið <em>veldisvísifallið</em>:</p>
-<div class="last math notranslate nohighlight">
+<div class="math notranslate nohighlight">
 \[\begin{split}\begin{aligned}
   {[C_{12}H_{22}O_{11}]}_{t=6 \text{ mín}} &amp;=e^{-4,7929}\\
   &amp;=0.0083 M
@@ -530,7 +530,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
             element.style.display = "block"
     };
 </script>
-<div class="admonition note"><p class="first admonition-title"><a href="javascript:showhide(document.getElementById('toggleblock5'))">Sönnun</a></p><div id="toggleblock5" style="display: none"><br/><p>Ef notað er <span class="math notranslate nohighlight">\(x\)</span> sinnum meira af hvarfefni A er styrkurinn <span class="math notranslate nohighlight">\(x[A]\)</span>. Hraðalíkanið verður þá:</p>
+<div class="admonition note"><p class="first admonition-title"><a href="javascript:showhide(document.getElementById('toggleblock3'))">Sönnun</a></p><div id="toggleblock3" style="display: none"><br/><p>Ef notað er <span class="math notranslate nohighlight">\(x\)</span> sinnum meira af hvarfefni A er styrkurinn <span class="math notranslate nohighlight">\(x[A]\)</span>. Hraðalíkanið verður þá:</p>
 <div class="math notranslate nohighlight">
 \[ \begin{align}\begin{aligned}\require{cancel}\\\begin{split}\begin{aligned}
 \text{hraði}&amp;=k(x[A])^m[B]^n\\
@@ -544,7 +544,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 \end{aligned}\end{split}\]</div>
 </div></div><p>Þessar jöfnur geta litið flóknar út og því gæti verið auðveldara að skilja þetta í dæmi.</p>
 <div class="admonition tip">
-<p class="first admonition-title">Dæmi</p>
+<p class="admonition-title">Dæmi</p>
 <p><strong>Mældur var hraðinn fyrir efnahvarfið með mismunandi styrk hvarfefna</strong></p>
 <div class="math notranslate nohighlight">
 \[A+ B \rightarrow C\]</div>
@@ -574,7 +574,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
 <div class="math notranslate nohighlight">
 \[1,2\times 10^{-4} \text{ M/s}= k \cdot 0.100 \text{ M}\cdot (0.200 \text{ M})^2\]</div>
 <p>Endurritum þetta og þá fæst:</p>
-<div class="last math notranslate nohighlight">
+<div class="math notranslate nohighlight">
 \[ \begin{align}\begin{aligned}\begin{aligned}\\\begin{split}  k&amp;=\frac{1,2\times 10^{-4} \text{ M/s}}{0.100 \text{ M}\cdot (0.200 \text{ M})^2}\\
    &amp;=0,030 \text{ s}^{-1}\text{ M}^{-2}\end{split}\\\end{aligned}\end{aligned}\end{align} \]</div>
 </div>
@@ -628,6 +628,7 @@ lagðir saman stuðlarnir <span class="math notranslate nohighlight">\(m+n\)</sp
       <script type="text/javascript" src="_static/jquery.js"></script>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
       <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   

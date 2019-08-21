@@ -383,13 +383,28 @@ Millisameindakraftar
 --------------------
 
 Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum.
-Helstu kraftarnir eru *tvípóls-tvípóls kraftar*, *jón-tvípól kraftar*, *London kraftar* og *vetnistengi*. Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
+Helstu kraftarnir kallast  *Van der Waals* kraftar, þeir eru *tvípóls-tvípóls kraftar*, *London kraftar* og *vetnistengi*.
+
+ Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
 
 
 Tvípóls-tvípóls kraftar
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Þessi munur á rafeindum bindur rafeindirnar saman 
+Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Sameindirnar raðast þá með jákvæðan pól við neikvæðan pól hjá næstu, og öfugt.
+
+London kraftur
+~~~~~~~~~~~~~~
+
+
+
+Jóns-jóns kraftar
+~~~~~~~~~
+
+Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Tengin eru því töluverð sterkari.
+
+
+
 
 
 Fasar

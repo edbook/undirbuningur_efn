@@ -91,9 +91,10 @@ er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir 
 .. warning::
   Þetta er ekki algilt, en fyrir suma hliðarmálma er þessi röð undirsvigrúmanna ekki endilega orkulega hagkvæmust. Þegar ákvarða á rafeindaskipan þeirra þarf að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
 
+.. _s.gildisrafeindir:
 
 Gildisrafeindir
-~~~~~~~~~~~~~~~
+---------------
 
 Gildisrafeindir (e. `valence electron <https://en.wikipedia.org/wiki/Valence_electron>`_) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Þessar rafeindar eru einkum þýðingarmiklar í hvarfgirni efna þar sem frumefni
 leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. `octate rule <https://en.wikipedia.org/wiki/Octet_rule>`_).

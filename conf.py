@@ -49,7 +49,7 @@ extensions = [
     # 'sagecell.sagecell',
     # Extension for embedding sage cells (https://sagecell.sagemath.org/).
     # See README.txt in sagecell-extension folder.
-    #'hoverrole.hoverrole',
+    # 'hoverrole.hoverrole',
     # Extension for providing Icelandic to English translation of mathematical terms
     # on mouse-over. See README in hoverrole folder.
     'scrolldepth.scrolldepth'
@@ -69,7 +69,6 @@ numfig_format['section'] = '%s'
 # (http://sphinx-doc.org/latest/ext/math.html#confval-mathjax_path)
 mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #mathjax_path = "MathJax.js"
-
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -264,11 +263,11 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     'preamble': '''
 
-\usepackage{cancel}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{hyperref}
-\usepackage{mhchem}
+\\usepackage{cancel}
+\\usepackage{amsmath}
+\\usepackage{amssymb}
+\\usepackage{hyperref}
+\\usepackage{mhchem}
 ''',
 
     # Latex figure (float) alignment

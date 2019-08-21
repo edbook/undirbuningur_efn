@@ -1,165 +1,203 @@
-.. _s.frumefni:
+Einingar og reikniaðferðir
+==========================
 
-Frumefni
-========
+Stærðfræði kemur mikið við sögu í efnafræði, og gott er að hafa góð tök á algengnum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
 
+Til eru upprifjunarvefir á edbook í `stærðfræði <http://edbook.hi.is/undirbuningur_stae/>`_ og `eðlisfræði <http://edbook.hi.is/undirbuningur_edl/>`_ sem hægt er að nota ef ókunnug stærðfræðiregla kemur fyrir sjónir. :math:`\require{cancel}`
 
-Í efnafræði er efni skilgreint sem svo að það hefur massa og tekur upp pláss, þ.e. hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Eins og staðan er núna
-eru til 118 þekktar tegundir atóma, þar sem hver tegund telst sem eitt *frumefni*. Atóm, þó örsmá, eru ekki minnsta eining efnis, þar sem þau eru gerð úr jákvætt hlöðnum *róteindum* (e. `proton <https://en.wikipedia.org/wiki/Proton>`__), neikvætt hlöðnum *rafeindum* (e. `electron <https://en.wikipedia.org/wiki/Electron>`__) og  hleðslulausum *nifteindum* (e. `neutron <https://en.wikipedia.org/wiki/Neutron>`__).
-Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnan[VANTAR MYND].
+SI-einingakerfið
+----------------
 
-Frumefni eru hleðslulaus og hafa því jafnan fjölda af róteindum og rafeindum, en fjöldi þeirra ákvarðar gerð frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og myndað
-þannig mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__). Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill
-miðað við hinar tvær öreindirnar að ekki þarf að taka tillit til þeirra. Samsætur eru svo nefndar eftir massatölu sinni, s.s. C-13 hefur massatöluna 13.
+Í nær öllum löndum heims er notað samræmt mælikerfi, SI einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
+Lengd hefur þar grunneininguna metri og tími grunneininguna sekúnda.
 
-.. tip::
-  **Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
+SI-grunneiningarnar eru sjö:
 
-  Kolefni hefur sætistöluna 6, og hefur því 6 róteindir og rafeindir. Nú er jafnan fyrir massatölu:
+.. math::
+ \begin{array}{c | c | c}
+	  \text{Mælistærð} & \text{Eining} & \text{Tákn} \\ \hline
+	  \text{Vegalengd} & \text{Metri} & m \\
+    \text{Tími} & \text{Sekúnda} & s \\
+    \text{Massi} & \text{Kílógramm} & kg\\
+	  \text{Rafstraumur} & \text{Amper} & A\\
+    \text{Hitastig} & \text{Kelvin} & K \\
+    \text{Ljósstyrkur} & \text{Candela} & cd \\
+    \text{Fjöldi} & \text{Mól} & n \\ \hline
+  \end{array}
 
-  .. math::
-     A=Z+N
+Hugtök eins og ljósstyrkur mun ekki koma hér fyrir, en fær að fljóta hér með.
 
-  þar sem A er massatalan, Z er fjöldi róteinda, og N er fjöldi nifteinda.
-  Þá má sjá að fyrir massatölu 13 og 6 róteindir fæst að það eru 7 nifteindir í C-13
+Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI einingakerfisins.
+Hraði, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).
 
+Kelvin
+~~~~~~
 
+Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er í raun kelvin skalin, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við forstmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með
 
+.. math::
 
-Lotukerfið
-----------
-Fyrsta lotukerfið (e. The Periodic Table) var smíðað af `Mendeleev <https://en.wikipedia.org/wiki/Dmitri_Mendeleev>`__ árið 1869, þar sem frumefnunum var raðað eftir sætistölu (e. `atomic number <https://en.wikipedia.org/wiki/Atomic_number>`__), þ.e. fjölda róteinda. Þeim var svo hópað saman eftir efnafræðilegum eiginleikum. Þó svo að ekki hafi öll frumefnin
-verið fundin, tókst Mandeleev að mestu leyti að áætla hvar vantaði frumefni, með því að tengja sætistöluna við eiginleika frumefnisins. Einungis fyrstu 94 frumefnin finnast náttúrulega en frumefni 95-118 hafa verið smíðuð á rannsóknarstofu.
+  T(K) = T(C) + 273,15 \text{ K}
 
-.. figure:: ./myndir/atom/lotukerfi.png
-  :align: center
-  :width: 100%
+Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celcíus
 
-Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku, sem og fá upplýsingar um ýmsa eiginleika frumefnis.
+Forskeyti SI-kerfisins
+~~~~~~~~~~~~~~~~~~~~~~
 
-Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, sem og 18 hópa þar sem hver hópur hefur sameiginlega efnafræðilega eiginileika. Þessir hópar hafa margir hver nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
+Þegar fengist er við stærri mælistærðir, svo sem langar vegalengdir, er unnið með marga metra.
+Því hafa vísindamenn vanið sig á að kalla þúsund metra öðru nafni: einn kílómetra (:math:`1000 \text{m} = 1 \text{km}`). Þegar fengist er við litlar mælistærðir, svo sem þykkt á pappír, fást aðeins brot af heilum metrum.
+Algengt er að nota millímetra, einn þúsundasta úr metra. Þetta er tekið saman í þessari töflu,
+á milli kíló og millí eru:
 
-.. figure:: ./myndir/atom/Periodic_trends.png
-  :align: center
-  :width: 50%
+.. math::
+  \begin{array}{c|c|c}
+    \text{Forskeyti} & \text{Tákn} & \text{Tugveldi} & \text{Margfeldi}\\ \hline
+    \text{Kíló} & \text{k} & 10^{3} & 1000\\
+    \text{Hektó} & \text{h} & 10^{2} & 100 \\
+    \text{Deka} & \text{da} & 10^{1} & 10 \\
+    \text{--} & \text{--} & 10^{0} & 1 \\
+    \text{Desi} & \text{d} & 10^{-1} & 0.1\\
+    \text{Centi} & \text{c} & 10^{-2} & 0.01\\
+    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\ \hline
+  \end{array}
 
-Rafeindaskipan
---------------
-
-Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. `shell <https://en.wikipedia.org/wiki/Electron_shell>`__) þar sem þau eru fyllt eftir orkulegri hagkvæmni.
-Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_)
-Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með :math:`\ell` eða *hverfiþungaskammtatölunni* (e. `Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
-Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni en sjá má orkuþrep hvers hvols á mynd hér fyrir neðan.
-
-.. figure:: ./myndir/atom/svigrumaskipan.png
-  :align: center
-  :width: 60%
-
-Hafa ber í huga, eins og sjá má á mynd að orkuþrep **3d** er orkuhærra en **4s**, o.s.fr.
-
-Hvernig skal finna rafeindaskipan frumefnis?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Fjöldi rafeinda er jafn sætistölu frumefnis. Þá er hægt að byrja efst vinstra megin og fylla rafsvigrúmin eins og þau koma fyrir á eftirfarandi mynd, unnið til hægri og niður, að frumefninu sem leitast er eftir rafeindaskipan að. Fjöldi rafeinda á hverju svigrúmi
-er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir í s svigrúm, 6 rafeindir í p sigrúm, 10 rafeindir í d svigrúm og að lokum 14 rafeindir í f svigrúm.
-
-.. figure:: ./myndir/atom/svigrum.jpg
-  :align: center
-  :width: 80%
-
-.. tip::
-  **Hver er rafeindaskipan brennisteins? En hjá blýi?**
-
-  Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í 1s og vinnum okkur að svigrúmi 3p, þar sem brennisteinn er. Þá er rafeindaskipanin:
-
-  .. math::
-      1s^2 2s^2 2p^6 3s^2 3p^{\textbf{4}}
-
-  Eins og sjá má eru einungis 4 rafeindir í 3p svigrúminu þar sem samanlagður fjöldi þarf að vera 16.
-
-  Hægt er að beita sömu aðferðarfræði á blý, en núna koma d og f svigrúm til leiks. Blý hefur sætistöluna 82 og því 82 rafeindir. Blý liggur í svigrúmi 6p í lotukerfinu og er það því lokastöðin. Með því að vinna sig hægri og niður fæst:
-
-  .. math::
-      1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
-
-.. warning::
-  Þetta er ekki algilt, en fyrir suma hliðarmálma er þetta ekki endilega orkulega hagkvæmast, og þarf þá að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
+Við getum því lýst 10 metrum sem 1 dam, 100 dm eða 1000 cm. Í efnafræði er þó algengt að einungis sé notað tugveldi í stað forskeytis. Mikilvægt er þó að geta breytt á milli.
 
 
-Gildisrafeindir
-~~~~~~~~~~~~~~~
+Í efnafræði er sjaldan fengist við risastór fyrirbæri (eins og stjörnuþokur úti í geimi) en oftar allra minnstu fyrirbærin (eins og rafeindir).
+Fyrir þessi fyrirbæri þarf enn önnur forskeyti:
 
-Gildisrafeindir (e. `valence electron <https://en.wikipedia.org/wiki/Valence_electron>`_) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Þessar rafeindar eru einkum þýðingarmiklar í hvarfgirni efna en frumefni
-leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. `octate rule <https://en.wikipedia.org/wiki/Octet_rule>`_).
-Þetta geta þau gert eftir nokkrum leiðum, þau geta myndað *sameind* þar sem þau deila milli sín gildisrafeindum í *efnatengjum*, eða *jónast* (e. `Ionization <https://en.wikipedia.org/wiki/Ionization>`_), en þessi ferli má sjá nánar í komandi köflum.
+.. math::
+  \begin{array}{c|c|c}
+    \text{Forskeyti} & \text{Tákn} & \text{Tugveldi} & \text{Margfeldi}\\ \hline
+    \text{Peta} & \text{P} & 10^{15} & 1 000 000 000 000 000 \\
+    \text{Tera} & \text{T} & 10^{12} & 1 000 000 000 000 \\
+    \text{Giga} & \text{G} & 10^{9} & 1 000 000 000 \\
+    \text{Mega} & \text{M} & 10^{6} & 1 000 000 \\
+    \text{Kíló} & \text{k} & 10^{3} & 1 000\\
+    \text{--} & \text{--} & 10^0 & 1\\
+    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\
+    \text{Míkró} & \mu & 10^{-6} & 0.000 001 \\
+    \text{Nanó} & \text{n} & 10^{-9} & 0.000 000 001 \\
+    \text{Píkó} & \text{p} & 10^{-12} & 0.000 000 000 001 \\
+    \text{Femtó} & \text{f} & 10^{-15} & 0.000 000 000 000 001 \\ \hline
+  \end{array}
 
 .. note::
- Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvargjarnar eða óvirkar (e. inert)
+  Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.
 
-Fyrir rafeindaskipan stórra frumefna, er ekki vaninn að telja upp öll hvolfin, heldur einungis gildisrafeindirnar með tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda málið en gildisrafeindir koma meira við sögu en þær á innra hveli.
+Breyta um formerki
+~~~~~~~~~~~~~~~~~~
+
+Þegar breytt er um formerki er til ein rétt leið til að stytta út einingarnar.
+
+Ef það á að breyta úr grömmum í kíló fæst að
+
+.. math::
+
+  1000 \text{ g} = 1 \text{ kg}
+
+Ef deilt er í gegn með :math:`1000 \text{ g}` fæst:
+
+.. math::
+
+ 1 = \frac{1\text{ kg}}{1000 \text{ g}}
+
+Í algebru má alltaf margfalda með 1, og því má alltaf margfalda með hægri hlið jöfnunnar líka. Við það styttist út grömm, og kílógrömm standa eftir.
 
 .. tip::
 
- Hver er rafeindaskipan blýs, skrifað með þessum styttri rithátt?
+ **Hvað eru 14 millígrömm mörg nanógrömm?**
 
- Nú er Xenon eðalgastegundin í lotunni fyrir ofan blý. Því er byrjað þar og þá fæst:
+ Hér er best að breyta fyrst í grömm, og svo aftur í nanógrömm:
 
-  .. math::
-    [Xe]6s^2 5d^{10} 4f^{14} 6p^{2}
+ .. math::
 
-Rafeindaskipan áframhald
+   14 \bcancel{\text{ mg}} \cdot \frac{ 1\bcancel{\text{ g}}}{10^6 \bcancel{\text{ mg}}} \frac{10^9 \text{ ng}}{1 \bcancel{\text{ g}}} =14 \times 10^3 \text{ ng}
+
+
+Markverðir tölustafir
+---------------------
+
+*Markverðir tölustafir* (e. Significant figures) segir til um nákvæmni mælingu. Nákvæmni útkomu reikninga byggist sterklega á nákvæmni mælingarinna. Því fleiri markverðir tölustafir, því nákvæmara. Til dæmis má segja að ákveðinn maður er 2 m, 1,8 cm, 183 cm eða 183,2 cm. Þessar tölur lýsa allar hæð mannsins, en bara með 1, 2, 3 eða 4 markverðum tölustöfum.
+
+Tölustafir sem teljast vera markverðir eru allir tölustafir taldir frá vinstri þangað til einungis eru 0 hægra megin.
+
+.. math::
+
+  \begin{array} {c|c}
+  \text{Tölur} & \text{Markverðir tölustafir}\\
+  \hline
+  12   & 2 \\
+  1200  & 2 \\
+  1302 & 4 \\
+  \end{array}
+
+1200 getur einnig haft fjóra markverða tölustafi og þyrfti frekari upplýsingar til að ákvarða það. Ef sagt væri að trjágrein væri 1200cm gæti verið að það hafi verið mælt sem 12 metrar með mælitæki sem mældi einungis í metrum, eða nákvæmlega 1200 cm með málbandi sem mælir í sentimetrum. Í
+fyrra tilvikunu væri einungis tveir markverðir stafir, en fjórir í því seinna.
+
+Til aðgreiningar er hægt að taka fram töluna í tugaveldi, þ.e. hægt er að skrifa töluna sem
+
+.. math::
+
+  \begin{array} {c|c}
+  \text{Tölur} & \text{Markverðir tölustafir}\\
+  \hline
+  1,2\times 10^2  & 2 \\
+  1,200 \times 10^2  & 4 \\
+  \end{array}
+
+Allir tölustafir, þar á meðal öll núll, teljast sem markverðir stafir ef þeir eru **eftir** kommu.
+
+Samlagning og margföldun
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Rafeindir hafa fjórar skammtatölur, þ.e. *n*, :math:`\ell` en einnig *m*:math:`_{\ell}` og *m*:math:`_S`. *m*:math:`_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og segir til um í hvaða átt svigrúmið snýr. *m*:math:`_S`  eða *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_) segir aftur á móti til um *spuna* rafeindarinnar.
-Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur, og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
-Þá fær hvert hvolf og undirhvolf línu eða kassa sem rafeindir eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa, sem stjórnar segulskammtatölunni, og er tvöfalt færri en fjöldi rafeinda á fullu undirhvolfi.
-Að lokum eru svo rafeindirnar táknaðar sem örvar sem snúa upp eða niður. Þetta tilgreinir spuna rafeindarinnar. Fullt hvolf hefur þá rafeind bæði upp og niður í hverjum kassa.
+Þegar notaðar eru mælingar til að reikna fleiri gildi, takmarkast markverðir tölustafir svarsins við markverðu tölustafi upphafsgildanna.
+Þetta gerist á tvo mögulega vegu, og fer það eftir hvort notuð sé samlagning eða margföldun.
+
+1 - Fyrir *margföldun* tveggja talna hefur útkoman jafn marga markverða tölustafi og það upphafsgildi með færri markverða tölustafi
+
+.. math::
+
+  5,02 (3) \cdot 8,0000 (5) &= 40,2 (3)\\
+
+  \small{ (\text{Markverðir tölustafir})}
+
+2 - Fyrir *samlagningu* skiptir einungis máli markverðir tölustafir *eftir* kommu, þ.e. tugabrot. Útkoman fær jafn marga markverða stafi eftir kommu, eins og það upphafsgildi sem hafði færri markverða tölustafi eftir kommu
+
+.. math::
+
+  53,024 (3)+ 310,3 (1) = 363,3 (1)\\
+  \small{ (\text{Markverðir tölustafir eftir kommu})}
+
+Ef gerðar eru margar aðgerðir, skal halda öllum tölustöfum til haga þangað til lokasvarið fæst. Þá er fundnar þær aðgerðir sem takmarka fjölda markverðra stafa, og lokasvarið gefið með þeim fjölda af markverðum stöfum.
 
 .. tip::
 
- **Tilgreindu fulla rafeindaskipan brennisteins**
+ Hvert er lokasvarið, með réttum fjölda markverða stafa?
 
- Brennisteinn hefur 5 gildisrafeindir, og þar af 2 á 3s og 4 á 4p. Byrjum á að teikna upp kassana fyrir svigrúmin.
+  .. math::
 
-  .. figure:: ./myndir/atom/syni1.svg
-    :align: center
-    :width: 40%
+    (53,467 + 41,22) \cdot 12,212 \cdot 14,00
 
- Byrjum á því að fylla inn í 3s svigrúmið:
+ Hér liggur beint við að stinga allri jöfnunni í reiknivél en skulum þó taka þetta skref fyrir skref í þetta skiptið. Fyrst um sinn skal halda utan um þónokkra aukastafi:
 
-  .. figure:: ./myndir/atom/syni2.svg
-    :align: center
-    :width: 40%
+  .. math::
 
- Með einungis 4 rafeindir er 3p svigrúmið ekki fullt og því þarf að passa hvernig fylla skal í það. Það skal ávallt fyrst fylla í alla kassana með einungis einni ör, og eftirstandandi rafeindir fylltar inn eftir það. Þ.e. *ekki setja tvær örvar í kassa, meðan það eru enn tómir kassar*.
- Það er gert til að fylgja eftir svokallaðari *reglu Hund's*.
+    \begin{aligned}
+    53,467 + 61,22 &= 114,687 \\
+    114,687 \cdot 12,212 &= 1400,558 \\
+    1156,318 \cdot 14,00 &= 19607,81 \\
+    \end{aligned}
 
-  .. figure:: ./myndir/atom/syni3.svg
-    :align: center
-    :width: 40%
+ Þá þarf að finna markverðu tölustafina. Þá er best að byrja finna markverða tölustafi í samlagningunni. Samlagningin er takmörkuð af tveimur aukastöfum, þ.e. 114,69 sem þýðir að það eru *fimm* markverðir stafir. Þá er einungis margföldunaraðgerðir eftir:
 
-  .. figure:: ./myndir/atom/syni4.svg
-    :align: center
-    :width: 40%
+  .. math::
 
-.. begin-toggle::
-  :label: Hund's regla
-  :starthidden: False
-  
-*Regla Hund's* segir til um að það sé orkulega hagkvæmast og þannig stöðugast þegar rafeindir skipa sér stakar á svigrúm, meðan kostur er. Þær hafa þá sama spuna.
+    (5) \cdot (5) \cdot (4) = (4)
 
-Þessi regla er oft kölluð *strætisvagnareglan*, þar sem vaninn er að setjast ekki í sætisröð með öðrum, ef það er tóm sætisröð í vagninum.
+ Þetta þýðir að lokasvarið skal gefið með *fjórum* markverðum stöfum, þ.e.
 
-.. end-toggle::
+  .. math::
 
-
-
-
-
-
-
-
-
-.. raw:: html
-
-  <iframe style="width: 600px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&bg=white"></iframe>
+    (53,467 + 41,22) \cdot 12,212 \cdot 14,00 = 19610

@@ -1,706 +1,411 @@
-.. _s.Efnahvörf:
+.. _s.Sameindir:
 
-Efnahvörf
+Sameindir
 =========
 
-Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf grundvöllur lífs. En efnahvarf er ferli þar sem efni breytist; efnasambönd myndast, breytast eða brotna niður. Efnahvörfum má almennt séð lýsa sem breytingu á *efnatengjum* milli kjarna, og hægt er að skipta þeim í ýmsa flokka. Fjórir flokkar sem eru oft notaðir eru:
+*Sameindir* (e. molecule) myndast þegar tvö eða fleiri atóm koma saman og tengjast efnatengjum. Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`H_2` eða nitur í andrúmslofti, :math:`N_2`.
+Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`H_2O`. Sameindir geta haft tvenns konar tengi, *jónatengi* (e. `ionic bonding <https://en.wikipedia.org/wiki/Ionic_bonding>`_) eða *samgild tengi* (e. `covalent bonding <https://en.wikipedia.org/wiki/Covalent_bond>`_).
 
-Álagningarhvarf (e. addition reaction)
-  Þessi hvörf er þegar tvö efni sameinast og mynda eina heild, og er þá stundum talað um að annað efnið leggist á hitt. Í þessu tilfelli eru efnatengi að *myndast*.
+Samgild tengi
+-------------
 
-  .. figure:: ./myndir/efnahvorf/alagning.svg
-    :align: center
-    :width: 30%
+Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda báðum kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
+rafeindir geta fyllt ysta hvolfið á báðum atómum.
 
-Brottnámshvarf (e. elimination reaction)
-  Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
+Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar
+dreifast ójafnt milli atóma, og þau fá því eiginlegan hleðslumun. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
+Sjá má *rafdrægni* (e. electronegativity) frumefnanna hér að neðan.
 
-  .. figure:: ./myndir/efnahvorf/brottnam.svg
-    :align: center
-    :width: 30%
+.. figure:: ./myndir/sameindir/rafneikvaedni.jpg
+  :align: center
+  :width: 100%
 
-Skiptihvarf (e. exchange reaction)
- Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
+Eins og sést þá eykst rafdrægni **til hægri** og **upp** lotukerfið. Rafdrægni er einnig kallað *rafneikvæðni*.
 
- .. figure:: ./myndir/efnahvorf/skipti.svg
+Til að finna hvernig tengi er milli efna, er hægt að nota þessi gildi fyrir rafdrægni. Ef munurinn á gildunum er 0-0,4 er þetta óskautað samgilt tengi.
+Ef munurinn er 0,5-1,6 er tengið skautað samgilt. Sé það hærri en það, þ.e. 1,7-4,0 er það jónatengi.
+
+.. tip::
+
+ **Hvernig er tengin milli vetnis og súrefnis í vatni?**
+
+ Vetni hefur rafdrægni 2,1 en súrefni 3,5. Þetta gefur rafeindamun upp á 1,4 og tengin flokkast því sem *skautuð samgild*.
+
+ .. figure:: ./myndir/sameindir/rafeindathettleiki.png
    :align: center
-   :width: 39%
+   :width: 40%
 
-Umröðunarhvarf (e. rearrangement reaction)
-  Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
+ Hérna táknar rautt rafeindaþéttleika en blátt rafeindasnauð svæði. Súrefnið er rafneikvæðara og tekur því rafeindir til sín.
 
-  .. figure:: ./myndir/efnahvorf/umrodun.svg
+
+Lewis myndir
+~~~~~~~~~~~~
+
+*Lewis Myndir* eða *Punktformúlur* er leið til að sýna samgild tengi og *stök rafeindapör* (e. lone pair) á sameindum. Gildisrafeindir eru táknaðar með punktum
+sem dreifast um efnið á sem stöðugastan máta. Til að teikna lewis mynd af sameind eru nokkur skref:
+
+1. Ákveða heildarfjölda gildisrafeinda . LINKUR Á GILDISRAFEINDAKAFLANN
+
+2. Setja minnst rafneikvæðasta atómið í miðjuna og tengja sameindina með tveggja rafeinda tengi.
+
+3. Er hægt að dreifa eftirstandandi rafeindum sem stökum rafeindapörum svo að áttureglan sé uppfyllt? Ef svo, má sleppa næsta skrefi.
+
+4. Ef ekki eru nægar rafeindir fyrir átturegluna er hægt að búa til *tvítengi* milli atóma með því að bæta við 2 rafeindum í tengið. Ef það dugar ekki,
+   er hægt að bæta við tveimur enn og gera *þrítengi*.
+
+5. Athuga *formlega hleðslu*. Þetta er gert með því að taka saman fjölda rafeina í stökum rafeindapörum og helming rafeinda í tengjum.
+   Þessi fjöldi er svo borinn saman við gildisrafeindir, og atóm er gefin jákvæð hleðsla ef þessar rafeindir eru færri, og öfugt.
+
+6. Reyna að lágmarka formlegu hleðsluna, sem og láta hana passa fyrir rafdrægni frumefnanna. Þ.e. láta rafneikvæðari frumefnið hafa neikvæðari hleðslu. Passa þó að ekki brjóta átturegluna.
+
+.. warning::
+
+	Áttureglan gildir ekki fyrir allar sameindir og til eru þrjár undartekningar:
+
+  Oddatala gildisrafeinda.
+    Ekki er hægt að uppfylla áttureglan fyrir efni s.s. :math:`ClO` en þar eru einungis 6+7=13 gildisrafeindir. Klór mun því einungis hafa 7 rafeindir.
+
+  Of fáar rafeindir.
+    Fyrir efni sem innihalda bór og beryllíum, er hægt að mynda stöðugar sameindir án þess að uppfylla átturegluna, s.s. :math:`BeCl_2` og :math:`BF_3`. Einnig mun vetni alltaf hafa að hámarki 2 rafeindir.
+
+  Of margar rafeindir.
+    Stærri frumefni, s.s. lota 3 eða neðar, geta víkkað út ysta rafeindahvelið með d-svigrúmi. Þessi frumefni geta því haft fleiri en 8 rafeindir á ysta hveli,
+    og yfirskjóta átturegluna. Dæmi um þetta væri :math:`PF_5` en þar hefur fosfór 10 rafeindir.
+
+.. tip::
+
+	**Hver er Lewis mynd** :math:`CO_2`?
+
+  - Kolefni hefur 4 gildisrafeindir og súrefni 6. Höfum því 4+6+6=16 gildisrafeindir.
+  - Kolefni er ekki jafn rafneikvætt og súrefni og fer því í miðjuna. Þá fæst:
+
+  .. figure:: ./myndir/sameindir/lewis1.svg
     :align: center
     :width: 20%
 
-Mól
----
+  - Ekki er hægt að uppfylla átturegluna með eftirstandandi 12 rafeindum, heldur þarf 16. Það vantar því 4 upp á og bætum því 4 rafeindum við tengin. Þetta gefur annaðhvort tvö tvítengi eða stakt þrítengi.
+    Tvítengi liggur beinna við:
 
-Efnahvörf gerast á eindavís, t.d. ein sameind verður að annarri sameind. Eindir eru aftur á móti örsmáar og almennt ekki mjög praktískt að reikna með stökum eindum. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi
-fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrosartala* og hefur gildið
+    .. figure:: ./myndir/sameindir/lewis2.svg
+      :align: center
+      :width: 20%
 
-.. math::
-  N_A=6,022 \times 10^{23}\, 1/\text{mól}.
+    Áttureglan er nú uppfyllt alls staðar.
 
-Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af bjór lýsir 6 bjórum!
+  - Nú skal athuga formlegu hleðsluna. Súrefnin hafa 4 stakar rafeindir og 4 rafeindar í tengjum, þar af 2 sínum megin, þ.e. 6 rafeindir í heildina.
+    Súrefni hefur 6 gildisrafeindir og  því er formlega hleðslan 0. Kolefni hefur 8 rafeindir í tengjum, þar af 4 sínum megin. Kolefni hefur 4 gildisrafeindir og
+    formlega hleðslan því 0 allstaðar.
 
-Mólmassi
-~~~~~~~~
+Vok myndir
+++++++++++
 
-Frumefnin eru mismassamikil en massi eins móls af frumefni er kallaður *mólmassi* efnisins. Mismundandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra og það má sjá í flestum lotukerfum, undir nafninu. Þessi tala er notuð fyrir
-alla mólreikninga, nema tilgreint sé hvaða samsæta sé notuð.
-
-Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
-
-Mólmassi, massi og mól tengjast með formúlunni
-
-.. math::
-  \mathcal{M}\cdot n=m
-
-Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
+Þetta er ekki öll sagan, en fyrir sum efni þarf að lýsa Lewis-myndum með *vok myndum* (e. resonance). Þessu er best lýst með dæmi.
 
 .. tip::
 
-	**Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`FeO`?
+ **Hver er lewis mynd fyrir nítrat jón,** :math:`NO_3^-`?
 
-  Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
+ - Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu, og þ.a.l. bætist við rafeind*. Þá eru 5+3(6)+1=24 gildisrafeindir.
 
-  .. math::
+ - Nitrið fer í miðjuna og þá fæst:
 
-    \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23} 1/\text{mól}}=0,00166\text{ mól}
+ .. figure:: ./myndir/sameindir/nitrid1.svg
+   :align: center
+   :width: 20%
 
-  Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
+ - Núna eru 18 rafeindir eftir, en það vantar 20 til að uppfylla átturegluna alls staðar. Það vantar því tvítengi einhvers staðar, en *hvar?* Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vok myndir við sögu.
+   Við teiknum upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
 
-  .. raw:: html
+   .. figure:: ./myndir/sameindir/nitrid2.svg
+     :align: center
+     :width: 60%
 
-    <style>
+ - Nitrið hefur 4 rafeindir kringum sig, en hafði 5 gildisrafeindir og fær því +1 hleðslu. Þau súrefnisatóm sem eru ekki tvítengd hafa 7 rafeindir kringum sig, og fá því -1 hleðslu. Þriðja súrefnisatómið hefur 6 kringum sig og því hleðslulaust.
+   Heildarhleðslan er því +1-1-1=-1. Þetta stemmir við neikvæðu hleðslu nítratsins.
 
-    .right {
-      display: block;
-      margin-left: auto;
-    }
+Hafa ber í huga að í náttúrunni finnast ekki sameindir sem líkjast stakri vok mynd, heldur samblanda af öllum þremur. Þetta er sambærilegt og að lýsa nashyrning fyrir krakka sem blanda af einhyrningi og dreka.
+Hvorugt er til, en þetta getur gefið hugmynd um útlit raunverulegs hluts.
 
-    .column {
-      float: left;
-      width: 50%;
-      padding: 5px;
-      align: center;
-    }
+Til er annar og algengari ritháttur fyrir samgild tengi, og það er að teikna strik í stað tveggja punkta.
 
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    </style>
-    </head>
-    <body>
 
-    <div class="row">
-    <div class="column">
-      <img alt="_images/jarn.png" src="_images/jarn.png" style="width: 30%;" class="right">
-    </div>
-    <div class="column">
-      <img alt="_images/surefni.png" src="_images/surefni.png" style="width: 30%;">
-    </div>
-    </div>
-    </body>
+Nafnakerfi fyrir sameindir
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
+Fyrir tvíatóma sameindir kemur fyrra frumefnið óbreytt en seinna frumefnið fær -íð (e. ide) endingu. Undantekningin á þessu eru eftirfarandi frumefni:
 
-  .. math::
+Kolefni
+  Efni með kolefni sem fyrra frumefni byrja á *kol-*
 
-    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
+Brennisteinn
+  Efni með brennistein sem seinna frumefni fá endinguna -*súlfíð*
 
-  Þá er hægt að finna massa eindanna:
+Súrefni
+  Efni með súrefni sem seinna frumefni fá endinguna -*oxíð*
 
-  .. math::
+Nitur
+  Efni með nitur sem seinna frumefni fá endinguna -*nítríð*
 
-    m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
+Vetni
+  Efni með vetni sem seinna frumefni fá endinguna -*hýdríð*
 
-  Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
+Sameindir geta þó haft mismunandi fjölda af hvoru atómi, en nituroxíð getur lýst :math:`NO`, :math:`NO_2`, :math:`N_2O` o.s.fr. Til aðgreiningar eru notuð eftirfarandi *forskeyti* til að lýsa fjölda atóma í sameind:
 
-Mólstyrkur
-~~~~~~~~~~
+.. raw:: html
 
-*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
-jóna í sameind.
+  <style>
 
-Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M, og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
+  table {
+   margin-left:auto;
+   margin-right:auto;
+  }
 
-Jafnan fyrir mólstyrk er:
+  table, th, td {
 
-.. math::
+  text-align: center;
+  }
 
-	C=\frac{n}{V}
+  </style>
 
-Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
+  <table style= "width:100%" class="colwidths-given docutils center" border="1">
+  <colgroup>
+  <col width="14%">
+  <col width="19%">
+  <col width="14%">
+  <col width="19%">
+  <col width="14%">
+  <col width="19%">
+  </colgroup>
+  <tbody valign="top">
+  <tr class="row-odd"><td>1</td>
+    <td>mónó-</td>
+    <td>5</td>
+    <td>penta-</td>
+    <td>9</td>
+    <td>nóna-</td>
+  </tr>
+  <tr class="row-even"><td>2</td>
+    <td>dí-</td>
+    <td>6</td>
+    <td>hexa-</td>
+    <td>10</td>
+    <td>deca-</td>
+  </tr>
+    <tr class="row-odd"><td>3</td>
+      <td>trí-</td>
+      <td>7</td>
+      <td>hepta-</td>
+      <td>11</td>
+      <td>undeca-</td>
+    </tr>
+    <tr class="row-even"><td>4</td>
+      <td>tetra-</td>
+      <td>8</td>
+      <td>octa-</td>
+      <td>12</td>
+      <td>dódeca-</td>
+    </tr>
+  </tbody>
+  </table>
 
-.. warning::
-
-	Rúmmál lausnar getur breyst við það að leysa upp efni, og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
-.. tip::
-
- **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`MgCl_2` **í 1,00 líter af vatni?**
-
- Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`MgCl_2` er ein magnesíum jón og tvær klóríð jónir. Þá er:
-
- .. math::
-
-  \begin{aligned}
-
- 	  [Mg^{2+}] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{1\text{ mól }Mg}{1\text{ mól }MgCl_2} = 2,00\,\text{M}\\
-    [Cl^-] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{2\text{ mól }Cl}{1\text{ mól }MgCl_2} = 4,00\,\text{M}
-
-  \end{aligned}
-
-Mólalstyrkur
-~~~~~~~~~~~~
-
-*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
-
-Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
-
-Efnaformúlur
-----------------
-
-Uppbygging efna er lýst með formúlu, og er þá helst talað um þrjár gerðir. Munurinn á þessum formúlum
-er hve miklar upplýsingar um efnið þær innihalda.
-
-Reynsluformúla (e. empirical formula)
-  Þær lýsa einungis hlutfall frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
-Sameindarformúla (e. molecular formula)
-  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
-Byggingarformúla (e. structural formula)
-  Þær sýna myndrænt, hvernig atómin eru tengd við hvort annað, og lýsir þannig byggingu efnisins.
-
-Ef tekið er dæmi um ediksýru, þá er reynsluformúlan hennar :math:`CH_2O` en sameindaformúlan hennar er :math:`C2H_4O_2`.
-Byggingarformúla ediksýru er aftur á móti:
-
-.. figure:: ./myndir/efnahvorf/ediksyra.png
-  :width: 25%
-  :align: center
-
-Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
-mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
+Eina breyting á þessu, er ef seinna frumefnið byrjar á sérhljóð, þá er sleppt -a eða -ó endingu í forskeyti. Einnig er ekki vaninn að byrja nafn á mónó-, þ.e. ekki þarf að tilgreina að það sé eitt atóm af fyrra frumefni.
 
 .. tip::
 
- **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`CH_2O` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
+ **Hvert er nafn** :math:`SF_6` **og** :math:`OsO_4`? **Hver er efnaformúla koltetraklóríðs?**
 
- Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
+ - :math:`SF_6` er brennisteinshexaflúoríð
+ - :math:`OsO_4` er osmíumtetroxíð. Hérna er sleppt -a í endanum á forskeyti.
+ - Koltetraklóríð er :math:`CCl_4`
 
- .. math::
+Jónatengi
+---------
 
-  \begin{aligned}
-  \mathcal{M}_{RF}&= \mathcal{M}_{C}+2\mathcal{M}_H+\mathcal{M}_O\\
-  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
-  &= 30,026 \text{ g/mól}
-  \end{aligned}
+Frumefni eltast við að uppfylla átturegluna, þ.e. hafa átta gildisrafeindir. Frumefni í flokki alkalímálma hefur eina gildisrafeind, en frumefni í flokki halógena hefur sjö. Alkalímálmurinn vill losa sig við þessa einu rafeind til þess að fá stöðuga rafeindahýsingu eðalgastegundurinn á undan.
+Sambærilega vill halógen fá seinustu rafeindina til að fá átta gildisrafeindir og þar með rafeinaskipun eðalgastegundarinnar í lotunni. Þannig eiga efni til að senda rafeindir sín á milli og *jónast*.
 
- Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
+Dæmi um þetta væri t.d. *jónaefnið* borðsalt, :math:`NaCl` en þar hefur natríum gefið klóríð rafeind.
+Natríum jónin verður við það plúshlaðin en klóríð jónin neikvætt hlaðin. Þetta er táknað sem :math:`Na^+` og :math:`Cl^-`.
 
- .. math::
-
-  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
-
- Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
- þá :math:`C_6H_{12}O_6`
-
-Stilla efnajöfnur
------------------
-
-*Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
-sama fjölda af hverju atómi í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
-að ákvarða þessi hlutföll.
-
-Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf*
-flækist málið en það fær að bíða betri tíma.
-
-Bruni
-~~~~~
-
-*Bruni* er í grunninn bara annað orð yfir *oxun*, þ.e. hvarf við súrefni. Algengast er að brenna kolefniskeðjur, t.d. bensín og tré, en vissulega eru mun fleiri frumefni sem brenna. Bruni á kolefniskeðjum hefur oftast nær sambærilega efnajöfnu, þ.e.
-kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
-
-.. warning::
-
-	Þetta gerir ráð fyrir *fullkomnum bruna* en almennt má gera ráð fyrir því.
-
+Þessi mismunur í hleðslu myndar *rafkrafta* sem heldur jónunum saman. Jónaefnið sem heild er þá með hlutlausa hleðslu.
 
 .. tip::
 
-	**Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir *bruna* glúkósa og stilltu.**
-
-  Óstillta efnajafnan er:
+ **Hver er rafeindahýsing** :math:`Na^+` **og** :math:`Cl^-`?
 
   .. math::
-
-    C_6H_{12}O_6 + O_2 \rightarrow CO_2 + H_2O
-
-  Nú getur verið gott að setja upp töflu með fjölda frumefna á hvorri hlið:
-
-  .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & {Myndefni}\\
-    \hline
-    C& 6 & 1 \\
-    O& 8 & 3 \\
-    H& 12&2 \\
+    \begin{array}{ c | c | c | c }
+    Na & Na^+ &Cl &Cl^-\\
+      \hline
+    [Ne]3s^1 &[Ne] & [Ne]3s^2 3p^5 & [Ne]3s^23p^6 \text{ eða } [Ar] \\
     \end{array}
 
-  Þegar á að stilla er gott að byrja á þeim frumefnum sem koma sem sjaldnast fyrir hvorum megin. Hérna væri það vetni og kolefni. Það þarf 6 sinnum fleiri vetni og kolefni myndefnamegin, til að jafna út fjöldann þeirra. Því er sett stuðulinn 6 fyrir framan bæði vatn og koldíoxíð,
-  og þá fæst:
+ Þessi rafeindahýsing er mun fýsilegri og því eru alkalímálmar og halógenar mjög hvarfgjarnir og finnast sjaldan sem hreint frumefni.
+
+Þetta eru þó ekki einu gerðirnar af jónum, en jarðalkalímálmar s.s. kalsíum hafa tvær gildisrafeindir. Til þess að uppfylla átturegluna getur það gefið tvær rafeindir og fengið hleðsluna 2+, þ.e :math:`Ca^{2+}`.
+Til þess að kalsíum myndi jónaefni þarf því aðra jón með hleðsluna 2-, eða tvær jónir með hleðslu 1-, s.s. :math:`CaCl_2`.
+
+Hliðarmálmar get einnig jónast og tekið hleðslu á bilinu +1 til +4. Sum frumefni geta jafnvel myndað fleiri en eina gerð af jón, t.d. járn. Járn getur losað sig við 2 eða 3 rafeindir og því myndað bæði :math:`Fe^{2+}` eða :math:`Fe^{3+}`.
+
+Jónir geta einnig verið flóknari en stök frumefni og myndað þá *fjölatóma jónir* (e. polyatomic ions) eða *sameindajónir*, s.s. súlfat, :math:`SO_4^{3-}` eða ammóníum :math:`NH_4^+`.
+
+Jónir finnast sem vökvar og fast efni, en aldrei á gasfasa. Það er vegna þess að þau þurfa að mynda kristalgrind, þar sem jákvæðar jónir og neikvæðar eru á víxl. Þessa grind er ekki hægt að viðhalda sem gas. Vegna þessarar grindar eru jónaefni hörð og brothætt, á föstu formi.  Þau geta einnig verið uppleyst
+í vökva og leitt rafmagn. Þess má geta að afjónað vatn, þ.e. vatn með engum jónum í, leiðir *ekki* rafmagn. Vatn og rafmagn hefur lengi verið talið hættuleg blanda, en það er í raun jónirnar í vatninu og rafmagn.
+
+
+
+Nafnakerfi fyrir jónaefni
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jákvætt hlaðnar jónir eru kallaðar *katjónir* (e. cations), en neikvætt hlaðnar jónir *anjónir* (e. anions).
+
+Fyrir einatóma jónir, er auðvelt af gefa jónunum nafn. Katjónir fá enga endingu, en anjónir fá -íð (e. ide) endingu. Dæmi um þetta væri t.d. að kalsíum jónir og klóríð jónir
+mynda svo kalsíumklóríð. Þetta er eins og fyrir sameindir en munurinn er að ekki þarf að taka fram fjöldan af hvorri jón, heldur er hlutfallið gefið með hleðslunni.
+
+Fyrir þá hliðarmálma sem geta tekið mismunandi hleðslu er síðan venjan að tilgreina hleðslu með rómverskum stöfum í sviga eftir katjóninni. Til dæmis væri jónin :math:`Fe^{2+}` járn(II) og :math:`Pb^{4+}` blý(IV).
+Þetta er ekki gert fyrir þau frumefni sem jónast aðeins á einn hátt.
+
+Nafnakerfið fyrir *oxóanjónir* (.e oxyanions) er svo fylgjandi öðrum reglum, en það eru fjölatóma jónir, þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda
+af súrefni og tekur þá mismunandi endingar.
+
+Hægt er að líta á þetta sem svo að það sé grunnjón sem endar á *-at* (e.-ate). Ef það bætist við eitt súrefnisatóm, tekur jónin forskeytið *per-*. Ef fækkað er hins vegar um eitt súrefnisatóm
+fær jónin endinguna *-ít* (e. -ite), og ef fækkar er aftur um súrefnsatóm, fær jónin forskeytið *hýpó-* (e.hypo). Þetta skýrist eflaust betur í töflu fyrir neðan:
+
+.. table::
+  :widths: 5 7 5 7 5 7 5
+
+  +------------------------------+--------------------------+--------------------------+----------------------------+
+  |             hýpó-...-ít      |          -ít             |           -at            |   per-...-at               |
+  +=================+============+=================+========+=================+========+=================+==========+
+  | :math:`ClO^-`   | hýpóklórít | :math:`ClO_2^-` | klórít | :math:`ClO_3^-` | klórat | :math:`ClO_4^-` | perklórat|
+  +-----------------+------------+-----------------+--------+-----------------+--------+-----------------+----------+
+  | :math:`BrO^-`   | hýpóbrómít | :math:`BrO_2^-` | brómít | :math:`BrO_3^-` | brómat | :math:`BrO_4^-` | perbrómat|
+  +-----------------+------------+-----------------+--------+-----------------+--------+-----------------+----------+
+  |:math:`PO_2^{3-}`| hýpófosfít |:math:`PO_3^{3-}`| fosfít |:math:`PO_4^{3-}`| fosfat |                            |
+  +-----------------+------------+-----------------+--------+-----------------+--------+----------------------------+
+  |:math:`SO_2^{2-}`| hýpósúlfít |:math:`SO_3^{2-}`| súlfít |:math:`SO_4^{2-}`| súlfat |                            |
+  +-----------------+------------+-----------------+--------+-----------------+--------+----------------------------+
+  |                              |:math:`NO_2^{-}` | nítrít | :math:`NO_3^{-}`| nítrat |                            |
+  +------------------------------+-----------------+--------+-----------------+--------+----------------------------+
+  |                                                         |:math:`CO_3^{2-}`|karbónat|                            |
+  +---------------------------------------------------------+-----------------+--------+----------------------------+
+
+
+
+Þessi listi er ekki tæmandi og athuga ber að ekki er til allar fjórar jónir fyrir öll efni. Þessi nafnagift er byggð á
+*oxunartölu* (e. oxidation state) frumefnisins sem stendur með súrefninu.
+
+Oxunartölur
+-----------
+Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
+jónarinnar en fyrir sameindir með samgild efnatengi, er það ekki. Munurinn er í raun sá að þrátt fyrir að hafa gefið af
+sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið.
+
+Það er því oft auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili, og getur
+tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms eykst er það að *oxast*, en *afoxast* þegar hún lækkar.
+
+.. tip::
+  **Í svokölluðum oxunar-afoxunar hvörfum er annað efnið að oxast en hitt að afoxast. Dæmi um þetta er t.d.**
 
   .. math::
+    Zn(s)+2H^+ \rightarrow Zn^{2+}+H_2(g)
 
-    C_6H_{12}O_6 + O_2 \rightarrow 6 CO_2 + 6 H_2O
+  **Hvort er sinkið, eða vetnið að oxast, og hvort er að afoxast?**
 
-  Taflan verður þá:
+  Oxunartala sinks er 0 í byrjun en verður +2. Það er því að *oxast*.
 
-  .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & \text{Myndefni}\\
-    \hline
-    C& 6 & 6 \\
-    O& 8 & 18 \\
-    H& 12& 12 \\
-    \end{array}
+  Oxunartala vetnis fer úr +1 í 0, og er því að *afoxast*
 
-  Gott er að geyma einatóma sameindir þangað til seinast, því nú er lítið mál að laga magnið af súrefni. Það greinilega vantar 10 atóm af súrefni hvarfefnamegin og því er kippt í liðinn með því að bæta við 5 súrefnissameindum:
+Greina oxunartölu atóms í sameind
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  .. math::
+Hægt er að sjá allar möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
+en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglur:
 
-    C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2O
+1. Oxunartala hreins frumefnis, s.s. :math:`Al(s)` eða tvíatóma sameind, s.s. :math:`H_2` er alltaf 0.
 
-  Þessi efnajafna er nú stillt! Til að brenna mól af glúkósa þarf 6 mól af súrefnissameindum.
+2. Oxunartala einatóma jóna er jöfn hleðslu hennar, en fyrir fjölatóma jónir eru samanlagðar oxunartölur jafnar
+   hleðslu jónarinnar. Fyrir fjölatóma sameindir eru samanlagðar oxunartölur 0.
 
-Sameinuð efnahvörf
-------------------
+3. Oxunartala jóna alkalímálma er alltaf +1 en oxunartala jarðalkalímálma er alltaf +2.
 
-Efnahvörf geta gerst í skrefum þar sem hvert skref hefur efnaformúlu. Þá er hægt að taka saman þessi skref og mynda heildarformúlu. Ef efni kemur fyrir oftar en einu sinni, sömu megin við örina, *leggjast stuðlar þess saman*. Ef efni koma sitthvorum megin
-við örina, *styttast þeir út á móti hvor öðrum*.
+4. Oxunartala súrefnis er yfirleitt -2, með tvær undartekningar þó. Ef súrefnið myndar *peroxíð* s.s. :math:`H_2O_2` hafa bæði súrefnisatómin
+   oxunartölu -1. Ef súrefni er bundið við flúor getur það einnig tekið oxunartölu +1.
 
-Þetta getur gilt fyrir hvörf sem gerast í skrefum sem og hvörf sem hafa *hliðarhvörf*, þ.e. annað hvarf sem gerist samhliða.
+5. Oxunartala vetnis er yfirleitt +1, en vetni getur myndað hýdríð þegar það tengist málmi og fengið oxunartölu -1.
 
-.. math::
-
-  \begin{aligned}
-  A+2B&\rightarrow C + D\\
-  C+ B &\rightarrow E
-  \end{aligned}
-
-Heildarformúlan fyrir þetta hvarf væri þá:
-
-.. math::
-
-  A + 3B \rightarrow D + E
-
-
-Takmarkandi hvarfefni
----------------------
-
-Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. T.d. væri ekki vitlaust að blanda
-7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir það að glúkósinn brennur allur, eða a.m.k. meira af honum. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
-Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
-
-Þegar takmarkandi hvarfefnið er uppurið, getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
-
-Til að vita hvaða efni er takmarkandi hvarfefnið, þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
+6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar
+   þeir tengjast súrefni eða flúor.
 
 .. tip::
 
- **Framleiðsla á ammóníaki,** :math:`NH_3` **er eitt mikilvægasta efnahvarf heims, enda er það grunnur í flesta áburði. Það er gert með því að blanda saman nitri úr andrúmsloftinu,** :math:`N_2` **við vetnisgas,** :math:`H_2`. **Hver er hámarksmassi sem getur myndast af ammóníaki,
- ef blandað er saman 263,0 grömmum af nitri og 50,0 grömmum af vetnisgasi?**
+  **Hver er oxunartala kolefnis í natríum bíkarbónati,** :math:`NaHCO_3` **, betur þekkt sem matarsódi?**
 
- Stillt efnajafna fyrir hvarfinu er:
+  Sameindin hefur enga hleðslu og því þurfa samanlagðar oxunartölur að vera jafnt og 0. Nú er hægt að gefa öllum
+  atómum nema kolefninu oxunartölu, og finna þá hvað kolefnið þarf að vera til að summan sé jöfn 0.
 
- .. math::
+  - Natríum er alkalímálmur og hefur því oxunartölu +1
+  - Vetnið er ekki í málmtengi og og hefur því oxunartölu +1
+  - Súrefnið myndar ekki peroxíð, né er bundið flúor, svo það hefur oxunartölu -2.
 
-   N_2 + 3H_2 \rightarrow 2NH_3
-
- Það þarf því þrjú mól af vetni fyrir hvert mól af nitri. Byrjum á að finna mólfjölda af hvarfefnunum. Mólmassi þeirra er:
-
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{H_2}&=2\cdot 1,008 \text{ g/mól} =2,016 \text{g /mól}\\
-  \mathcal{M}_{N_2}&=2\cdot 14,007 \text{ g/mól} =28,014 \text{g /mól}
-  \end{aligned}
-
- Þá er hægt að finna mólfjölda hvarfefnanna:
-
- .. math::
-  \begin{aligned}
-  n_{H_2} &= \frac{m_{H_2}}{\mathcal{M}_{H_2}} = \frac{50,0 \text{g}}{2,016 \text{ g/mól}}= 24,80 \text{ mól}\\
-  n_{N_2} &= \frac{m_{N_2}}{\mathcal{M}_{N_2}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
-  \end{aligned}
-
- Jafnvel þótt fjöldinn af vetnismólum sé meiri, er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
-
- Vetnið er því takmarkandi hvarfefnið, og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
-
- .. math::
-
-   n_{NH_3}=24,80 \text{ mól }H_2 \cdot \frac{2 \text{ mól }NH_3}{3 \text{ mól }H_2} = 16,53 \text{ mól }NH_3
-
- Þessu er svo að lokum breytt í massa:
-
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{NH_3}&=14,007 \text{ g/mól} + 3\cdot 1,008 \text{ g/mól} =17,031 \text{g /mól}\\
-  m_{NH_3} &= \mathcal{M}_{NH_3} \cdot n_{NH_3} = 17,031 \text{ g/mól} \cdot 16,53 \text{ mól}= 282 \text{ g}
-  \end{aligned}
-
-
-Hraðafræði
-----------
-
-Efnahvörf gerast mishratt, og það getur verið gagnlegt að vita hvaða þættir hraða eða hægja á efnahvarfinu, og stjórna þeim eftir því hvað hentar. *Hraði* efnahvarfs er þá breyting á styrk á tíma, sambærilegt og í eðlisfræði er hraði breyting á staðsetningu á tíma.
-
-Ef það er verið að mynda járn(II) jónir úr járn(III) jónum er hægt að skrifa hraðann sem:
-
-.. math::
-
-  \text{hraði} =\frac{\Delta[Fe^{2+}]}{\Delta t}=\frac{-\Delta[Fe^{3+}]}{\Delta t}
-
-.. note::
-
-	:math:`\Delta` er gríski bókstafurinn "Delta" og í efnafræði táknar hann *breytingu*. :math:`\Delta[Fe^{2+}]` er því breyting á styrk járn(II) jóna og er reiknaður sem lokagildi mínus upphafsgildi.
-
-Styrkur járn(III) jóna minnkar eftir því sem líður á efnahvarfið, og :math:`\Delta[Fe^{3+}]` er því neikvæð stærð. Til þess að efnahvarf haldi áfram þarf hraðinn að vera jákvæður, og því er notað mínusmerki fyrir framan breytingu á hvarfefnum. Til að samræma þessar tölur þarf einnig að deila með mólhlutfallsstuðlinum í efnajöfnunni.
-
-
-.. math::
-
-	aA + bB \rightarrow cC +dD
-
-Fyrir stilltu efnajöfnuna, þar sem litlu bókstafirnir eru mólhlutföllin er hraðinn:
-
-.. math::
-
-	\text{hraði} =-\frac{1}a\frac{\Delta[A]}{\Delta t}=-\frac{1}b\frac{\Delta[B]}{\Delta t}=\frac{1}c\frac{\Delta[C]}{\Delta t}=\frac{1}d\frac{\Delta[D]}{\Delta t}
-
-Til að mæla hraða efnahvarfs er nóg að fylgjast með einu efni, og hægt er að reikna breytingu á styrk hinna efnanna.
-
-.. tip::
-
- **Vetnisperoxíð er algengt sótthreinsefni fyrir sár, en það brotnar niður samkvæmt efnahvarfinu:**
-
- .. math::
-
-   2H_2O_2\text{(aq)} \rightarrow 2H_2O\text{(l)} + O_2\text{(g)}
-
- **Í upphafi (t=0) var styrkur vetnisperoxíðs 0,120 M en eftir 89 sekúndur var styrkurinn 0,035M. Hver er hraði hvarfsins?**
-
- Hér var fylgst með vetnisperoxíðinu og því fæst:
-
- .. math::
-
-   \text{hraði}= -\frac{1}{2}\frac{\Delta [H_2O_2]}{\Delta t}=-\frac{1}{2}\frac{(0,035\,\text{M}-0,120\,\text{M})}{(89\,\text{s}-0\,\text{s})}=9,55 \times 10^{-4} \text{M/s}
-
- Þetta er meðalhraði hvarfsins yfir þennan tíma.
-
-Hraði getur verið breytilegur í gegnum hvarfið, og þetta er því einungis gilt til að finna meðalhraða yfir þann tíma sem var mælt. Til að finna hraðann á hverju augnabliki þyrfti að *diffra* en hraðinn er hægt að skrifa sem :math:`-\frac{1}{a} \frac{d[A]}{dt}`.
-Ekki er nauðsynlegt að vera vel að sér í diffri fyrir hraðafræðina, og hún mun einungis koma fram í sönnunum hér, sem eru einungis fyrir áhugasama.
-
-Áhrif styrks hvarfefna á hraða
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Hraði hvarfs getur byggst að miklu leyti á styrk ákveðins hvarfefnis, eða ekki neitt. Það fer allt eftir *hvarfgangi* (e. mechanism) hvarfsins, sem lýsir hvernig hvarfið gerist, skref fyrir skref. Þetta er ákvarðað með tilraunum þar sem breytilegt magn hvarfefna er notað. Þá er gagnlegt að setja upp formúlu sem lýsir hraða efnahvarfs.
-
-.. math::
-
-	aA + bB \rightarrow cC +dD
-
-Fyrir þetta efnahvarf væri *hraðalíkanið* (e. rate expression) eftirfarandi:
-
-.. math::
-
-	\text{hraði}=k[A]^{m} [B]^{n}
-
-hér er :math:`k` *hraðafasti* (e. rate constant) hvarfsins og stuðlarnir :math:`m,n` sýna *stig* (e. order) efnahvarfsins m.t.t. hvarfefnisins. Þessar tölur eru ákvarðar með tilraunum og passa skal að :math:`m,n` eru **ekki** endilega tengdir stuðlunum :math:`a,b` en klassísk villa er að rugla þeim saman. Þegar talað erum stig efnahvarfs og ekki tilgreint hvarfefni, er
-lagðir saman stuðlarnir :math:`m+n`.
-
-Þegar smíða á hraðalíkan skal hafa öll hvarfefnin, en ef veldisstuðull reynist vera 0 fyrir hvarfefni má taka það úr líkaninu.
-
-Hraðafasti
-~~~~~~~~~~
-
-Hraðafastinn er einkennandi fyrir hvert hvarf, en hann breytist þó með *hitastigi*, en almennt gerast hvörf hraðar í heitari aðstæðum. Hraðafastinn er stundum skrifaður sem :math:`k(T)`, en táknar hraðafastann sem fall af hitastigi.
-
-Hraðafastinn hefur mismunandi einingar fyrir mismunandi stig hvarfa. Reglan er sú að hraðinn hefur alltaf eininguna M/s, og eining hraðafastans er ákvörðuð út frá því
-
-Núllta stigs hvarf
-~~~~~~~~~~~~~~~~~~
-
-Fyrir *núllta stigs hvörf* er hraðinn *ekki* háður neinu hvarfefni, og helst stöðugur þangað til takmarkandi hvarfefnið er uppurið. Þá er :math:`m=n=0` og hraðalíkanið verður einfaldlega:
-
-.. math::
-
-  \text{hraði}=k
-
-Á grafi liti þá styrkbreyting hvarfefnis svona út:
-
-.. figure:: ./myndir/efnahvorf/zero.svg
-  :align: center
-  :width: 45%
-
-.. note::
-
-	Algengur ritháttur að nota undirskriftina :math:`_0` eða :math:`_i` fyrir upphafsgildi. Þetta stendur fyrir :math:`t=0` eða "initial". Að sömu leyti er einnig oft notað :math:`_f` fyrir "final" til að tilgreina lokagildi. Notað er undirskriftin :math:`_t` til að tákna gildi fyrir ákveðinn tíma :math:`t`.
-
-Fyrir núllta stigs hvörf er auðvelt að ákvarða hraðafastann, :math:`k`, en hann, margfaldaður við :math:`a` er neikvæð hallatalan á grafinu. Þ.e.
-
-.. math::
-
-	a \cdot k=-\frac{[A]_f-[A]_0}{t_f-t_0}=\frac{[A]_0-[A]_f}{t_f-t_0}
-
-Jafna línunnar á grafinu er:
-
-.. math::
-
-  [A]_t=-akt+ [A]_0
-
-.. tip::
-
- **Gefið er að eftirfarandi efnahvarf sé núllta stigs.**
-
- .. math::
-
-	  A -> B + C
-
- **Upphafsstyrkur A er 0,180 M, og það tekur hvarfið 4 mínútur að klárast við 25°C. Hver er hraðafastinn við 25°C?**
-
- Hér er hægt að nota báðar jöfnur en notum þá fyrri. Hér er :math:`[A]_0=0,180\text{ M}`, :math:`[A]_f=0 \text{ M}` og :math:`t_f=4 \text{ mín}`, :math:`t_0= 0 \text{ mín}`. Ef gildin eru upphafs- og lokagildi einfaldast jafnan í:
-
- .. math::
-
- 	k=\frac{[A]_0}{t_f}=\frac{0,180 \text{ M}}{4 \text{mín}}=0,045\text{ M/mín}
-
- Hérna er hraðafastinn gefinn upp með einingu M/mín, en einnig væri hægt að breyta í M/sek. Enginn regla er á því hvað skal nota en oft er hægt að meta bestu eininguna út frá stærðargráðu fastans.
-
-
-Fyrsta stigs hvarf
-~~~~~~~~~~~~~~~~~~
-
-Hvarf er *fyrsta stigs* (e. first order) þegar hraðinn byggist á styrk hvarfefnis í fyrsta veldi.
-
-.. math::
-
-  aA + bB -> cC
-
-Hraðalíkanið fyrir þetta hvarf væri þá:
-
-.. math::
-
-  \text{hraði}=k[A]^m [B]^n
-
-þar sem :math:`m+n=1`. Oftast nær er önnur talan 0 og hraðalíkanið þá :math:`\text{hraði}=k[A]` eða :math:`\text{hraði}=k[B]`. Í jöfnum hér á eftir var A valið sem hvarfefni sem hraðinn er háður, en sambærilegt gildir fyrir B.
-
-Styrkur sem fall af tíma er ekki lengur línulegur heldur gildir jafnan:
-
-.. math::
-
-  \text{ln}([A]_t)=-a k t +\text{ln}([A]_0)
-
-.. begin-toggle::
-  :label: Sönnun
-  :starthidden: True
-
-**Ekki þarf að kunna sannanir og er fyrst um sinn einungis fyrir áhugsama**
-
-Fyrir fyrsta stigs hvarf gildir:
-
-.. math::
-
-  \text{hraði} =-\frac{1}a\frac{d[A]}{dt}=k[A]
-
-Þetta er aðgreinanleg diffurjafna sem hægt er að heilda:
-
-.. math::
-
-  \int_{[A]_0}^{[A]_t} \frac{d[A]}{[A]}=\int_{0}^{t} -ak
-
-Með því að heilda báðum megin fæst svo jafnan:
-
-.. math::
-
-  \text{ln}([A]_t)-\text{ln}([A]_0) =-akt
-
-
-.. end-toggle::
-
-
-Efnahvarfið hægir þá á sér eftir því sem líður á.
-
-.. figure:: ./myndir/efnahvorf/fyrsta.svg
-  :align: center
-  :width: 45%
-
-.. tip::
-
-  **Borðsykur, eða súkrósi er tvísykra sem brotnar niður í líkamanum í glúkósa og frúktósa skv. efnajöfnunni:**
+  Nú er hægt að setja upp jöfnuna:
 
   .. math::
+    1 + 1 + C + 3(-2)=0
 
-    C_{12}H_{22}O_{11} + H_2O \rightarrow C_6H_{12}O_6 + C_6H_{12}O_6
+  Með því að leysa fyrir C fæst að oxunartala kolefnis þarf að vera *4*.
 
-  **Þetta er fyrsta stigs hvarf með hraðafasta** :math:`2,3 \times 10^{-5}\text{ 1/s}` við 15 °C. **Hver er styrkur súkrósalausnar 136 mínútum inn í hvarfið, ef hún hafði upphafsstyrk 0,010 M?**
 
-  Hérna, líkt og í mörgum dæmum er :math:`a=1` og þarf því ekki að hugsa nánar út í það. Þá þarf bara að stinga inn gildunum í jöfnuna fyrir ofan og þá fæst:
+Málmtengi
+---------
 
-  .. math::
+Málmatóm tengjast hver öðrum með svokölluðum *málmtengjum* (e. metallic bonding). Þá gefa málmarnir frá sér rafeindir sem ferðast nánast frjálsar um. og halda plúshlöðnu málmatómunum saman. Þetta myndar
+því eins konar fylkingu af katjónum í sjó af rafeindum. Þetta er ekki hárrétt lýsing, en dugar í bili. Þetta er ólíkt hinum efnatengjunum að því leyti að ekki þarf ákveðin hlutföll af efnum. Þessi tengi leiða af sér *fimm* einkennandi eiginleika.
 
-    \begin{aligned}
-      \text{ln}([C_{12}H_{22}O_{11}] _{t=6 \text{ mín}}) &= - 2,3 \times 10^{-5} \text{ 1/s}\cdot 136\text{ mín}  \cdot \frac{60 \text{ s}}{1 \text{ mín}} + \text{ln}(0,010\text{ M})\\
-      &=-4,7929\\
-    \end{aligned}
+Góð varmaleiðni
+  Varmi er í raun hreyfiorka atóma, og hiti er þá hve hratt atómin hreyfast. Þegar atóm hitna, geta þau hitað atóm í kringum sig með árekstrum, en við árekstra dreifist varmaorkan. Í málmtengjum eru atómin þétt saman og frjálsari. Þar af leiðandi
+  eru árekstrar örir og málmar hafa mikla varmaleiðni.
 
-  Til að losna við lografallið er tekið *veldisvísifallið*:
+Góð rafleiðni
+  Rafmagn er í raun bara flutningur á rafeindum, en rafeindir geta ferðast nánast frjálsar í málmtengjum. Því er góð rafleiðni í málmum.
 
-  .. math::
+Mótanleiki
+  Þar sem að málmatóm mynda ekki hefðbundin efnatengi sín á milli í kristalbyggingunni, er hægt að móta málma án þess að þeir brotni. Losaralegu tenglsin milli katjónanna og rafeindar geta brotnað og endurnýjað sig auðveldlega annars staðar.
 
-    \begin{aligned}
-      {[C_{12}H_{22}O_{11}]}_{t=6 \text{ mín}} &=e^{-4,7929}\\
-      &=0.0083 M
-    \end{aligned}
+Gljái
+  Hægt er að pússa upp málma svo að ysta lag "rafeindasjávarins" endurkasti ljósi. Málmar eru ógegnsæir þegar þeir ná ákveðnari lágmarksþykkt.
 
-Annars stigs hvarf
-~~~~~~~~~~~~~~~~~~
+Hár eðlismassi, sem og hátt bræðslumark og suðumark.
+  Málmatómin liggja þétt saman sem veldur háum eðlismassa. Málmtengin eru einnig í heildina sterk og því þarf mikinn hita til að rjúfa þau. Þess vegna er bræðslumark og suðumark málma hátt. Undantekning á þessu er *kvikasilfur*, en
+  það er eini málmurinn sem er fljótandi við stofuhita.
 
-Hvarf er *annars stigs* (e. second order) þegar hraðinn byggist á styrk hvarfefna í öðru veldi.
+Millisameindakraftar
+--------------------
 
-.. math::
+Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum.
+Helstu kraftarnir kallast  *Van der Waals* kraftar, þeir eru *tvípóls-tvípóls kraftar*, *London kraftar* og *vetnistengi*.
 
-  aA + bB -> cC
+ Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
 
-Hraðalíkanið fyrir þetta hvarf væri þá:
 
-.. math::
-
-  \text{hraði}=k[A]^m [B]^n
-
-þar sem :math:`m+n=2`. Algengustu annars stigs hvarfslíkön eru :math:`k[A]^2`, :math:`k[B]^2` eða :math:`k[A][B]`. Fyrir fyrstu tvö líkönin er hægt að leiða út jöfnuna fyrir styrk:
-
-.. math::
-
-  \frac{1}{[A]_t}=akt + \frac{1}{[A]_0}
-
-Ákvarða stig hvarfefnis
+Tvípóls-tvípóls kraftar
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Til að ákvarða stig hvarfefnis í hraðalíkanið, þ.e. stuðlana :math:`m,n`, þarf tilraunir. Þá er blandað saman mismunandi styrk af hvarfefnum og athuga hvernig það hefur áhrif á hraðann.
+Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Sameindirnar raðast þá með jákvæðan pól við neikvæðan pól hjá næstu, og öfugt.
+
+London kraftur
+~~~~~~~~~~~~~~
 
 
-.. math::
 
-  A+B \rightarrow C
+Jóns-jóns kraftar
+~~~~~~~~~
 
-Fyrir þetta efnahvarf væri hraðalíkanið
+Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Tengin eru því töluverð sterkari.
 
-.. math::
 
-  \text{hraði} = k[A]^m[B]^n
 
-Segjum sem svo að hraðinn er mældur tvisvar og í seinna skiptið er notað tvöfaldan styrk af hvarfefni :math:`A`. Þá er hægt að finna stuðulinn :math:`m` með jöfnunni:
 
-.. math::
 
-  \frac{\text{hraði}(2\times A)}{\text{hraði}(1\times A)}=2^m
-
-Þessi jafna er fyrir þegar tvöfaldað er styrkinn af hvarfefni A. Ef notað er :math:`x` sinnum meiri styrk af hvarfefninu, er jafnan:
-
-.. math::
-
-  \frac{\text{hraði}(x\times A)}{\text{hraði}(1\times A)}=x^m
-
-.. begin-toggle::
-    :label: Sönnun
-    :starthidden: True
-
-Ef notað er :math:`x` sinnum meira af hvarfefni A er styrkurinn :math:`x[A]`. Hraðalíkanið verður þá:
-
-.. math::
-
-  \require{cancel}
-
-  \begin{aligned}
-  \text{hraði}&=k(x[A])^m[B]^n\\
-  &=kx^m[A]^m[B]^n
-  \end{aligned}
-
-Þetta er hægt að deila í hraðalíkanið sem fæst fyrir upphaflega magnið af hvarfefni A:
-
-.. math::
-
-    \begin{aligned}
-    \frac{\text{hraði}(x\times A)}{\text{hraði}(1\times A)}&=\frac{\bcancel{k} x^m\bcancel{[A]^m}\bcancel{[B]^n}}{\bcancel{k}\,\,\,\,\,\,\,\bcancel{[A]^m}\bcancel{[B]^n}}\\
-     &=x^m
-    \end{aligned}
-
-.. end-toggle::
-
-Þessar jöfnur geta litið flóknar út og því gæti verið auðveldara að skilja þetta í dæmi.
-
-.. tip::
-
- **Mældur var hraðinn fyrir efnahvarfið með mismunandi styrk hvarfefna**
-
- .. math::
-
-  	A+ B \rightarrow C
-
- **Niðurstöðurnar voru settar upp í töflu:**
-
- .. math::
-
-  	\begin{array}{c|c|c}
-    [A]&[B]& \text{hraði} [\text{M/s}]\\
-      \hline
-    0.100\text{ M}&0.100\text{M}&1,2\times 10^{-4}\\
-    0.200\text{ M}&0.100\text{M}&2,4\times 10^{-4}\\
-    0.100\text{ M}&0.300\text{M}&10,8\times 10^{-4}\\
-    \end{array}
-
- **Hvert er hraðalíkan hvarfsins? Finndu hraðafastann, sem og stuðlana** :math:`m,n`.
-
- Almenna hraðalíkan hvarfsins er
-
- .. math::
-
-   \text{hraði}=k[A]^m[B]^n
-
- Til að finna :math:`m` er hægt að athuga hvað gerist þegar styrkur A er *tvöfaldaður*. Það sem gerist er að hraðinn *tvöfaldast*. Þá er:
-
- .. math::
-
- 	2 = 2^m
-
- Þetta gefur að :math:`m=1`. Athugum nú hvað gerist þegar styrkur A er *þrefaldaður*. Það sem gerist er að hraðinn *nífaldast*. Þá er:
-
- .. math::
-
-  9= 3^n
-
- Þetta gefur að :math:`n=2`. Hraðalíkanið er þá orðið:
-
- .. math::
-
- 	\text{hraði}=k[A][B]^2
-
- Hvarfið er þá þriðja stigs. Til að finna hraðafastann, er hægt að nota hvert og eitt gildi. Notum það fyrsta og stingum inn gildunum í hraðalíkanið:
-
- .. math::
-
-  1,2\times 10^{-4} \text{ M/s}= k \cdot 0.100 \text{ M}\cdot (0.200 \text{ M})^2
-
- Endurritum þetta og þá fæst:
-
- .. math::
-
-  \begin{aligned}
-
-    k&=\frac{1,2\times 10^{-4} \text{ M/s}}{0.100 \text{ M}\cdot (0.200 \text{ M})^2}\\
-     &=0,030 \text{ s}^{-1}\text{ M}^{-2}
-
-  \end{aligned}
+Fasar
+-----

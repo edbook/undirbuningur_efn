@@ -1,440 +1,321 @@
-Efnajafnvægi
-============
+.. _s.Efnahvörf:
 
-Fram að þessu hefur verið áætlað að efnahvörf gerast einungis í aðra áttina, þ.e.
+Efnahvörf
+=========
+
+Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf grundvöllur lífs. En efnahvarf er ferli þar sem efni breytist; efnasambönd myndast, breytast eða brotna niður. Efnahvörfum má almennt séð lýsa sem breytingu á *efnatengjum* milli kjarna, og hægt er að skipta þeim í ýmsa flokka. Fjórir flokkar sem eru oft notaðir eru:
+
+Álagningarhvarf (e. addition reaction)
+  Þessi hvörf er þegar tvö efni sameinast og mynda eina heild, og er þá stundum talað um að annað efnið leggist á hitt. Í þessu tilfelli eru efnatengi að *myndast*.
+
+  .. figure:: ./myndir/efnahvorf/alagning.svg
+    :align: center
+    :width: 30%
+
+Brottnámshvarf (e. elimination reaction)
+  Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
+
+  .. figure:: ./myndir/efnahvorf/brottnam.svg
+    :align: center
+    :width: 30%
+
+Skiptihvarf (e. exchange reaction)
+ Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
+
+ .. figure:: ./myndir/efnahvorf/skipti.svg
+   :align: center
+   :width: 39%
+
+Umröðunarhvarf (e. rearrangement reaction)
+  Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
+
+  .. figure:: ./myndir/efnahvorf/umrodun.svg
+    :align: center
+    :width: 20%
+
+Mól
+---
+
+Efnahvörf gerast á eindavís, t.d. ein sameind verður að annarri sameind. Eindir eru aftur á móti örsmáar og almennt ekki mjög praktískt að reikna með stökum eindum. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi
+fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrosartala* og hefur gildið
 
 .. math::
+  N_A=6,022 \times 10^{23}\, 1/\text{mól}.
 
-	A+B \rightarrow C +D \quad 	\text{hraði}=k[A]^m[B]^n
+Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af bjór lýsir 6 bjórum!
 
-Það sem getur einnig gerst er að hvarfið fari í *öfuga átt*
+Mólmassi
+~~~~~~~~
 
-.. math::
+Frumefnin eru mismassamikil en massi eins móls af frumefni er kallaður *mólmassi* efnisins. Mismundandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra og það má sjá í flestum lotukerfum, undir nafninu. Þessi tala er notuð fyrir
+alla mólreikninga, nema tilgreint sé hvaða samsæta sé notuð.
 
-  C+D \rightarrow A+ B
+Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
 
-Hraðalíkan fyrir þetta afturábak hvarf væri þá
-
-.. math::
-
-	\text{hraði}=k`[C]^k[D]^l
-
-Ef hvörfin eru hvorug núllta stigs *eykst* hraðinn á afturábak hvarfinu þegar líður á upprunalega hvarfið, enda eykst styrkur :math:`[C]` og :math:`[D]`. Að sama leyti *minnkar* hraðinn á upprunalega hvarfinu. Þegar þessir tveir hraðar jafnast út,
-nær hvarfið *jafnvægi* (e. equilibrium).
-
-Þegar efnahvarf nær jafnvægi má segja að það sé hætt, en það er ekki alveg rétt. Bæði efnahvörfin eru enn í fullu gangi, bara fara jafnhratt. Það *myndast því jafn mikið efni og hvarfast aftur.*
-
-Fyrir þetta efnahvarf væri myndun C og D kallað að "efnahvarfið gangi til hægri" og afturábak hvarfið væri að "ganga til vinstri".
-
-Fyrir hvörf þar sem hvarfefnin hvarfast ekki að öllu leyti, og það nær jafnvægi, er notað örvar í báðar áttir í efnajöfnunni. Þ.e. :math:`\leftrightharpoons` í stað :math:`\rightarrow`. Hér má athuga að öll hvörf ná jafnvægi, en oft má nálga að hvarf gangi alveg til hægri, og nota þá venjulega ör.
-
-Jafnvægisfasti
---------------
-
-Hvert hvarf hefur einkennandi *jafnvægisfasta* (e. equilibrium constant) fyrir ákveðið hitastig. Jafnvægisfastinn er táknaður með :math:`K` og er einingarlaus.
+Mólmassi, massi og mól tengjast með formúlunni
 
 .. math::
+  \mathcal{M}\cdot n=m
 
-  aA +bB+ \dots \leftrightharpoons nN + mM + \dots
-
-Jafnan fyrir jafnvægisfasta þessa hvarfs væri:
-
-.. math::
-
-  K=\frac{[N]^n[M]^m \dots }{[A]^a[B]^b \dots }
-
-Þessi jafna er einnig gjarnan kölluð *jafnvægislíking* til aðgreiningar, og segir til um hlutfall styrks við jafnvægi. Þennan jafnvægisfasta er hægt að fletta upp fyrir flest hvörf við algeng hitastig s.s. stofuhita.
+Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
 
 .. tip::
 
- **Á Íslandi stofnaði CRI fyrstu verksmiðju heims sem umbreytir koldíoxíð í útblæstri í nothæft metanól. Þetta er gert samkvæmt efnaformúlunni:**
+	**Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`FeO`?
+
+  Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
 
   .. math::
 
-  	CO_2+ 3H_2 \leftrightharpoons CH_3OH + H_2O
+    \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23} 1/\text{mól}}=0,00166\text{ mól}
 
- **Hver er jafnvægislíking hvarfsins?**
+  Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
 
- Jafnvægislíking hvarfsins er:
+  .. figure:: ./myndir/efnahvorf/jarnsurefni.png
+      :width: 45%
+      :align: center
 
- .. math::
+  Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
 
-   K=\frac{ [CH_3OH][H_2O] }{ [CO_2][H_2]^3}
+  .. math::
 
-Jafnvægisfasti tekur gildi á breiðu bili, en t.d. er jafnvægisfasti bruna vetnis með stærðargráðu :math:`~10^{80}`, en jafnvægistfasti fyrir bruna niturs í lofti er með stærðargráðu :math:`10^{-31}` við stofuhita. Þessi munur myndi útskýra af hverju það er ekkert vetni í andrúmsloftinu, en nitur og loft getur lifað í samlyndi þar.
+    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
 
-Jafnvægi fyrir gös
-----------------------
+  Þá er hægt að finna massa eindanna:
 
-Fyrir efnahvörf sem eiga sér stað á gasfasa er oft ekki notaður styrkur, heldur *hlutþrýstingur* (e. partial pressure) efna. Þá er ekki notað styrkur í hornklofa, :math:`[A]` heldur :math:`P_A` í jafnvægislíkingunni. Til aðgreiningar er notað :math:`K_c` fyrir jafnvægi í lausn en
-:math:`K_p` fyrir jafnvægi í gasfasa.
+  .. math::
 
-.. math::
+    m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
 
-  aA(g) +bB(g)+ \dots \leftrightharpoons nN(g) + mM(g) + \dots
+  Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
 
-Fyrir þetta efnahvarf væri jafnvægisfastinn í gasfasa:
+Mólstyrkur
+~~~~~~~~~~
 
-.. math::
+*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
+jóna í sameind.
 
-  K=\frac{P_N^n P_M^m \dots }{P_A^a P_B^b \dots }
+Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M, og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
 
-:math:`K_p` er ekki endilega sama talan og :math:`K_c` en jafnan til að breyta á milli þeirra er
-
-.. math::
-
-  K_p=(RT)^{\Delta n} K_c
-
-Þar sem :math:`R` er gasfastinn :math:`0,083145 \,\frac{\text{bar L}}{\text{K mól}}`, :math:`T` er hitastigið í kelvin. Að lokum er :math:` \Delta n ` mismunur á mólum fyrir og eftir hvarfið, þ.e.
+Jafnan fyrir mólstyrk er:
 
 .. math::
 
-  \Delta n = (n+m+ \dots) - (a+ b+ \dots)
+	C=\frac{n}{V}
 
-Ef það eru jafnmörg mól af efnum fyrir og eftir hvarfið, þá gildir :math:`(RT)^0=1` og :math:`K_p=K_c`.
+Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
 
+.. warning::
+
+	Rúmmál lausnar getur breyst við það að leysa upp efni, og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
 .. tip::
 
- **Gefið er efnahvarfið:**
+ **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`MgCl_2` **í 1,00 líter af vatni?**
 
- .. math::
-
-    2SO_2(g) +O_2(g) \leftrightharpoons 2SO_3(g) \quad \quad \quad \quad K_p=3,4 \text{ fyrir } 1000 \text{ K}
-
- **Hver er** :math:`K_c` **fyrir hvarfið við 1000 K?**
-
- Nú er jafnan:
-
- .. math::
-
-  K_p=(RT)^{\Delta n} K_c
-
- Þar sem:
-
- .. math::
-
-  \Delta n =2 -(2+1) =-1
-
- Nú er hægt að einangra :math:`K_c` og stinga inn gildum:
+ Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`MgCl_2` er ein magnesíum jón og tvær klóríð jónir. Þá er:
 
  .. math::
 
   \begin{aligned}
 
-  K_c &= \frac{ K_p}{(RT)^ {\Delta n} }\\
-      &= \frac{3,4} { \left(0,083145\,\frac{\text{bar L}}{\text{K mól}} \cdot 1000\text{ K}\right)^{-1}}\\
-      &=280
+ 	  [Mg^{2+}] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{1\text{ mól }Mg}{1\text{ mól }MgCl_2} = 2,00\,\text{M}\\
+    [Cl^-] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{2\text{ mól }Cl}{1\text{ mól }MgCl_2} = 4,00\,\text{M}
 
   \end{aligned}
 
-.. note::
+Mólalstyrkur
+~~~~~~~~~~~~
 
-  *Hvert fóru einingarnar í dæminu að ofan?*
+*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
 
-  Jafnvægisfastinn, :math:`K` er upphaflega skilgreindur út frá *virkni* (e. activity) og er því einingslaus. Ef :math:`\Delta n \neq 0` eru jafnvægisfastar :math:`K_c` og :math:`K_p` tæknilega séð ekki einingarlausir.
-  Þessum einingum er þó almennt sleppt að þessu sinni.
+Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
 
-  Það verður ekki farið nánar út í virkni hér.
+Efnaformúlur
+----------------
 
-Jafnvægi fyrir vökva og fast efni
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uppbygging efna er lýst með formúlu, og er þá helst talað um þrjár gerðir. Munurinn á þessum formúlum
+er hve miklar upplýsingar um efnið þær innihalda.
 
-Fyrir hvörf þar sem annað hvort myndefni eða hvarfefni eru ekki í lausn eða í gasi, þ.e. vökvi eða fast efni, koma þau efni **ekki** fram í jafnvægislíkingunni.
+Reynsluformúla (e. empirical formula)
+  Þær lýsa einungis hlutfall frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
+Sameindarformúla (e. molecular formula)
+  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
+Byggingarformúla (e. structural formula)
+  Þær sýna myndrænt, hvernig atómin eru tengd við hvort annað, og lýsir þannig byggingu efnisins.
 
-.. tip::
+Ef tekið er dæmi um ediksýru, þá er reynsluformúlan hennar :math:`CH_2O` en sameindaformúlan hennar er :math:`C2H_4O_2`.
+Byggingarformúla ediksýru er aftur á móti:
 
- **Til að útbúa sement fyrir steypu þarf að byrja á því að brjóta niður kalsíum karbónat skv. formúlunni:**
-
- .. math::
-
-    CaCO_3(s) \rightarrow CaO(s)+CO_2(g)
-
- **en þetta efnahvarf er talið vera allt að 5% af koldíoxíð útblæstri mannkynsins. Hver er jafnvægisfasti,** :math:`K_p` **, fyrir hvarfið sem og** :math:`\Delta n`?
-
- Hér liggur beint við að koldíoxíð er eina efnið sem er ekki á föstu- né vökvaformi. Þá er:
-
- .. math::
-
-   \begin{aligned}
-   K_p&=P_{CO_2} 	& \Delta n=(1)-(0)=1
-   \end{aligned}
-
-Jafnvægisfasti fyrir sameinuð hvörf
------------------------------------
-
-Hægt er að sameina efnaformúlu í heildarformúlu. Þegar það er gert, er hægt að finna jafnvægisfasta fyrir heildarhvarfið, út frá jafnvægisföstum efnaformúlunna sem hvarfið var smíðað úr.
-
-- Þegar lagt er saman tvö efnahvörf, eru jafnvægisfastarnir *margfaldaðir.*
-
-  .. math::
-
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    A \rightarrow B & K \\
-    B \rightarrow C & K` \\
-      \hline
-    A \rightarrow C & K \cdot K`\\
-    \end{array}
-
-
-- Þegar hvarf með jafnvægisfasta :math:`K` er snúið við, er nýji jafnvægisfastinn :math:`1/K`.
-
-  .. math::
-
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    A \rightarrow B & K \\
-    B \rightarrow A & 1/K \\
-    \end{array}
-
-- Þegar efnahvarf er margfaldað með :math:`x`, fer jafnvægisfastinn *í* :math:`x` *veldi*.
-
-  .. math::
-
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    A \rightarrow B & K \\
-    2A \rightarrow 2B & K^2 \\
-    \frac{1}{2}A \rightarrow \frac 12 B &\sqrt{K}\\
-    \end{array}
-
-Hvarfkvóti
-----------
-
-*Hvarfkvóti* (e. reaction quotient) fyrir hvarfið:
-
-.. math::
-
-  aA+ bB \rightarrow cC + dD
-
-Hefur sömu jöfnu og jafnvægisfastinn:
-
-.. math::
-
-  Q_c=\frac{[C]^c[D]^d}{[A]^a[B]^b}
-
-Munurinn á hvarfkvótanum og jafnvægisfastanum er sá að hvarfkvóti er fyrir ákveðinn tíma, ekki þegar hvarfið hefur náð jafnvægi. Hvarfkvótinn er því ekki fasti, heldur breytist hann með tíma. Hann byrjar oft í 0 og endar í jafnvægisfastanum.
-
-.. figure:: ./myndir/equi/hvarfkvoti.svg
-  :width: 40%
+.. figure:: ./myndir/efnahvorf/ediksyra.png
+  :width: 25%
   :align: center
 
-Hvarfkvóti nýtist til að spá fyrir um hvert hvarfið stefnir:
-
-
-:math:`Q<K`
-  Hvarfið stefnir til hægri.
-
-:math:`Q=K`
-  Hvarfið hefur náð jafnvægi.
-
-:math:`Q>K`
-  Hvarfið stefnir til vinstri.
+Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
+mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
 
 .. tip::
 
- **Ammóníak myndast með efnahvarfinu:**
+ **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`CH_2O` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
 
- .. math::
-
-    \begin{aligned}
-    N_2(g)+3H_2(g) &\leftrightharpoons 2NH_3(g) & K&=152 \text{ við } 500 \text{ K}
-    \end{aligned}
-
- **Á ákveðnum tíma er styrkur efnanna:** :math:`[N_2]=0,800\text{ M}`, :math:`[H_2]= 0,070 \text{ M}` **og** :math:`[NH_3]=0,350 \text{ M}`. **Hvert stefnir hvarfið?**
+ Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
 
  .. math::
 
   \begin{aligned}
-   Q_c&=\frac{[NH_3]^2}{[N_2][H_2]^3}\\
-      &=\frac{0,350 ^2}{0.800\cdot 0,070^3}\\
-      &=446
+  \mathcal{M}_{RF}&= \mathcal{M}_{C}+2\mathcal{M}_H+\mathcal{M}_O\\
+  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
+  &= 30,026 \text{ g/mól}
   \end{aligned}
 
- Sjáum að :math:`Q>K` og hvarfið stefnir því til *vinstri* og myndar meira af hvarfefnunum.
+ Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
 
-Jafnvægisreikningar
--------------------
+ .. math::
 
-Klassísk dæmi er að reikna styrk við jafnvægi. Til þess þarf að setja upp jöfnu þar sem styrknum er lýst með t.d. breytunni :math:`x` og leyst er fyrir :math:`x` með algebru.
+  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
 
-.. math::
+ Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
+ þá :math:`C_6H_{12}O_6`
 
-	A+2B \rightarrow C
+Stilla efnajöfnur
+-----------------
 
-Fyrir þetta efnahvarf væri styrkur A við jafnvægi :math:`[A]_0-x`, B væri :math:`[B]_0-2x` og C væri :math:`[C]_0+x`. Í þessu tilfelli er :math:`x` *mól hvörfuð/mynduð við jafnvægi*. Þá getur verið gott að setja upp í töflu til að halda utan um styrkinn.
+*Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
+sama fjölda af hverju atómi í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
+að ákvarða þessi hlutföll.
+
+Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf*
+flækist málið en það fær að bíða betri tíma.
+
+Bruni
+~~~~~
+
+*Bruni* er í grunninn bara annað orð yfir *oxun*, þ.e. hvarf við súrefni. Algengast er að brenna kolefniskeðjur, t.d. bensín og tré, en vissulega eru mun fleiri frumefni sem brenna. Bruni á kolefniskeðjum hefur oftast nær sambærilega efnajöfnu, þ.e.
+kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
+
+.. warning::
+
+	Þetta gerir ráð fyrir *fullkomnum bruna* en almennt má gera ráð fyrir því.
+
 
 .. tip::
 
- .. math::
+	**Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir *bruna* glúkósa og stilltu.**
 
-   A \rightarrow B \quad \quad\quad K_c=3,4
+  Óstillta efnajafnan er:
 
- **Ef byrjað er með 3,00 mól af A, í 2,00 L af vatni, hver er styrkur B við jafnvægi?**
+  .. math::
 
- Hér þarf að byrja á því að finna upphafsstyrk A:
+    C_6H_{12}O_6 + O_2 \rightarrow CO_2 + H_2O
 
- .. math::
+  Nú getur verið gott að setja upp töflu með fjölda frumefna á hvorri hlið:
 
-    [A]_0=\frac{3,00 \text{ mól}}{2,00 \text{ L}} = 1,50 \text{ M}
-
- Þá er hægt að setja upp í töflu:
-
- .. math::
-
-    \begin{array}{c|c|c}
-    \text{Efni}&A&B\\
-      \hline
-    \text{Upphafsstyrkur}&1,50\text{ M} & 0 \\
-    \text{Hvarf}&-x & +x\\
-      \hline
-    \text{Jafnvægisstyrkur} &1,50-x&  x\\
+  .. math::
+    \begin{array}{ c | c | c  }
+    & \text{Hvarfefni} & {Myndefni}\\
+    \hline
+    C& 6 & 1 \\
+    O& 8 & 3 \\
+    H& 12&2 \\
     \end{array}
 
- Jafnvægisfastinn er þá:
-
- .. math::
-
-  K=\frac{[B]}{[A]} =\frac{x}{1,50-x}=3,4
-
- Fyrir jafnvægisreikninga eru einingar oft geymdar í bili. Þá fæst með því að einangra :math:`x`:
-
- .. math::
-
-  \begin{aligned}
-  & \quad \, \,\frac x{1,50-x}=3,4\\
-  &\Leftrightarrow x=3,4(1,50-x)\\
-  &\Leftrightarrow x+3,4x = 5,1\\
-  &\Leftrightarrow x= \frac{5,1}{4,4}\\
-  &\Leftrightarrow x= 1,16
-  \end{aligned}
-
- Þá er :math:`[B]=x=1,16 \text{ M}`.
-
-Algebran flækist hratt þegar fleiri en tvö efni eru í hvarfinu. Þá er mikilvægt að geta rifjað upp gamla stærðfræðitakta og leyst fyrir annars stigs margliðu. Fyrir enn flóknari dæmi, getur þurft að beita svo enn flóknari aðferðum sem ekki verður farið í hér.
-
-.. begin-toggle::
-  :label: Leysa annars stigs margliðu
-  :starthidden: True
-
-Margliðan
-
-.. math::
-
-  ax^2 + bx + c =0
-
-hefur rætur (lausnir):
-
-.. math::
-
-  x= \frac{-b +\sqrt{b^2-4ac}}{2a} \quad \text{eða} \quad x= \frac{-b -\sqrt{b^2-4ac}}{2a}
-
-Margliðan hefur því oftast *tvær* lausnir en oft er hægt að útiloka aðra þeirra, út frá rökhugsun. T.d. getur styrkur efnis ekki orðið neikvæður.
-
-.. end-toggle::
-
-.. tip::
-
- **Díniturtetraoxíð brotnar niður í niturdíoxíð skv. efnaformúlunni:**
-
- .. math::
-
-  N_2O_4(g) \leftrightharpoons 2 NO_2(g) \quad \quad \quad K_c=4,6 \times 10^{-3} \, \text{ við } 25°C
-
- **Ef gefið er að** :math:`[N_2O_4]_0=0.450 \text {M}`, **hver er styrkur** :math:`NO_2` **við jafnvægi?**
-
- Gott er að byrja á að setja upp töflu:
+  Þegar á að stilla er gott að byrja á þeim frumefnum sem koma sem sjaldnast fyrir hvorum megin. Hérna væri það vetni og kolefni. Það þarf 6 sinnum fleiri vetni og kolefni myndefnamegin, til að jafna út fjöldann þeirra. Því er sett stuðulinn 6 fyrir framan bæði vatn og koldíoxíð,
+  og þá fæst:
 
   .. math::
 
-    \begin{array}{c|c|c}
-    \text{Efni}&N_2O_4 & NO_2\\
-      \hline
-    \text{Upphafsstyrkur}&0,450\text{ M} & 0 \\
-    \text{Hvarf}&-x & +2x\\
-        \hline
-    \text{Jafnvægisstyrkur} &0,450-x&  2x\\
+    C_6H_{12}O_6 + O_2 \rightarrow 6 CO_2 + 6 H_2O
+
+  Taflan verður þá:
+
+  .. math::
+    \begin{array}{ c | c | c  }
+    & \text{Hvarfefni} & \text{Myndefni}\\
+    \hline
+    C& 6 & 6 \\
+    O& 8 & 18 \\
+    H& 12& 12 \\
     \end{array}
 
- Jafnvægisfastinn er þá:
+  Gott er að geyma einatóma sameindir þangað til seinast, því nú er lítið mál að laga magnið af súrefni. Það greinilega vantar 10 atóm af súrefni hvarfefnamegin og því er kippt í liðinn með því að bæta við 5 súrefnissameindum:
 
   .. math::
 
-    K=\frac{[NO_2]^2}{[N_2O_4]}=\frac{x^2}{0,450-x}= 4,6\times 10^{-3}
+    C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2O
 
- Þá er hægt að setja upp og einfalda annars stigs jöfnuna:
+  Þessi efnajafna er nú stillt! Til að brenna mól af glúkósa þarf 6 mól af súrefnissameindum.
 
- .. math::
+Sameinuð efnahvörf
+------------------
 
-  \begin{aligned}
-  \frac{x^2}{0,450-x}&= 4,6\times 10^{-3}\\
-  x^2 &=4,6\times 10^{-3}(0,450 -x)\\
-  x^2 +4,6\times 10^{-3} -2,07 \times 10^{-3}&=0\\
-  \end{aligned}
+Efnahvörf geta gerst í skrefum þar sem hvert skref hefur efnaformúlu. Þá er hægt að taka saman þessi skref og mynda heildarformúlu. Ef efni kemur fyrir oftar en einu sinni, sömu megin við örina, *leggjast stuðlar þess saman*. Ef efni koma sitthvorum megin
+við örina, *styttast þeir út á móti hvor öðrum*.
 
- Þessi jafna hefur lausnir:
+Þetta getur gilt fyrir hvörf sem gerast í skrefum sem og hvörf sem hafa *hliðarhvörf*, þ.e. annað hvarf sem gerist samhliða.
 
- .. math::
+.. math::
 
   \begin{aligned}
-  x&= \frac{-b +\sqrt{b^2-4ac}}{2a}\\
-  &= \frac{-4,6\times 10^{-3} +\sqrt{(4,6\times 10^{-3})^2-4\cdot1\cdot 2,07\times10^{-3}}}{2\cdot 1}\\
-  &= 0,043525
+  A+2B&\rightarrow C + D\\
+  C+ B &\rightarrow E
   \end{aligned}
 
- Sambærilega fæst hin lausninÞ
+Heildarformúlan fyrir þetta hvarf væri þá:
 
- .. math::
+.. math::
 
-  \begin{aligned}
-  x&= \frac{-b -\sqrt{b^2-4ac}}{2a}\\
-  &= -0,047585
-  \end{aligned}
-
- Sjá má að seinni lausnin er ekki gild, þar sem styrkur :math:`NO_2` getur ekki verið neikvæður. Fyrri lausnin er því svarið, en þá fæst að lokum, með þremur markverðum tölustöfum:
-
- .. math::
-
-   [NO_2]=2x= 0,0871 \text{ M}
+  A + 3B \rightarrow D + E
 
 
-Nálgun
-~~~~~~
+Takmarkandi hvarfefni
+---------------------
 
-Til þess að spara tíma í þessum útreikningum, eða einfaldlega gera jöfnur leysanlegar, getur þurft að *nálga* lausnirnar. Þá eru tekin út atriði sem skipta litla sem engu máli, til að einfalda jöfnuna.
-Sem dæmi um þetta má nefna af ef jafnvægisfastinn er lítill, er :math:`x` lítið. Ef upphafstyrkurinn er ekki mjög lítill er oft hægt að nálga t.d. :math:`[A]_0-x\approx [A]_0`.
+Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. T.d. væri ekki vitlaust að blanda
+7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir það að glúkósinn brennur allur, eða a.m.k. meira af honum. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
+Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
 
-Nálgunin :math:`[A]_0-x\approx [A]_0` getur haft tvenns konar áhrif. Ef :math:`x` breytir einungis ómarkverðum tölustöfum, hefur það engin áhrif og er næstum alltaf góð hugmynd. Ef :math:`x` breytir markverðum tölustafi  í upphafsgildi, þá getur ennþá verið góð hugmynd að nálga, og fer það eftir nákvæmni sem þarf að hverju sinni.
+Þegar takmarkandi hvarfefnið er uppurið, getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
 
-Ef :math:`x` er lítið er hægt að nálga í samlagninu, en **aldrei** í margföldun.
+Til að vita hvaða efni er takmarkandi hvarfefnið, þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
 
 .. tip::
 
- **Hvað fengist úr dæminu fyrir ofan með nálgun, og hversu mikil væri skekkjan?**
+ **Framleiðsla á ammóníaki,** :math:`NH_3` **er eitt mikilvægasta efnahvarf heims, enda er það grunnur í flesta áburði. Það er gert með því að blanda saman nitri úr andrúmsloftinu,** :math:`N_2` **við vetnisgas,** :math:`H_2`. **Hver er hámarksmassi sem getur myndast af ammóníaki,
+ ef blandað er saman 263,0 grömmum af nitri og 50,0 grömmum af vetnisgasi?**
 
- Jafnvægisfastinn úr dæminu að ofan var:
-
- .. math::
-
-    K=\frac{[NO_2]^2}{[N_2O_4]}=\frac{x^2}{0,450-x}= 4,6\times 10^{-3}
-
- Með nálgun að :math:`0,450-x\approx 0,450` einfaldast jafnan og verður:
+ Stillt efnajafna fyrir hvarfinu er:
 
  .. math::
 
+   N_2 + 3H_2 \rightarrow 2NH_3
+
+ Það þarf því þrjú mól af vetni fyrir hvert mól af nitri. Byrjum á að finna mólfjölda af hvarfefnunum. Mólmassi þeirra er:
+
+ .. math::
   \begin{aligned}
-  x^2&=4,6\times 10^{-3} \cdot 0,450\\
-  \Rightarrow x &=\sqrt{2,07\times 10^{-3}}\\
-   &=0,0455
-   \end{aligned}
+  \mathcal{M}_{H_2}&=2\cdot 1,008 \text{ g/mól} =2,016 \text{g /mól}\\
+  \mathcal{M}_{N_2}&=2\cdot 14,007 \text{ g/mól} =28,014 \text{g /mól}
+  \end{aligned}
 
- Þá fæst:
+ Þá er hægt að finna mólfjölda hvarfefnanna:
 
-  .. math::
+ .. math::
+  \begin{aligned}
+  n_{H_2} &= \frac{m_{H_2}}{\mathcal{M}_{H_2}} = \frac{50,0 \text{g}}{2,016 \text{ g/mól}}= 24,80 \text{ mól}\\
+  n_{N_2} &= \frac{m_{N_2}}{\mathcal{M}_{N_2}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
+  \end{aligned}
 
-    [NO_2]=2x= 0,0910 \text{ M}
+ Jafnvel þótt fjöldinn af vetnismólum sé meiri, er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
 
- Með því að bera saman svörin fæst að :math:`\frac{0,0910}{0,0871}=1,045`. Það þýðir að nálgunin yfirskýtur rétta gildið um :math:`4,5 \%`
+ Vetnið er því takmarkandi hvarfefnið, og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
+
+ .. math::
+
+   n_{NH_3}=24,80 \text{ mól }H_2 \cdot \frac{2 \text{ mól }NH_3}{3 \text{ mól }H_2} = 16,53 \text{ mól }NH_3
+
+ Þessu er svo að lokum breytt í massa:
+
+ .. math::
+  \begin{aligned}
+  \mathcal{M}_{NH_3}&=14,007 \text{ g/mól} + 3\cdot 1,008 \text{ g/mól} =17,031 \text{g /mól}\\
+  m_{NH_3} &= \mathcal{M}_{NH_3} \cdot n_{NH_3} = 17,031 \text{ g/mól} \cdot 16,53 \text{ mól}= 282 \text{ g}
+  \end{aligned}

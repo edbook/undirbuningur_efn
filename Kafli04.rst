@@ -10,7 +10,7 @@ Samgild tengi
 -------------
 
 Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda báðum kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
-rafeindir geta fyllt ysta hvolfið á báðum atómum.
+rafeindir geta fyllt ysta hvolfið á báðum atómum. :math:`\require{mhchem}`
 
 Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar
 dreifast ójafnt milli atóma, og þau fá því eiginlegan hleðslumun. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
@@ -385,7 +385,21 @@ Millisameindakraftar
 Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum.
 Helstu kraftarnir kallast  *Van der Waals* kraftar, þeir eru *tvípóls-tvípóls kraftar*, *London kraftar* og *vetnistengi*.
 
- Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
+Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
+
+Fasar
+~~~~~
+
+Efni getur einna helst verið í þremur fösum (e. phase); *fast efni*, *vökvaformi* og á *gasformi.*
+
+- Efni á föstu formi mynda skipulagða kristalbyggingu, og hver sameind er haldin á sínum stað með millisameindakröftum.
+
+- Efni á vökvaformi hafa rofið millisameindakrafa að einhverju leiti, og sameindirnir eru því ekki lengur fastar á sínum stað í kristalbygginu. Eftirstandandi millisameindakraftar halda þeim þó sameindunum saman sem heild.
+
+- Efni á gasformi hefur algjörlega slitið alla millisameindakrafta og hver sameind heldur sína leið. Efni á gasfas getur því dreift sér og fyllt því upp í það rými sem það er í.
+
+Efni skipta um fasa við mismunandi hitastig. Hitastig efnis sem skilur að vökvaform og fast form er kallað *bræðslumark* (e. melting point) efnisins og hitastigið sem skilur að vökvaform og gasfasa kallast *suðumark* (e. boiling point) efnisins.
+Við þessi hitastig hefur efnið næga orku til að rjúfa hluta af millisameindakröftunum. Þessi hitastig stjórnast því af hversu öflugir millisameindakraftarnir eru, en *því öflugri millisameindakraftar, því hærra hitastig er bræðslu- og suðumark efnisins.*
 
 
 Tvípóls-tvípóls kraftar
@@ -393,19 +407,70 @@ Tvípóls-tvípóls kraftar
 
 Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Sameindirnar raðast þá með jákvæðan pól við neikvæðan pól hjá næstu, og öfugt.
 
+.. figure:: ./myndir/sameindir/dipole.png
+  :align: center
+  :width: 30%
+
 London kraftur
 ~~~~~~~~~~~~~~
 
+London kraftar eru til í öllum sameindum, og eru þeir einu sem halda saman óskautuðum sameindum. Rafeindir eru á stöðugri hreyfingu og geta dreifst tímabundið ójafnt um kjarnann. Sameindin fær þá litla tímabundna skautun, og þar með skautaða póla. Þessir skautuðu póla geta svo haft áhrif á nærliggjandi sameindir.
 
+Þetta gerist t.d. þegar rafeindaríkur póll ýtir frá sér rafeindum nágrannans, og þannig fær nærliggjandi hlið nágrannans rafeinasnauðan pól. Þetta eru ekki sterkir kraftar, en eru þó oft nægilegir til að halda óskautuðum sameindum saman. London kraftar eru einnig missterkir í sameindum, og fer það eftir hversu auðveldlega þetta ferli gerist.
+Það fer eftir *skautanleika* (e. polarizability) sameindarinnar. Því meiri skautanleika sem sameind hefur, því oftar fær hún tímabundna skautun og london krafturinn er sterkari.
+
+Skautanleiki sameindar er einna helst háður *stærð* og *lögun* sameindarinnar. Því stærri sem sameind er, því fleiri rafeindir hefur hún, á stærra svæði. Þessar rafeindir eru yfirleitt frjálsari en þær nær kjarnanum, og sameindin á því auðveldara með að skautast.
+
+Ílangar sameindir eiga auðveldara með að skautast en þær sem eru þéttar og meira hringlaga. Það er vegna þess að rafeindirnar eiga auðveldara með að dreifast ójafnt.
+
+Vetnistengi
+~~~~~~~~~~~
+
+Vetnistengi myndast þegar vetni tengist við rafeinaneikvæðu atómin; súrefni (O), flúor (F) og nitur (N). Þetta er stundum kallað OFN reglan.
+
+Fyrir tengi milli þessara efna er mikill munur í rafeindaþéttleika, þ.e. vetnið er rafeindasnautt, meðan O, F, eða N er rafeindaríkt. Þessi mikli rafeindamunur veldur sterkur aðdráttarafli milli vetnis og O, F, eða N atóma í öðrum sameindum.  Þetta aðdráttarafl kallast vetnistengi og heldur sameindunum saman með sterkari böndum en öðrum tvípóls-tvípóls kröftum.
+
+.. figure:: ./myndir/sameindir/vetnistengi.svg
+  :align: center
+  :width: 40%
+
+Vetnistengi koma helst við sögu í vatni og eru þar lífsnauðsynleg. Þessi óvenjuhái styrkur tengjanna eykur bræðslumark og suðumark vatns, og ef þeirra nyti ekki við, væri ólíklegt að það myndi finnast fljótandi vatn á jörðinni!
+
+Kristalbygging íss
+++++++++++++++++++
+
+Vatn er einkennandi þegar það frýs. Eflaust hafa margir lent í því að frysta vatnsflösku og tekið hana útbólgna út úr frystinum. Sumir hafa einnig spurt sig hvort það var pláss á hurðarflekanum hjá Rose, en ættu í raun að spyrja sig af hverju ísjakinn flaut á annað borð?
+
+Þetta gerist vegna þess að klaki er eðlisléttari en fljótandi vatn, þ.e kíló af vatni tekur minna pláss en kíló af klaka. Fyrir flestöll efni í heiminum er þetta öfugt, þar sem að efni raða sér skipulega saman á föstu formi og koma því fleiri sameindum á minna svæði. Klaki er eðlisléttari vegna þess að vetnistengin í vatnssameindum raða sér svo *opið*, sem leiðir til færri sameinda á hverju svæði:
+
+.. figure:: ./myndir/sameindir/icehot1.png
+  :align: center
+  :width: 50%
+
+Aðrir kraftar
+~~~~~~~~~~~~~
+
+Aðrir kraftar koma einnig við sögu, s.s.
 
 Jóns-jóns kraftar
-~~~~~~~~~
+  Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Krafturinn er því töluverð sterkari.
 
-Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Tengin eru því töluverð sterkari.
+.. tip::
+
+ **Þegar borin eru eftirfarandi efni saman, hvaða millisameindakraftar eru að verki, og hver hefur hærra suðumark?**
 
 
+ .. figure:: ./myndir/sameindir/daemi1.svg
+   :align: center
+   :width: 50%
 
+ Núna eru C-H tengin með 0,4 í rafdrægnimismun og því óskautuð. Sameindin er einnig symmetrískt og svo skautunin myndi jafnast út, ef einhver væri. Metan er því *óskautað* og hefur því einungis *london krafta.*
 
+ Vatn er aftur á móti með einkennandi *vetnistengi*, sem og *London krafta*. Þetta eru sterkari millisameindakraftar en hjá metani, og því má áætla að vatn hafi hærra suðumark. Það er hægt að staðfesta, þar sem metan er gas við stofuhita, en vatn vökvi.
 
-Fasar
------
+ .. figure:: ./myndir/sameindir/daemi2.svg
+   :align: center
+   :width: 60%
+
+ Hér eru einungis óskautuð C-H tengi, svo báðar sameindirnar eru óskautaðar. Þá hafa þær hvorar um sig einungis *London krafta* sem millisameindakrafta, svo suðumarkið ræðst af því hvort efnið er skautanlegra. Efnin hafa bæði sömu sameindaformúlu :math:`\ce{C6H14}` svo þau eru jafn stór. Eini munurinn er lögunin á þeim.
+ Vinstra efnið er ílangt og því skautanlegra en greinótta og þéttara hægri efnið. Vinstri efnið er því skautanlegra og hefur hærra bræðslumark.

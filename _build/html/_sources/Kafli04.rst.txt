@@ -9,11 +9,16 @@ Sameindir
 Samgild tengi
 -------------
 
+<<<<<<< HEAD
 Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda báðum kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
 rafeindir geta fyllt ysta hvolfið á báðum atómum. :math:`\require{mhchem}`
+=======
+Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar draga kjarna atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
+rafeindir geta fyllt ysta hvolfið á báðum atómum.
+>>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
 
 Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar
-dreifast ójafnt milli atóma, og þau fá því eiginlegan hleðslumun. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
+dreifast ójafnt milli atóma og valda hleðslumun á kjörnunum. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
 Sjá má *rafdrægni* (e. electronegativity) frumefnanna hér að neðan.
 
 .. figure:: ./myndir/sameindir/rafneikvaedni.jpg
@@ -29,34 +34,54 @@ Ef munurinn er 0,5-1,6 er tengið skautað samgilt. Sé það hærri en það, �
 
  **Hvernig er tengin milli vetnis og súrefnis í vatni?**
 
- Vetni hefur rafdrægni 2,1 en súrefni 3,5. Þetta gefur rafeindamun upp á 1,4 og tengin flokkast því sem *skautuð samgild*.
+ Vetni hefur rafdrægni 2,1 en súrefni 3,5. Þetta gefur rafdrægnimun upp á 1,4 og tengin flokkast því sem *skautuð samgild*.
 
  .. figure:: ./myndir/sameindir/rafeindathettleiki.png
    :align: center
    :width: 40%
 
- Hérna táknar rautt rafeindaþéttleika en blátt rafeindasnauð svæði. Súrefnið er rafneikvæðara og tekur því rafeindir til sín.
+ Hérna táknar rautt mikinn rafeindaþéttleika en blátt rafeindasnauð svæði. Súrefnið er rafneikvæðara og tekur því rafeindirnar til sín en eftir sitja vetnisatómin án rafeinda.
 
 
 Lewis myndir
 ~~~~~~~~~~~~
 
-*Lewis Myndir* eða *Punktformúlur* er leið til að sýna samgild tengi og *stök rafeindapör* (e. lone pair) á sameindum. Gildisrafeindir eru táknaðar með punktum
-sem dreifast um efnið á sem stöðugastan máta. Til að teikna lewis mynd af sameind eru nokkur skref:
+*Lewis Myndir* eða *punktformúlur* er leið til að sýna samgild tengi og *stök rafeindapör* (e. lone pair) á sameindum. Gildisrafeindir eru táknaðar með punktum
+sem dreifast um efnið á sem stöðugastan máta. Til að teikna Lewis mynd af sameind eru nokkur skref:
 
-1. Ákveða heildarfjölda gildisrafeinda . LINKUR Á GILDISRAFEINDAKAFLANN
+1. Ákveða heildarfjölda :ref:`gildisrafeinda <s.gildisrafeindir>` .
 
-2. Setja minnst rafneikvæðasta atómið í miðjuna og tengja sameindina með tveggja rafeinda tengi.
+2. Setja minnst rafneikvæðasta atómið í miðjuna, raða hinum í kring og tengja sameindina með tveggja rafeinda tengi milli allra atómanna.
 
-3. Er hægt að dreifa eftirstandandi rafeindum sem stökum rafeindapörum svo að áttureglan sé uppfyllt? Ef svo, má sleppa næsta skrefi.
+3. Nú skal reyna að dreifa eftirstandandi rafeindum sem stökum rafeindapörum svo að áttureglan sé uppfyllt á hverju atómi. Ef það er hægt þá má sleppa næsta skrefi.
 
-4. Ef ekki eru nægar rafeindir fyrir átturegluna er hægt að búa til *tvítengi* milli atóma með því að bæta við 2 rafeindum í tengið. Ef það dugar ekki,
-   er hægt að bæta við tveimur enn og gera *þrítengi*.
+4. Ef ekki eru nógu margar rafeindir í sameindinni til að uppfylla átturegluna með stökum rafeindapörum er hægt að búa til *tvítengi* milli atóma með því að
+   bæta við 2 rafeindum í tengið. Ef það dugar ekki er hægt að bæta við tveimur enn og gera *þrítengi*.
 
-5. Athuga *formlega hleðslu*. Þetta er gert með því að taka saman fjölda rafeina í stökum rafeindapörum og helming rafeinda í tengjum.
-   Þessi fjöldi er svo borinn saman við gildisrafeindir, og atóm er gefin jákvæð hleðsla ef þessar rafeindir eru færri, og öfugt.
+5. Athuga *formlega hleðslu*. Þetta er gert með því að taka saman fjölda rafeidna í stökum rafeindapörum og helming rafeinda í tengjum, þ.e.a.s. rafeindir "þeirra megin" í tengjunum.
+   Þessi fjöldi er svo borinn saman við gildisrafeindir og atóm er gefin jákvæð hleðsla ef þessar rafeindir eru færri, og öfugt. Reyna að lágmarka formlegu hleðsluna, sem og láta hana passa fyrir rafdrægni frumefnanna. Þ.e. láta rafneikvæðari frumefnið hafa neikvæðari hleðslu. Passa þó að ekki brjóta átturegluna.
 
-6. Reyna að lágmarka formlegu hleðsluna, sem og láta hana passa fyrir rafdrægni frumefnanna. Þ.e. láta rafneikvæðari frumefnið hafa neikvæðari hleðslu. Passa þó að ekki brjóta átturegluna.
+.. tip::
+
+	**Hver er Lewis mynd** :math:`CO_2`?
+
+  1. Kolefni hefur 4 gildisrafeindir og súrefni 6. Höfum því 4+6+6=16 gildisrafeindir.
+  2. Kolefni er minna rafneikvætt en súrefni og fer því í miðjuna. Þá fæst:
+
+  .. figure:: ./myndir/sameindir/lewis1.svg
+    :align: center
+    :width: 20%
+
+  3. Nú eru komnar 4 rafeindir af 16 á myndina. Ekki er hægt að uppfylla átturegluna umhverfis hvert atóm með því að raða eftirstandandi 12 rafeindum í pörum umhverfis atómin, heldur þyrfti 16 til þess.
+  4. Það vantar því 4 upp á og bætum því 4 rafeindum við tengin. Þetta gefur annaðhvort tvö tvítengi eða stakt þrítengi. Setjum tvö tvítengi, því þá er áttureglan uppfyllt umhverfis hvert atóm, og setjum tvö rafeindapör á hvort súrefnisatómið.
+
+    .. figure:: ./myndir/sameindir/lewis2.svg
+      :align: center
+      :width: 20%
+
+    Áttureglan er nú uppfyllt umhverfis öll atómin.
+
+  5. Nú skal athuga formlegu hleðsluna. Súrefnin hafa 4 stakar rafeindir og 4 rafeindir í tengjum, þar af 2 sínum megin, þ.e. 6 rafeindir í heildina. Súrefni hefur 6 gildisrafeindir og því er formlega hleðslan 0 umhverfis súrefnisatómin. Kolefni hefur 8 rafeindir í tengjum, þar af 4 sínum megin. Kolefni hefur 4 gildisrafeindir og formlega hleðslan er því 0 umhverfis kolefnisatómið. Formlega hleðslan er því 0 í allri sameindinni og það er ekki hægt að lágmarka hana með því að færa til rafeindir.
 
 .. warning::
 
@@ -72,30 +97,6 @@ sem dreifast um efnið á sem stöðugastan máta. Til að teikna lewis mynd af 
     Stærri frumefni, s.s. lota 3 eða neðar, geta víkkað út ysta rafeindahvelið með d-svigrúmi. Þessi frumefni geta því haft fleiri en 8 rafeindir á ysta hveli,
     og yfirskjóta átturegluna. Dæmi um þetta væri :math:`PF_5` en þar hefur fosfór 10 rafeindir.
 
-.. tip::
-
-	**Hver er Lewis mynd** :math:`CO_2`?
-
-  - Kolefni hefur 4 gildisrafeindir og súrefni 6. Höfum því 4+6+6=16 gildisrafeindir.
-  - Kolefni er ekki jafn rafneikvætt og súrefni og fer því í miðjuna. Þá fæst:
-
-  .. figure:: ./myndir/sameindir/lewis1.svg
-    :align: center
-    :width: 20%
-
-  - Ekki er hægt að uppfylla átturegluna með eftirstandandi 12 rafeindum, heldur þarf 16. Það vantar því 4 upp á og bætum því 4 rafeindum við tengin. Þetta gefur annaðhvort tvö tvítengi eða stakt þrítengi.
-    Tvítengi liggur beinna við:
-
-    .. figure:: ./myndir/sameindir/lewis2.svg
-      :align: center
-      :width: 20%
-
-    Áttureglan er nú uppfyllt alls staðar.
-
-  - Nú skal athuga formlegu hleðsluna. Súrefnin hafa 4 stakar rafeindir og 4 rafeindar í tengjum, þar af 2 sínum megin, þ.e. 6 rafeindir í heildina.
-    Súrefni hefur 6 gildisrafeindir og  því er formlega hleðslan 0. Kolefni hefur 8 rafeindir í tengjum, þar af 4 sínum megin. Kolefni hefur 4 gildisrafeindir og
-    formlega hleðslan því 0 allstaðar.
-
 Vok myndir
 ++++++++++
 
@@ -103,24 +104,27 @@ Vok myndir
 
 .. tip::
 
- **Hver er lewis mynd fyrir nítrat jón,** :math:`NO_3^-`?
+ **Hver er Lewis mynd fyrir nítrat jón,** :math:`NO_3^-`?
 
- - Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu, og þ.a.l. bætist við rafeind*. Þá eru 5+3(6)+1=24 gildisrafeindir.
+ 1. Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu, og þ.a.l. bætist við rafeind*. Þá eru 5+3(6)+1=24 gildisrafeindir.
 
- - Nitrið fer í miðjuna og þá fæst:
+ 2. Nitrið fer í miðjuna og 6 rafeindir fara í samgild tengi til súrefnisatómanna. Þá fæst:
 
  .. figure:: ./myndir/sameindir/nitrid1.svg
    :align: center
    :width: 20%
 
- - Núna eru 18 rafeindir eftir, en það vantar 20 til að uppfylla átturegluna alls staðar. Það vantar því tvítengi einhvers staðar, en *hvar?* Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vok myndir við sögu.
-   Við teiknum upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
+ 3. Núna eru 18 rafeindir eftir, en það vantar 20 til að uppfylla átturegluna alls staðar, 6 á hvert súrefnisatóm og 2 á nituratómið.
+ 4. Það vantar því tvítengi einhvers staðar, en *hvar?* Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vok myndir við sögu, en þá teiknum við upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
 
    .. figure:: ./myndir/sameindir/nitrid2.svg
      :align: center
      :width: 60%
 
- - Nitrið hefur 4 rafeindir kringum sig, en hafði 5 gildisrafeindir og fær því +1 hleðslu. Þau súrefnisatóm sem eru ekki tvítengd hafa 7 rafeindir kringum sig, og fá því -1 hleðslu. Þriðja súrefnisatómið hefur 6 kringum sig og því hleðslulaust.
+   Á öllum myndunum er áttureglan uppfyllt fyrir hvert atóm.
+
+ 5. Nitrið hefur 4 rafeindir kringum sig, en hafði 5 gildisrafeindir og fær því +1 hleðslu. Þau súrefnisatóm sem eru ekki tvítengd hafa 7 rafeindir kringum sig, og fá því -1 hleðslu. Þriðja súrefnisatómið hefur 6 kringum sig og því hleðslulaust.
+
    Heildarhleðslan er því +1-1-1=-1. Þetta stemmir við neikvæðu hleðslu nítratsins.
 
 Hafa ber í huga að í náttúrunni finnast ekki sameindir sem líkjast stakri vok mynd, heldur samblanda af öllum þremur. Þetta er sambærilegt og að lýsa nashyrning fyrir krakka sem blanda af einhyrningi og dreka.
@@ -385,6 +389,7 @@ Millisameindakraftar
 Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum.
 Helstu kraftarnir kallast  *Van der Waals* kraftar, þeir eru *tvípóls-tvípóls kraftar*, *London kraftar* og *vetnistengi*.
 
+<<<<<<< HEAD
 Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
 
 Fasar
@@ -400,12 +405,31 @@ Efni getur einna helst verið í þremur fösum (e. phase); *fast efni*, *vökva
 
 Efni skipta um fasa við mismunandi hitastig. Hitastig efnis sem skilur að vökvaform og fast form er kallað *bræðslumark* (e. melting point) efnisins og hitastigið sem skilur að vökvaform og gasfasa kallast *suðumark* (e. boiling point) efnisins.
 Við þessi hitastig hefur efnið næga orku til að rjúfa hluta af millisameindakröftunum. Þessi hitastig stjórnast því af hversu öflugir millisameindakraftarnir eru, en *því öflugri millisameindakraftar, því hærra hitastig er bræðslu- og suðumark efnisins.*
+=======
+ Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
+>>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
 
 
 Tvípóls-tvípóls kraftar
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Sameindirnar raðast þá með jákvæðan pól við neikvæðan pól hjá næstu, og öfugt.
+<<<<<<< HEAD
+=======
+
+London kraftur
+~~~~~~~~~~~~~~
+
+
+
+Jóns-jóns kraftar
+~~~~~~~~~~~~~~~~~
+
+Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Tengin eru því töluverð sterkari.
+
+
+
+>>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
 
 .. figure:: ./myndir/sameindir/dipole.png
   :align: center

@@ -1,7 +1,7 @@
 Einingar og reikniaðferðir
 ==========================
 
-Stærðfræði kemur mikið við sögu í efnafræði, og gott er að hafa góð tök á algengnum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
+Stærðfræði kemur mikið við sögu í efnafræði og gott er að hafa góð tök á algengnum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
 
 Til eru upprifjunarvefir á edbook í `stærðfræði <http://edbook.hi.is/undirbuningur_stae/>`_ og `eðlisfræði <http://edbook.hi.is/undirbuningur_edl/>`_ sem hægt er að nota ef ókunnug stærðfræðiregla kemur fyrir sjónir. :math:`\require{cancel}`
 
@@ -103,7 +103,7 @@ Ef deilt er í gegn með :math:`1000 \text{ g}` fæst:
 
  1 = \frac{1\text{ kg}}{1000 \text{ g}}
 
-Í algebru má alltaf margfalda með 1, og því má alltaf margfalda með hægri hlið jöfnunnar líka. Við það styttist út grömm, og kílógrömm standa eftir.
+Í algebru má alltaf margfalda með 1, og því má alltaf margfalda með hægri hlið jöfnunnar líka. Við það styttist út grömm og kílógrömm standa eftir.
 
 .. tip::
 
@@ -152,8 +152,8 @@ Allir tölustafir, þar á meðal öll núll, teljast sem markverðir stafir ef 
 Samlagning og margföldun
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Þegar notaðar eru mælingar til að reikna fleiri gildi, takmarkast markverðir tölustafir svarsins við markverðu tölustafi upphafsgildanna.
-Þetta gerist á tvo mögulega vegu, og fer það eftir hvort notuð sé samlagning eða margföldun.
+Þegar mælingar eru notaðar til að reikna fleiri gildi, takmarkast markverðir tölustafir svarsins við markverðu tölustafi upphafsgildanna.
+Þetta gerist á tvo mögulega vegu og fer það eftir hvort notuð sé samlagning eða margföldun.
 
 1 - Fyrir *margföldun* tveggja talna hefur útkoman jafn marga markverða tölustafi og það upphafsgildi með færri markverða tölustafi
 

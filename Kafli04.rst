@@ -134,19 +134,19 @@ Nafnakerfi fyrir sameindir
 Fyrir tvíatóma sameindir kemur fyrra frumefnið óbreytt en seinna frumefnið fær -íð (e. ide) endingu. Undantekningin á þessu eru eftirfarandi frumefni:
 
 Kolefni
-  Efni með kolefni sem fyrra frumefni byrja á *kol-*
+  Efni með kolefni (C) sem fyrra frumefni byrja á *kol-*
 
 Brennisteinn
-  Efni með brennistein sem seinna frumefni fá endinguna -*súlfíð*
+  Efni með brennistein (S) sem seinna frumefni fá endinguna -*súlfíð*
 
 Súrefni
-  Efni með súrefni sem seinna frumefni fá endinguna -*oxíð*
+  Efni með súrefni (O) sem seinna frumefni fá endinguna -*oxíð*
 
 Nitur
-  Efni með nitur sem seinna frumefni fá endinguna -*nítríð*
+  Efni með nitur (N) sem seinna frumefni fá endinguna -*nítríð*
 
 Vetni
-  Efni með vetni sem seinna frumefni fá endinguna -*hýdríð*
+  Efni með vetni (H) sem seinna frumefni fá endinguna -*hýdríð*
 
 Sameindir geta þó haft mismunandi fjölda af hvoru atómi, en nituroxíð getur lýst :math:`NO`, :math:`NO_2`, :math:`N_2O` o.s.fr. Til aðgreiningar eru notuð eftirfarandi *forskeyti* til að lýsa fjölda atóma í sameind:
 
@@ -220,8 +220,8 @@ Eina breyting á þessu, er ef seinna frumefnið byrjar á sérhljóð, þá er 
 Jónatengi
 ---------
 
-Frumefni eltast við að uppfylla átturegluna, þ.e. hafa átta gildisrafeindir. Frumefni í flokki alkalímálma hefur eina gildisrafeind, en frumefni í flokki halógena hefur sjö. Alkalímálmurinn vill losa sig við þessa einu rafeind til þess að fá stöðuga rafeindahýsingu eðalgastegundurinn á undan.
-Sambærilega vill halógen fá seinustu rafeindina til að fá átta gildisrafeindir og þar með rafeinaskipun eðalgastegundarinnar í lotunni. Þannig eiga efni til að senda rafeindir sín á milli og *jónast*.
+Frumefni eltast við að uppfylla átturegluna, þ.e. hafa átta gildisrafeindir. Frumefni í flokki alkalímálma hefur eina gildisrafeind, en frumefni í flokki halógena hefur sjö. Alkalímálmurinn vill losa sig við þessa einu rafeind til þess að fá stöðuga rafeindahýsingu eðalgastegundarinnar á undan.
+Sambærilega vill halógen fá eina rafeind enn til að fá átta gildisrafeindir og þar með rafeinaskipun eðalgastegundarinnar í lotunni. Þannig eiga efni til að senda rafeindir sín á milli og *jónast*.
 
 Dæmi um þetta væri t.d. *jónaefnið* borðsalt, :math:`NaCl` en þar hefur natríum gefið klóríð rafeind.
 Natríum jónin verður við það plúshlaðin en klóríð jónin neikvætt hlaðin. Þetta er táknað sem :math:`Na^+` og :math:`Cl^-`.
@@ -264,11 +264,11 @@ mynda svo kalsíumklóríð. Þetta er eins og fyrir sameindir en munurinn er a�
 Fyrir þá hliðarmálma sem geta tekið mismunandi hleðslu er síðan venjan að tilgreina hleðslu með rómverskum stöfum í sviga eftir katjóninni. Til dæmis væri jónin :math:`Fe^{2+}` járn(II) og :math:`Pb^{4+}` blý(IV).
 Þetta er ekki gert fyrir þau frumefni sem jónast aðeins á einn hátt.
 
-Nafnakerfið fyrir *oxóanjónir* (.e oxyanions) er svo fylgjandi öðrum reglum, en það eru fjölatóma jónir, þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda
+Nafnakerfið fyrir *oxóanjónir* (e. oxyanions) fylgir öðrum reglum, en það eru fjölatóma jónir þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda
 af súrefni og tekur þá mismunandi endingar.
 
-Hægt er að líta á þetta sem svo að það sé grunnjón sem endar á *-at* (e.-ate). Ef það bætist við eitt súrefnisatóm, tekur jónin forskeytið *per-*. Ef fækkað er hins vegar um eitt súrefnisatóm
-fær jónin endinguna *-ít* (e. -ite), og ef fækkar er aftur um súrefnsatóm, fær jónin forskeytið *hýpó-* (e.hypo). Þetta skýrist eflaust betur í töflu fyrir neðan:
+Hægt er að líta á jónina sem endar á *-at* (e.-ate) sem upphafspunkt og tökum sem dæmi klórat :math:`ClO_3^-`. Ef það bætist við eitt súrefnisatóm, fær jónin forskeytið *per-* og kallast þá perklórat :math:`ClO_4^-`. Ef jónin hinsvegar minnkar um eitt súrefnisatóm
+fær jónin endinguna *-ít* (e. -ite) og verður klórít :math:`ClO_2^-`. Ef hún minnkar aftur um súrefnsatóm fær jónin forskeytið *hýpó-* (e.hypo) og verður þá hýpóklórít :math:`ClO^-`. Fleiri dæmi má sjá í þessari töflu:
 
 .. table::
   :widths: 5 7 5 7 5 7 5
@@ -297,7 +297,7 @@ fær jónin endinguna *-ít* (e. -ite), og ef fækkar er aftur um súrefnsatóm,
 Oxunartölur
 -----------
 Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
-jónarinnar en fyrir sameindir með samgild efnatengi, er það ekki. Munurinn er í raun sá að þrátt fyrir að hafa gefið af
+jónarinnar en það gildir ekki fyrir sameindir með samgild efnatengi. Munurinn liggur í því að þrátt fyrir að hafa gefið af
 sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið.
 
 Það er því oft auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili, og getur

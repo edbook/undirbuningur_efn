@@ -40,7 +40,7 @@ Efnahvörf gerast á eindavís, t.d. ein sameind verður að annarri sameind. Ei
 fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrosartala* og hefur gildið
 
 .. math::
-  N_A=6,022 \times 10^{23}\, 1/\text{mól}.
+  N_A=6,022 \times 10^{23}\, \frac{1}{\text{mól}}.
 
 Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af bjór lýsir 6 bjórum!
 

@@ -1,7 +1,7 @@
 Sýrur og basar
 ==============
 
-Til eru fleiri en ein skilgreining á sýru( e. acid), og má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýra, en hér verður einungis litið á Brønsted-Lowry sýrur, enda
+Til eru fleiri en ein skilgreining á sýru (e. acid), og má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýra, en hér verður einungis litið á Brønsted-Lowry sýrur, enda
 algengasta skilgreiningin. :math:`\require{mhchem}` ::math:`\require{cancel}`
 
 Brønsted-Lowry sýra getur gefið af vetnisjón, :math:`\ce{H+}` en Brønsted-Lowry *basi* (e. base) tekur við þessari vetnisjón. Ekki er vaninn að skrifa "Brønsted-Lowry" fyrir framan sýrur og basa, og verður ekki gert framar. Þegar talað er um sýrur og basa, er algengara en hitt að nota

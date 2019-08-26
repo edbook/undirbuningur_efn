@@ -389,7 +389,6 @@ Millisameindakraftar
 Auk innansameindakraftana, eru einnig millisameindakraftar sem halda sameindum saman, og mynda þannig hlutina sem við þekkjum.
 Helstu kraftarnir kallast  *Van der Waals* kraftar, þeir eru *tvípóls-tvípóls kraftar*, *London kraftar* og *vetnistengi*.
 
-<<<<<<< HEAD
 Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
 
 Fasar
@@ -405,31 +404,12 @@ Efni getur einna helst verið í þremur fösum (e. phase); *fast efni*, *vökva
 
 Efni skipta um fasa við mismunandi hitastig. Hitastig efnis sem skilur að vökvaform og fast form er kallað *bræðslumark* (e. melting point) efnisins og hitastigið sem skilur að vökvaform og gasfasa kallast *suðumark* (e. boiling point) efnisins.
 Við þessi hitastig hefur efnið næga orku til að rjúfa hluta af millisameindakröftunum. Þessi hitastig stjórnast því af hversu öflugir millisameindakraftarnir eru, en *því öflugri millisameindakraftar, því hærra hitastig er bræðslu- og suðumark efnisins.*
-=======
- Þessir kraftar byggjast allir á rafeindamismun, sem heldur sameindunum saman eins og seglar. Orsök og styrkur þessara rafeindamismuns er þó mismunandi.
->>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
 
 
 Tvípóls-tvípóls kraftar
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Þessir kraftar koma fyrir í skautuðum sameindum, sem hafa *jákvæðan* (rafeindasnauðan) pól, og *neikvæðan* (rafeindaríkan) pól. Sameindirnar raðast þá með jákvæðan pól við neikvæðan pól hjá næstu, og öfugt.
-<<<<<<< HEAD
-=======
-
-London kraftur
-~~~~~~~~~~~~~~
-
-
-
-Jóns-jóns kraftar
-~~~~~~~~~~~~~~~~~
-
-Jónir hafa millisameindakraft líkan tvípóls-tvípóls krafti, en það er mun meiri munur á tveimur jónum, heldur en tvípólum. Tengin eru því töluverð sterkari.
-
-
-
->>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
 
 .. figure:: ./myndir/sameindir/dipole.png
   :align: center

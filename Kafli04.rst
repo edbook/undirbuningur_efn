@@ -9,13 +9,12 @@ Sameindir
 Samgild tengi
 -------------
 
-<<<<<<< HEAD
 Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda báðum kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
 rafeindir geta fyllt ysta hvolfið á báðum atómum. :math:`\require{mhchem}`
-=======
+
 Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar draga kjarna atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegar
 rafeindir geta fyllt ysta hvolfið á báðum atómum.
->>>>>>> 287d6015c75b1967b6ce86e71e305699891fa529
+
 
 Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar
 dreifast ójafnt milli atóma og valda hleðslumun á kjörnunum. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
@@ -63,7 +62,7 @@ sem dreifast um efnið á sem stöðugastan máta. Til að teikna Lewis mynd af 
 
 .. tip::
 
-	**Hver er Lewis mynd** :math:`CO_2`?
+	**Hver er Lewis mynd** :math:`\ce{CO2}`?
 
   1. Kolefni hefur 4 gildisrafeindir og súrefni 6. Höfum því 4+6+6=16 gildisrafeindir.
   2. Kolefni er minna rafneikvætt en súrefni og fer því í miðjuna. Þá fæst:
@@ -104,7 +103,7 @@ Vok myndir
 
 .. tip::
 
- **Hver er Lewis mynd fyrir nítrat jón,** :math:`NO_3^-`?
+ **Hver er Lewis mynd fyrir nítrat jón,** :math:`\ce{NO_3^-}`?
 
  1. Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu, og þ.a.l. bætist við rafeind*. Þá eru 5+3(6)+1=24 gildisrafeindir.
 

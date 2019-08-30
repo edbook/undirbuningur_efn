@@ -1,14 +1,14 @@
 Einingar og reikniaðferðir
 ==========================
 
-Stærðfræði kemur mikið við sögu í efnafræði og gott er að hafa góð tök á algengnum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
+Stærðfræði kemur mikið við sögu í efnafræði og gott er að hafa góð tök á algengum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
 
-Til eru upprifjunarvefir á edbook í `stærðfræði <http://edbook.hi.is/undirbuningur_stae/>`_ og `eðlisfræði <http://edbook.hi.is/undirbuningur_edl/>`_ sem hægt er að nota ef ókunnug stærðfræðiregla kemur fyrir sjónir. :math:`\require{cancel}`
+Til eru upprifjunarvefir á edbook í `stærðfræði <http://edbook.hi.is/undirbuningur_stae/>`_ og `eðlisfræði <http://edbook.hi.is/undirbuningur_edl/>`_ sem hægt er að nota ef ókunnug stærðfræðiregla eða hugtök koma fyrir sjónir. :math:`\require{cancel}`
 
 SI-einingakerfið
 ----------------
 
-Í nær öllum löndum heims er notað samræmt mælikerfi, SI einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
+Í nær öllum löndum heims er notað samræmt mælikerfi, SI-einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
 Lengd hefur þar grunneininguna metri og tími grunneininguna sekúnda.
 
 SI-grunneiningarnar eru sjö:
@@ -25,15 +25,15 @@ SI-grunneiningarnar eru sjö:
     \text{Fjöldi} & \text{Mól} & n \\ \hline
   \end{array}
 
-Hugtök eins og ljósstyrkur mun ekki koma hér fyrir, en fær að fljóta hér með.
+Hugtök eins og ljósstyrkur mun ekki koma hér fyrir, en fær að fljóta með.
 
-Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI einingakerfisins.
-Hraði, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).
+Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI-einingakerfisins.
+*Hraði*, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).
 
 Kelvin
 ~~~~~~
 
-Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er í raun kelvin skalin, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við forstmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með
+Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með jöfnunni:
 
 .. math::
 
@@ -119,7 +119,7 @@ Ef deilt er í gegn með :math:`1000 \text{ g}` fæst:
 Markverðir tölustafir
 ---------------------
 
-*Markverðir tölustafir* (e. Significant figures) segir til um nákvæmni mælingu. Nákvæmni útkomu reikninga byggist sterklega á nákvæmni mælingarinna. Því fleiri markverðir tölustafir, því nákvæmara. Til dæmis má segja að ákveðinn maður er 2 m, 1,8 cm, 183 cm eða 183,2 cm. Þessar tölur lýsa allar hæð mannsins, en bara með 1, 2, 3 eða 4 markverðum tölustöfum.
+*Markverðir tölustafir* (e. Significant figures) segir til um nákvæmni mælingu. Nákvæmni útkomu reikninga byggist sterklega á nákvæmni mælingar. Því fleiri markverðir tölustafi sem mæling hefur, því nákvæmari er hún. Til dæmis má segja að ákveðinn maður er 2 m, 1,8 m, 183 cm eða 183,2 cm. Þessar tölur lýsa allar hæð mannsins, en með mismunandi fjölda af markverðum tölustöfum.
 
 Tölustafir sem teljast vera markverðir eru allir tölustafir taldir frá vinstri þangað til einungis eru 0 hægra megin.
 
@@ -133,7 +133,7 @@ Tölustafir sem teljast vera markverðir eru allir tölustafir taldir frá vinst
   1302 & 4 \\
   \end{array}
 
-1200 getur einnig haft fjóra markverða tölustafi og þyrfti frekari upplýsingar til að ákvarða það. Ef sagt væri að trjágrein væri 1200cm gæti verið að það hafi verið mælt sem 12 metrar með mælitæki sem mældi einungis í metrum, eða nákvæmlega 1200 cm með málbandi sem mælir í sentimetrum. Í
+1200 getur einnig haft fjóra markverða tölustafi og þyrfti frekari upplýsingar til að ákvarða það. Ef sagt væri að trjágrein væri 1200 cm gæti verið að það hafi verið mælt sem 12 metrar með mælitæki sem mældi einungis í metrum, eða nákvæmlega 1200 cm með málbandi sem mælir í sentimetrum. Í
 fyrra tilvikunu væri einungis tveir markverðir stafir, en fjórir í því seinna.
 
 Til aðgreiningar er hægt að taka fram töluna í tugaveldi, þ.e. hægt er að skrifa töluna sem
@@ -147,7 +147,29 @@ Til aðgreiningar er hægt að taka fram töluna í tugaveldi, þ.e. hægt er a�
   1,200 \times 10^2  & 4 \\
   \end{array}
 
-Allir tölustafir, þar á meðal öll núll, teljast sem markverðir stafir ef þeir eru **eftir** kommu.
+Fyrir *tugabrot* teljast allir tölustafir markverðir, sem hafa ekki einungis núll vinstra megin.
+
+.. math::
+
+  \begin{array} {c|c}
+  \text{Tölur} & \text{Markverðir tölustafir}\\
+  \hline
+  1200  & 2-4 \\
+  1200,1   & 5 \\
+  0,0000032 & 2\\
+  0,3000002 & 7\\
+  \end{array}
+
+Ef þessar reglur gleymast er alltaf hægt að skrifa tölurnar í tugaveldi, og athugað hve marga tölustafi þurfa að koma fram. Við það detta úr ómarkverð núll.
+
+.. math::
+
+  \begin{array} {c|c}
+  \text{Tölur} & \text{Markverðir tölustafir}\\
+  \hline
+  3,2 \times 10^{-6} & 2\\
+  3,000002 \times 10^{-1}& 7
+  \end{array}
 
 Samlagning og margföldun
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,7 +177,7 @@ Samlagning og margföldun
 Þegar mælingar eru notaðar til að reikna fleiri gildi, takmarkast markverðir tölustafir svarsins við markverðu tölustafi upphafsgildanna.
 Þetta gerist á tvo mögulega vegu og fer það eftir hvort notuð sé samlagning eða margföldun.
 
-1 - Fyrir *margföldun* tveggja talna hefur útkoman jafn marga markverða tölustafi og það upphafsgildi með færri markverða tölustafi
+1 - Fyrir *margföldun* eða *deilingu* tveggja talna hefur útkoman jafn marga markverða tölustafi og upphafsgildið með færri markverða tölustafi.
 
 .. math::
 
@@ -163,18 +185,18 @@ Samlagning og margföldun
 
   \small{ (\text{Markverðir tölustafir})}
 
-2 - Fyrir *samlagningu* skiptir einungis máli markverðir tölustafir *eftir* kommu, þ.e. tugabrot. Útkoman fær jafn marga markverða stafi eftir kommu, eins og það upphafsgildi sem hafði færri markverða tölustafi eftir kommu
+2 - Fyrir *samlagningu* skiptir einungis máli markverðir tölustafir *eftir* kommu, þ.e. tugabrot. Útkoman fær sama fjölda markverða stafi eftir kommu og upphafsgildið með færri markverða tölustafi eftir kommu.
 
 .. math::
 
   53,024 (3)+ 310,3 (1) = 363,3 (1)\\
   \small{ (\text{Markverðir tölustafir eftir kommu})}
 
-Ef gerðar eru margar aðgerðir, skal halda öllum tölustöfum til haga þangað til lokasvarið fæst. Þá er fundnar þær aðgerðir sem takmarka fjölda markverðra stafa, og lokasvarið gefið með þeim fjölda af markverðum stöfum.
+Ef gerðar eru margar aðgerðir, skal halda ríflegum fjölda af tölustöfum til haga þangað til lokasvarið fæst. Þá er fundnar þær aðgerðir sem takmarka fjölda markverðra stafa, og lokasvarið gefið með þeim fjölda af markverðum stöfum.
 
 .. tip::
 
- Hvert er lokasvarið, með réttum fjölda markverða stafa?
+ **Hvert er lokasvarið, með réttum fjölda markverða stafa?**
 
   .. math::
 
@@ -190,11 +212,12 @@ Ef gerðar eru margar aðgerðir, skal halda öllum tölustöfum til haga þanga
     1156,318 \cdot 14,00 &= 19607,81 \\
     \end{aligned}
 
- Þá þarf að finna markverðu tölustafina. Þá er best að byrja finna markverða tölustafi í samlagningunni. Samlagningin er takmörkuð af tveimur aukastöfum, þ.e. 114,69 sem þýðir að það eru *fimm* markverðir stafir. Þá er einungis margföldunaraðgerðir eftir:
+ Þá þarf að finna hve marga markverðu tölustafi svarið á að hafa. Byrjum á að finna markverða tölustafi í samlagningunni. Samlagningin er takmörkuð af tveimur aukastöfum, þ.e. 114,69 sem þýðir að það eru *fimm* markverðir stafir. Þá er einungis margföldunaraðgerðir eftir:
 
   .. math::
 
-    (5) \cdot (5) \cdot (4) = (4)
+    (5) \cdot (5) \cdot (4) = (4)\\
+    \small{ (\text{Markverðir tölustafir})}
 
  Þetta þýðir að lokasvarið skal gefið með *fjórum* markverðum stöfum, þ.e.
 

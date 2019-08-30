@@ -1,4 +1,9 @@
-\documentclass{standalone}
+\documentclass[
+  convert={
+    size=1080x800,
+    outext=.png
+  },
+]{standalone}
 \usepackage{tikz} 
 \usetikzlibrary{decorations.markings} 
 
@@ -12,7 +17,7 @@
 
 \begin{document}
 
- \nopagecolor
+\nopagecolor
 
 \begin{tikzpicture}
 \def\proton(#1,#2){%

@@ -1,23 +1,25 @@
 .. _s.frumefni:
 
-Frumefni
-========
+Frumefni og sameindir
+=====================
 
+Atóm
+----
 
 Í efnafræði er efni skilgreint sem svo að það hefur massa og tekur upp pláss, þ.e. hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Eins og staðan er núna
 eru til 118 þekktar tegundir atóma, þar sem hver tegund telst sem eitt *frumefni* (e. `element <https://en.wikipedia.org/wiki/Chemical_element>`__). Atóm, þó örsmá, eru ekki minnsta eining efnis, þar sem þau eru gerð úr jákvætt hlöðnum *róteindum* (e. `proton <https://en.wikipedia.org/wiki/Proton>`__), neikvætt hlöðnum *rafeindum* (e. `electron <https://en.wikipedia.org/wiki/Electron>`__) og  hleðslulausum *nifteindum* (e. `neutron <https://en.wikipedia.org/wiki/Neutron>`__).
-Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnan.
+Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnann.
 
-.. figure:: ./myndir/atom/atom.svg
+.. figure:: ./myndir/atom/transparent.png
   :align: center
   :width: 50%
 
 
-Frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum, en fjöldi róteinda ákvarðar gerð frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og myndað og kallast það mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__) frumefnisins. Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill
+Frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum, en fjöldi róteinda ákvarðar gerð frumefnis. Þessi fjöldi kallast *sætistala* (e. atomic number) frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og mynda mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__) frumefnisins. Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill
 miðað við hinar tvær öreindirnar að ekki þarf að taka tillit til massa þeirra í massatölu samsætu. Samsætur eru svo nefndar eftir massatölu sinni, s.s. kolefni-13 (C-13) hefur massatöluna 13.
 
 .. tip::
-  **Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
+  **Kolefni hefur sætistöluna 6. Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
 
   Kolefni hefur sætistöluna 6, og hefur því 6 róteindir og rafeindir. Nú er jafnan fyrir massatölu:
 
@@ -26,7 +28,6 @@ miðað við hinar tvær öreindirnar að ekki þarf að taka tillit til massa �
 
   þar sem A er massatalan, Z er fjöldi róteinda, og N er fjöldi nifteinda.
   Þá má sjá að fyrir massatölu 13 og 6 róteindir fæst að það eru 7 nifteindir í C-13
-
 
 
 
@@ -41,132 +42,177 @@ verið fundin á þessum tíma, tókst Mandeleev að mestu leyti að áætla hva
 
 Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku, sem og fá upplýsingar um ýmsa eiginleika allra frumefnanna.
 
-Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, sem og 18 hópa þar sem hver hópur hefur sameiginlega efnafræðilega eiginileika. Þessir hópar hafa margir hver nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
+Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, sem og 18 hópa þar sem hver hópur hefur sameiginlega efnafræðilega eiginileika. Þessir hópar hafa margir eigið nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
 
 .. figure:: ./myndir/atom/Periodic_trends.png
   :align: center
   :width: 50%
 
-Rafeindaskipan
---------------
+Sameindir
+---------
 
-Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. `shell <https://en.wikipedia.org/wiki/Electron_shell>`__) þar sem þau eru fyllt eftir orkulegri hagkvæmni.
-Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_)
-Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með :math:`\ell` eða *hverfiþungaskammtatölunni* (e. `Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
-Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni en sjá má orkuþrep hvers hvols á mynd hér fyrir neðan.
+*Sameindir* (e. molecule) myndast þegar tveir eða fleiri málmleysingjar koma saman og tengjast efnatengjum.
+Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`\require{mhchem} \ce{H_2}` eða nitur í andrúmslofti, :math:`\ce{N_2}`.
+Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`\ce{H_2O}`.
 
-.. figure:: ./myndir/atom/svigrumaskipan.png
-  :align: center
-  :width: 60%
+Jónaefni
+--------
 
-Hafa ber í huga, eins og sjá má á mynd að orkuþrep **3d** er orkuhærra en **4s**, o.s.fr.
+Jónaefni eru svipaðar og sameindir en það er smíðað úr *jónum* (e. ions). Jónir hafa ekki sama fjölda rafeinda (-) og róteinda (+) og fá þannig *hleðslu*. Jónir með mismunandi hleðslur koma saman og mynda *jónaefni* en jónir geta einnig fundist stakar í *lausn* (e. solution), þ.e. uppleystar.
 
-Hvernig skal finna rafeindaskipan frumefnis?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Það verður fjallað ítarlegra um jónaefnið og jónatengi í næstu köflum.
 
-Fjöldi rafeinda er jafn sætistölu frumefnis. Þá er hægt að byrja efst vinstra megin og fylla rafsvigrúmin eins og þau koma fyrir á eftirfarandi mynd, unnið til hægri og niður, að frumefninu sem leitast er eftir rafeindaskipan að. Fjöldi rafeinda á hverju svigrúmi
-er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir í s svigrúm, 6 rafeindir í p sigrúm, 10 rafeindir í d svigrúm og að lokum 14 rafeindir í f svigrúm.
+Efnaformúlur
+------------
 
-.. figure:: ./myndir/atom/svigrum.jpg
-  :align: center
-  :width: 80%
+Uppbygging efna er lýst með formúlu, s.s. jónin
+
+.. math::
+  \ce{NO_3- (aq)}
+
+Hér lýsa stafirnir hvað frumefni eru í sameindinni, :math:`_3` lýsir fjölda súrefnisatóma, en :math:`^-` er hleðsla sameindarinnar. Einungis er settur tölustafur í hnéskrift ef það er fleiri en eitt atóm af efninu.
+
+Að lokum segir :math:`\ce{(aq)}` til um að efnið sé uppleyst. Þá er einnig notað :math:`\ce{(s)}`, :math:`\ce{(l)}` og :math:`\ce{(g)}` til að lýsa sameindinni sem föstu efni, vökva eða gasi.
+
+
+Mól
+---
+
+Atóm og aðrar eindir eru svo litlar að ekki er praktískt að reikna fyrir stakar eindir. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrostala* og hefur gildið
+
+.. math::
+   N_A=6,022 \times 10^{23}\, \frac{1}{\text{mól}}.
+
+Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af gosi lýsir 6 dósum!
+
+Mólmassi
+~~~~~~~~
+
+Frumefnin eru mismassamikil en massi eins móls af frumefni er kallaður *mólmassi* efnisins. Mismundandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra sem finna má í flestum lotukerfum, undir nafninu. Þessi tala er notuð fyrir
+alla mólreikninga, nema tilgreint sé hvaða samsæta sé notuð.
+
+Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
+
+Mólmassi, massi og mól tengjast með formúlunni
+
+ .. math::
+   \mathcal{M}\cdot n=m
+
+ Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
 
 .. tip::
-  **Hver er rafeindaskipan brennisteins (S)? En hjá blýi (Pb)?**
 
-  Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í 1s og vinnum okkur að svigrúmi 3p, þar sem brennisteinn er. Þá er rafeindaskipanin:
+ **Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`\ce{FeO}`?
 
-  .. math::
-      1s^2 2s^2 2p^6 3s^2 3p^{\textbf{4}}
+ Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
 
-  Eins og sjá má eru einungis 4 rafeindir í 3p svigrúminu þar sem samanlagður fjöldi þarf að vera 16 (:math:`2+2+6+2+4 = 16`).
+ .. math::
 
-  Hægt er að beita sömu aðferðarfræði á blý, en núna koma d og f svigrúm til leiks. Blý hefur sætistöluna 82 og því 82 rafeindir. Blý liggur í svigrúmi 6p í lotukerfinu og er það því lokastöðin. Með því að vinna sig hægri og niður fæst:
+     \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23}\, 1/\text{mól}}=0,00166\text{ mól}
 
-  .. math::
-      1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
+ Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
 
-  Við sjáum að heildarfjöldi rafeinda er :math:`2+2+6+2+6+2+10+6+2+10+6+2+10+14+2 =82`
+ .. figure:: ./myndir/efnahvorf/jarnsurefni.png
+       :width: 45%
+       :align: center
+
+ Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
+
+ .. math::
+
+    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
+
+ Þá er hægt að finna massa eindanna:
+
+ .. math::
+
+     m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
+
+ Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
+
+Mólstyrkur
+~~~~~~~~~~
+
+*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
+jóna í sameind.
+
+Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M, og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
+
+Jafnan fyrir mólstyrk er:
+
+.. math::
+
+ 	C=\frac{n}{V}
+
+Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
 
 .. warning::
-  Þetta er ekki algilt, en fyrir suma hliðarmálma er þessi röð undirsvigrúmanna ekki endilega orkulega hagkvæmust. Þegar ákvarða á rafeindaskipan þeirra þarf að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
 
-.. _s.gildisrafeindir:
-
-Gildisrafeindir
----------------
-
-Gildisrafeindir (e. `valence electron <https://en.wikipedia.org/wiki/Valence_electron>`_) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Þessar rafeindar eru einkum þýðingarmiklar í hvarfgirni efna þar sem frumefni
-leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. `octate rule <https://en.wikipedia.org/wiki/Octet_rule>`_).
-Atóm geta komið fjölda gildisrafeinda í átta með nokkrum leiðum: þau geta t.d. myndað *sameind* þar sem þau deila gildisrafeindum með öðrum atómum í *efnatengjum*, eða *jónast* (e. `Ionization <https://en.wikipedia.org/wiki/Ionization>`_) þar sem þau kasta af sér umframrafeindum, en þessi ferli má sjá nánar í komandi köflum.
-
-.. note::
- Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvargjarnar eða óvirkar (e. inert)
-
-Þegar rita á rafeindaskipan stórra frumefna er vaninn að telja ekki upp öll hvolfin og rafeindirnar sem þar eru, heldur einungis gildisrafeindirnar og tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda ritháttin auk þess sem gildisrafeindir koma mun oftar við sögu en þær sem eru innar.
+   Rúmmál lausnar getur breyst við það að leysa upp efni, og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
 
 .. tip::
 
- Hver er rafeindaskipan blýs, skrifað með þessum styttri rithátt?
+ **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`\ce{MgCl2}` **í 1,00 líter af vatni?**
 
- Nú er Xenon eðalgastegundin í lotunni fyrir ofan blý. Því er byrjað þar og þá fæst:
+ Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir. Þá er:
 
-  .. math::
-    [Xe] 6s^2 5d^{10} 4f^{14} 6p^{2}
+ .. math::
 
-Rafeindaskipan áframhald
-~~~~~~~~~~~~~~~~~~~~~~~~
+   \begin{aligned}
 
-Rafeindir hafa fjórar skammtatölur, þ.e. *n*, :math:`\ell` en einnig *m*:math:`_{\ell}` og *m*:math:`_S`. *m*:math:`_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og segir til um í hvaða átt svigrúmið snýr. *m*:math:`_S`  eða *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_) segir aftur á móti til um *spuna* rafeindarinnar.
-Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur, og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
-Þá fær hvert hvolf og undirhvolf línu eða kassa sem rafeindir eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa, sem stjórnar segulskammtatölunni, og er tvöfalt færri en fjöldi rafeinda á fullu undirhvolfi.
-Að lokum eru svo rafeindirnar táknaðar sem örvar sem snúa upp eða niður. Þetta tilgreinir spuna rafeindarinnar. Fullt hvolf hefur þá rafeind bæði upp og niður í hverjum kassa.
+	  [\ce{Mg^{2+}}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{1\text{ mól }\ce{Mg}}{1\text{ mól }\ce{MgCl_2}} = 2,00\,\text{M}\\
+    [\ce{Cl^-}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{2\text{ mól }\ce{Cl}}{1\text{ mól }\ce{MgCl2}} = 4,00\,\text{M}
+
+   \end{aligned}
+
+Mólalstyrkur
+~~~~~~~~~~~~
+
+*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
+
+Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
+
+Efnaformúlur framhald
+---------------------
+
+Efni getur haft mismunandi efnaformúlur en einna helst er talað um þrjár gerðir af efnaformúlum. Munurinn á þessum formúlum er hve miklar upplýsingar um efnið þær innihalda.
+
+Reynsluformúla (e. empirical formula)
+  Þær lýsa einungis hlutfalli frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
+Sameindarformúla (e. molecular formula)
+  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
+Byggingarformúla (e. structural formula)
+  Þær sýna myndrænt, hvernig atómin eru tengd við hvort annað, og lýsir þannig byggingu efnisins.
+
+Ef tekið er dæmi um ediksýru, þá er reynsluformúlan hennar :math:`\ce{CH2O}` en sameindaformúlan hennar er :math:`\ce{C2H4O2}`.
+Byggingarformúla ediksýru er aftur á móti:
+
+.. figure:: ./myndir/efnahvorf/ediksyra.png
+  :width: 25%
+  :align: center
+
+Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
+mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
 
 .. tip::
 
- **Tilgreindu fulla rafeindaskipan brennisteins**
+ **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`\ce{CH2O}` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
 
- Brennisteinn hefur 5 gildisrafeindir, og þar af 2 á 3s og 4 á 4p. Byrjum á að teikna upp kassana fyrir svigrúmin.
+ Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
 
-  .. figure:: ./myndir/atom/syni1.svg
-    :align: center
-    :width: 40%
+ .. math::
 
- Byrjum á því að fylla inn í 3s svigrúmið:
+  \begin{aligned}
+  \mathcal{M}_{RF}&= \mathcal{M}_{\ce{C}}+2\mathcal{M}_{\ce{H}}+\mathcal{M}_{\ce{O}}\\
+  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
+  &= 30,026 \text{ g/mól}
+  \end{aligned}
 
-  .. figure:: ./myndir/atom/syni2.svg
-    :align: center
-    :width: 40%
+ Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
 
- Með einungis 4 rafeindir er 3p svigrúmið ekki fullt og því þarf að passa hvernig fylla skal í það. Það skal ávallt fyrst fylla í alla kassana með einungis einni ör, og eftirstandandi rafeindir fylltar inn eftir það. Þ.e. *ekki setja tvær örvar í kassa, meðan það eru enn tómir kassar*.
- Það er gert til að fylgja eftir svokallaðari *reglu Hund's*.
+ .. math::
 
-  .. figure:: ./myndir/atom/syni3.svg
-    :align: center
-    :width: 40%
+  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
 
-  .. figure:: ./myndir/atom/syni4.svg
-    :align: center
-    :width: 40%
-
-.. begin-toggle::
-  :label: Hund's regla
-  :starthidden: False
-
-*Regla Hund's* segir til um að það sé orkulega hagkvæmast og þannig stöðugast þegar rafeindir skipa sér stakar á svigrúm, meðan kostur er. Þær hafa þá sama spuna.
-
-Þessi regla er oft kölluð *strætisvagnareglan*, þar sem vaninn er að setjast ekki í sætisröð með öðrum, ef það er tóm sætisröð í vagninum.
-
-.. end-toggle::
-
-
-
-
-
-
-
-
-
-.. raw:: html
-
-  <iframe style="width: 600px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&bg=white"></iframe>
+ Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
+ þá :math:`\ce{C_6H_{12}O_6}`.

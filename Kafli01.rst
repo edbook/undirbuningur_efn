@@ -1,10 +1,17 @@
 Um námsefnið
 ============
+
+  | *Vandinn að skrifa er í því fólginn að þegja yfir nógu mörgu.*
+  | -Halldór Kiljan Laxness, Úngur eg var (1976)
+
+Markmið námsefnisins
+--------------------
+
 Þetta námsefni er ætlað þeim sem eru að hefja nám við Verkfræði- og Náttúruvísindasvið Háskóla Íslands, sem og við önnur svið þar sem efnafræðin spilar hlutverk.
 
 Farið er yfir helstu atriði efnafræðinnar sem gott er að hafa góð tök á í upphafi námsins en efnið er sett fram til að gefa verðandi nemendum tækifæri til að skerpa á þessum atriðum áður en kennsla hefst.
 
-Hafa ber í huga að í námskeiðum í efnafræði er líklega farið ítarlegra í flest þessara atriða. Þetta er að miklu leyti námsefni sem margir hafa séð í menntaskóla og því getur reynst vel að rifja það upp. Þessi síða gæti einnig nýst
+Hafa ber í huga að í námskeiðum í efnafræði er líklega farið ítarlegra í flest þessara atriða. Þetta er að námsefni sem margir hafa séð í menntaskóla og því getur reynst vel að rifja það upp. Þessi síða gæti einnig nýst
 til hliðsjónar í efnafræðinámskeiðum.
 
 
@@ -26,3 +33,8 @@ orðið "Chemistry" er komið af orðinu "`Alchemy <https://en.wikipedia.org/wik
   Isaac Newton
 
 Mikið vatn hefur runnið til sjávar síðan þá en nútímaefnafræðin tekur fyrir breitt svið, allt frá skammtaefnafræði (e. `Quantum Chemistry <https://en.wikipedia.org/wiki/Quantum_chemistry>`__) sem tekur fyrir víxlverkun staka einda, til kjarnasamruna í sólinni.
+
+
+.. warning::
+
+  Þetta efni var skrifað sumarið 2019 og er birt með fyrirvara um villur. Ef rekist er á villur, hvort sem stafsetnings eða efnislegar, má endilega láta höfund vita með tölvupóst í *hal@hi.is*

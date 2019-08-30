@@ -1,321 +1,114 @@
-.. _s.Efnahvörf:
+Skammtafræði
+==============
 
-Efnahvörf
-=========
+Rafeindaskipan
+--------------
 
-Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf grundvöllur lífs. En efnahvarf er ferli þar sem efni breytist; efnasambönd myndast, breytast eða brotna niður. Efnahvörfum má almennt séð lýsa sem breytingu á *efnatengjum* milli kjarna, og hægt er að skipta þeim í ýmsa flokka. Fjórir flokkar sem eru oft notaðir eru:
+Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. shell) þar sem þau eru fyllt eftir orkulegri hagkvæmni. Efni reynir alltaf að stefna að *orkulægsta* ástandandinu, enda er það stöðugast. Þá er mikilvægt að geta greint hvað er orkulægsta ástandið.
+Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_)
+Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með :math:`\ell` eða *hverfiþungaskammtatölunni* (e. `Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) frá {0,1,2,3}. Þau eru þó betur þekkt sem {s,p,d,f} svigrúm.
+Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni, þ.e. *orkulægstu* svigrúmin eru fyllt fyrst. Röðin á þeim má sjá hér á myndinni fyrir neðan en þau eru fyllt á sama hátt og örvarnar stefna ofan frá og niður.
 
-Álagningarhvarf (e. addition reaction)
-  Þessi hvörf er þegar tvö efni sameinast og mynda eina heild, og er þá stundum talað um að annað efnið leggist á hitt. Í þessu tilfelli eru efnatengi að *myndast*.
-
-  .. figure:: ./myndir/efnahvorf/alagning.svg
-    :align: center
-    :width: 30%
-
-Brottnámshvarf (e. elimination reaction)
-  Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
-
-  .. figure:: ./myndir/efnahvorf/brottnam.svg
-    :align: center
-    :width: 30%
-
-Skiptihvarf (e. exchange reaction)
- Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
-
- .. figure:: ./myndir/efnahvorf/skipti.svg
-   :align: center
-   :width: 39%
-
-Umröðunarhvarf (e. rearrangement reaction)
-  Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
-
-  .. figure:: ./myndir/efnahvorf/umrodun.svg
-    :align: center
-    :width: 20%
-
-Mól
----
-
-Efnahvörf gerast á eindavís, t.d. ein sameind verður að annarri sameind. Eindir eru aftur á móti örsmáar og almennt ekki mjög praktískt að reikna með stökum eindum. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi
-fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrosartala* og hefur gildið
-
-.. math::
-  N_A=6,022 \times 10^{23}\, 1/\text{mól}.
-
-Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af bjór lýsir 6 bjórum!
-
-Mólmassi
-~~~~~~~~
-
-Frumefnin eru mismassamikil en massi eins móls af frumefni er kallaður *mólmassi* efnisins. Mismundandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra og það má sjá í flestum lotukerfum, undir nafninu. Þessi tala er notuð fyrir
-alla mólreikninga, nema tilgreint sé hvaða samsæta sé notuð.
-
-Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
-
-Mólmassi, massi og mól tengjast með formúlunni
-
-.. math::
-  \mathcal{M}\cdot n=m
-
-Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
-
-.. tip::
-
-	**Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`FeO`?
-
-  Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
-
-  .. math::
-
-    \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23} 1/\text{mól}}=0,00166\text{ mól}
-
-  Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
-
-  .. figure:: ./myndir/efnahvorf/jarnsurefni.png
-      :width: 45%
-      :align: center
-
-  Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
-
-  .. math::
-
-    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
-
-  Þá er hægt að finna massa eindanna:
-
-  .. math::
-
-    m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
-
-  Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
-
-Mólstyrkur
-~~~~~~~~~~
-
-*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
-jóna í sameind.
-
-Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M, og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
-
-Jafnan fyrir mólstyrk er:
-
-.. math::
-
-	C=\frac{n}{V}
-
-Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
-
-.. warning::
-
-	Rúmmál lausnar getur breyst við það að leysa upp efni, og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
-.. tip::
-
- **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`MgCl_2` **í 1,00 líter af vatni?**
-
- Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`MgCl_2` er ein magnesíum jón og tvær klóríð jónir. Þá er:
-
- .. math::
-
-  \begin{aligned}
-
- 	  [Mg^{2+}] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{1\text{ mól }Mg}{1\text{ mól }MgCl_2} = 2,00\,\text{M}\\
-    [Cl^-] &=\frac{2,00\text{ mól }MgCl_2}{1,00 L} \cdot \frac{2\text{ mól }Cl}{1\text{ mól }MgCl_2} = 4,00\,\text{M}
-
-  \end{aligned}
-
-Mólalstyrkur
-~~~~~~~~~~~~
-
-*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
-
-Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
-
-Efnaformúlur
-----------------
-
-Uppbygging efna er lýst með formúlu, og er þá helst talað um þrjár gerðir. Munurinn á þessum formúlum
-er hve miklar upplýsingar um efnið þær innihalda.
-
-Reynsluformúla (e. empirical formula)
-  Þær lýsa einungis hlutfall frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
-Sameindarformúla (e. molecular formula)
-  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
-Byggingarformúla (e. structural formula)
-  Þær sýna myndrænt, hvernig atómin eru tengd við hvort annað, og lýsir þannig byggingu efnisins.
-
-Ef tekið er dæmi um ediksýru, þá er reynsluformúlan hennar :math:`CH_2O` en sameindaformúlan hennar er :math:`C2H_4O_2`.
-Byggingarformúla ediksýru er aftur á móti:
-
-.. figure:: ./myndir/efnahvorf/ediksyra.png
-  :width: 25%
+.. figure:: ./myndir/atom/rafskipan.png
   :align: center
+  :width: 50%
 
-Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
-mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
+Hafa ber í huga, eins og sjá má á mynd að orkuþrep **3d** er orkuhærra en **4s**, o.s.fr.
+
+Hvernig skal finna rafeindaskipan frumefnis?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fjöldi rafeinda er jafn sætistölu frumefnis. Þá er hægt að byrja efst vinstra megin og fylla rafsvigrúmin eins og þau koma fyrir á eftirfarandi mynd, unnið til hægri og niður, að frumefninu sem leitast er eftir rafeindaskipan að. Fjöldi rafeinda á hverju svigrúmi
+er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það fara 2 rafeindir í s svigrúm, 6 rafeindir í p sigrúm, 10 rafeindir í d svigrúm og að lokum 14 rafeindir í f svigrúm.
+
+.. figure:: ./myndir/atom/svigrum.png
+  :align: center
+  :width: 80%
 
 .. tip::
+  **Hver er rafeindaskipan brennisteins (S)? En hjá blýi (Pb)?**
 
- **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`CH_2O` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
+  Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í 1s og vinnum okkur að svigrúmi 3p, þar sem brennisteinn er. Þá er rafeindaskipanin:
 
- Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
+  .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^{\textbf{4}}
 
- .. math::
+  Eins og sjá má eru einungis 4 rafeindir í 3p svigrúminu þar sem samanlagður fjöldi þarf að vera 16 (:math:`2+2+6+2+4 = 16`).
 
-  \begin{aligned}
-  \mathcal{M}_{RF}&= \mathcal{M}_{C}+2\mathcal{M}_H+\mathcal{M}_O\\
-  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
-  &= 30,026 \text{ g/mól}
-  \end{aligned}
+  Hægt er að beita sömu aðferðarfræði á blý, en núna koma d og f svigrúm til leiks. Blý hefur sætistöluna 82 og því 82 rafeindir. Blý liggur í svigrúmi 6p í lotukerfinu og er það því lokastöðin. Með því að vinna sig hægri og niður fæst:
 
- Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
+  .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
 
- .. math::
-
-  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
-
- Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
- þá :math:`C_6H_{12}O_6`
-
-Stilla efnajöfnur
------------------
-
-*Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
-sama fjölda af hverju atómi í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
-að ákvarða þessi hlutföll.
-
-Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf*
-flækist málið en það fær að bíða betri tíma.
-
-Bruni
-~~~~~
-
-*Bruni* er í grunninn bara annað orð yfir *oxun*, þ.e. hvarf við súrefni. Algengast er að brenna kolefniskeðjur, t.d. bensín og tré, en vissulega eru mun fleiri frumefni sem brenna. Bruni á kolefniskeðjum hefur oftast nær sambærilega efnajöfnu, þ.e.
-kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
+  Þá sést að heildarfjöldi rafeinda er :math:`2+2+6+2+6+2+10+6+2+10+6+2+10+14+2 =82`
 
 .. warning::
+  Þetta er ekki algilt, en fyrir suma hliðarmálma er þessi röð undirsvigrúmanna ekki endilega orkulega hagkvæmust. Þegar ákvarða á rafeindaskipan þeirra þarf að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
 
-	Þetta gerir ráð fyrir *fullkomnum bruna* en almennt má gera ráð fyrir því.
+.. _s.gildisrafeindir:
 
+Gildisrafeindir
+---------------
 
-.. tip::
+Gildisrafeindir (e. valence electrons) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Þessar rafeindar eru einkum þýðingarmiklar í hvarfgirni efna þar sem frumefni
+leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. octate rule).
+Atóm geta komið fjölda gildisrafeinda í átta með nokkrum leiðum: þau geta t.d. myndað *sameind* þar sem þau deila gildisrafeindum með öðrum atómum í *efnatengjum*, eða *jónast* (e. ionize) þar sem þau kasta af sér umframrafeindum.
 
-	**Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir *bruna* glúkósa og stilltu.**
+.. note::
+ Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvargjarnar eða óvirkar (e. inert)
 
-  Óstillta efnajafnan er:
-
-  .. math::
-
-    C_6H_{12}O_6 + O_2 \rightarrow CO_2 + H_2O
-
-  Nú getur verið gott að setja upp töflu með fjölda frumefna á hvorri hlið:
-
-  .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & {Myndefni}\\
-    \hline
-    C& 6 & 1 \\
-    O& 8 & 3 \\
-    H& 12&2 \\
-    \end{array}
-
-  Þegar á að stilla er gott að byrja á þeim frumefnum sem koma sem sjaldnast fyrir hvorum megin. Hérna væri það vetni og kolefni. Það þarf 6 sinnum fleiri vetni og kolefni myndefnamegin, til að jafna út fjöldann þeirra. Því er sett stuðulinn 6 fyrir framan bæði vatn og koldíoxíð,
-  og þá fæst:
-
-  .. math::
-
-    C_6H_{12}O_6 + O_2 \rightarrow 6 CO_2 + 6 H_2O
-
-  Taflan verður þá:
-
-  .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & \text{Myndefni}\\
-    \hline
-    C& 6 & 6 \\
-    O& 8 & 18 \\
-    H& 12& 12 \\
-    \end{array}
-
-  Gott er að geyma einatóma sameindir þangað til seinast, því nú er lítið mál að laga magnið af súrefni. Það greinilega vantar 10 atóm af súrefni hvarfefnamegin og því er kippt í liðinn með því að bæta við 5 súrefnissameindum:
-
-  .. math::
-
-    C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2O
-
-  Þessi efnajafna er nú stillt! Til að brenna mól af glúkósa þarf 6 mól af súrefnissameindum.
-
-Sameinuð efnahvörf
-------------------
-
-Efnahvörf geta gerst í skrefum þar sem hvert skref hefur efnaformúlu. Þá er hægt að taka saman þessi skref og mynda heildarformúlu. Ef efni kemur fyrir oftar en einu sinni, sömu megin við örina, *leggjast stuðlar þess saman*. Ef efni koma sitthvorum megin
-við örina, *styttast þeir út á móti hvor öðrum*.
-
-Þetta getur gilt fyrir hvörf sem gerast í skrefum sem og hvörf sem hafa *hliðarhvörf*, þ.e. annað hvarf sem gerist samhliða.
-
-.. math::
-
-  \begin{aligned}
-  A+2B&\rightarrow C + D\\
-  C+ B &\rightarrow E
-  \end{aligned}
-
-Heildarformúlan fyrir þetta hvarf væri þá:
-
-.. math::
-
-  A + 3B \rightarrow D + E
-
-
-Takmarkandi hvarfefni
----------------------
-
-Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. T.d. væri ekki vitlaust að blanda
-7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir það að glúkósinn brennur allur, eða a.m.k. meira af honum. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
-Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
-
-Þegar takmarkandi hvarfefnið er uppurið, getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
-
-Til að vita hvaða efni er takmarkandi hvarfefnið, þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
+Þegar rita á rafeindaskipan stórra frumefna er vaninn að telja ekki upp öll hvolfin og rafeindirnar sem þar eru, heldur einungis gildisrafeindirnar og tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda ritháttin auk þess sem gildisrafeindir koma mun oftar við sögu en þær sem eru innar.
 
 .. tip::
 
- **Framleiðsla á ammóníaki,** :math:`NH_3` **er eitt mikilvægasta efnahvarf heims, enda er það grunnur í flesta áburði. Það er gert með því að blanda saman nitri úr andrúmsloftinu,** :math:`N_2` **við vetnisgas,** :math:`H_2`. **Hver er hámarksmassi sem getur myndast af ammóníaki,
- ef blandað er saman 263,0 grömmum af nitri og 50,0 grömmum af vetnisgasi?**
+ Hver er rafeindaskipan blýs, skrifað með þessum styttri rithátt?
 
- Stillt efnajafna fyrir hvarfinu er:
+ Nú er Xenon eðalgastegundin í lotunni fyrir ofan blý. Því er byrjað þar og þá fæst:
 
- .. math::
+  .. math::
+    [Xe] 6s^2 5d^{10} 4f^{14} 6p^{2}
 
-   N_2 + 3H_2 \rightarrow 2NH_3
+Rafeindaskipan áframhald
+------------------------
 
- Það þarf því þrjú mól af vetni fyrir hvert mól af nitri. Byrjum á að finna mólfjölda af hvarfefnunum. Mólmassi þeirra er:
+Rafeindir hafa fjórar skammtatölur, þ.e. *n*, :math:`\ell` en einnig *m*:math:`_{\ell}` og *m*:math:`_S`. *m*:math:`_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og segir til um í hvaða átt svigrúmið snýr. *m*:math:`_S`  eða *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_) segir aftur á móti til um *spuna* rafeindarinnar.
+Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur, og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
+Þá fær hvert hvolf og undirhvolf línu eða kassa sem rafeindir eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa, sem stjórnar segulskammtatölunni, og er tvöfalt færri en fjöldi rafeinda á fullu undirhvolfi.
+Að lokum eru svo rafeindirnar táknaðar sem örvar sem snúa upp eða niður. Þetta tilgreinir spuna rafeindarinnar. Fullt hvolf hefur þá rafeind bæði upp og niður í hverjum kassa.
 
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{H_2}&=2\cdot 1,008 \text{ g/mól} =2,016 \text{g /mól}\\
-  \mathcal{M}_{N_2}&=2\cdot 14,007 \text{ g/mól} =28,014 \text{g /mól}
-  \end{aligned}
+.. tip::
 
- Þá er hægt að finna mólfjölda hvarfefnanna:
+ **Tilgreindu fulla rafeindaskipan brennisteins**
 
- .. math::
-  \begin{aligned}
-  n_{H_2} &= \frac{m_{H_2}}{\mathcal{M}_{H_2}} = \frac{50,0 \text{g}}{2,016 \text{ g/mól}}= 24,80 \text{ mól}\\
-  n_{N_2} &= \frac{m_{N_2}}{\mathcal{M}_{N_2}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
-  \end{aligned}
+ Brennisteinn hefur 5 gildisrafeindir, og þar af 2 á 3s og 4 á 4p. Byrjum á að teikna upp kassana fyrir svigrúmin.
 
- Jafnvel þótt fjöldinn af vetnismólum sé meiri, er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
+  .. figure:: ./myndir/atom/syni1.svg
+    :align: center
+    :width: 40%
 
- Vetnið er því takmarkandi hvarfefnið, og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
+ Byrjum á því að fylla inn í 3s svigrúmið:
 
- .. math::
+  .. figure:: ./myndir/atom/syni2.svg
+    :align: center
+    :width: 40%
 
-   n_{NH_3}=24,80 \text{ mól }H_2 \cdot \frac{2 \text{ mól }NH_3}{3 \text{ mól }H_2} = 16,53 \text{ mól }NH_3
+ Með einungis 4 rafeindir er 3p svigrúmið ekki fullt og því þarf að passa hvernig fylla skal í það. Það skal ávallt fyrst fylla í alla kassana með einungis einni ör, og eftirstandandi rafeindir fylltar inn eftir það. Þ.e. *ekki setja tvær örvar í kassa, meðan það eru enn tómir kassar*.
+ Það er gert til að fylgja eftir svokallaðari *reglu Hund's*.
 
- Þessu er svo að lokum breytt í massa:
+  .. figure:: ./myndir/atom/syni3.svg
+    :align: center
+    :width: 40%
 
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{NH_3}&=14,007 \text{ g/mól} + 3\cdot 1,008 \text{ g/mól} =17,031 \text{g /mól}\\
-  m_{NH_3} &= \mathcal{M}_{NH_3} \cdot n_{NH_3} = 17,031 \text{ g/mól} \cdot 16,53 \text{ mól}= 282 \text{ g}
-  \end{aligned}
+  .. figure:: ./myndir/atom/syni4.svg
+    :align: center
+    :width: 40%
+
+.. begin-toggle::
+  :label: Hund's regla
+  :starthidden: False
+
+*Regla Hund's* segir til um að það sé orkulega hagkvæmast og þannig stöðugast þegar rafeindir skipa sér stakar á svigrúm, meðan kostur er. Þær hafa þá sama spuna.
+
+Þessi regla er oft kölluð *strætisvagnareglan*, þar sem vaninn er að setjast ekki í sætisröð með öðrum, ef það er tóm sætisröð í vagninum.
+
+.. end-toggle::

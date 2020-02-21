@@ -3,8 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Undirbúningur í efnafræði, Háskóli Íslands, sumar 2019
-=======================================================
+Undirbúningur í efnafræði, Háskóli Íslands
+==========================================
+
+Hér er námsefni í efnafræði þar sem farið er yfir helstu grunnhugtök greinarinnar.
+Einnig er til sambærileg yfirlit um stærðfræði og eðlisfræði.
+
+.. button::
+  :text: Undirbúningur í stærðfræði
+  :link: http://edbook.hi.is/undirbuningur_stae/
+
+.. button::
+  :text: Undirbúningur í eðlisfræði
+  :link: http://edbook.hi.is/undirbuningur_edl/
+
+.. toctree::
+  formali
+
+Efnisyfirlit
+------------
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +29,6 @@ Undirbúningur í efnafræði, Háskóli Íslands, sumar 2019
    :glob:
 
    Kafli*
-   formulublad
 
 .. Indices and tables
 .. ==================

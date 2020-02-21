@@ -1,240 +1,122 @@
-.. _s.Efnahvörf:
+Skammtafræði
+==============
 
-Efnahvörf
-=========
+Rafeindaskipan
+--------------
 
-Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf grundvöllur lífs. Efnahvarf er ferli þar sem efni breytist; efnasambönd myndast, breytast eða brotna niður. Efnahvörfum má almennt séð lýsa sem breytingu á *efnatengjum* milli kjarna, og hægt er að skipta þeim í ýmsa flokka. Fjórir flokkar sem eru oft notaðir eru:
+Rafeindir raða sér ekki tilviljunarkennt kringum kjarnann, heldur skipa þau sér á *rafeindahvolf* (e. shell) þar sem þau eru fyllt eftir orkulegri hagkvæmni. Efni reynir alltaf að stefna að *orkulægsta* ástandandinu, enda er það stöðugast. Þá er mikilvægt að geta greint hvað er orkulægsta ástandið.
 
-Álagningarhvarf (e. addition reaction)
-  Þessi hvörf er þegar tvö efni sameinast og mynda eina heild, og er þá stundum talað um að annað efnið leggist á hitt. Í þessu tilfelli eru efnatengi að *myndast*. :math:`\require{mhchem}`
+Frumefni hafa allt að 7 rafeindahvolf og eru þau númeruð með *n* eða *höfuðskammtatölunni* (e. `principal quantum number <https://en.wikipedia.org/wiki/Principal_quantum_number>`_) sem tekur gildi :math:`n=1,2,3,...`
+
+Rafeindahvolfið skiptist svo í undirhvolf (e. subshells). Þessi fjögur undirhvolf eru númeruð með :math:`\ell` eða *hverfiþungaskammtatölunni* (e. `Azimuthal quantum number <https://en.wikipedia.org/wiki/Azimuthal_quantum_number>`_) sem tekur gidli :math:`\ell=\{0,1,2,3\}`. Undirhvolfin eru oftar táknuð með :math:`\ell=\{s,p,d,f\}`.
+Undirhvolfin eru einnig fyllt eftir orkulegri hagkvæmni, þ.e. *orkulægstu* svigrúmin eru fyllt fyrst. Röðin á þeim má sjá hér á myndinni fyrir neðan en þau eru fyllt á sama hátt og örvarnar stefna ofan frá og niður. :math:`\require{mhchem}`
+
+.. figure:: ./myndir/atom/rafskipan.png
+  :align: center
+  :width: 50%
+
+Orkuþrepið :math:`1s` svarar til skammtatalnanna :math:`n=1` og :math:`\ell=0` og er orkulægsta ástandið. Þrepið :math:`3d` svarar til :math:`n=3`, :math:`\ell=2` og er sjöunda lægsta ástandið.
+Hafa ber í huga, eins og sjá má á mynd, að orkuþrep :math:`3d` er orkuhærra en :math:`4s`.
+
+Hvernig skal finna rafeindaskipan frumefnis?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fjöldi rafeinda er jafn sætistölu frumefnis. Til að finna hvernig rafeindirnar raða sér í kringum kjarnann má nota eftirfarandi mynd, en þá er hægt að byrja efst vinstra megin og rafsvigrúmin fyllt í þeirri röð sem þau koma fyrir. Unnið er til hægri og niður þangað til komið er að frumefninu sem verið er að skoða.
+
+Fjöldi rafeinda á hverju svigrúmi er jafn fjölda frumefna í hverju undirsvigrúmi, þ.e. það komast 2 rafeindir í :math:`s` svigrúm, 6 rafeindir í :math:`p` sigrúm, 10 rafeindir í :math:`d` svigrúm og að lokum 14 rafeindir í :math:`f` svigrúm.
+
+.. figure:: ./myndir/atom/svigrum.png
+  :align: center
+  :width: 80%
+
+.. tip::
+  **Hver er rafeindaskipan brennisteins** (:math:`\ce{Si}`) **? En blýs** (:math:`\ce{Pb}`) **?**
+
+  Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í :math:`1s` og vinnum okkur að svigrúmi :math:`3p`, þar sem brennisteinn er. Þá er rafeindaskipanin:
 
   .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^{\textbf{4}}
 
-    \ce{A + B -> C}
+  Eins og sjá má eru einungis 4 rafeindir í :math:`3p` svigrúminu (þó þær mættu vera 6) þar sem samanlagður fjöldi þarf að vera 16 (:math:`2+2+6+2+4 = 16`).
 
-Brottnámshvarf (e. elimination reaction)
-  Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
-
-  .. math::
-
-    \ce{A -> B + C}
-
-Skiptihvarf (e. exchange reaction)
- Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
-
- .. math::
-
-  \ce{AB + CD -> AC + BD}
-
-Umröðunarhvarf (e. rearrangement reaction)
-  Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
-
+  Hægt er að beita sömu aðferðarfræði á blý, en núna koma :math:`d` og :math:`f` svigrúm til leiks. Blý hefur sætistöluna 82 og því 82 rafeindir. Blý liggur í svigrúmi :math:`6p` í lotukerfinu og er það því lokastöðin. Með því að vinna sig til hægri og niður fæst:
 
   .. math::
+      1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 5d^{10} 4f^{14} 6p^2
 
-    \ce{A -> B}
-
-
-Stilla efnajöfnur
------------------
-
-*Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
-sama fjölda af hverju atómi í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
-að ákvarða þessi hlutföll.
-
-Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf*
-flækist málið en það fær að bíða betri tíma.
-
-Bruni
-~~~~~
-
-*Bruni* er í grunninn bara annað orð yfir *oxun*, þ.e. hvarf við súrefni. Algengast er að brenna kolefniskeðjur, t.d. bensín og tré, en vissulega eru mun fleiri frumefni sem brenna. Bruni á kolefniskeðjum hefur oftast nær sambærilega efnajöfnu, þ.e.
-kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
+  Þá sést að heildarfjöldi rafeinda er :math:`2+2+6+2+6+2+10+6+2+10+6+2+10+14+2 =82`
 
 .. warning::
+  Þessi röð rafeindanna er rétt fyrir flest frumefni en reglan er þó ekki algild. Fyrir suma hliðarmálma er þessi röð undirsvigrúmanna ekki endilega orkulega hagkvæmust og þegar ákvarða á rafeindaskipan þeirra þarf að taka tillit til sértilvika fyrir hverja rafeindahýsingu.
 
-	Þetta gerir ráð fyrir *fullkomnum bruna* en almennt má gera ráð fyrir því.
+.. _s.gildisrafeindir:
 
+Gildisrafeindir
+---------------
+
+*Gildisrafeindir* (e. valence electrons) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Alkalímálmar (eins og :math:`\ce{Li}` og :math:`\ce{Na}`) hafa eina gildisrafeind á meðan halógenar (eins og :math:`\ce{F}` og :math:`\ce{Cl}`) hafa 7.
+
+Gildisrafeindir eru einkum þýðingarmiklar í hvarfgirni efna vegna þess að frumefni leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. octate rule).
+Atóm geta komið fjölda gildisrafeinda í átta með nokkrum leiðum: þau geta t.d. myndað *sameind* þar sem þau deila gildisrafeindum með öðrum atómum í *efnatengjum*, eða *jónast* (e. ionize) þar sem þau kasta af sér umframrafeindum.
+
+.. note::
+ Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvarfgjarnar eða óvirkar (e. inert)
+
+Þegar rita á rafeindaskipan stórra frumefna er vaninn að telja ekki upp öll hvolfin og rafeindirnar sem þar eru, heldur einungis gildisrafeindirnar og tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda ritháttin auk þess sem gildisrafeindir koma mun oftar við sögu en þær sem eru innar.
 
 .. tip::
 
- **Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir bruna glúkósa og stilltu.**
+ **Hver er rafeindaskipan blýs, skrifað með þessum styttri rithátt?**
 
- Óstillta efnajafnan er:
-
- .. math::
-
-    \ce{C_6H_{12}O_6 + O_2 -> CO_2 + H_2O}
-
- Nú getur verið gott að setja upp töflu með fjölda frumefna á hvorri hlið:
-
- .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & \text{Myndefni}\\
-    \hline
-    \ce{C}& 6 & 1 \\
-    \ce{O}& 8 & 3 \\
-    \ce{H}& 12&2 \\
-    \end{array}
-
- Þegar á að stilla er gott að byrja á þeim frumefnum sem koma sem sjaldnast fyrir hvorum megin. Hérna væri það vetni og kolefni. Það þarf 6 sinnum fleiri vetni og kolefni myndefnamegin, til að jafna út fjöldann þeirra. Því er sett stuðulinn 6 fyrir framan bæði vatn og koldíoxíð,
- og þá fæst:
-
- .. math::
-
-    \ce{C_6H_{12}O_6 + O_2 -> 6 CO_2 + 6 H_2O}
-
- Taflan verður þá:
+ Nú er Xenon eðalgastegundin í lotunni fyrir ofan blý. Því er byrjað þar og þá fæst:
 
   .. math::
-    \begin{array}{ c | c | c  }
-    & \text{Hvarfefni} & \text{Myndefni}\\
-    \hline
-    \ce{C}& 6 & 6 \\
-    \ce{O}& 8 & 18 \\
-    \ce{H}& 12& 12 \\
-    \end{array}
+    [Xe] 6s^2 5d^{10} 4f^{14} 6p^{2}
 
- Gott er að geyma einatóma sameindir þangað til seinast, því nú er lítið mál að laga magnið af súrefni. Það greinilega vantar 10 atóm af súrefni hvarfefnamegin og því er kippt í liðinn með því að bæta við 5 súrefnissameindum:
+ Blý hefur því :math:`2+10+14+2=28` gildisrafeindir.
 
-  .. math::
+Rafeindaskipan áframhald
+------------------------
 
-    \ce{C_6H_{12}O_6 + 6 O_2 -> 6 CO_2 + 6 H_2O}
+Rafeindir hafa fleiri en þessar tvær skammtatölur sem hafa verið nefndar, :math:`n`og :math:`\ell` . Auk þeirra eru :math:`m_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og :math:`m_S`  sem er  *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_). :math:`m_\ell` segir til um í hvaða átt svigrúmið snýr en :math:`m_S` segir aftur á móti til um *spuna* rafeindarinnar.
 
- Þessi efnajafna er nú stillt! Til að brenna mól af glúkósa þarf 6 mól af súrefnissameindum.
-
-Sameinuð efnahvörf
-------------------
-
-Efnahvörf geta gerst í skrefum þar sem hvert skref hefur efnaformúlu. Hægt er að taka saman þessi skref og mynda heildarformúlu. Ef efni kemur fyrir oftar en einu sinni, sömu megin við örina, *leggjast stuðlar þess saman*. Ef efni koma sitthvorum megin
-við örina, *styttast þeir út á móti hvor öðrum*.
-
-Þetta getur gilt fyrir hvörf sem gerast í skrefum sem og hvörf sem hafa *hliðarhvörf*, þ.e. annað hvarf sem gerist samhliða.
-
-.. math::
-
-  \begin{aligned}
-  \ce{A + 2B& -> C + D}\\
-  \ce{C + B &-> E}
-  \end{aligned}
-
-Heildarformúlan fyrir þetta hvarf væri þá:
-
-.. math::
-
-  \ce{A + 3B -> D + E}
-
-
-Takmarkandi hvarfefni
----------------------
-
-Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. T.d. væri ekki vitlaust að blanda
-7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir það að glúkósinn brennur allur, eða a.m.k. meira af honum. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
-Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
-
-Þegar takmarkandi hvarfefnið er uppurið, getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
-
-Til að vita hvaða efni er takmarkandi hvarfefnið, þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
+Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
+Þá fær hvert hvolf og undirhvolf kassa sem rafeindirnar eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa og eru helmingur fjölda rafeinda á fullu undirhvolfi.
+Að lokum eru svo rafeindirnar táknaðar sem örvar sem snúa upp eða niður, sem tilgreinir spuna rafeindarinnar. Fullt hvolf hefur þá rafeind bæði upp og niður í hverjum kassa. Þetta skýrist best með dæmi:
 
 .. tip::
 
- **Framleiðsla á ammóníaki,** :math:`\ce{NH3}` **er eitt mikilvægasta efnahvarf heims, enda er það grunnur í flesta áburði. Það er gert með því að blanda saman nitri úr andrúmsloftinu,** :math:`\ce{N2}` **við vetnisgas,** :math:`\ce{H2}`. **Hver er hámarksmassi sem getur myndast af ammóníaki,
- ef blandað er saman 263,0 grömmum af nitri og 50,0 grömmum af vetnisgasi?**
+ **Tilgreindu fulla rafeindaskipan brennisteins** (:math:`\ce{S}`).
 
- Stillt efnajafna fyrir hvarfinu er:
+ Brennisteinn er númer 16 í lotukerfinu en síðasta eðalgasið á undan því er Neon, sem hefur 10 rafeindir. Brennisteinn hefur þess vegna 6 gildisrafeindir,  2 á :math:`3s`og 4 á :math:`4p`. Byrjum á að teikna upp kassana fyrir svigrúmin, en þar sem það komast 2 rafeindir á :math:`s` hvolf teiknum við einn kassa fyrir það, en á :math:`p` hvolf komast 6, þannig við teiknum 3 kassa.
 
- .. math::
+  .. figure:: ./myndir/atom/syni1.svg
+    :align: center
+    :width: 40%
 
-   \ce{N_2 + 3H_2 -> 2NH_3}
+ Byrjum á því að fylla tvær rafeindir inn í 3s svigrúmið og látum aðra þeirra benda upp en hina niður:
 
- Það þarf því þrjú mól af vetni fyrir hvert mól af nitri. Byrjum á að finna mólfjölda af hvarfefnunum. Mólmassi þeirra er:
+  .. figure:: ./myndir/atom/syni2.svg
+    :align: center
+    :width: 40%
 
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{\ce{H_2}}&=2\cdot 1,008 \text{ g/mól} =2,016 \text{g /mól}\\
-  \mathcal{M}_{\ce{N_2}}&=2\cdot 14,007 \text{ g/mól} =28,014 \text{g /mól}
-  \end{aligned}
+ Með einungis 4 rafeindir er 3p svigrúmið ekki fullt og því þarf að passa hvernig fylla skal í það. Fyrst skal fylla í alla kassana (eða sem flesta kassa) með bara einni ör og eftirstandandi rafeindir fylltar inn eftir það. Þ.e. *ekki setja tvær örvar í kassa, meðan það eru enn tómir kassar*.
+ Það er gert til að fylgja eftir svokallaðari *reglu Hund's*.
 
- Þá er hægt að finna mólfjölda hvarfefnanna:
+  .. figure:: ./myndir/atom/syni3.svg
+    :align: center
+    :width: 40%
 
- .. math::
-  \begin{aligned}
-  n_{\ce{H_2}} &= \frac{m_{\ce{H2}}}{\mathcal{M}_{\ce{H_2}}} = \frac{50,0 \text{g}}{2,016 \text{ g/mól}}= 24,80 \text{ mól}\\
-  n_{\ce{N_2}} &= \frac{m_{\ce{N_2}}}{\mathcal{M}_{\ce{N_2}}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
-  \end{aligned}
+  .. figure:: ./myndir/atom/syni4.svg
+    :align: center
+    :width: 40%
 
- Jafnvel þótt fjöldinn af vetnismólum sé meiri, er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
+.. begin-toggle::
+  :label: Hund's regla
+  :starthidden: True
 
- Vetnið er því takmarkandi hvarfefnið, og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
+*Regla Hund's* segir til um að það sé orkulega hagkvæmast og þannig stöðugast þegar rafeindir skipa sér stakar á svigrúm, meðan kostur er. Þær hafa þá sama spuna.
 
- .. math::
+Þessi regla er oft kölluð *strætisvagnareglan*, þar sem vaninn er að setjast ekki í sætisröð með öðrum, ef það er tóm sætisröð í vagninum.
 
-   n_{\ce{NH_3}}=24,80 \text{ mól }\ce{H_2} \cdot \frac{2 \text{ mól }\ce{NH_3}}{3 \text{ mól }\ce{H_2}} = 16,53 \text{ mól }\ce{NH_3}
-
- Þessu er svo að lokum breytt í massa:
-
- .. math::
-  \begin{aligned}
-  \mathcal{M}_{\ce{NH_3}}&=14,007 \text{ g/mól} + 3\cdot 1,008 \text{ g/mól} =17,031 \text{ g/mól}\\
-  m_{\ce{NH_3}} &= \mathcal{M}_{\ce{NH_3}} \cdot n_{\ce{NH_3}} = 17,031 \text{ g/mól} \cdot 16,53 \text{ mól}= 282 \text{ g}
-  \end{aligned}
-
-Oxunartölur
------------
-Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
-jónarinnar en það gildir ekki fyrir sameindir með samgild efnatengi. Munurinn liggur í því að þrátt fyrir að hafa gefið af
-sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið.
-
-Fólk er oft gjarnara á að deila með sér, en að gefa frá sér og það er einnig auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili, og getur
-tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms eykst er það að *oxast*, en *afoxast* þegar hún lækkar.
-
-.. tip::
-  **Í svokölluðum oxunar-afoxunar hvörfum er annað efnið að oxast en hitt að afoxast. Dæmi um þetta er t.d.**
-
-  .. math::
-      \ce{Zn(s) + 2H+ -> Zn^{2+} + H2(g)}
-
-  **Hvort er sinkið, eða vetnið að oxast, og hvort er að afoxast?**
-
-  Oxunartala sinks er 0 í byrjun en verður +2. Það er því að *oxast*.
-
-  Oxunartala vetnis fer úr +1 í 0, og er því að *afoxast*
-
-Greina oxunartölu atóms í sameind
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Hægt er að sjá allar möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
-en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglur:
-
-1. Oxunartala hreins frumefnis, s.s. :math:`\ce{Al(s)}` eða tvíatóma sameind, s.s. :math:`\ce{H2}` er alltaf 0.
-
-2. Oxunartala einatóma jóna er jöfn hleðslu hennar, en fyrir fjölatóma jónir eru samanlagðar oxunartölur jafnar
-     hleðslu jónarinnar. Fyrir fjölatóma sameindir eru samanlagðar oxunartölur 0.
-
-3. Oxunartala jóna alkalímálma er alltaf +1 en oxunartala jarðalkalímálma er alltaf +2.
-
-4. Oxunartala súrefnis er yfirleitt -2, með tvær undartekningar þó. Ef súrefnið myndar *peroxíð* s.s. :math:`\ce{H2O2}` hafa bæði súrefnisatómin
-     oxunartölu -1. Ef súrefni er bundið við flúor getur það einnig tekið oxunartölu +1.
-
-5. Oxunartala vetnis er yfirleitt +1, en vetni getur myndað hýdríð þegar það tengist málmi og fengið oxunartölu -1.
-
-6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar
-     þeir tengjast súrefni eða flúor.
-
-.. tip::
-
- **Hver er oxunartala kolefnis í natríum bíkarbónati,** :math:`\ce{NaHCO3}` **, betur þekkt sem matarsódi?**
-
- Sameindin hefur enga hleðslu og því þurfa samanlagðar oxunartölur að vera jafnt og 0. Nú er hægt að gefa öllum
- atómum nema kolefninu oxunartölu, og finna þá hvað kolefnið þarf að vera til að summan sé jöfn 0.
-
-  - Natríum er alkalímálmur og hefur því oxunartölu +1
-  - Vetnið er ekki í málmtengi og og hefur því oxunartölu +1
-  - Súrefnið myndar ekki peroxíð, né er bundið flúor, svo það hefur oxunartölu -2.
-
- Nú er hægt að setja upp jöfnuna:
-
- .. math::
-    1 + 1 + \ce{C} + 3(-2)=0
-
- Með því að leysa fyrir :math:`\ce{C}` fæst að oxunartala kolefnis þarf að vera *4*.
+.. end-toggle::

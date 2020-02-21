@@ -20,7 +20,7 @@ import shlex
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
@@ -37,7 +37,7 @@ extensions = [
     # To avoid these errors we use the extension pngmath.
     # For the document to render properly dvipng must be uninstalled from your system
     'sphinx.ext.mathjax',
-    # 'sphinxcontrib.katex',
+    # 'katex.katex',
     # 'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
@@ -52,7 +52,8 @@ extensions = [
     # 'hoverrole.hoverrole',
     # Extension for providing Icelandic to English translation of mathematical terms
     # on mouse-over. See README in hoverrole folder.
-    'scrolldepth.scrolldepth'
+    'scrolldepth.scrolldepth',
+    'button'
 
 ]
 
@@ -68,7 +69,11 @@ numfig_format['section'] = '%s'
 # The mathjax path needs to be set to https in order to work on notendur.hi.is, it can be changed here to suit other needs
 # (http://sphinx-doc.org/latest/ext/math.html#confval-mathjax_path)
 mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-#mathjax_path = "MathJax.js"
+# mathjax_path = "MathJax.js"
+#katex_path = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.js'
+#katex_render = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/contrib/auto-render.min.js'
+#render_math = 'rendermath.js'
+#katex_css = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.css'
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -88,7 +93,7 @@ master_doc = 'index'
 # General information about the project.
 # SET PROJECT INFO HERE
 project = 'Undirbúningur í efnafræði'
-copyright = '2019'
+# copyright = '2019'
 author = 'Raunvísindadeild'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -220,10 +225,10 @@ html_static_path = ['_static']
 #html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-html_show_sphinx = False
+html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-html_show_copyright = False
+html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the

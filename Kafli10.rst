@@ -1,566 +1,597 @@
-Efnajafnvægi
-============
+Sýrur og basar
+==============
 
-Fram að þessu hefur verið áætlað að efnahvörf gerast einungis í aðra áttina, þ.e. :math:`\require{mhchem}` :math:`\require{cancel}`
+  | *Er ekki endirinn á öllum Íslendingasögum sá að Njáll er brendur?*
+  | -Halldór Kiljan Laxness
 
-.. math::
+Skilgreining
+------------
 
-	\ce{A + B -> C +D} \quad \quad 	\text{hraði}=k[\ce{A}]^m[\ce{B}]^n
+Til eru nokkrar skilgreiningar á sýru (e. acid) og má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýra en hér verður einungis litið á Brønsted-Lowry sýrur, enda
+algengasta skilgreiningin. :math:`\require{mhchem}` :math:`\require{cancel}`
 
-Það sem getur einnig gerst er að hvarfið fari í *öfuga átt*
+Brønsted-Lowry sýra getur gefið af vetnisjón, :math:`\ce{H+}` en Brønsted-Lowry *basi* (e. base) tekur við þessari vetnisjón. Ekki er vaninn að skrifa "Brønsted-Lowry" fyrir framan sýrur og basa og verður ekki gert framar. Þegar talað er um sýrur og basa er algengara en hitt að tala um
+prótónu eða róteind í stað vetnisjónar. Það er vegna þess að vetni hefur einungis eina róteind og eina rafeind. Í vetnisjónum hefur vetnið misst þessa rafeind og róteindin situr því ein eftir.
 
-.. math::
+-----------------
 
-  \ce{C + D -> A+ B}
-
-Hraðalíkan fyrir þetta hvarf í hina áttina væri þá:
-
-.. math::
-
-	\text{hraði}=k`[\ce{C}]^k[\ce{D}]^l
-
-Ef hvörfin eru hvorug núllta stigs *eykst* hraðinn á afturábak hvarfinu þegar líður á upprunalega hvarfið, enda eykst styrkur :math:`[\ce{C}]` og :math:`[\ce{D}]`. Að sama leyti *minnkar* hraðinn á upprunalega hvarfinu þar sem :math:`\ce{[A]}` og :math:`\ce{[B]}` minnkar. Þegar þessir tveir hraðar jafnast út,
-nær hvarfið *jafnvægi* (e. equilibrium).
-
-Þegar efnahvarf nær jafnvægi má segja að það sé hætt, en það er ekki alveg rétt. Bæði efnahvörfin eru enn í fullu gangi, bara fara jafnhratt. Það *myndast því jafn mikið efni og hvarfast aftur.*
-
-Fyrir þetta efnahvarf væri myndun :math:`\ce{C}` og :math:`\ce{D}` kallað að "efnahvarfið gangi til hægri" og afturábak hvarfið væri að "ganga til vinstri".
-
-Fyrir hvörf þar sem hvarfefnin hvarfast ekki að öllu leyti, og það nær jafnvægi, er notað örvar í báðar áttir í efnajöfnunni. Þ.e. í stað :math:`\ce{->}` er notað :math:`\ce{<=>}` . Hér má athuga að öll hvörf ná jafnvægi, en stundum má nálga að hvarf gangi alveg til hægri, og nota þá venjulega ör.
-
-Jafnvægisfasti
---------------
-
-Hvert hvarf hefur einkennandi *jafnvægisfasta* (e. equilibrium constant) fyrir ákveðið hitastig. Jafnvægisfastinn er táknaður með :math:`K` og er einingarlaus.
+**Sýrur** er oft táknaðar með :math:`\ce{HA}`, þ.e. vetnisjón og anjón sem klofnar frá. Þessi klofningur er þá táknaður með efnajöfnunni:
 
 .. math::
 
-  \ce{aA +bB+ \dots <=> nN + mM + \dots}
+  \ce{HA -> H^+ + A^-}
 
-Jafnan fyrir jafnvægisfasta þessa hvarfs væri:
-
-.. math::
-
-  K=\frac{[\ce{N}]^n[\ce M]^m \dots }{[\ce A]^a[\ce B]^b \dots }
-
-Þessi jafna er einnig gjarnan kölluð *jafnvægislíking* til aðgreiningar, og segir til um hlutfall styrks við jafnvægi. Jafnvægisfastinn er tölulega gildið á :math:`K` og er hægt að fletta upp fyrir flest hvörf við algeng hitastig s.s. stofuhita.
-
-.. tip::
-
- **Á Íslandi stofnaði CRI fyrstu verksmiðju heims sem umbreytir koldíoxíð í útblæstri í nothæft metanól. Þetta er gert samkvæmt efnaformúlunni:**
-
-  .. math::
-
-  	\ce{CO2 + 3H_2 <=> CH_3OH + H_2O}
-
- **Hver er jafnvægislíking hvarfsins?**
-
- Jafnvægislíking hvarfsins er:
-
- .. math::
-
-   K=\frac{ [\ce{CH_3OH}][\ce{H_2O}] }{ [\ce{CO_2}][\ce{H_2}]^3}
-
-Jafnvægisfasti tekur gildi á breiðu bili, en t.d. er jafnvægisfasti bruna vetnis með stærðargráðu :math:`~10^{80}`, en jafnvægisfasti fyrir bruna niturs í lofti er með stærðargráðu :math:`10^{-31}` við stofuhita. Þessi munur myndi útskýra af hverju það er ekkert vetni í andrúmsloftinu, en nitur og loft getur lifað í samlyndi þar.
-
-Jafnvægi fyrir gös
-------------------
-
-Fyrir efnahvörf sem eiga sér stað á gasfasa er oft ekki notaður styrkur, heldur *hlutþrýstingur* (e. partial pressure) efna. Þá er ekki notað styrkur í hornklofa, :math:`[\ce{A}]`, heldur :math:`P_A` í jafnvægislíkingunni. Til aðgreiningar er notað :math:`K_c` fyrir jafnvægi í lausn en
-:math:`K_p` fyrir jafnvægi í gasfasa.
+Hafa ber þó í huga að vetnisjónir finnast í rauninni aldrei frjálsar, heldur bindast þær vatni og mynda *hýdróníum jónir* (e. hydronium ions). Réttara væri því að skrifa efnahvarfið að ofan sem:
 
 .. math::
 
-  \ce{aA(g) +bB(g)+ \dots <=> nN(g) + mM(g) + \dots}
+  \ce{HA(aq) + H2O (l) -> H3O+ (aq) + A- (aq) }
 
-Fyrir þetta efnahvarf væri jafnvægisfastinn í gasfasa:
+Þó svo að seinna lýsi efnahvarfinu í raun er fyrra einnig til að einfalda málin. Fyrst um sinn getum við litið svo á að það sé jafngilt að tala um :math:`\ce{[H+]}` og :math:`\ce{[H_3O^+]}`.
 
-.. math::
+-----------------
 
-  K=\frac{P_N^n P_M^m \dots }{P_A^a P_B^b \dots }
-
-:math:`K_p` er ekki endilega sama talan og :math:`K_c` en jafnan til að breyta á milli þeirra er
+**Basar** auka styrk *hýdroxíð jóna*, :math:`\ce{OH^-}`, sem hvarfast svo við prótónur og mynda vatn skv. efnajöfnunni:
 
 .. math::
 
-  K_p=(RT)^{\Delta n} K_c
+  \ce{H3O+(aq) + OH- (aq) -> 2H2O(l)}
 
-Þar sem :math:`R` er gasfastinn :math:`0,083145 \,\frac{\text{bar L}}{\text{K mól}}` og :math:`T` er hitastigið í kelvin. Að lokum er :math:`\Delta n` mismunur á mólum fyrir og eftir hvarfið, þ.e.
+Þannig hafa sýrur og basar bæði sinn þátt í því að ákvarða *sýrustig* (e. acidity) lausnar.
+
+Sýrustig
+--------
+
+Sýrustig er mælt á pH skalanum sem er lógaritmískur skali af styrk vetnisjóna í lausn, þ.e.
 
 .. math::
 
-  \Delta n = \ce{(n + m + \dots) - (a + b + \dots)}
+  \text{pH}=-\text{log}(\ce{[H^+]})
 
-Ef það eru jafnmörg mól af efnum fyrir og eftir hvarfið, þá gildir :math:`(RT)^0=1` og :math:`K_p=K_c`.
+Lausnir flokkast í þrennt, eftir því hvar þær eru á pH skalanum:
 
-.. tip::
+pH<7
+  Lausnir með pH<7 eru *súrar*.
 
- **Gefið er efnahvarfið:**
+pH>7
+  Lausnir með pH>7 eru *basískar* (e. basic, alkaline).
 
- .. math::
+pH=7
+  Lausnir með pH=7 eru *hlutlausar*, þ.e. hvorki súrar né basískar.
 
-    \ce{2SO_2(g) +O_2(g) <=> 2SO_3(g)} \quad \quad \quad \quad K_p=3,4 \text{ fyrir } 1000 \text{ K}
+Talað er um að pH skalinn sé frá 0-14 en hann er ekki einskorðaður við þetta bil. Þar sem pH er lógaritmískur skali breytist hann hratt kringum :math:`\ce{pH=7}` en síðan hægist á breytingunni til muna. Fjallað er nánar um lograföll í `undirbúningsefninu í stærðfræði <http://edbook.hi.is/undirbuningur_stae/Kafli09.html#lograr>`_.
 
- **Hvað er** :math:`K_c` **fyrir hvarfið við 1000 K?**
+Rammar sýrur og basar
+---------------------
 
- Nú er jafnan:
+Saltsýra (:math:`\ce{HCl}`)  og natríum hýdroxíð (:math:`\ce{NaOH}`) klofna samkvæmt efnajöfnunum:
 
- .. math::
-
-  K_p=(RT)^{\Delta n} K_c
-
- Þar sem:
-
- .. math::
-
-  \Delta n =2 -(2+1) =-1
-
- Nú er hægt að einangra :math:`K_c` og stinga inn gildum:
-
- .. math::
-
+.. math::
   \begin{aligned}
-
-  K_c &= \frac{ K_p}{(RT)^ {\Delta n} }\\
-      &= \frac{3,4} { \left(0,083145\,\frac{\text{bar L}}{\text{K mól}} \cdot 1000\text{ K}\right)^{-1}}\\
-      &=280
-
+  \ce{HCl + H2O(l) &-> H3O+ (aq) + Cl- (aq)}\\
+  \ce{NaOH(s) &-> Na+ (aq) + OH- (aq)}
   \end{aligned}
 
-.. note::
+Þessi efnahvörf, líkt og öll önnur, hafa sinn einkennandi jafnvægisfasta sem segir til um að hvaða leyti þær klofna. Fyrir sýrur heitir jafnvægisfastinn *sýrufasti* og er táknaður með :math:`K_a` en *basafasti* fyrir basa og er táknaður með :math:`K_b`.
 
-  *Hvert fóru einingarnar í dæminu að ofan?*
+Því stærri tala sem :math:`K_a` er því sterkari er sýran. Því stærri tala sem :math:`K_b` er því sterkari er basinn. Fyrir sýrur með nógu stóran sýrufasta er hægt að segja að þær klofni til fulls. Þessar sýrur eru kallaðar *rammar eða sterkar sýrur* en til eru 7 algengar rammar sýrur.
 
-  Jafnvægisfastinn, :math:`K` er upphaflega skilgreindur út frá *virkni* (e. activity) og er því einingslaus. Ef :math:`\Delta n \neq 0` eru jafnvægisfastarnir :math:`K_c` og :math:`K_p` tæknilega séð ekki einingarlausir.
-  Þessum einingum er þó almennt sleppt að þessu sinni.
+*Rammir basar* eru skilgreindir á sambærilegan hátt og talað er um 8 algenga ramma basa.
 
-  Það verður ekki farið nánar út í virkni hér.
 
-Jafnvægi fyrir vökva og fast efni
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
 
-Fyrir hvörf þar sem annað hvort myndefni eða hvarfefni eru ekki í lausn eða í gasi, þ.e. vökvi eða fast efni, koma þau efni **ekki** fram í jafnvægislíkingunni.
+  <style>
+
+  table {
+   margin-left:auto;
+   margin-right:auto;
+  }
+
+  table, th, td {
+
+  text-align: center;
+  }
+
+  </style>
+
+
+.. table::
+  :widths: 5 7 5 9
+
+  +-------------------------------------------+-----------------------------------------------------+
+  |            Rammar sýrur                   |        Rammir basar                                 |
+  +==========================+================+======================+==============================+
+  |:math:`\ce{HCl}`          | Saltsýra       | :math:`\ce{LiOH}`    | Lithíum hýdroxíð             |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HBr}`         | Brómsýra       | :math:`\ce{NaOH}`    | Natríum hýdroxíð (vítissódi) |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HI}`          | Joðsýra        | :math:`\ce{KOH}`     | Kalíum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HNO3}`        |Saltpéturssýra  | :math:`\ce{RbOH}`    | Rúbidíum hýdroxíð            |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{H2SO4}`       |Brennisteinssýra| :math:`\ce{CsOH}`    | Sesíum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HClO4}`       |Perklórsýra     | :math:`\ce{Ca(OH)2}` | Kalsíum hýdroxíð             |
+  +--------------------------+----------------+----------------------+------------------------------+
+  | :math:`\ce{HClO3}`       | Klórsýra       | :math:`\ce{Sr(OH)2}` | Strontíum hýdroxíð           |
+  +--------------------------+----------------+----------------------+------------------------------+
+  |                          |                | :math:`\ce{Ba(OH)2}` | Baríum hýdroxíð              |
+  +--------------------------+----------------+----------------------+------------------------------+
+
 
 .. tip::
 
- **Til að útbúa sement fyrir steypu þarf að byrja á því að brjóta niður kalsíum karbónat skv. formúlunni:**
+ **1,0 M lausn af saltsýrulausn er blandað í vatn. Hvert er pH lausnarinnar?**
+
+ Saltsýra klofnar að öllu leyti skv. efnajöfnunni
 
  .. math::
 
-    \ce{CaCO_3(s) <=> CaO(s) +CO_2(g)}
+  \begin{array}{r|llll}
+  &\ce{HCl \quad + &H2O -> &H3O+ \quad + &Cl-}\\
+    \hline
+  \text{Upphaf} & 1,0 &&0&0\\
+  \text{Jafnvægi}& 0 &&1,0 &1,0\\
+  \end{array}
 
- **en þetta efnahvarf er talið vera allt að 5% af koldíoxíð útblæstri mannkynsins. Hver er jafnvægisfasti,** :math:`K_p` **, fyrir hvarfið sem og** :math:`\Delta n`?
-
- Hér liggur beint við að koldíoxíð er eina efnið sem er ekki á föstu- né vökvaformi. Þá er:
+ Sýrustig lausnarinnar er þá:
 
  .. math::
 
    \begin{aligned}
-   K_p&=P_{\ce{CO_2}} 	& \Delta n=(1)-(0)=1
-   \end{aligned}
-
-Jafnvægisfasti fyrir sameinuð hvörf
------------------------------------
-
-Hægt er að sameina efnaformúlu í heildarformúlu. Þegar það er gert, er hægt að finna jafnvægisfasta fyrir heildarhvarfið, út frá jafnvægisföstum efnaformúlunna sem hvarfið var smíðað úr.
-
-- Þegar lagt er saman tvö efnahvörf, eru jafnvægisfastarnir *margfaldaðir.*
-
-  .. math::
-
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    \ce{A -> B} & K \\
-    \ce{B -> C} & K` \\
-      \hline
-    \ce{A -> C} & K \cdot K`\\
-    \end{array}
+	   \ce{pH}&= -\text{log}(\ce{[H+]})\\
+            &= -\text{log}(1,0)\\
+            &= 0
+    \end{aligned}
 
 
-- Þegar hvarf með jafnvægisfasta :math:`K` er snúið við, er nýji jafnvægisfastinn :math:`1/K`.
 
-  .. math::
+Veikar sýrur
+------------
 
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    \ce{A -> B} & K \\
-    \ce{B -> A} & 1/K \\
-    \end{array}
-
-- Þegar efnahvarf er margfaldað með :math:`x`, fer jafnvægisfastinn *í* :math:`x`-ta *veldi*.
-
-  .. math::
-
-    \begin{array}{c|c}
-    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
-      \hline
-    \ce{ A -> B} & K \\
-    \ce{2A -> 2B} & K^2 \\
-    \frac{1}{2}\ce{A} \rightarrow \frac 12 \ce{B} &\sqrt{K}\\
-    \end{array}
-
-Hvarfkvóti
-----------
-
-*Hvarfkvóti* (e. reaction quotient) fyrir hvarfið:
+Fyrir *veikar sýrur* er ekki hægt að áætla að hún klofnar til fulls. Fyrir veiku sýruna :math:`\ce{HA}`, sem klofnar samkvæmt efnajöfnunni:
 
 .. math::
 
-  \ce{aA + bB -> cC + dD}
+ \ce{HA(aq) + H2O(l) <=> H3O+(aq) + A-(aq)}
 
-Hefur sömu jöfnu og jafnvægisfastinn:
+er jafnvægisfastinn:
 
 .. math::
 
-  Q_c=\frac{[\ce{C}]^c[\ce{D}]^d}{[\ce{A}]^a[\ce{B}]^b}
+  K_a=\frac{\ce{[H3O+] [A-]}}{\ce{[HA]}}
 
-Munurinn á hvarfkvótanum og jafnvægisfastanum er sá að hvarfkvóti er fyrir ákveðinn tíma, ekki þegar hvarfið hefur náð jafnvægi. Hvarfkvótinn er því ekki fasti, heldur breytist hann með tíma. Hann byrjar oft í 0 og endar í jafnvægisfastanum.
-
-.. figure:: ./myndir/equi/hvarfkvoti.svg
-  :width: 40%
-  :align: center
-
-Hvarfkvóti nýtist til að spá fyrir um hvert hvarfið stefnir:
-
-
-:math:`Q<K`
-  Hvarfið stefnir til hægri.
-
-:math:`Q=K`
-  Hvarfið hefur náð jafnvægi.
-
-:math:`Q>K`
-  Hvarfið stefnir til vinstri.
+Til að finna sýrustigið í lausn með veikri sýru þarf að notast við þennan jafnvægisfasta.
 
 .. tip::
 
- **Ammóníak myndast með efnahvarfinu:**
+ **Ediksýra er veik sýra með** :math:`K_a=1,8 \times 10^{-5}`. **Hvert er sýrustig 1,0 M lausnar af ediksýru í vatni?**
+
+ Setjum upp töflu fyrir hvarfið:
+
+ .. math::
+
+   \begin{array}{r|llll}
+   &\ce{CH_3COOH \quad + &H2O -> &H3O+ \quad + &CH_3COOH-}\\
+    \hline
+   \text{Upphaf} & 1,0 &&0&0\\
+   \text{hvarf} & -x &&+x&+x\\
+   \hline
+   \text{Jafnvægi}& 1,0-x &&x &x\\
+   \end{array}
+
+ Þá gefur sýrufastinn:
+
+ .. math::
+
+   \begin{aligned}
+    K_a&=\frac{\ce{[H3O+] [CH_3COOH-]}}{\ce{[CH_3COOH]}}\\
+       \Rightarrow 1,8\times10^{-5} &=\frac{x^2}{1,0-x}\\
+   \end{aligned}
+
+ Fyrir svona lítinn sýrufasta m.v. upphafsstyrk er hægt að nálga :math:`1,0 -x \approx 1,0`. Þá fæst að:
+
+ .. math::
+
+  \ce{[H3O+]}=x=\sqrt{1,8\times 10^{-5}} = 0,004246 \ \mathrm{M}
+
+ Þetta gefur að lokum sýrustigið:
+
+ .. math::
+
+   \ce{pH=-log([H3O+])}=-\text{log}(-0,004246 \ \mathrm{M})=2,4
+
+ Með því að prófa að stinga þessu svari í upprunalegu jöfnuna sést að nálgunin breytir ekki markverðum tölustaf í lokasvari.
+
+Samokabasar
+-----------
+
+.. math::
+
+ \ce{HA + H2O <=> H3O+ + A-}
+
+Þetta efnahvarf gengur í báðar áttir fyrir veikar sýrur og styrkur :math:`\ce{[HA]}` og :math:`\ce{[A-]}` er því í jafnvægi. Með því að auka styrk :math:`\ce{[A-]}` þá færi þetta hvarf *til vinstri* og lausnin yrði basískari.
+Ef notað væri einungis :math:`\ce{A-}` gæti eftirfarandi efnahvarf gerst:
+
+.. math::
+
+  \ce{A- + H2O <=> HA + OH-}
+
+:math:`\ce{A-}` kallast þá *samokabasi* (e. conjugate base) sýrunnar :math:`\ce{HA}`. Almenna reglan fyrir samokabasa er að *því veikari sem sýran er, því sterkari er samokabasinn*.
+Jafnvægið leitar þá frekar til vinstri.
+
+Í efnahvarfinu fyrir ofan væri líka hægt að tala um :math:`\ce{HA}` sem *samokasýru* fyrir basann :math:`\ce{A-}`, en oftar er talað um *samoka sýru-basa par* þar sem sýrur eiga samokabasa.
+
+.. tip::
+
+ **Nefndu samokabasa fyrir** :math:`\ce{H2SO4}` **og** :math:`\ce{HSO4-}`
+
+ Brennisteinssýran klofnar skv. efnahvarfinu:
+
+ .. math::
+
+ 	\ce{H2SO4 + H2O -> H3O+ + HSO4-}
+
+ :math:`\ce{HSO4-}` er því samoka basi brennisteinssýru. Brennisteinssýra er þó römm sýra, sem þýðir að :math:`\ce{HSO4-}` er einstaklega veikur basi. Hægt er að nálga að sterkar sýrur klofni 100% og því hægt að áætla að samokabasar sterkrar sýru sé óvirkur.
+
+ :math:`\ce{HSO4-}` telst raunar ekki basi, heldur önnur sýra sem afprótónast skv. efnajöfnu:
+
+ .. math::
+
+  \ce{HSO4- + H2O <=> H3O+ + SO4^{2-}}
+
+ :math:`\ce{HSO4-}` er ekki sterk sýra og :math:`\ce{SO4^{2-}}` því ekki óvirkur basi.
+
+ Samokabasi :math:`\ce{HSO4-}` er þá :math:`\ce{SO4^{2-}}`.
+ Brennisteinssýra er dæmi um :ref:`fjölróteindasýru <s.fjolroteindasyrur>`
+
+Tvíeðli vatns
+-------------
+
+Vatn uppfyllir bæði skilyrði sýru og basa því það getur bæði tekið við **og** gefið prótónu. Efni sem geta þetta, eru sögð *hafa tvíeðli* (e. amphoteric).
+
+Vatn er í sérflokki í þessu, þar sem það getur *sjálfjónast* (e. self-ionize) og gert bæði í einu:
+
+.. math::
+
+	\ce{H2O(l) + H2O(l) <=> H3O+(aq) + OH-(aq)}
+
+Þetta hvarf er frekar vinstri sinnað, með lítinn einkennandi jafnvægisfasta:
+
+.. math::
+
+  K_w=\ce{[H3O+][OH-]}=1,0 \times 10^{-14} \quad \text{ við } 25 \text{°C}
+
+Þetta samband gildir alltaf við 25 °C, svo að í súrum lausnum, þegar styrkur prótóna er aukinn, lækkar styrkur hýdroxíðsjóna.
+
+Þar sem að myndefnin myndast í jafnmiklu magni, er :math:`\ce{[H3O+]=1\times 10^{-7}}` í hreinu vatni.
+pH af hreinu vatni er því:
+
+.. math::
+
+ \ce{pH \ = \ -log([H3O+]) \ = \ 7}
+
+Af þeim ástæðum er lausn með sýrustig 7 talin hlutlaus.
+
+.. tip::
+
+ **Í fyrri sýnidæmi var sýnt fram á að styrkur 1,0 M lausnar af saltsýru, hafi styrk** :math:`\ce{[H3O+]=1,0}`.
+ **Hver er styrkur** :math:`\ce{[OH-]}`?
+
+ Setjum upp jafnvægi fyrir :math:`K_w`
+
+ .. math::
+
+  \begin{aligned}
+   K_w=[\ce{H3O+}][\ce{OH-}]&=1,0\times 10^{-14}\\
+   \Rightarrow 1,0\cdot [\ce{OH-}]&=1,0\times 10^{-14}\\
+   \end{aligned}
+
+ Þá fæst að :math:`[\ce{OH-}]=1,0\times 10^{-14}`
+
+pOH
+~~~
+
+Samanborið og pH, sem er háð styrk prótóna, er pOH háð styrk hýdroxíðjóna. Jafnan fyrir pOH er þá:
+
+.. math::
+
+  \ce{pOH \ =\  -log([OH-])}
+
+Eins og var sýnt hér fyrir ofan gildir samband milli styrk þessara tveggja jóna. Þetta samband gildir einnig fyrir pH og pOH, þar sem:
+
+.. math::
+
+  \ce{pH + pOH\ = \ 14}
+
+
+
+Sýru- og basafastar fyrir samoka pör
+------------------------------------
+
+Veika sýran :math:`\ce{HA}` klofnar með efnahvarfinu:
+
+.. math::
+
+  \begin{aligned}
+  \ce{HA + H2O &<=> H3O+ + A-}\\
+  \\
+  K_{a}\ce{&=\frac{[H3O+][A-]}{[HA]}}
+  \end{aligned}
+
+
+Á sama tíma er efnahvarfið fyrir samokabasann :math:`\ce{A-}`:
+
+.. math::
+
+  \begin{aligned}
+  \ce{A- + H2O &<=> HA + OH-}\\
+  \\
+  K_{b} \ce{&=\frac{[HA][OH-]}{[A-]}}
+  \end{aligned}
+
+Með því að margfalda þessar jafnvægislíkingar kemur fram sambandið:
+
+.. math::
+
+  \begin{aligned}
+  K_a K_b &= \ce{\frac{[H3O+]\bcancel{[A-]}}{\bcancel{[HA]}}}\ce{\frac{\bcancel{[HA]}[OH-]}{\bcancel{[A-]}}}\\
+          &=\ce{[H3O+][OH-]}\\
+          &=K_w
+  \end{aligned}
+
+.. tip::
+
+ **Ammóníak,** :math:`\ce{NH3}` **er basi með basafasta** :math:`K_b=1,8\times 10^{-5}`. **Hver er sýrufasti ammóníum jónar,** :math:`\ce{NH4+}` ?
+
+ Ammóníum jónir virka sem sýra skv. efnajöfnu:
+
+ .. math::
+
+   \ce{NH4+ + H2O <=> H3O+ + NH3}
+
+ Ammóníak og ammóníumjónir eru því samokapar. Þá gildir:
+
+ .. math::
+
+   \begin{aligned}
+   K_a K_b &= K_w\\
+   \end{aligned}
+
+ Með umröðun fæst:
+
+ .. math::
+
+  \begin{aligned}
+  K_a &=\frac{K_w}{K_b}\\
+    &= \frac{1,0\times 10^{-14}}{1,8 \times 10^{-5}}\\
+    &=5,6\times 10^{-10}
+   \end{aligned}
+
+Böffer
+------
+
+*Böffer-lausn* (e. Buffer solution), einnig kallað stuðpúðalausn, er lausn sem helst tiltölulega stöðug í sýrustigi, þrátt fyrir viðbót sýru eða basa.
+
+Böffer-lausn er útbúin með því að blanda saman veikri sýru og salt sem inniheldur samsvarandi samokabasa. Dæmi um þetta væri t.d. blásýra, :math:`\ce{HCN}` og :math:`\ce{NaCN}`. Blásýra klofnar með efnahvarfinu:
+
+.. math::
+
+  \begin{array}{r|llll}
+  &\ce{HCN \quad + &H2O -> &H3O+ \quad + &CN-}\\
+  \hline
+  \text{Upphaf} & \ce{[HCN]}_0 &&0&\ce{[CN- ]}_0\\
+  \end{array}
+
+Ef bætt er við sýru eykst almennt styrkur prótóna. En í þessari böffer-lausn, myndi :math:`\ce{CN-}` hvarfast við :math:`\ce{H3O+}` og sýrustig því breytast lítið.
+
+Ef bætt er við basa eykst stykur hýdroxíðjóna. Þessar hýdroxíðjónir taka upp prótónur úr lausninni og mynda vatn. Vanalega myndi þetta hækka sýrustigið en í staðinn þá klofnar veika sýran og bætir upp fyrir mestan hluta af þessum prótónaskorti.
+
+Stuðpúðalausnir eru því gagnlegar þegar mikilvægt er að viðhalda sýrustigi í lausn. Stuðpúðalausnir eru lífsnauðsynlegar, en líkaminn notar þetta til að viðhalda sýrustigi í blóði við :math:`\ce{pH=7,4}`.
+Ef sýrustigið félli niður fyrir 6,8 eða færi yfir 7,8 væri manneskjan í lífshættu!
+
+Stuðpúðalausnir geta þó ekki tekið við endalausu magni af sýru eða basa og þegar veika sýran eða samokabasinn er uppurinn breytist sýrustigið hratt.
+
+Reikna pH í böffer-lausn
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi. Til að einfalda málið er til jafna sem er nefnd eftir *Henderson-Hasselbach*
+
+.. math::
+
+ \ce{pH\ = \ pK_{a} + log} \left( \ce{\frac{[A-]}{[HA]}} \right)
+
+.. note::
+
+  :math:`\ce{pK_{a}}` reiknast sem :math:`\ce{-log(K_{a})}`. Þetta er enn eitt *p-fall* en þau eru alltaf reiknuð eins.
+
+.. tip::
+
+ **Útbúin er stuðpúðalausn með því að blanda saman 0,520 mólum af kolsýru,** :math:`\ce{H2CO3}` **við 0,680 mólum af natríum bíkarbónati (matarsóda),** :math:`\ce{NaHCO3}`.
+
+ **Ef** :math:`K_a\ = 4,4\times 10^{-7}` **, hvert er sýrustig lausnarinnar? Hvert er sýrustigið eftir að hafa bætt við bætt við 0,200 mólum af saltsýru?**
+
+ Hér þarf að nota Henderson-Hasselbach en hlutfallið af mólstyrk er jafnt hlutfall móla. Því þarf ekki vita rúmmál lausnarinnar:
+
+ .. math::
+
+  \begin{aligned}
+  \ce{pH\ &= \ pK_{a} + log} \left( \ce{\frac{[A-]}{[HA]}} \right)\\
+          &= \ce{\ pK_{a} + log} \left( \ce{\frac{n_{A^-} / \bcancel{V}}{n_{HA}/\bcancel{V}}} \right)\\
+          &= -\text{log} \left(4,4\times 10^{-7} \right) +\text{log} \left( \frac{0,680 \text{ mól}}{0,520 \text{ mól}}  \right)\\
+          &= 6,47
+  \end{aligned}
+
+ Þegar sýru er bætt við, gerist eftirfarandi hvarf, og þar sem saltsýra er römm, má áætla að hvarfið fari alla leið til hægri:
+
+ .. math::
+
+   \begin{array}{r|rrrr}
+    &\ce{HCO3- & + \quad  HCl &-> \quad H2CO3 & +\quad Cl-}\\
+    \hline
+    \text{Upphaf} & \;0,680 &\,0,200 &\,0,520&\,0\\
+    \text{Hvarf} & -0,200 & -0,200 &+0,200& + 0,200\\
+    \hline
+    \text{Jafnvægi}& \;0,480 & \,0 & \,0,720 &\,0,200
+   \end{array}
+
+ Þá er hægt að stinga inn þessum nýju gildum í Henderson-Hasselbach:
+
+ .. math::
+
+  \begin{aligned}
+  \ce{pH}\ &= -\text{log} \left(4,4\times 10^{-7} \right) +\text{log} \left( \frac{0,480 \text{ mól}}{0,720 \text{ mól}}  \right)\\
+          &= 6,18
+  \end{aligned}
+
+ Eins og sjá má, breyttist sýrustigið lítið þrátt fyrir að nokkurt magn af sýru var bætt út í. Ef bætt hefði verið sama magni af sýru, út í hefðbundna lausn með sýrustig 6,4 yrði sýrustigið :math:`\approx` 0,7.
+
+.. _s.fjolroteindasyrur:
+
+Fjölróteindasýrur
+-----------------
+
+Sýrur geta haft fleiri en eina prótónu til að gefa af sér. Dæmi um þannig sýrur eru kolsýra og brennisteinssýra. Brennisteinssýra hvarfast skv. efnajöfnunum:
+
+.. math::
+
+  \begin{aligned}
+  \ce{H2SO4 + H2O &-> H3O+ + HSO4-}\\
+  \ce{HSO4- + H2O \ &<=> \ H3O+ + SO4-}
+  \end{aligned}
+
+Brennisteinssýra er römm sýra en það gildir aðeins fyrir efra hvarfið. :math:`\ce{HSO4-}` er ekki römm og hefur mun minni sýrufasta. Þetta er almenna reglan þar sem fyrsta róteindin fer auðveldast af.
+Eftir það hefur sýran minni vilja að gefa af sér fleiri róteindir.
+
+Fyrir fjölróteindasýrur er notað :math:`K_{a1}`, :math:`K_{a2}` og :math:`K_{a3}` eftir því um hvaða róteind er verið að ræða. Þá gildir:
+
+.. math::
+
+  K_{a1}>K_{a2}>K_{a3}
+
+Fyrir fjölróteindasýrur flækist málið varðandi styrk vetnisjóna þar sem "fleiri" en ein sýra er í lausninni. Vanalega er þó :math:`K_{a1}` svo mikið stærri að nánast allur styrkur vetnisjóna kemur frá fyrsta hvarfinu og þannig hægt að nálga sýrustigið.
+
+.. tip::
+
+ **Sítrónusýra er fjölróteindasýra og klofnar skv. efnajöfnunum:**
 
  .. math::
 
     \begin{aligned}
-    \ce{N_2(g) +3H_2(g) &<=> 2NH_3(g)} & K&=152 \text{ við } 500 \text{ K}
+    \ce{H3C6H5O7 + H2O &-> H3O+ + H2C6H5O7-} & K_{a1}=7,5\times 10^{-4}\\
+    \ce{H2C6H5O7- + H2O \ &<=> \ H3O+ + HC6H5O7^{2-}} & K_{a2}=1,7 \times 10^{-5}\\
+    \ce{HC6H5O7^{2-} + H2O \ &<=> \ H3O+ + C6H5O7^{3-}} & K_{a3}=4,0 \times 10^{-7}
     \end{aligned}
 
- **Á ákveðnum tíma er styrkur efnanna:** :math:`[\ce{N_2}]=0,800\text{ M}`, :math:`[\ce{H_2}]= 0,070 \text{ M}` **og** :math:`[\ce{NH_3}]=0,350 \text{ M}`. **Hvert stefnir hvarfið?**
+ **Hvert er sýrustig 1,35 M lausnar af sítrónusýru, og hver er styrkur** :math:`\ce{{C6H5O7^{3-}}}` **við jafnvægi?**
+
+
+ Setjum upp fyrsta hvarfið í töflu:
 
  .. math::
 
-  \begin{aligned}
-   Q_c&=\frac{[\ce{NH_3}]^2}{[\ce{N_2}][\ce{H_2}]^3}\\
-      &=\frac{0,350 ^2}{0.800\cdot 0,070^3}\\
-      &=446
-  \end{aligned}
+  \begin{array}{r|rrrr}
+  &\ce{H3C6H5O7 & + \quad  H2O &-> \quad H3O+ & +\quad H2C6H5O7-}\\
+  \hline
+  \text{Upphaf} & 1,35 & &0&0\\
+  \text{Hvarf} & -x & &+x& + x\\
+  \hline
+  \text{Jafnvægi}& 1,35-x &  & x &x
+  \end{array}
 
- Sjáum að :math:`Q>K` og hvarfið stefnir því til *vinstri* og myndar meira af hvarfefnunum.
-
-Jafnvægisreikningar
--------------------
-
-Klassísk dæmi er að reikna styrk við jafnvægi. Til þess þarf að setja upp jöfnu þar sem styrknum er lýst með t.d. breytunni :math:`x` og leyst er fyrir :math:`x` með algebru.
-
-.. math::
-
-	\ce{A + 2B -> C}
-
-Fyrir þetta efnahvarf væri styrkur :math:`\ce{A}` við jafnvægi :math:`[\ce{A}]_0-x`, :math:`\ce{B}` væri :math:`[\ce{B}]_0-2x` og :math:`\ce{C}` væri :math:`[\ce{C}]_0+x`. Í þessu tilfelli er :math:`x` *mól hvörfuð/mynduð við jafnvægi*. Þá getur verið gott að setja upp í töflu til að halda utan um styrkinn.
-
-.. tip::
+ Jafnvægisfastinn gefur þá:
 
  .. math::
 
-   \ce{ A -> B} \quad \quad\quad K_c=3,4
+  \ce{\frac{[H3O+][H2C6H5O7-]}{[H3C6H5O7]}} =\frac{x^2}{1,35-x}=7,5 \times 10^{-4}
 
- **Ef byrjað er með 3,00 mól af A, í 2,00 L af vatni, hver er styrkur B við jafnvægi?**
+ Byrjum á að nálga :math:`1,35-x\approx 1,35`. Þá er :math:`x=\sqrt{1,35 \cdot 7,5\times 10^{-4}}=0,032`.
 
- Hér þarf að byrja á því að finna upphafsstyrk A:
-
- .. math::
-
-    [\ce{A}]_0=\frac{3,00 \text{ mól}}{2,00 \text{ L}} = 1,50 \text{ M}
-
- Þá er hægt að setja upp í töflu:
+ Athugum að :math:`\frac{0,032}{1,35}=0,024` svo nálgunin gaf kringum 2,4% skekkju sem sleppur. Næsta hvarf gefur:
 
  .. math::
 
-    \begin{array}{c|c|c}
-    \text{Efni}&\ce{A}&\ce{B}\\
-      \hline
-    \text{Upphafsstyrkur}&1,50\text{ M} & 0 \\
-    \text{Hvarf}&-x & +x\\
-      \hline
-    \text{Jafnvægisstyrkur} &1,50-x&  x\\
-    \end{array}
+  \begin{array}{r|rrrr}
+  &\ce{H2C6H5O7- & + \quad  H2O &-> \quad H3O+ & +\quad HC6H5O7^{2-}}\\
+  \hline
+  \text{Upphaf} & 0,032 & &0,032&0\\
+  \text{Hvarf} & -x & &+x& + x\\
+  \hline
+  \text{Jafnvægi}& 0,032-x &  & 0,032 +x &x
+  \end{array}
 
- Jafnvægisfastinn er þá:
-
- .. math::
-
-  K=\frac{[\ce{B}]}{[\ce{A}]} =\frac{x}{1,50-x}=3,4
-
- Fyrir jafnvægisreikninga eru einingar oft geymdar í bili. Þá fæst með því að einangra :math:`x`:
+ Byrjum aftur á að nálga :math:`0,032-x \approx 0,032 + x \approx  0,032`. Þá fæst:
 
  .. math::
 
-  \begin{aligned}
-  & \quad \, \,\frac x{1,50-x}=3,4\\
-  &\Leftrightarrow x=3,4(1,50-x)\\
-  &\Leftrightarrow x+3,4x = 5,1\\
-  &\Leftrightarrow x= \frac{5,1}{4,4}\\
-  &\Leftrightarrow x= 1,16
-  \end{aligned}
+    \frac{(0,032+x)x}{0,032-x}\approx \frac{\bcancel{0,032}\cdot x}{\bcancel{0,032}} =1,7 \times 10^{-5}
 
- Þá er :math:`[\ce{B}]=x=1,16 \text{ M}`.
-
-Algebran flækist hratt þegar fleiri en tvö efni eru í hvarfinu. Þá er mikilvægt að geta rifjað upp gamla stærðfræðitakta og leyst fyrir annars stigs margliðu. Fyrir enn flóknari dæmi, þarf að nálga eða beita enn flóknari aðferðum sem ekki verður farið í hér.
-
-.. begin-toggle::
-  :label: Leysa annars stigs margliðu
-  :starthidden: True
-
-Margliðan
-
-.. math::
-
-  ax^2 + bx + c =0
-
-hefur rætur (lausnir):
-
-.. math::
-
-  x= \frac{-b +\sqrt{b^2-4ac}}{2a} \quad \text{eða} \quad x= \frac{-b -\sqrt{b^2-4ac}}{2a}
-
-Margliðan hefur því oftast *tvær* lausnir en oft er hægt að útiloka aðra þeirra, út frá rökhugsun. T.d. getur styrkur efnis ekki orðið neikvæður.
-
-.. end-toggle::
-
-.. tip::
-
- **Díniturtetraoxíð brotnar niður í niturdíoxíð skv. efnaformúlunni:**
+ Með :math:`x` svona lágt er nálgunin góð og gild. Að lokum fyrir seinasta hvarfið fæst:
 
  .. math::
 
-  \ce{N_2O_4(g) <=> 2 NO_2(g)} \quad \quad \quad K_c=4,6 \times 10^{-3} \, \text{ við } 25°C
-
- **Ef gefið er að** :math:`[\ce{N_2O_4}]_0=0.450 \text {M}`, **hver er styrkur** :math:`\ce{NO_2}` **við jafnvægi?**
-
- Gott er að byrja á að setja upp töflu:
-
-  .. math::
-
-    \begin{array}{c|c|c}
-    \text{Efni}&\ce{N_2O_4} & \ce{NO_2}\\
-      \hline
-    \text{Upphafsstyrkur}&0,450\text{ M} & 0 \\
-    \text{Hvarf}&-x & +2x\\
-        \hline
-    \text{Jafnvægisstyrkur} &0,450-x&  2x\\
-    \end{array}
-
- Jafnvægisfastinn er þá:
-
-  .. math::
-
-    K=\frac{[\ce{NO_2}]^2}{[\ce{N_2O_4}]}=\frac{(2x)^2}{0,450-x}= 4,6\times 10^{-3}
-
- Þá er hægt að setja upp og einfalda annars stigs jöfnuna:
-
- .. math::
-
-  \begin{aligned}
-  \frac{4x^2}{0,450-x}&= 4,6\times 10^{-3}\\
-  4x^2 &=4,6\times 10^{-3}(0,450 -x)\\
-  4x^2 +4,6\times 10^{-3}x -2,07 \times 10^{-3}&=0\\
-  \end{aligned}
-
- Þessi jafna hefur lausnir:
-
- .. math::
-
-  \begin{aligned}
-  x&= \frac{-b +\sqrt{b^2-4ac}}{2a}\\
-  &= \frac{-4,6\times 10^{-3} +\sqrt{(4,6\times 10^{-3})^2-4\cdot 4\cdot(- 2,07\times10^{-3})}}{2\cdot 4}\\
-  &= 0,02333
-  \end{aligned}
-
- Sambærilega fæst hin lausnin:
-
- .. math::
-
-  \begin{aligned}
-  x&= \frac{-b -\sqrt{b^2-4ac}}{2a}\\
-  &= -0,02218
-  \end{aligned}
-
- Sjá má að seinni lausnin er ekki gild, þar sem styrkur :math:`\ce{NO_2}` getur ekki verið neikvæður. Fyrri lausnin er því svarið, en þá fæst að lokum, með þremur markverðum tölustöfum:
-
- .. math::
-
-   [\ce{NO_2}]=2x= 0,0467 \text{ M}
-
-
-Nálgun
-~~~~~~
-
-Til þess að spara tíma í þessum útreikningum, eða einfaldlega gera jöfnur leysanlegar, getur þurft að *nálga* lausnirnar. Þá eru tekin út atriði sem skipta litla sem engu máli, til að einfalda jöfnuna.
-Sem dæmi um þetta má nefna af ef jafnvægisfastinn er lítill, er :math:`x` lítið. Ef upphafstyrkurinn er ekki mjög lítill er oft hægt að nálga t.d. :math:`[\ce{A}]_0-x\approx [\ce{A}]_0`.
-
-Nálgunin :math:`[\ce{A}]_0-x\approx [\ce{A}]_0` getur haft tvenns konar áhrif. Ef :math:`x` breytir einungis ómarkverðum tölustöfum, hefur það engin áhrif og er næstum alltaf góð hugmynd. Ef :math:`x` breytir markverðum tölustafi  í upphafsgildi, þá getur ennþá verið góð hugmynd að nálga, og fer það eftir nákvæmni sem þarf að hverju sinni.
-
-Oft er notað 5% sem hámark leyfilegrar skekkju, en það er ekki fastákveðið.
-
-Ef :math:`x` er lítið er hægt að nálga í samlagninu, en **aldrei** í margföldun.
-
-.. tip::
-
- **Hvað fengist úr dæminu fyrir ofan með nálgun, og hversu mikil væri skekkjan?**
-
- Jafnvægisfastinn úr dæminu að ofan var:
-
- .. math::
-
-    K=\frac{[\ce{NO_2}]^2}{[\ce{N_2O_4}]}=\frac{(2x)^2}{0,450-x}= 4,6\times 10^{-3}
-
- Með nálgun að :math:`0,450-x\approx 0,450` einfaldast jafnan og verður:
-
- .. math::
-
-  \begin{aligned}
-  4x^2&=4,6\times 10^{-3} \cdot 0,450\\
-  \Rightarrow x &=\sqrt{\frac{2,07\times 10^{-3}}{4}}\\
-   &=0,0227
-   \end{aligned}
-
- Þá fæst:
-
-  .. math::
-
-    [\ce{NO_2}]=2x= 0,0455 \text{ M}
-
- Með því að bera saman svörin fæst að :math:`\frac{0,0455}{0,0467}=0,974`. Það þýðir að nálgunin gefur  :math:`2,6 \%` skekkju.
-
-Regla Le Châtelier
-------------------
-
-Regla Le Châtelier gefur til kynna að ef aðstæðum efnahvarfs er breytt við jafnvægi, *leitast efnahvarfið að vinna gegn breytingunni*.
-
-Nú er hægt að líta aftur á efnahvarfið:
-
-.. math::
-
-	\ce{N2O4(g) <=> 2NO2(g)} \quad \quad \quad K_c=4,6 \times 10^{-3} \text{ við } 25\ °\text{C}
-
-Hér er hægt að gera nokkra hluti til að stýra hvarfinu:
-
-Breyting á styrk
-~~~~~~~~~~~~~~~~
-
-Ef styrkur efni er aukinn reynir hvarfið að draga úr þeirri breytingu með því að stefna í átt *frá* viðbættum styrk. Ef styrkur :math:`\ce{NO2}` væri aukinn, myndi hvarfið fara til *vinstri*. Sambærilega myndi hvarfið fara til *hægri* ef
-styrkur :math:`\ce{N2O4}` væri aukinn.
-
-Við jafnvægi gildir:
-
-.. math::
-
-	Q_c=\frac{\ce{[NO2(g)]}^2}{\ce{[N2O4(g)]}} =K_c
-
-Ef litið er á hvarfkvótann þegar styrkur :math:`\ce{N2O}` er aukinn um :math:`x`:
-
-.. math::
-
-		Q_c=\frac{(\ce{[NO2(g)]}+x)^2}{\ce{[N2O4(g)]}} >K_c
-
-Þetta gefur til kynna að hvarfið fer til vinstri. Hvarfið mun þó aldrei ná að losa sig við eða bæta upp fyrir alla breytinguna, enda þarf teljarinn og nefnarinn í jafnvægislíkingunni að ná nýju jafnvægi.
-
-Breyting á rúmmáli og þrýsting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Ef efnahvarf hefur mismunandi fjölda móla við örina, er hægt að stjórna hvarfinu með þessum hætti. Þrýstingur er háður rúmmáli, sem og mólum. Þegar rúmmál er minnkað, leitast hvarfið við að draga úr þrýstingsaukningunni. Hvarfið stefnir þá í átt að *færri* mólum.
-Sambærilega ef rúmmál er aukið, leitast hvarfið við að viðhalda
-þrýstingnum og stefnir í átt að *fleiri* mólum.
-
-Efnahvarfið fyrir ofan hefur mismunandi fjölda af móla. Þá er hægt að leiða út:
-
-.. math::
-
-		\begin{aligned}
-		K_c &= \frac{\ce{[NO2(g)]}^2}{\ce{[N2O4(g)]}}\\
-				&= \frac{n_{\ce{NO2(g)}} ^2/V^\bcancel{2}}{n_{\ce{N2O4(g)}}/\bcancel{V}}\\
-				&= \frac{n_{\ce{NO2(g)}} ^2}{n_{\ce{N2O4(g)}}} \cdot \frac{1}V
-		\end{aligned}
-
-Ef :math:`V` er t.d. tvöfaldað, þarf :math:`\frac{n_{\ce{NO2(g)}} ^2}{n_{\ce{N2O4(g)}}}` einnig að tvöfaldast. Þetta næst þegar hvarfið fer til hægri.
-
-Hvorugar af þessum breytingum breyta þó jafnvægisfastanum, :math:`K`, en hann breytist einungis með hitastigi.
-
-Breyting á hitastigi
-~~~~~~~~~~~~~~~~~~~~
-
-Jafnvægisfastinn breytist með hitastigi, en fyrir útvermin efnahvörf *eykst* hann en *minnkar* fyrir innvermin efnahvörf. Þetta er annað dæmi um að hvarfið sporni við breytingum.
-
-- Við heitari aðstæður leitar hvarfið að því að framleiða minni hita, til að takmarka hitastigsaukninguna.
-- Við kaldari aðstæður leitar það að því að framleiða meiri hita, til að takmarka hitastigslækkunina.
-
-Ef efnahvarf er útvermið gefur það frá sér hita er hægt að skrifa hitann sem myndefni:
-
-.. math::
-
-	\ce{A -> B } + \Delta H
-
-Ef efnahvarf er innvermið tekur það til sín hita og þá er hægt að hugsa sér hitann sem hvarfefni:
-
-.. math::
-
-	\ce{A} + \Delta H \ce{ -> B}
-
-Þá er hægt að hugsa sér þetta alveg eins og þegar bætt er við myndefnum og hvarfefnum. Ef hitinn er aukinn, þ.e. :math:`\Delta H \uparrow` þá leitar hvarfið að því að losa sig við hluta af honum. Ef hitinn er lækkaður, þ.e. :math:`\Delta H \downarrow`, þá leitar hvarfið að því að mynda hita.
-
-Regla Le Châtelier er góð til að spá fyrir hvernig jafnvægið breytist, en þegar á að nota hana er nóg að spurja sig eftirfarandi spurningar: *Hvað breytist og hvernig er hægt að sporna við því?*
-
-.. tip::
-
- **Gefið er útvermið efnahvarf við jafnvægi:**
-
- .. math::
-
- 		\ce{A <=> B + C } \quad \quad \quad \Delta H <0
-
- **Hvernig breytist styrkurinn þegar gerðar eru breytingar á styrk efna, rúmmáli og hitastigi? Fylltu inn í töfluna.**
-
- .. math::
-
- 	\begin{array}{c||c|c|c}
-	 &[\ce{A}]&[\ce{B}]&[\ce{C}]\\
-				\hline
-			[\ce{A}] \uparrow& & & \\
-			[\ce{B}] \downarrow &&& \\
-		 	V \downarrow \! \!&&& \\
-			T \uparrow \! \!&&& \\
-		 	T \downarrow \! \!&&& \\
+   \begin{array}{r|rrrr}
+   &\ce{HC6H5O7^{2-} & + \quad  H2O &-> \quad H3O+ & +\quad C6H5O7^{3-}}\\
+   \hline
+   \text{Upphaf} & 1,7 \times 10^{-5} & &0,032&0\\
+   \text{Hvarf} & -x & &+x& + x\\
+   \hline
+   \text{Jafnvægi}& 1,7 \times 10^{-5}-x &  & 0,032 +x &x
    \end{array}
 
- Nú fæst með Le Châtelier:
+ Með sambærilegum nálgunum og áður fæst:
 
  .. math::
 
- 			\begin{array}{c||c|c|c|c}
-	   	&[\ce{A}]&[\ce{B}]&[\ce{C}]&\\
-				\hline
-			[\ce{A}] \uparrow& \uparrow& \uparrow & \uparrow & (1)\\
-			\hline
-			[\ce{B}] \downarrow &\downarrow&\downarrow&\uparrow& (2) \\
-			\hline
-		 	V \downarrow \! \!&\uparrow&\downarrow& \downarrow& (3) \\
-			\hline
-			T \uparrow \! \!&\uparrow&\downarrow&\downarrow & (4) \\
-			\hline
-		 	T \downarrow \! \!&\downarrow&\uparrow&\uparrow & (5)\\
-	 		\end{array}
+  \begin{aligned}
+  \frac{0,032 \cdot x}{1,7\times 10^{-5}}&=4,0 \times 10^{-7}\\
+  \Rightarrow x &=  \frac{4,0 \times 10^{-7}\cdot 1,7\times 10^{-5}}{0,032}\\
+  \Rightarrow x &= 2,1 \times 10^{-10}
+  \end{aligned}
 
- 1. Styrkur hvarfefnis er aukinn, og efnahvarfið fer því til hægri. Viðbættur styrk A hvarfast ekki allur og því eykst allir styrkir.
- 2. Styrkur myndefnis er minnkaður, svo efnahvarfið fer til hægri. Styrkur B nær þó ekki sömu hæðum.
- 3. Rúmmál er minnkað og þrýstingur eykst. Efnahvarfið vill því losna við mól og fer til vinstri.
- 4. Hitastig er hækkað og útvermið efnahvarf fer þá til vinstri, til að minnka hitann.
- 5. Hitastig er lækkað og útvermið efnahvarf fer þá til hægri, til að auka hitann.
+ Nálgunin var enn á ný gild. Eins og sjá má þá var það gilt að nálga sýrustigið einungis út frá fyrsta hvarfinu, þ.e.
+
+ .. math::
+
+  \ce{pH= log(0,032)} = 1,5
+
+ Að lokum er styrkur :math:`\ce{C6H5O7^{3-}}` einungis :math:`2,1 \times 10^{-10} \text{ M}`
+
+Fyrir fjölróteindasýrur þá virðist eflaust sem svo að seinni róteindirnar séu gagnslausar, þar sem sýrustigið ákvarðast af mestu leyti á fyrsta hvarfinu. Það er þó ekki öll sagan, því þessar róteindir geta *hlutleyst* basa.
+
+
+Hlutleysing
+-----------
+
+*Hlutleysing* (e. neutralization) er efnahvarf þar sem sýru er bætt í basíska lausn, eða öfugt, til að gera hana hlutlausa, þ.e. með sýrustig nær 7. Hlutleysing byggir á efnahvarfinu:
+
+.. math::
+
+  \ce{H3O+ + OH- -> 2 H2O}
+
+Lausn er sögð hafa náð jafngildipunkti þegar blandað hefur verið jafn mörgum mólum af basa og mólum af sýru, eða öfugt. Við jafngildispunkt er ekkert lengur sem tekur á móti viðbættum styrk af sýru eða basa og sýrustigið tekur því stökk.
+
+Fyrir lausn sem byrjar basísk er hægt að lýsa þessu myndrænt, en til að áætla hvernig kúrfan er nákvæmlega þarf að vita hversu rammur basinn og hversu römm sýran er.
+
+.. figure:: ./myndir/syrur/jafn.svg
+  :width: 80%
+  :align: center
+
+Jafngildispunkt er hægt að meta sem hálf leiðin upp eða niður "brekkuna".
+
+Hægt er að skipta hlutleysingum í fjögur tilvik:
+
+Sterk sýra og sterkur basi
+  Jafngildispunktur við :math:`pH=7`.
+
+Veik sýra og sterkur basi
+  Jafngildispunktur við :math:`\ce{pH>7}`. Við jafngildispunkt er einungis samokabasi sýrunnar í lausninni, sem gerir hana basíska.
+
+Sterk sýra og veikur basi
+  Jafngildispunktur við :math:`\ce{pH<7}`.
+
+Veik sýra og veikur basi
+  Hér fer það eftir hvor er sterkari, þ.e. hvor er stærri :math:`K_a` eða :math:`K_b`. Sterkari sýra gefur :math:`\ce{pH<7}` og öfugt.
+
+Þetta þarf ekki endilega að muna en nóg er að athuga myndina og sjá hvar miðjan á brekkunni er, miðað við hlutlausu :math:`\ce{pH=7}` línuna.

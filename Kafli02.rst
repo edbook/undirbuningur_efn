@@ -1,226 +1,216 @@
-Einingar og reikniaðferðir
-==========================
+.. _s.frumefni:
 
-Stærðfræði kemur mikið við sögu í efnafræði og gott er að hafa góð tök á algengum stærðfræðireglum, s.s. algebru. Hér á eftir eru stærðfræðireglur notaðar án frekari útskýringa en stærðfræðigrunnur er mikilvægur undirbúningur fyrir efnafræðinám.
+Frumefni og sameindir
+=====================
 
-Til eru upprifjunarvefir á edbook í `stærðfræði <http://edbook.hi.is/undirbuningur_stae/>`_ og `eðlisfræði <http://edbook.hi.is/undirbuningur_edl/>`_ sem hægt er að nota ef ókunnug stærðfræðiregla eða hugtök koma fyrir sjónir. :math:`\require{cancel}`
+Atóm
+----
 
-SI-einingakerfið
-----------------
+Í efnafræði er *efni* skilgreint sem svo að það hefur massa og hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Nú eru þekktar 118 tegundir atóma, þar sem hver tegund telst sem eitt *frumefni* (e. `element <https://en.wikipedia.org/wiki/Chemical_element>`__). Þó atóm séu örsmá þá eru þau ekki minnsta eining efnis, en þau eru gerð úr jákvætt hlöðnum *róteindum* (e. `proton <https://en.wikipedia.org/wiki/Proton>`__), neikvætt hlöðnum *rafeindum* (e. `electron <https://en.wikipedia.org/wiki/Electron>`__) og  hleðslulausum *nifteindum* (e. `neutron <https://en.wikipedia.org/wiki/Neutron>`__).
+Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnann.
 
-Í nær öllum löndum heims er notað samræmt mælikerfi, SI-einingakerfið, þar sem einkennandi stærðir heimsins hafa eigin grunneiningar.
-Lengd hefur þar grunneininguna metri og tími grunneininguna sekúnda.
+.. figure:: ./myndir/atom/transparent.png
+  :align: center
+  :width: 50%
 
-SI-grunneiningarnar eru sjö:
+Fjöldi róteinda ákvarðar gerð frumefnis, en frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum. Þessi fjöldi kallast *sætistala* (e. atomic number) frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og mynda mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__) frumefnisins. Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill (:math:`m_e=9,11\cdot 10^{-31}` kg)
+miðað við hinar tvær öreindirnar (:math:`m_n \approx m_p=1,67\cdot 10^{-27}` kg) að ekki þarf að taka tillit til massa þeirra í massatölu samsætu. Samsætur eru svo nefndar eftir massatölu sinni, t.d. kolefni-13 (C-13) hefur massatöluna 13.
 
-.. math::
- \begin{array}{c | c | c}
-	  \text{Mælistærð} & \text{Eining} & \text{Tákn} \\ \hline
-	  \text{Vegalengd} & \text{Metri} & m \\
-    \text{Tími} & \text{Sekúnda} & s \\
-    \text{Massi} & \text{Kílógramm} & kg\\
-	  \text{Rafstraumur} & \text{Amper} & A\\
-    \text{Hitastig} & \text{Kelvin} & K \\
-    \text{Ljósstyrkur} & \text{Candela} & cd \\
-    \text{Fjöldi} & \text{Mól} & n \\ \hline
-  \end{array}
+.. tip::
+  **Kolefni hefur sætistöluna 6. Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
 
-Hugtök eins og ljósstyrkur mun ekki koma hér fyrir, en fær að fljóta með.
+  Kolefni hefur sætistöluna 6, og hefur því 6 róteindir og rafeindir. Nú er jafnan fyrir massatölu:
 
-Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI-einingakerfisins.
-*Hraði*, breyting á staðsetningu yfir eitthvert tímabil, hefur eininguna metrar á sekúndu (m/s).
+  .. math::
+     A=Z+N
 
-Kelvin
-~~~~~~
-
-Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með jöfnunni:
-
-.. math::
-
-  T(K) = T(C) + 273,15 \text{ K}
-
-Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celcíus
-
-Forskeyti SI-kerfisins
-~~~~~~~~~~~~~~~~~~~~~~
-
-Þegar fengist er við stærri mælistærðir, svo sem langar vegalengdir, er unnið með marga metra.
-Því hafa vísindamenn vanið sig á að kalla þúsund metra öðru nafni: einn kílómetra (:math:`1000 \text{m} = 1 \text{km}`). Þegar fengist er við litlar mælistærðir, svo sem þykkt á pappír, fást aðeins brot af heilum metrum.
-Algengt er að nota millímetra, einn þúsundasta úr metra. Þetta er tekið saman í þessari töflu,
-á milli kíló og millí eru:
-
-.. math::
-  \begin{array}{c|c|c}
-    \text{Forskeyti} & \text{Tákn} & \text{Tugveldi} & \text{Margfeldi}\\ \hline
-    \text{Kíló} & \text{k} & 10^{3} & 1000\\
-    \text{Hektó} & \text{h} & 10^{2} & 100 \\
-    \text{Deka} & \text{da} & 10^{1} & 10 \\
-    \text{--} & \text{--} & 10^{0} & 1 \\
-    \text{Desi} & \text{d} & 10^{-1} & 0.1\\
-    \text{Centi} & \text{c} & 10^{-2} & 0.01\\
-    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\ \hline
-  \end{array}
-
-Við getum því lýst 10 metrum sem 1 dam, 100 dm eða 1000 cm. Í efnafræði er þó algengt að einungis sé notað tugveldi í stað forskeytis. Mikilvægt er þó að geta breytt á milli.
+  þar sem A er massatalan, Z er fjöldi róteinda, og N er fjöldi nifteinda.
+  Þá má sjá að fyrir massatölu 13 og 6 róteindir fæst að það eru 7 nifteindir í C-13
 
 
-Í efnafræði er sjaldan fengist við risastór fyrirbæri (eins og stjörnuþokur úti í geimi) en oftar allra minnstu fyrirbærin (eins og rafeindir).
-Fyrir þessi fyrirbæri þarf enn önnur forskeyti:
+
+Lotukerfið
+----------
+Fyrsta lotukerfið (e. The Periodic Table) var smíðað af `Mendeleev <https://en.wikipedia.org/wiki/Dmitri_Mendeleev>`__ árið 1869, þar sem frumefnunum var raðað eftir sætistölu (e. `atomic number <https://en.wikipedia.org/wiki/Atomic_number>`__), þ.e. fjölda róteinda. Þeim var svo hópað saman eftir efnafræðilegum eiginleikum. Þó svo að ekki hafi öll frumefnin
+verið fundin á þessum tíma, tókst Mandeleev að mestu leyti að áætla hvar vantaði frumefni, með því að tengja sætistöluna við eiginleika frumefnisins. Einungis fyrstu 94 frumefnin finnast náttúrulega en frumefni 95-118 hafa verið smíðuð á rannsóknarstofu.
+
+.. figure:: ./myndir/atom/lotukerfi.png
+  :align: center
+  :width: 100%
+
+Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku og fá upplýsingar um ýmsa eiginleika allra frumefnanna.
+
+Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, og 18 dálka þar sem hver hópur hefur sameiginlega efnafræðilega eiginleika. Þessir hópar hafa margir eigið nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
+
+.. figure:: ./myndir/atom/Periodic_trends.png
+  :align: center
+  :width: 50%
+
+Sameindir
+---------
+
+*Sameindir* (e. molecule) myndast þegar tveir eða fleiri málmleysingjar koma saman og tengjast efnatengjum.
+Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`\require{mhchem} \ce{H_2}` eða nitur í andrúmslofti, :math:`\ce{N_2}`.
+Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`\ce{H_2O}` sem hefur tvö vetnisatóm og eitt súrefnisatóm.
+
+Jónaefni
+--------
+
+Jónaefni eru svipaðar og sameindir en það er smíðað úr *jónum* (e. ions). Jónir hafa ekki sama fjölda rafeinda (-) og róteinda (+) og fá þannig *hleðslu*. Jónir með mismunandi hleðslur koma saman og mynda *jónaefni* en jónir geta einnig fundist stakar í *lausn* (e. solution), þ.e. uppleystar.
+
+Það verður fjallað ítarlegra um jónaefnið og jónatengi í næstu köflum.
+
+Efnaformúlur
+------------
+
+Uppbygging efna er lýst með formúlu, s.s. jónin
 
 .. math::
-  \begin{array}{c|c|c}
-    \text{Forskeyti} & \text{Tákn} & \text{Tugveldi} & \text{Margfeldi}\\ \hline
-    \text{Peta} & \text{P} & 10^{15} & 1 000 000 000 000 000 \\
-    \text{Tera} & \text{T} & 10^{12} & 1 000 000 000 000 \\
-    \text{Giga} & \text{G} & 10^{9} & 1 000 000 000 \\
-    \text{Mega} & \text{M} & 10^{6} & 1 000 000 \\
-    \text{Kíló} & \text{k} & 10^{3} & 1 000\\
-    \text{--} & \text{--} & 10^0 & 1\\
-    \text{Millí} & \text{m} & 10^{-3} & 0.001 \\
-    \text{Míkró} & \mu & 10^{-6} & 0.000 001 \\
-    \text{Nanó} & \text{n} & 10^{-9} & 0.000 000 001 \\
-    \text{Píkó} & \text{p} & 10^{-12} & 0.000 000 000 001 \\
-    \text{Femtó} & \text{f} & 10^{-15} & 0.000 000 000 000 001 \\ \hline
-  \end{array}
+  \ce{NO_3- (aq)}
 
-.. note::
-  Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.
+Hér lýsa stafirnir hvað frumefni eru í sameindinni (:math:`\ce{N}` fyrir nitur og :math:`\ce{O}` fyrir súrefni), :math:`_3` lýsir fjölda súrefnisatóma, en :math:`^-` er heildarhleðsla sameindarinnar. Einungis er settur tölustafur í hnéskrift ef það er fleiri en eitt atóm af efninu.
 
-Breyta um formerki
-~~~~~~~~~~~~~~~~~~
+Að lokum segir :math:`\ce{(aq)}` til um að efnið sé uppleyst í vökva. Þá er einnig notað :math:`\ce{(s)}`, :math:`\ce{(l)}` og :math:`\ce{(g)}` til að lýsa sameindinni sem föstu efni, vökva eða gasi.
 
-Þegar breytt er um formerki er til ein rétt leið til að stytta út einingarnar.
 
-Ef það á að breyta úr grömmum í kíló fæst að
+Mól
+---
+
+Atóm og aðrar eindir eru svo litlar að það er ekki hentugt að reikna fyrir stakar eindir. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrostala* og hefur gildið
 
 .. math::
+   N_A=6,022 \times 10^{23}\, \frac{1}{\text{mól}}.
 
-  1000 \text{ g} = 1 \text{ kg}
+Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af gosi lýsir 6 dósum!
 
-Ef deilt er í gegn með :math:`1000 \text{ g}` fæst:
+Mólmassi
+~~~~~~~~
 
-.. math::
+Massi eins móls af frumefni er kallaður *mólmassi* efnisins, en frumefnin eru mismassamikil. Mismunandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra sem finna má í flestum lotukerfum, fyrir neðan nafnið. Þessi tala er notuð fyrir
+alla mólreikninga, nema tilgreint sé að önnur samsæta sé notuð.
 
- 1 = \frac{1\text{ kg}}{1000 \text{ g}}
+Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
 
-Í algebru má alltaf margfalda með 1, og því má alltaf margfalda með hægri hlið jöfnunnar líka. Við það styttist út grömm og kílógrömm standa eftir.
+Mólmassi, massi og mól tengjast með formúlunni
+
+ .. math::
+   \mathcal{M}\cdot n=m
+
+Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
 
 .. tip::
 
- **Hvað eru 14 millígrömm mörg nanógrömm?**
+ **Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`\ce{FeO}`?
 
- Hér er best að breyta fyrst í grömm, og svo aftur í nanógrömm:
+ Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
 
  .. math::
 
-   14 \bcancel{\text{ mg}} \cdot \frac{ 1\bcancel{\text{ g}}}{10^6 \bcancel{\text{ mg}}} \frac{10^9 \text{ ng}}{1 \bcancel{\text{ g}}} =14 \times 10^3 \text{ ng}
+     \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23}\, 1/\text{mól}}=0,00166\text{ mól}
 
+ Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
 
-Markverðir tölustafir
----------------------
+ .. figure:: ./myndir/efnahvorf/jarnsurefni.png
+       :width: 45%
+       :align: center
 
-*Markverðir tölustafir* (e. Significant figures) segir til um nákvæmni mælingu. Nákvæmni útkomu reikninga byggist sterklega á nákvæmni mælingar. Því fleiri markverðir tölustafi sem mæling hefur, því nákvæmari er hún. Til dæmis má segja að ákveðinn maður er 2 m, 1,8 m, 183 cm eða 183,2 cm. Þessar tölur lýsa allar hæð mannsins, en með mismunandi fjölda af markverðum tölustöfum.
+ Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
 
-Tölustafir sem teljast vera markverðir eru allir tölustafir taldir frá vinstri þangað til einungis eru 0 hægra megin.
+ .. math::
 
-.. math::
+    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
 
-  \begin{array} {c|c}
-  \text{Tölur} & \text{Markverðir tölustafir}\\
-  \hline
-  12   & 2 \\
-  1200  & 2 \\
-  1302 & 4 \\
-  \end{array}
+ Þá er hægt að finna massa eindanna:
 
-1200 getur einnig haft fjóra markverða tölustafi og þyrfti frekari upplýsingar til að ákvarða það. Ef sagt væri að trjágrein væri 1200 cm gæti verið að það hafi verið mælt sem 12 metrar með mælitæki sem mældi einungis í metrum, eða nákvæmlega 1200 cm með málbandi sem mælir í sentimetrum. Í
-fyrra tilvikunu væri einungis tveir markverðir stafir, en fjórir í því seinna.
+ .. math::
 
-Til aðgreiningar er hægt að taka fram töluna í tugaveldi, þ.e. hægt er að skrifa töluna sem
+     m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
 
-.. math::
+ Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
 
-  \begin{array} {c|c}
-  \text{Tölur} & \text{Markverðir tölustafir}\\
-  \hline
-  1,2\times 10^2  & 2 \\
-  1,200 \times 10^2  & 4 \\
-  \end{array}
+Mólstyrkur
+~~~~~~~~~~
 
-Fyrir *tugabrot* teljast allir tölustafir markverðir, sem hafa ekki einungis núll vinstra megin.
+*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
+jóna í sameind.
+
+Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
+
+Jafnan fyrir mólstyrk er:
 
 .. math::
 
-  \begin{array} {c|c}
-  \text{Tölur} & \text{Markverðir tölustafir}\\
-  \hline
-  1200  & 2-4 \\
-  1200,1   & 5 \\
-  0,0000032 & 2\\
-  0,3000002 & 7\\
-  \end{array}
+ 	C=\frac{n}{V}
 
-Ef þessar reglur gleymast er alltaf hægt að skrifa tölurnar í tugaveldi, og athugað hve marga tölustafi þurfa að koma fram. Við það detta úr ómarkverð núll.
+Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
 
-.. math::
+.. warning::
 
-  \begin{array} {c|c}
-  \text{Tölur} & \text{Markverðir tölustafir}\\
-  \hline
-  3,2 \times 10^{-6} & 2\\
-  3,000002 \times 10^{-1}& 7
-  \end{array}
-
-Samlagning og margföldun
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Þegar mælingar eru notaðar til að reikna fleiri gildi, takmarkast markverðir tölustafir svarsins við markverðu tölustafi upphafsgildanna.
-Þetta gerist á tvo mögulega vegu og fer það eftir hvort notuð sé samlagning eða margföldun.
-
-1 - Fyrir *margföldun* eða *deilingu* tveggja talna hefur útkoman jafn marga markverða tölustafi og upphafsgildið með færri markverða tölustafi.
-
-.. math::
-
-  5,02 (3) \cdot 8,0000 (5) &= 40,2 (3)\\
-
-  \small{ (\text{Markverðir tölustafir})}
-
-2 - Fyrir *samlagningu* skiptir einungis máli markverðir tölustafir *eftir* kommu, þ.e. tugabrot. Útkoman fær sama fjölda markverða stafi eftir kommu og upphafsgildið með færri markverða tölustafi eftir kommu.
-
-.. math::
-
-  53,024 (3)+ 310,3 (1) = 363,3 (1)\\
-  \small{ (\text{Markverðir tölustafir eftir kommu})}
-
-Ef gerðar eru margar aðgerðir, skal halda ríflegum fjölda af tölustöfum til haga þangað til lokasvarið fæst. Þá er fundnar þær aðgerðir sem takmarka fjölda markverðra stafa, og lokasvarið gefið með þeim fjölda af markverðum stöfum.
+   Rúmmál lausnar getur breyst við það að leysa upp efni og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
 
 .. tip::
 
- **Hvert er lokasvarið, með réttum fjölda markverða stafa?**
+ **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`\ce{MgCl2}` **í 1,00 líter af vatni?**
 
-  .. math::
+ Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir. Þá er:
 
-    (53,467 + 41,22) \cdot 12,212 \cdot 14,00
+ .. math::
 
- Hér liggur beint við að stinga allri jöfnunni í reiknivél en skulum þó taka þetta skref fyrir skref í þetta skiptið. Fyrst um sinn skal halda utan um þónokkra aukastafi:
+   \begin{aligned}
 
-  .. math::
+	  [\ce{Mg^{2+}}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{1\text{ mól }\ce{Mg}}{1\text{ mól }\ce{MgCl_2}} = 2,00\,\text{M}\\
+    [\ce{Cl^-}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{2\text{ mól }\ce{Cl}}{1\text{ mól }\ce{MgCl2}} = 4,00\,\text{M}
 
-    \begin{aligned}
-    53,467 + 61,22 &= 114,687 \\
-    114,687 \cdot 12,212 &= 1400,558 \\
-    1156,318 \cdot 14,00 &= 19607,81 \\
-    \end{aligned}
+   \end{aligned}
 
- Þá þarf að finna hve marga markverðu tölustafi svarið á að hafa. Byrjum á að finna markverða tölustafi í samlagningunni. Samlagningin er takmörkuð af tveimur aukastöfum, þ.e. 114,69 sem þýðir að það eru *fimm* markverðir stafir. Þá er einungis margföldunaraðgerðir eftir:
+Mólalstyrkur
+~~~~~~~~~~~~
 
-  .. math::
+*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
 
-    (5) \cdot (5) \cdot (4) = (4)\\
-    \small{ (\text{Markverðir tölustafir})}
+Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
 
- Þetta þýðir að lokasvarið skal gefið með *fjórum* markverðum stöfum, þ.e.
+Efnaformúlur framhald
+---------------------
 
-  .. math::
+Efni getur haft mismunandi efnaformúlur en einna helst er talað um þrjár gerðir af efnaformúlum. Munurinn á þessum formúlum er hve miklar upplýsingar um efnið þær innihalda.
 
-    (53,467 + 41,22) \cdot 12,212 \cdot 14,00 = 19610
+Reynsluformúla (e. empirical formula)
+  Þær lýsa einungis hlutfalli frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
+Sameindarformúla (e. molecular formula)
+  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
+Byggingarformúla (e. structural formula)
+  Þær sýna myndrænt hvernig atómin eru tengd við hvort annað og lýsir þannig byggingu efnisins.
+
+Ef tekið er dæmi um ediksýru þá er reynsluformúlan hennar :math:`\ce{CH2O}` en sameindaformúlan hennar er :math:`\ce{C2H4O2}`.
+Byggingarformúla ediksýru er aftur á móti:
+
+.. figure:: ./myndir/efnahvorf/ediksyra.png
+  :width: 25%
+  :align: center
+
+Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
+mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
+
+.. tip::
+
+ **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`\ce{CH2O}` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
+
+ Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
+
+ .. math::
+
+  \begin{aligned}
+  \mathcal{M}_{RF}&= \mathcal{M}_{\ce{C}}+2\mathcal{M}_{\ce{H}}+\mathcal{M}_{\ce{O}}\\
+  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
+  &= 30,026 \text{ g/mól}
+  \end{aligned}
+
+ Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
+
+ .. math::
+
+  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
+
+ Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
+ þá :math:`\ce{C_6H_{12}O_6}`.

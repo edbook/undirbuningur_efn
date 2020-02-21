@@ -1,218 +1,237 @@
-.. _s.frumefni:
+.. _s.Efnahvörf:
 
-Frumefni og sameindir
-=====================
+Efnahvörf
+=========
 
-Atóm
-----
+Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf grundvöllur lífs. Efnahvarf er ferli þar sem efni breytist; efnasambönd myndast, breytast eða brotna niður. Efnahvörfum má almennt séð lýsa sem breytingu á *efnatengjum* milli kjarna, og hægt er að skipta þeim í ýmsa flokka. Fjórir flokkar sem eru oft notaðir eru:
 
-Í efnafræði er efni skilgreint sem svo að það hefur massa og tekur upp pláss, þ.e. hefur rúmmál. *Atóm* er örsmá grunneining sem allt efni í alheiminum er búið til úr. Eins og staðan er núna
-eru til 118 þekktar tegundir atóma, þar sem hver tegund telst sem eitt *frumefni* (e. `element <https://en.wikipedia.org/wiki/Chemical_element>`__). Atóm, þó örsmá, eru ekki minnsta eining efnis, þar sem þau eru gerð úr jákvætt hlöðnum *róteindum* (e. `proton <https://en.wikipedia.org/wiki/Proton>`__), neikvætt hlöðnum *rafeindum* (e. `electron <https://en.wikipedia.org/wiki/Electron>`__) og  hleðslulausum *nifteindum* (e. `neutron <https://en.wikipedia.org/wiki/Neutron>`__).
-Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/wiki/Atomic_nucleus>`__) atómsins meðan rafeindirnar sveima kringum kjarnann.
-
-.. figure:: ./myndir/atom/transparent.png
-  :align: center
-  :width: 50%
-
-
-Frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum, en fjöldi róteinda ákvarðar gerð frumefnis. Þessi fjöldi kallast *sætistala* (e. atomic number) frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og mynda mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__) frumefnisins. Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill
-miðað við hinar tvær öreindirnar að ekki þarf að taka tillit til massa þeirra í massatölu samsætu. Samsætur eru svo nefndar eftir massatölu sinni, s.s. kolefni-13 (C-13) hefur massatöluna 13.
-
-.. tip::
-  **Kolefni hefur sætistöluna 6. Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
-
-  Kolefni hefur sætistöluna 6, og hefur því 6 róteindir og rafeindir. Nú er jafnan fyrir massatölu:
+Álagningarhvarf (e. addition reaction)
+  Þessi hvörf er þegar tvö efni sameinast og mynda eina heild og er þá stundum talað um að annað efnið leggist á hitt. Í þessu tilfelli eru efnatengi að *myndast*. :math:`\require{mhchem}`
 
   .. math::
-     A=Z+N
 
-  þar sem A er massatalan, Z er fjöldi róteinda, og N er fjöldi nifteinda.
-  Þá má sjá að fyrir massatölu 13 og 6 róteindir fæst að það eru 7 nifteindir í C-13
+    \ce{A + B -> C}
 
+Brottnámshvarf (e. elimination reaction)
+  Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
 
+  .. math::
 
-Lotukerfið
-----------
-Fyrsta lotukerfið (e. The Periodic Table) var smíðað af `Mendeleev <https://en.wikipedia.org/wiki/Dmitri_Mendeleev>`__ árið 1869, þar sem frumefnunum var raðað eftir sætistölu (e. `atomic number <https://en.wikipedia.org/wiki/Atomic_number>`__), þ.e. fjölda róteinda. Þeim var svo hópað saman eftir efnafræðilegum eiginleikum. Þó svo að ekki hafi öll frumefnin
-verið fundin á þessum tíma, tókst Mandeleev að mestu leyti að áætla hvar vantaði frumefni, með því að tengja sætistöluna við eiginleika frumefnisins. Einungis fyrstu 94 frumefnin finnast náttúrulega en frumefni 95-118 hafa verið smíðuð á rannsóknarstofu.
+    \ce{A -> B + C}
 
-.. figure:: ./myndir/atom/lotukerfi.png
-  :align: center
-  :width: 100%
-
-Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku, sem og fá upplýsingar um ýmsa eiginleika allra frumefnanna.
-
-Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, sem og 18 hópa þar sem hver hópur hefur sameiginlega efnafræðilega eiginileika. Þessir hópar hafa margir eigið nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
-
-.. figure:: ./myndir/atom/Periodic_trends.png
-  :align: center
-  :width: 50%
-
-Sameindir
----------
-
-*Sameindir* (e. molecule) myndast þegar tveir eða fleiri málmleysingjar koma saman og tengjast efnatengjum.
-Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`\require{mhchem} \ce{H_2}` eða nitur í andrúmslofti, :math:`\ce{N_2}`.
-Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`\ce{H_2O}`.
-
-Jónaefni
---------
-
-Jónaefni eru svipaðar og sameindir en það er smíðað úr *jónum* (e. ions). Jónir hafa ekki sama fjölda rafeinda (-) og róteinda (+) og fá þannig *hleðslu*. Jónir með mismunandi hleðslur koma saman og mynda *jónaefni* en jónir geta einnig fundist stakar í *lausn* (e. solution), þ.e. uppleystar.
-
-Það verður fjallað ítarlegra um jónaefnið og jónatengi í næstu köflum.
-
-Efnaformúlur
-------------
-
-Uppbygging efna er lýst með formúlu, s.s. jónin
-
-.. math::
-  \ce{NO_3- (aq)}
-
-Hér lýsa stafirnir hvað frumefni eru í sameindinni, :math:`_3` lýsir fjölda súrefnisatóma, en :math:`^-` er hleðsla sameindarinnar. Einungis er settur tölustafur í hnéskrift ef það er fleiri en eitt atóm af efninu.
-
-Að lokum segir :math:`\ce{(aq)}` til um að efnið sé uppleyst. Þá er einnig notað :math:`\ce{(s)}`, :math:`\ce{(l)}` og :math:`\ce{(g)}` til að lýsa sameindinni sem föstu efni, vökva eða gasi.
-
-
-Mól
----
-
-Atóm og aðrar eindir eru svo litlar að ekki er praktískt að reikna fyrir stakar eindir. Þess í stað er notað *mól*. Mól er fjöldi sem notað er yfir eindir, en þessi fjöldi er skilgreindur sem fjöldi atóma í 12 grömmum af C-12 samsætunni. Þessi fjöldi er nefndur *Avogadrostala* og hefur gildið
-
-.. math::
-   N_A=6,022 \times 10^{23}\, \frac{1}{\text{mól}}.
-
-Sumir eiga það til að flækja hugtakið í huganum, en mól lýsir einfaldlega fjölda einda líkt og kippa af gosi lýsir 6 dósum!
-
-Mólmassi
-~~~~~~~~
-
-Frumefnin eru mismassamikil en massi eins móls af frumefni er kallaður *mólmassi* efnisins. Mismundandi samsætur hafa vissulega mismunandi mólmassa en notað er vegið meðaltal þeirra sem finna má í flestum lotukerfum, undir nafninu. Þessi tala er notuð fyrir
-alla mólreikninga, nema tilgreint sé hvaða samsæta sé notuð.
-
-Til að finna mólmassa sameindar er einfaldlega lagt saman mólmassi allra atóma í sameindinni.
-
-Mólmassi, massi og mól tengjast með formúlunni
-
- .. math::
-   \mathcal{M}\cdot n=m
-
- Þar sem :math:`\mathcal{M}` er mólmassi í g/mól, :math:`n` er mólfjöldi og :math:`m` er massinn í grömmum
-
-.. tip::
-
- **Hver er massi 100 trilljón sameinda af járn(II)oxíðs,** :math:`\ce{FeO}`?
-
- Þessi spurning krefst nokkura skrefa. Fyrst þarf að finna hve mörg mól 100 trilljón sameindir eru. Hér er notast við íslensku skilgreininguna á trilljón, þ.e. :math:`1 \times 10^{18}` og borið saman við avogadrostöluna.
+Skiptihvarf (e. exchange reaction)
+ Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
 
  .. math::
 
-     \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23}\, 1/\text{mól}}=0,00166\text{ mól}
+  \ce{AB + CD -> AC + BD}
 
- Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
+Umröðunarhvarf (e. rearrangement reaction)
+  Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
 
- .. figure:: ./myndir/efnahvorf/jarnsurefni.png
-       :width: 45%
-       :align: center
 
- Í sameindinni er eitt atóm af hvoru svo mólmassi efnisins er þá:
+  .. math::
 
- .. math::
+    \ce{A -> B}
 
-    \mathcal{M} = 55,845\, \text{g/mól} + 15,999 \,\text{g/mól} = 71,844\,\text{g/mól}
 
- Þá er hægt að finna massa eindanna:
+Stilla efnajöfnur
+-----------------
 
- .. math::
+*Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
+sama fjölda af hverju frumefni í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
+að ákvarða þessi hlutföll.
 
-     m= \mathcal{M} \cdot n = 0,00166\text{ mól} \cdot 71,844 \text{ g/mól} = 0,119 \text{ g}
+Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf* flækist málið enn frekar, en það fær að bíða betri tíma.
 
- Eins og sjá má nær massi 100 trilljón sameinda ekki einu sinni einu grammi!
+Bruni
+~~~~~
 
-Mólstyrkur
-~~~~~~~~~~
-
-*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
-jóna í sameind.
-
-Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M, og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
-
-Jafnan fyrir mólstyrk er:
-
-.. math::
-
- 	C=\frac{n}{V}
-
-Þar sem :math:`C` er mólstyrkur, :math:`n` er mólfjöldi og :math:`V` er rúmmál lausnar í lítrum.
+*Bruni* er í grunninn bara annað orð yfir *oxun*, þ.e. hvarf við súrefni. Algengast er að brenna kolefniskeðjur, eins og bensín og tré, en vissulega eru mun fleiri frumefni sem brenna. Bruni á kolefniskeðjum hefur oftast nær sambærilega efnajöfnu, þ.e.
+kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
 
 .. warning::
 
-   Rúmmál lausnar getur breyst við það að leysa upp efni, og nota ætti það rúmmál í jöfnunni. Ef leyst er upp föst efni s.s. sölt, má oftast nær gera ráð fyrir óbreyttu rúmmáli.
+	Þetta gerir ráð fyrir *fullkomnum bruna* en almennt má gera ráð fyrir því.
+
 
 .. tip::
 
- **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`\ce{MgCl2}` **í 1,00 líter af vatni?**
+ **Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir bruna glúkósa og stilltu.**
 
- Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir. Þá er:
+ Óstillta efnajafnan er:
+
+ .. math::
+
+    \ce{C_6H_{12}O_6 + O_2 -> CO_2 + H_2O}
+
+ Við getum séð að jafnan er óstillt vegna þess að vinstra megin eru 12 vetnisatóm en hægra megin bara 2.
+ Nú getur verið gott að setja upp töflu með fjölda frumefna á hvorri hlið:
+
+ .. math::
+    \begin{array}{ c | c | c  }
+    & \text{Hvarfefni} & \text{Myndefni}\\
+    \hline
+    \ce{C}& 6 & 1 \\
+    \ce{O}& 8 & 3 \\
+    \ce{H}& 12&2 \\
+    \end{array}
+
+ Þegar á að stilla er gott að byrja á þeim frumefnum sem koma sem sjaldnast fyrir hvorum megin. Hérna væri það vetni og kolefni. Það þarf 6 sinnum fleiri vetni og kolefni myndefnamegin, til að jafna út fjöldann þeirra. Því setjum við stuðulinn 6 fyrir framan bæði vatn og koldíoxíð,
+ og þá fæst:
 
  .. math::
 
-   \begin{aligned}
+    \ce{C_6H_{12}O_6 + O_2 -> 6 CO_2 + 6 H_2O}
 
-	  [\ce{Mg^{2+}}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{1\text{ mól }\ce{Mg}}{1\text{ mól }\ce{MgCl_2}} = 2,00\,\text{M}\\
-    [\ce{Cl^-}] &=\frac{2,00\text{ mól }\ce{MgCl2}}{1,00 \text{ L}} \cdot \frac{2\text{ mól }\ce{Cl}}{1\text{ mól }\ce{MgCl2}} = 4,00\,\text{M}
+ Taflan verður þá:
 
-   \end{aligned}
+  .. math::
+    \begin{array}{ c | c | c  }
+    & \text{Hvarfefni} & \text{Myndefni}\\
+    \hline
+    \ce{C}& 6 & 6 \\
+    \ce{O}& 8 & 18 \\
+    \ce{H}& 12& 12 \\
+    \end{array}
 
-Mólalstyrkur
-~~~~~~~~~~~~
+ Gott er að geyma einatóma sameindir þangað til seinast, því nú er lítið mál að laga magnið af súrefni. Það greinilega vantar 10 atóm af súrefni hvarfefnamegin og því er kippt í liðinn með því að bæta við 5 súrefnissameindum:
 
-*Mólalstyrkur* (e. molal concentration) svipar til mólarstyrks nema mólalstyrkur er mælieining á mólarfjölda á kíló, í stað lítra. Þetta er almennt óalgengara í efnafræði, en gott að geta gert skil á.
+  .. math::
 
-Fyrir vatnslausnir fást sambærilegar tölur enda eðlismassi vatns kringum 1 kg/L.
+    \ce{C_6H_{12}O_6 + 6 O_2 -> 6 CO_2 + 6 H_2O}
 
-Efnaformúlur framhald
----------------------
+ Þessi efnajafna er nú stillt! Til að brenna mól af glúkósa þarf 6 mól af súrefnissameindum.
 
-Efni getur haft mismunandi efnaformúlur en einna helst er talað um þrjár gerðir af efnaformúlum. Munurinn á þessum formúlum er hve miklar upplýsingar um efnið þær innihalda.
+Sameinuð efnahvörf
+------------------
 
-Reynsluformúla (e. empirical formula)
-  Þær lýsa einungis hlutfalli frumefna í sameind. Þessi formúla er oft milliskref í efnagreiningu við að finna sameindarformúluna.
-Sameindarformúla (e. molecular formula)
-  Þær lýsa hlutfalli efna sem og fjölda af hverju og einu atómi.
-Byggingarformúla (e. structural formula)
-  Þær sýna myndrænt, hvernig atómin eru tengd við hvort annað, og lýsir þannig byggingu efnisins.
+Efnahvörf geta gerst í nokkrum skrefum þar sem hvert skref hefur eigin efnaformúlu. Hægt er að taka saman þessi skref og mynda heildarformúlu. Ef efni kemur fyrir oftar en einu sinni, sömu megin við örina, *leggjast stuðlar þess saman*. Ef efni koma sitthvorum megin
+við örina, *styttast þeir út á móti hvor öðrum*.
 
-Ef tekið er dæmi um ediksýru, þá er reynsluformúlan hennar :math:`\ce{CH2O}` en sameindaformúlan hennar er :math:`\ce{C2H4O2}`.
-Byggingarformúla ediksýru er aftur á móti:
+Þetta getur gilt fyrir hvörf sem gerast í skrefum sem og hvörf sem hafa *hliðarhvörf*, þ.e. annað hvarf sem gerist samhliða.
 
-.. figure:: ./myndir/efnahvorf/ediksyra.png
-  :width: 25%
-  :align: center
-
-Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
-mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
-
-.. tip::
-
- **Glúkósi er einn helsti orkugjafi líkamans, en hann hefur reynsluformúluna** :math:`\ce{CH2O}` **og mólmassa 180,156 g/mól. Hver er sameindaformúla glúkósa?**
-
- Hér er fyrsta skrefið að finna mólmassa reynsluformúlunnar. Sambærilega og í dæmi á undan fæst mólmassinn:
-
- .. math::
+.. math::
 
   \begin{aligned}
-  \mathcal{M}_{RF}&= \mathcal{M}_{\ce{C}}+2\mathcal{M}_{\ce{H}}+\mathcal{M}_{\ce{O}}\\
-  &=12,011 \text{ g/mól} + 2(1,008 \text{ g/mól})+ 15,999 \text{ g/mól}\\
-  &= 30,026 \text{ g/mól}
+  \ce{A + 2B& -> C + D}\\
+  \ce{C + B &-> E}
   \end{aligned}
 
- Nú þarf að bera saman mólmassa sameindarinnar og reynsluformúlunnar:
+Heildarformúlan fyrir þetta hvarf væri þá:
+
+.. math::
+
+  \ce{A + 3B -> D + E}
+
+
+Takmarkandi hvarfefni
+---------------------
+
+Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. Sem dæmi væri ekki vitlaust að blanda
+7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir að sem hæst hlutfall glúkósans brennur. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
+Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
+
+Þegar takmarkandi hvarfefnið er uppurið getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
+
+Til að vita hvaða efni er takmarkandi hvarfefnið þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
+
+.. tip::
+
+ **Framleiðsla á ammóníaki** :math:`\ce{NH3}` **er eitt mikilvægasta efnahvarf heims, enda er það grunnur í flesta áburði. Það er gert með því að blanda saman nitri úr andrúmsloftinu,** :math:`\ce{N2}` **við vetnisgas,** :math:`\ce{H2}`. **Hver er hámarksmassi sem getur myndast af ammóníaki,
+ ef blandað er saman 263,0 grömmum af nitri og 50,0 grömmum af vetnisgasi?**
+
+ Stillt efnajafna fyrir hvarfinu er:
 
  .. math::
 
-  \frac{\mathcal{M}_{S}}{\mathcal{M}_{RF}}=\frac{180,156 \text{ g/mól}}{30,026 \text{ g/mól}}=6
+   \ce{N_2 + 3H_2 -> 2NH_3}
 
- Það þarf því greinilega að margfalda reynsluformúluna í gegn með 6 til að fá sameindaformúluna. Sameindaformúlan er
- þá :math:`\ce{C_6H_{12}O_6}`.
+ Það þarf því þrjú mól af vetni fyrir hvert mól af nitri. Byrjum á að finna mólfjölda af hvarfefnunum. Mólmassi þeirra er:
+
+ .. math::
+  \begin{aligned}
+  \mathcal{M}_{\ce{H_2}}&=2\cdot 1,008 \text{ g/mól} =2,016 \text{g /mól}\\
+  \mathcal{M}_{\ce{N_2}}&=2\cdot 14,007 \text{ g/mól} =28,014 \text{g /mól}
+  \end{aligned}
+
+ Þá er hægt að finna mólfjölda hvarfefnanna:
+
+ .. math::
+  \begin{aligned}
+  n_{\ce{H_2}} &= \frac{m_{\ce{H2}}}{\mathcal{M}_{\ce{H_2}}} = \frac{50,0 \text{g}}{2,016 \text{ g/mól}}= 24,80 \text{ mól}\\
+  n_{\ce{N_2}} &= \frac{m_{\ce{N_2}}}{\mathcal{M}_{\ce{N_2}}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
+  \end{aligned}
+
+ Jafnvel þótt fjöldinn af vetnismólum sé meiri er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
+
+ Vetnið er því takmarkandi hvarfefnið og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
+
+ .. math::
+
+   n_{\ce{NH_3}}=24,80 \text{ mól }\ce{H_2} \cdot \frac{2 \text{ mól }\ce{NH_3}}{3 \text{ mól }\ce{H_2}} = 16,53 \text{ mól }\ce{NH_3}
+
+ Þessu er svo að lokum breytt í massa:
+
+ .. math::
+  \begin{aligned}
+  \mathcal{M}_{\ce{NH_3}}&=14,007 \text{ g/mól} + 3\cdot 1,008 \text{ g/mól} =17,031 \text{ g/mól}\\
+  m_{\ce{NH_3}} &= \mathcal{M}_{\ce{NH_3}} \cdot n_{\ce{NH_3}} = 17,031 \text{ g/mól} \cdot 16,53 \text{ mól}= 282 \text{ g}
+  \end{aligned}
+
+Oxunartölur
+-----------
+Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
+jónarinnar en það gildir ekki fyrir sameindir með samgild efnatengi. Munurinn liggur í því að þrátt fyrir að hafa gefið af
+sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið. Farið verður nánar í efnatengi í komandi köflum.
+
+Alveg eins og fólk er oft gjarnara á að deila með sér heldur en að gefa frá sér, er einnig auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili og getur
+tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms eykst er það að *oxast*, en *afoxast* þegar hún lækkar.
+
+.. tip::
+  **Í svokölluðum oxunar-afoxunar hvörfum er annað efnið að oxast en hitt að afoxast. Dæmi um þetta er t.d.**
+
+  .. math::
+      \ce{Zn(s) + 2H+ -> Zn^{2+} + H2(g)}
+
+  **Hvort er sinkið, eða vetnið að oxast, og hvort er að afoxast?**
+
+  Oxunartala sinks er 0 í byrjun en verður +2. Það er því að *oxast*.
+
+  Oxunartala vetnis fer úr +1 í 0, og er því að *afoxast*
+
+Greina oxunartölu atóms í sameind
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hægt er að sjá allar möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
+en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglur:
+
+1. Oxunartala hreins frumefnis, s.s. :math:`\ce{Al(s)}` eða tvíatóma sameind, s.s. :math:`\ce{H2}` er alltaf 0.
+
+2. Oxunartala einatóma jóna er jöfn hleðslu hennar, en fyrir fjölatóma jónir eru samanlagðar oxunartölur jafnar hleðslu jónarinnar. Fyrir fjölatóma sameindir eru samanlagðar oxunartölur 0.
+
+3. Oxunartala jóna alkalímálma er alltaf +1 en oxunartala jarðalkalímálma er alltaf +2.
+
+4. Oxunartala súrefnis er yfirleitt -2, með tvær undartekningar þó. Ef súrefnið myndar *peroxíð* s.s. :math:`\ce{H2O2}` hafa bæði súrefnisatómin oxunartölu -1. Ef súrefni er bundið við flúor getur það einnig tekið oxunartölu +1.
+
+5. Oxunartala vetnis er yfirleitt +1, en vetni getur myndað hýdríð þegar það tengist málmi og fengið oxunartölu -1.
+
+6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar þeir tengjast súrefni eða flúor.
+
+.. tip::
+
+ **Hver er oxunartala kolefnis í natríum bíkarbónati,** :math:`\ce{NaHCO3}` **, betur þekkt sem matarsódi?**
+
+ Sameindin hefur enga hleðslu og því þurfa samanlagðar oxunartölur að vera jafnt og 0. Nú er hægt að gefa öllum
+ atómum nema kolefninu oxunartölu, og finna þá hvað kolefnið þarf að vera til að summan sé jöfn 0.
+
+  - Natríum er alkalímálmur og hefur því oxunartölu +1
+  - Vetnið er ekki í málmtengi og og hefur því oxunartölu +1
+  - Súrefnið myndar ekki peroxíð, né er bundið flúor, svo það hefur oxunartölu -2.
+
+ Nú er hægt að setja upp jöfnuna:
+
+ .. math::
+    1 + 1 + \ce{C} + 3(-2)=0
+
+ Með því að leysa fyrir :math:`\ce{C}` fæst að oxunartala kolefnis þarf að vera *4*.

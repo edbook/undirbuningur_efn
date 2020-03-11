@@ -11,11 +11,11 @@ Einnig er til sambærileg yfirlit um stærðfræði og eðlisfræði.
 
 .. button::
   :text: Undirbúningur í stærðfræði
-  :link: http://edbook.hi.is/undirbuningur_stae/
+  :link: ../undirbuningur_stae/index.html
 
 .. button::
   :text: Undirbúningur í eðlisfræði
-  :link: http://edbook.hi.is/undirbuningur_edl/
+  :link: ../undirbuningur_edl/index.html
 
 .. toctree::
   formali

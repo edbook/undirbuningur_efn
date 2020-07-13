@@ -39,7 +39,7 @@ Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar e
 
   T(K) = T(C) + 273,15 \text{ K}
 
-Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celcíus
+Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celsíus
 
 .. note::
   Þegar hitastig er gefið upp á kelvinskalanum er ekki talað um gráður, þ.e. vatn frýs við 273,15 kelvin (ekki 273,15 gráður kelvin).

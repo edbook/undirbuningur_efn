@@ -33,7 +33,7 @@ Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI-einingaker
 Kelvin
 ~~~~~~
 
-Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með jöfnunni:
+Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 kelvin, svo að skalarnir tengjast með jöfnunni:
 
 .. math::
 

@@ -20,7 +20,7 @@ Námsefnið var unnið með styrk úr `Kennslumálasjóði HÍ <http://sjodir.hi
 Hvað er efnafræði?
 -------------------
 
-Efnafræði er grein raunvísindanna þar sem skoðað er hegðun efna; efnasambanda og frumefna, og hvernig myndun, sundrun og víxlverkun þeirra mynda alheiminn sem þekkist í dag.
+Efnafræði er grein raunvísindanna þar sem skoðuð er hegðun efna; efnasambanda og frumefna, og hvernig myndun, sundrun og víxlverkun þeirra mynda alheiminn sem þekkist í dag.
 Efnafræðin er ein af grunnstoðum raunvísindanna, en hún kemur við á flestum sviðum, s.s. eðlisfræði og líffræði. Hún er því oft kölluð *miðstöð vísindanna* (e. The Central Science).
 
 Hagnýting efnafræðinnar er ekki ný af nálinni, en fundist hafa leifar af 100 þúsund ára gamalli vinnslu á  `okkur <https://is.wikipedia.org/wiki/Okkur>`__. Mannkynið hefur þá stundað efnahvörf lengi, þar sem það elsta er
@@ -38,4 +38,4 @@ Mikið vatn hefur runnið til sjávar síðan þá en nútímaefnafræðin tekur
 
 .. warning::
 
-  Þetta efni var skrifað sumarið 2019 og er birt með fyrirvara um villur. Ef rekist er á villur, hvort sem stafsetnings eða efnislegar, má endilega láta höfund vita með tölvupóst í *hal@hi.is*
+  Þetta efni var skrifað sumarið 2019 og er birt með fyrirvara um villur. Ef rekist er á villur, hvort sem stafsetnings eða efnislegar, má endilega láta vita með tölvupóst í *sef6@hi.is* eða *sgg23@hi.is*

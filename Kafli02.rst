@@ -128,7 +128,7 @@ Mólmassi, massi og mól tengjast með formúlunni
 
  .. math::
 
-     \frac{100\cdot 1 \times 10^{18}}{6,022\times10^{23}\, 1/\text{mól}}=0,00166\text{ mól}
+     \frac{100\cdot 1 \times 10^{18} \text{sameindir}}{6,022\times10^{23}\, \text{sameindir/mól}}=0,00166\text{ mól}
 
  Til að finna massa sameindanna þarf að finna mólmassa efnanna. Fyrir það er hægt að nota t.d. `Ptable <https://ptable.com/?lang=is>`_. Fyrir járn og súrefni fæst í lotukerfinu:
 
@@ -153,10 +153,9 @@ Mólmassi, massi og mól tengjast með formúlunni
 Mólstyrkur
 ~~~~~~~~~~
 
-*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt er notað lítra sem rúmmálseiningu.  Þetta er oft notað fyrir jónir og þá þarf að passa að mólstyrkurinn taki mið af fjölda
-jóna í sameind.
+*Mólstyrkur* (e. molar concentration) er mæling á mólfjölda á rúmmálseiningu af lausn. Almennt eru lítrar notaðir sem rúmmálseiningin.  Þegar mólstyrkur er reiknaður fyrir jónir þarf að passa að taka mið af fjölda jóna í sameind, t.d. hefur ** :math:`\ce{CaCl2}` ** tvær klóríð jónir og þarf því að passa að reikna mólstyrkinn miðað við það (sjá sýnidæmi aðeins neðar).
 
-Þetta er oft táknað með :math:`C` en einnig er notað tákn eindinnar í hornklofa. Einingin er mól/L eða M og er kölluð mólar. Þ.e. lausn sem er einn líter að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
+Mólstyrkur er oft táknaður með :math:`C` en einnig er notað tákn eindinnar í hornklofa t.d. táknar :math:`[\ce{Cl^-}]` mólstyrk klóríðjóna. Eining mólstyrks er mól/L stundum táknuð með M og er kölluð mólar. Þ.e. lausn sem er einn lítri að rúmmáli með einu móli af uppleystu efni er kölluð *eins mólar lausn* .
 
 Jafnan fyrir mólstyrk er:
 
@@ -174,7 +173,17 @@ Jafnan fyrir mólstyrk er:
 
  **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`\ce{MgCl2}` **í 1,00 líter af vatni?**
 
- Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir. Þá er:
+Byrjum á að skoða klofnun :math:`\ce{MgCl2}` 
+
+.. math::
+
+   \begin{aligned}
+
+	  \ce{MgCl2 -> Mg^{2+} + Cl^{-}}
+
+   \end{aligned}
+
+ Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir.
 
  .. math::
 

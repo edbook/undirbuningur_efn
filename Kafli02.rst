@@ -13,8 +13,28 @@ Róteindir og nifteindir mynda *kjarna* (e. `nucleus <https://en.wikipedia.org/w
   :align: center
   :width: 50%
 
-Fjöldi róteinda ákvarðar gerð frumefnis, en frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum. Þessi fjöldi kallast *sætistala* (e. atomic number) frumefnis. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og mynda mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__) frumefnisins. Samsætur hafa mismunandi *massatölu*, en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill (:math:`m_e=9,11\cdot 10^{-31}` kg)
-miðað við hinar tvær öreindirnar (:math:`m_n \approx m_p=1,67\cdot 10^{-27}` kg) að ekki þarf að taka tillit til massa þeirra í massatölu samsætu. Samsætur eru svo nefndar eftir massatölu sinni, t.d. kolefni-13 (C-13) hefur massatöluna 13.
+Gerð frumefnis ákvarðast af fjölda róteinda í kjarna þess. Sem dæmi má nefna að vetni hefur alltaf 1 róteind í kjarna á meðan helíum hefur alltaf 2 róteindir í sínum kjarna. Ólík frumefni hafa ólíkan fjölda róteinda í kjarna. Frumefni eru hleðslulaus vegna þess að þau hafa jafnan fjölda af róteindum og rafeindum. *Sætistala* (e. atomic number) frumefnis er fjöldi róteinda í kjarnanum. Frumefni getur þó haft mismunandi fjölda nifteinda í kjarna og mynda þá mismunandi *samsætur* (e. `isotopes <https://en.wikipedia.org/wiki/Isotope>`__). Samsætur hafa mismunandi *massatölu* (e. mass number), en massatala er samanlagður fjöldi nifteinda og róteinda. Massi rafeindar er svo lítill (:math:`m_e=9,11\cdot 10^{-31}` kg)
+miðað við hinar tvær öreindirnar (:math:`m_n \approx m_p=1,67\cdot 10^{-27}` kg) að ekki þarf að taka tillit til massa þeirra í massatölu samsætu. Samsætur eru svo nefndar eftir massatölu sinni, t.d. kolefni-13 (C-13) hefur massatöluna 13. Massatala hefur eininguna *amu* (atómmassaeining (e. atomic mass unit))
+
+.. figure:: ./myndir/atom/symbols.png
+  :align: center
+  :width: 100%
+
+.. math::
+
+  \begin{array} {c|c}
+  \hline
+  \text{Sætistala} & \text{Fjöldi róteinda í kjarna}\\
+  \hline
+  \text{Massatala} & \text{Fjöldi kjarneinda}\\
+  & \text{róteindir+nifteindir}\\
+  \hline
+  & \text{Ólíkar gerðir sama frumefnis.}\\
+  \text{Samsætur} & \text{Mismunandi fjöldi nifteinda en}\\
+  & \text{fjöldi róteinda er alltaf sá sami.}\\
+  & \text{Massatalan mismunandi}\\
+  \hline
+  \end{array}
 
 .. tip::
   **Kolefni hefur sætistöluna 6. Hver er fjöldi nifteinda, róteinda og rafeinda í C-13?**
@@ -40,17 +60,19 @@ verið fundin á þessum tíma, tókst Mandeleev að mestu leyti að áætla hva
 
 Góð vefsíða fyrir lotukerfið er t.d. `þessi <https://www.ptable.com/>`__, en þar er hægt að velja íslensku og ensku og fá upplýsingar um ýmsa eiginleika allra frumefnanna.
 
-Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, og 18 dálka þar sem hver hópur hefur sameiginlega efnafræðilega eiginleika. Þessir hópar hafa margir eigið nafn, s.s. heitir hópur 1 alkalímálmar og 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir.
+Lotukerfið hefur sjö raðir, þar sem lotubundnir eiginleikar koma fram, og 18 dálka þar sem hver hópur hefur sameiginlega efnafræðilega eiginleika. Þessir hópar hafa margir eigið nafn, t.d. heitir hópur 1 alkalímálmar og hópur 2 jarðalkalímálmar, en hópur 17 ber nafnið halógenar og 18 eðalgastegundir. 
+Efnin í lotukerfinu flokkast líka í málma, hálfmálma og málmleysingja. Á myndinni fyrir neðan, sem er fengin af ptable.com, sést skipting efnanna í lotukerfinu í flokka.
 
-.. figure:: ./myndir/atom/Periodic_trends.png
+
+.. figure:: ./myndir/atom/lotukerfi2.png
   :align: center
-  :width: 50%
+  :width: 100%
 
 Sameindir
 ---------
 
 *Sameindir* (e. molecule) myndast þegar tveir eða fleiri málmleysingjar koma saman og tengjast efnatengjum.
-Sameind getur verið af einni gerð frumefnis, s.s vetnisgas  sem hefur *efnaformúluna*, :math:`\require{mhchem} \ce{H_2}` eða nitur í andrúmslofti, :math:`\ce{N_2}`.
+Sameind getur verið af einni gerð frumefnis, t.d. vetnisgas  sem hefur *efnaformúluna*, :math:`\require{mhchem} \ce{H_2}` eða nitur í andrúmslofti, :math:`\ce{N_2}`.
 Þegar sameind er gerð úr fleiri en einni tegund af frumefni, kallast það *efnasamband* (e. chemical compound). Dæmi um þetta væri t.d. vatnssameind, :math:`\ce{H_2O}` sem hefur tvö vetnisatóm og eitt súrefnisatóm.
 
 Jónaefni
@@ -63,7 +85,7 @@ Jónaefni eru svipaðar og sameindir en það er smíðað úr *jónum* (e. ions
 Efnaformúlur
 ------------
 
-Uppbygging efna er lýst með formúlu, s.s. jónin
+Uppbygging efna er lýst með formúlu, t.d. jónin
 
 .. math::
   \ce{NO_3- (aq)}

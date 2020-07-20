@@ -213,7 +213,7 @@ Sameindarformúla (e. molecular formula)
 Byggingarformúla (e. structural formula)
   Þær sýna myndrænt hvernig atómin eru tengd við hvort annað og lýsir þannig byggingu efnisins.
 
-Ef tekið er dæmi um ediksýru þá er reynsluformúlan hennar :math:`\ce{CH2O}` en sameindaformúlan hennar er :math:`\ce{C2H4O2}`.
+Ef ediksýra er tekin sem dæmi þá er reynsluformúlan hennar :math:`\ce{CH2O}` en sameindaformúlan hennar er :math:`\ce{C2H4O2}`.
 Byggingarformúla ediksýru er aftur á móti:
 
 .. figure:: ./myndir/efnahvorf/ediksyra.png
@@ -221,7 +221,7 @@ Byggingarformúla ediksýru er aftur á móti:
   :align: center
 
 Ef það á að finna hvort að reynsluformúla og sameindaformúla sameindar sé sú hin sama, þarf að komast að mólmassa sameindarinnar. Ef
-mólmassi reynsluformúlunnar er sá hinn sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
+mólmassi reynsluformúlunnar er sá sami, eru formúlurnar þær sömu. Ef ekki, þarf að margfalda reynsluformúlu með heiltölu svo að mólmössunum beri saman.
 
 .. tip::
 

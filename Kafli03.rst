@@ -12,6 +12,12 @@ Efnahvörf er einn gagnlegasti þáttur efnafræðinnar, enda eru efnahvörf gru
 
     \ce{A + B -> C}
 
+Dæmi um álagningarhvarf er álagning klórgass á eten.
+
+  .. math::
+
+    \ce{C2H4 + Cl2 -> C2H4Cl2}
+
 Brottnámshvarf (e. elimination reaction)
   Þessi hvörf er þegar eitt efni sundrast og myndar fleiri en eitt efni. Í þessum tilfelli eru efnatengi að *sundrast*
 
@@ -19,12 +25,26 @@ Brottnámshvarf (e. elimination reaction)
 
     \ce{A -> B + C}
 
+Dæmi um brottnámshvarf er afvötnun etanóls til að mynda eten.
+
+
+  .. math::
+
+    \ce{C2H6O -> C2H4 + H2O}
+
 Skiptihvarf (e. exchange reaction)
  Þessi hvörf er þegar tvö efni skipta um hluta af sér við hvort annað. Í skiptihvörfum *sundrast* efnatengin en *myndast* svo á ný annars staðar..
 
  .. math::
 
   \ce{AB + CD -> AC + BD}
+
+Dæmi um skiptihvarf er hvarf natríumsúlfíðs við saltsýru til að mynda matarsalt og vetnissúlfíð.
+
+
+  .. math::
+
+    \ce{Na2S + 2HCl -> 2NaCl + H2S}
 
 Umröðunarhvarf (e. rearrangement reaction)
   Þessi hvörf er þegar sameindir breytir stöðu atóma sinna. Í umröðunarhvörfum *sundrast* efnatengi en *myndast* svo á nýjum stað innan sameindarinnar.
@@ -34,15 +54,17 @@ Umröðunarhvarf (e. rearrangement reaction)
 
     \ce{A -> B}
 
+Umröðunarhvörf er flóknara að sjá fyrir sér og verður ekki tekið fyrir á þessu stigi.
 
-Stilla efnajöfnur
------------------
+
+Að stilla efnajöfnur
+--------------------
 
 *Hvarfefni* (e. reactant) hvarfast og mynda *myndefni* (e. product), en þau gera þetta í fastákveðnum mólhlutföllum. Þetta er til að viðhalda
-sama fjölda af hverju frumefni í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvað efni myndast, en það er kallað að *stilla* efnajöfnuna
-að ákvarða þessi hlutföll.
+sama fjölda af hverju frumefni í gegnum hvarfið. *Efnajafna* lýsir hvaða efni hvarfast og hvaða efni myndast, en það er kallað að *stilla* efnajöfnuna
+að ákvarða í hvaða hlutföllum efnin hvarfast og myndast.
 
-Fyrir einföld efnahvörf er þetta oft gert með prufun, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf* flækist málið enn frekar, en það fær að bíða betri tíma.
+Til að stilla efnajöfnur þarf að passa að það sé sama magn af frumefnum fyrir og eftir efnahvarfið. Einföld efnahvörf eru yfirleitt stillt með því að prófa sig áfram, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf* flækist málið enn frekar, en það fær að bíða betri tíma.
 
 Bruni
 ~~~~~
@@ -57,7 +79,7 @@ kolefniskeðjan og súrefnissameindir hvarfast og mynda vatn og koldíoxíð.
 
 .. tip::
 
- **Líkaminn fær orku úr glúkósa með að brenna hann. Settu upp efnajöfnu fyrir bruna glúkósa og stilltu.**
+ **Líkaminn fær orku úr glúkósa með því að brenna hann. Settu upp efnajöfnu fyrir bruna glúkósa og stilltu.**
 
  Óstillta efnajafnan er:
 
@@ -130,9 +152,9 @@ Takmarkandi hvarfefni
 
 Þegar efnahvörf eru framkvæmd, er sjaldan blandað eftir nákvæmu *hvarfefnahlutfalli* (e. stoichiometric ratio). Því í stað er annað efnið oftast í yfirmagni (e. excess), til að tryggja betri nýtingu á öðru hráefninu. Sem dæmi væri ekki vitlaust að blanda
 7 eða fleiri mólum af súrefni fyrir hvert mól af glúkósa, í stað 6. Þetta tryggir að sem hæst hlutfall glúkósans brennur. Efnið sem nær ekki þessu hvarfefnahlutfalli, í þessu tilfelli glúkósinn, kallast *takmarkandi hvarfefnið* (e. limited reactant).
-Ef einungis væri blandað 5 mólum eða færri af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið.
+Ef einungis væri blandað 5 mólum eða minna af súrefni fyrir hvert mól af glúkósa, væri súrefnið takmarkandi hvarfefnið, þ.e. súrefnið myndi klárast áður en allur glúkósinn hefði brunnið og það yrði því afgangur af glúkósa.
 
-Þegar takmarkandi hvarfefnið er uppurið getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé einnig takmarkandi hvarfefnið.
+Þegar takmarkandi hvarfefnið er uppurið getur ekki myndast meira af myndefnunum. *Mólfjöldi takmarkandi hvarfefnisins stjórnar því mólfjölda myndefna*. Algengt er að dýrara hvarfefnið sé látið vera takmarkandi hvarfefnið til að nýta það sem best.
 
 Til að vita hvaða efni er takmarkandi hvarfefnið þarf að vita mólfjölda hvarfefnanna og stillta efnajöfnu hvarfsins.
 
@@ -163,7 +185,7 @@ Til að vita hvaða efni er takmarkandi hvarfefnið þarf að vita mólfjölda h
   n_{\ce{N_2}} &= \frac{m_{\ce{N_2}}}{\mathcal{M}_{\ce{N_2}}} = \frac{263,0 \text{g}}{28,014 \text{ g/mól}}= 9,388 \text{ mól}
   \end{aligned}
 
- Jafnvel þótt fjöldinn af vetnismólum sé meiri er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
+ Jafnvel þótt mólfjöldi vetnis sé meiri en mólfjöldi niturs er hann ekki þrefalt meiri. Þ.e. :math:`\frac{24,8}{3}=8,27<9,388`.
 
  Vetnið er því takmarkandi hvarfefnið og skv. efnajöfnunni myndast 2 mól af ammóníaki fyrir hver 3 mól af vetni. Þá getur að hámarki myndast:
 
@@ -181,15 +203,16 @@ Til að vita hvaða efni er takmarkandi hvarfefnið þarf að vita mólfjölda h
 
 Oxunartölur
 -----------
-Oxunartala frumefnis er fjöldi rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
-jónarinnar en það gildir ekki fyrir sameindir með samgild efnatengi. Munurinn liggur í því að þrátt fyrir að hafa gefið af
+Þegar efni gefa frá sér rafeindir er talað um að þau oxist. Á sama hátt er talað um að efni afoxist þegar þau þiggja rafeindir.
+Oxunartala frumefnis segir til um fjölda rafeinda sem atóm hefur gefið frá sér. Fyrir einatóma jónir er þetta sama tala og hleðsla
+jónarinnar, t.d. hefur :math:`\ce{Cl-}` oxunartöluna -1. Þetta gildir ekki fyrir sameindir með samgild efnatengi. Munurinn liggur í því að þrátt fyrir að hafa gefið af
 sér rafeindina, nýtur atómið enn við áhrifum af henni gegnum samgilda efnatengið. Farið verður nánar í efnatengi í komandi köflum.
 
 Alveg eins og fólk er oft gjarnara á að deila með sér heldur en að gefa frá sér, er einnig auðveldara fyrir atóm að *oxast* en að jónast. Oxunartalan er því á mun víðara bili og getur
 tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms eykst er það að *oxast*, en *afoxast* þegar hún lækkar.
 
 .. tip::
-  **Í svokölluðum oxunar-afoxunar hvörfum er annað efnið að oxast en hitt að afoxast. Dæmi um þetta er t.d.**
+  **Í svokölluðum oxunar-afoxunar hvörfum þarf alltaf að minnsta kosti eitt efni að oxast og eitt efni að afoxast. Dæmi um þetta er t.d.**
 
   .. math::
       \ce{Zn(s) + 2H+ -> Zn^{2+} + H2(g)}
@@ -200,10 +223,10 @@ tekið gildi á bilinu -4 til +9 (svo vitað er af). Þegar oxunartala atóms ey
 
   Oxunartala vetnis fer úr +1 í 0, og er því að *afoxast*
 
-Greina oxunartölu atóms í sameind
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Greining oxunartalna atóma í sameindum
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hægt er að sjá allar möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
+Hægt er að sjá öll möguleg oxunarástönd frumefna `hér <https://en.wikipedia.org/wiki/Oxidation_state#List_of_oxidation_states_of_the_elements>`_
 en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglur:
 
 1. Oxunartala hreins frumefnis, s.s. :math:`\ce{Al(s)}` eða tvíatóma sameind, s.s. :math:`\ce{H2}` er alltaf 0.
@@ -216,7 +239,7 @@ en til að greina oxunarástand fyrir hvert og eitt tilfelli gilda nokkrar reglu
 
 5. Oxunartala vetnis er yfirleitt +1, en vetni getur myndað hýdríð þegar það tengist málmi og fengið oxunartölu -1.
 
-6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar þeir tengjast súrefni eða flúor.
+6. Flúor hefur alltaf oxunartölu -1. Hinir halógenarnir (klór, brómíð og joðíð) taka yfirleitt oxunartölu -1, nema þegar þeir tengist súrefni eða flúor.
 
 .. tip::
 

@@ -14,7 +14,7 @@ Kjörgaslögmálið
 
   P=\frac FA
 
-Hérna er :math:`F` kraftur, mældur í newtonum, og :math:`A` er flatarmál í fermetrum. SI-eining þrýstings er því *Newton á fermeter* sem er kallað *Pascal*, táknað :math:`\text{Pa}`.
+Hérna er :math:`F` kraftur, mældur í newtonum, og :math:`A` er flatarmál í fermetrum. SI-eining þrýstings er því *Newton á fermetra* einnig kallað *Pascal*, táknað :math:`\text{Pa}`.
 
 Fyrir uppblásna blöðru er þrýstingurinn inni í henni sem heldur henni uppblásinni. Þessi þrýstingur fæst með *árekstri sameinda á veggi blöðrunnar*.
 Sameindir í gasfasa eru á stöðugri hreyfingu og óumflýjanlega munu þær rekast á veggi blöðrunnar. Þessi árekstrar veita þann kraft sem þarf til að halda blöðrunni útþaninni.
@@ -24,7 +24,7 @@ Sameindir í andrúmsloftinu klessa einnig utan á blöðruna og valda þrýstin
 Einingar
 ~~~~~~~~
 
-Þrýstingur getur verið gefinn til kynna með mörgum einingum sem hafa allar verið skilgreindar með ákveðið markmið í huga. SI-einingin er Pascal, táknuð :math:`\text{Pa}`, en hún er mjög lítil og því hentar betur að nota aðrar einingar í efnafræði. Það er mikilvægt að vita hvernig hægt er að breyta á milli þeirra.
+Þrýstingur getur verið gefinn til kynna með mörgum einingum sem hafa allar verið skilgreindar með ákveðið markmið í huga. SI-einingin er Pascal, táknuð :math:`\text{Pa}`, en hún er mjög lítil og því hentar betur að nota aðrar einingar í efnafræði. Það er mikilvægt að vita hvernig hægt er að breyta á milli þeirra. :math:`\require{cancel}`
 
 .. math::
 

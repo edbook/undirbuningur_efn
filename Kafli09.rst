@@ -22,9 +22,9 @@ Hraðalíkan fyrir þetta hvarf í hina áttina væri þá:
 Ef hvorugt hvarfanna eru núllta stigs þá *eykst* hraðinn á afturábak hvarfinu þegar líður á upprunalega hvarfið, enda eykst styrkur :math:`[\ce{C}]` og :math:`[\ce{D}]`. Að sama leyti *minnkar* hraðinn á upprunalega hvarfinu þar sem :math:`\ce{[A]}` og :math:`\ce{[B]}` minnkar. Þegar þessir tveir hraðar jafnast út,
 nær hvarfið *jafnvægi* (e. equilibrium).
 
-Þegar efnahvarf nær jafnvægi mætti segja að það sé hætt, en það er ekki alveg rétt. Bæði efnahvörfin eru enn í fullu gangi en þau fara jafnhratt. Það *myndast því jafn mikið efni og hvarfast aftur.*
+Þegar efnahvarf nær jafnvægi mætti segja að það sé hætt, en það er ekki alveg rétt. Bæði efnahvörfin eru enn í fullum gangi en þau fara jafnhratt. Það *myndast því jafn mikið efni og hvarfast aftur.*
 
-Fyrir þetta efnahvarf væri myndun :math:`\ce{C}` og :math:`\ce{D}` kallað að "efnahvarfið gangi til hægri" og afturábak hvarfið væri að "ganga til vinstri".
+Fyrir þetta efnahvarf væri myndun :math:`\ce{C}` og :math:`\ce{D}` kallað að "efnahvarfið gangi til hægri" ef horft er á efstu efnajöfnuna og afturábak hvarfið væri að "ganga til vinstri".
 
 Fyrir hvörf af þessu tagi, þegar hvarf gengur bæði til hægri og til vinstri er táknið :math:`\ce{<=>}` notað í stað :math:`\ce{->}`. Athugið að öll hvorf ná jafnvægi, en sum hvörf eru þannig að það má nálga að hvarf gangi alveg til hægri og nota þá venjulega ör.
 
@@ -51,7 +51,7 @@ Hvert hvarf hefur einkennandi *jafnvægisfasta* (e. equilibrium constant) fyrir 
 
   .. math::
 
-  	\ce{CO2 + 3H_2 <=> CH_3OH + H_2O}
+  	\ce{CO_{2(g)} + 3H_{2(g)} <=> CH_3OH_{(g)} + H_2O_{(g)}}
 
  **Hver er jafnvægislíking hvarfsins?**
 
@@ -71,7 +71,7 @@ Fyrir efnahvörf sem eiga sér stað á gasfasa er oft ekki notaður styrkur, he
 
 .. math::
 
-  \ce{aA(g) +bB(g)+ \dots <=> nN(g) + mM(g) + \dots}
+  \ce{aA(g) +bB(g) + \dots <=> nN(g) + mM(g) + \dots}
 
 Fyrir þetta efnahvarf væri jafnvægisfastinn í gasfasa:
 
@@ -159,12 +159,45 @@ Fyrir hvörf þar sem annað hvort myndefni eða hvarfefni eru ekki í lausn eð
    K_p&=P_{\ce{CO_2}} 	& \Delta n=(1)-(0)=1
    \end{aligned}
 
+Leysnimargfeldi
+---------------
+
+Jafnvægisfastar fyrir leysni salta eru kallaðir *leysnimargfeldi* (e. solubility product) og er táknað með :math:`K_{sp}`. Þar sem eina hvarfefnið er á föstu formi þá kemur það ekki fyrir í leysnimargfeldi. Tökum nokkur dæmi.
+
+.. tip::
+
+**Matarsalt leysist upp í vatni samkvæmt formúlunni**
+
+ .. math::
+
+    \ce{NaCl_{(s)} <=> Na^{+}_{(aq)} +Cl^{-}_{(aq)}}
+
+Líkingin fyrir leysnimargfeldi matarsalts má þá rita sem 
+
+ .. math::
+
+    K_sp=[\ce{Na+}][\ce{Cl-}]
+
+**Kalsíumklóríð leysist upp samkvæmt formúlunni**
+
+ .. math::
+
+    \ce{CaCl_{2(s)} <=> Ca^{2+}_(aq) +2Cl^{-}_(aq)}
+
+Líkingin fyrir leysnimargfeldi kalsíumklóríðs má þá rita sem 
+
+ .. math::
+
+    K_sp=[\ce{Ca^{2+}}][\ce{Cl-}]^2
+
+Leysnimargfeldi allra helstu salta er hægt að fletta upp á netinu.
+
 Jafnvægisfasti fyrir sameinuð hvörf
 -----------------------------------
 
-Hægt er að sameina efnaformúlu í heildarformúlu. Þegar það er gert, er hægt að finna jafnvægisfasta fyrir heildarhvarfið, út frá jafnvægisföstum efnaformúlunna sem hvarfið var smíðað úr.
+Þegar efnahvörf gerast í nokkrum skrefum er hægt að finna jafnvægisfasta heildarhvarfsins út frá jafnvægisföstum skrefanna.
 
-- Þegar lagt er saman tvö efnahvörf, eru jafnvægisfastarnir *margfaldaðir.*
+- Þegartvö efnahvörf eru lögð saman, eru jafnvægisfastarnir *margfaldaðir.*
 
   .. math::
 
@@ -200,6 +233,33 @@ Hægt er að sameina efnaformúlu í heildarformúlu. Þegar það er gert, er h
     \ce{2A -> 2B} & K^2 \\
     \frac{1}{2}\ce{A} \rightarrow \frac 12 \ce{B} &\sqrt{K}\\
     \end{array}
+
+.. tip::
+
+Gefin eru eftirfarandi efnahvörf
+
+  .. math::
+    
+    \ce{A + B <=> C} \qquad K_1
+    \ce{B <=> 2D} \qquad K_2
+    \ce{2C <=> E \qquad K_3
+
+Hver væri jafnvægisfasti eftirfarandi efnahvarfs?
+
+  .. math::
+    
+    \ce{A + 2D <=> 1/2E}
+
+Ef við köllum efnahvarfið sem við viljum :math:`E_4` og hin efnahvörfin þrjú :math:`E_1` , :math:`E_2` og :math:`E_3` þá gætum við búið til :math:`E_4` með jöfnunni:
+
+  .. math::
+   \ce{E_4} = \ce{E_1} - \ce{E_2} +\ce{1/2E_3}
+
+Jafnvægisfasti hvarfsins er þá
+
+.. math::
+   \ce{K_4} = \ce{K_1} \cdot \frac{1}{\ce{K_2}} +\ce{K^{1/2}_3}
+
 
 Hvarfkvóti
 ----------
@@ -404,7 +464,7 @@ Margliðan hefur því oftast *tvær* lausnir en oft er hægt að útiloka aðra
 Nálgun
 ~~~~~~
 
-Til þess að spara tíma í þessum útreikningum, eða einfaldlega gera jöfnur leysanlegar, getur þurft að *nálga* lausnirnar. Þá eru tekin út atriði sem skipta litla sem engu máli til að einfalda jöfnuna.
+Til þess að spara tíma í þessum útreikningum, eða einfaldlega gera jöfnur leysanlegar, getur þurft að *nálga* lausnirnar. Þá eru tekin út atriði sem skipta litlu sem engu máli til að einfalda jöfnuna.
 Sem dæmi um þetta má nefna af ef jafnvægisfastinn er lítill er :math:`x` lítið. Ef upphafstyrkurinn er ekki mjög lítill er oft hægt að nálga t.d. :math:`[\ce{A}]_0-x\approx [\ce{A}]_0`.
 
 Nálgunin :math:`[\ce{A}]_0-x\approx [\ce{A}]_0` getur haft tvenns konar áhrif. Ef :math:`x` breytir einungis ómarkverðum tölustöfum hefur það engin áhrif og er næstum alltaf góð hugmynd. Ef :math:`x` breytir markverðum tölustafi  í upphafsgildi þá getur ennþá verið góð hugmynd að nálga og fer það eftir nákvæmni sem þarf að hverju sinni.
@@ -476,11 +536,11 @@ Ef litið er á hvarfkvótann þegar styrkur :math:`\ce{N2O}` er aukinn um :math
 Breyting á rúmmáli og þrýsting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ef efnahvarf hefur mismunandi fjölda móla við örina er hægt að stjórna hvarfinu með þessum hætti. Þrýstingur er háður rúmmáli, sem og mólum. Þegar rúmmál er minnkað, leitast hvarfið við að draga úr þrýstingsaukningunni. Hvarfið stefnir þá í átt að *færri* mólum.
+Ef efnahvarf hefur mismunandi fjölda móla sitt hvoru megin við örina er hægt að stjórna hvarfinu með þessum hætti. Þrýstingur er háður rúmmáli, sem og mólum. Þegar rúmmál er minnkað, leitast hvarfið við að draga úr þrýstingsaukningunni. Hvarfið stefnir þá í átt að *færri* mólum.
 Sambærilega ef rúmmál er aukið, leitast hvarfið við að viðhalda
 þrýstingnum og stefnir í átt að *fleiri* mólum.
 
-Efnahvarfið fyrir ofan hefur mismunandi fjölda af móla. Þá er hægt að leiða út:
+Efnahvarfið fyrir ofan hefur mismunandi fjölda móla fyrir og eftir hvarf. Þá er hægt að leiða út:
 
 .. math::
 

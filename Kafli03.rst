@@ -66,6 +66,12 @@ að ákvarða í hvaða hlutföllum efnin hvarfast og myndast.
 
 Til að stilla efnajöfnur þarf að passa að það sé sama magn af frumefnum fyrir og eftir efnahvarfið. Einföld efnahvörf eru yfirleitt stillt með því að prófa sig áfram, en einnig er hægt að beita kerfisbundanari aðferðum fyrir flóknari efnajöfnur. Fyrir *oxunar-afoxunarhvörf* flækist málið enn frekar, en það fær að bíða betri tíma.
 
+Ástönd efna
+~~~~~~~~~~~
+
+Efni geta verið í mismunandi ástöndum og er það oft skrifað fyrir aftan efnaformúlu efnisins. Notuð eru sérstök ástandstákn til að útskýra í hvaða ástandi tiltekið efni er og eru ástandstáknin alltaf skrifuð innan sviga. Dæmi um ástandstákn eru (g) fyrir gas, (s) fyrir fast efni (e. solid), (l) fyrir vökva (e. liquid) og (aq) fyrir efni sem er uppleyst í vatni (e. aqueous). Stundum eru ástandstákn skrifuð í sviga beint á eftir efnaformúlum en stundum eru þau skrifuð í hnéletri (e. subscript) Dæmi um þetta væri að skrifa formúlu fyrir súrefnisgas sem :math:`\ce{O2_{(g)}}` eða :math:`\ce{O2(g)}` og fyrir klóríðjónir uppleystar í vatni sem :math:`\ce{Cl^{-}_{(aq)}}` eða :math:`\ce{Cl^{-}(aq)}`
+Ástandstákn hafa engin áhrif á hvernig efnajöfnur eru stilltar og munu ekki birtast alveg á næstunni í þessu námsefni. Þau verða hins vegar nauðsynleg þegar lengra er farið t.d. í 9. kafla. Það passaði bara best inn í að tala um þau hér.
+
 Bruni
 ~~~~~
 

@@ -30,7 +30,7 @@ Fjöldi rafeinda á hverju svigrúmi er jafn fjölda frumefna í hverju undirsvi
   :width: 80%
 
 .. tip::
-  **Hver er rafeindaskipan brennisteins** (:math:`\ce{Si}`) **? En blýs** (:math:`\ce{Pb}`) **?**
+  **Hver er rafeindaskipan brennisteins** (:math:`\ce{S}`) **? En blýs** (:math:`\ce{Pb}`) **?**
 
   Brennisteinn hefur sætistöluna 16 og því 16 rafeindir. Byrjum á vetni í :math:`1s` og vinnum okkur að svigrúmi :math:`3p`, þar sem brennisteinn er. Þá er rafeindaskipanin:
 
@@ -54,15 +54,15 @@ Fjöldi rafeinda á hverju svigrúmi er jafn fjölda frumefna í hverju undirsvi
 Gildisrafeindir
 ---------------
 
-*Gildisrafeindir* (e. valence electrons) eru þær rafeindir sem eru á ysta hveli frumefnis, þ.e. þær rafeindir sem koma á eftir eðalgastegund í lotunni á undan. Alkalímálmar (eins og :math:`\ce{Li}` og :math:`\ce{Na}`) hafa eina gildisrafeind á meðan halógenar (eins og :math:`\ce{F}` og :math:`\ce{Cl}`) hafa 7.
+*Gildisrafeindir* (e. valence electrons) eru þær rafeindir sem eru á ysta hveli frumefnis sem geta tekið þátt í að mynda efnatengi. Fjölda gildisrafeinda er auðvelt að finna út frá lotukerfinu fyrir utan gildisrafeindir hliðarmálmanna, lanþaníðanna og aktiníðanna. Alkalímálmar (eins og :math:`\ce{Li}` og :math:`\ce{Na}`) hafa eina gildisrafeind á meðan halógenar (eins og :math:`\ce{F}` og :math:`\ce{Cl}`) hafa 7. Fyrir flest efni eru rafeindir í d og f svigrúmunum ekki gildisrafeindir.
 
-Gildisrafeindir eru einkum þýðingarmiklar í hvarfgirni efna vegna þess að frumefni leitast eftir að hafa 8 gildisrafeindir í ysta hvoli. Þetta heitir *áttureglan* (e. octate rule).
+Gildisrafeindir eru einkum þýðingarmiklar í hvarfgirni efna vegna þess að frumefni leitast eftir að hafa 8 gildisrafeindir á ysta hvoli. Þetta heitir *áttureglan* (e. octate rule).
 Atóm geta komið fjölda gildisrafeinda í átta með nokkrum leiðum: þau geta t.d. myndað *sameind* þar sem þau deila gildisrafeindum með öðrum atómum í *efnatengjum*, eða *jónast* (e. ionize) þar sem þau kasta af sér umframrafeindum.
 
 .. note::
  Eðalgastegundir eru einstaklega stöðugar, vegna þess að þær uppfylla átturegluna. Þær eru því mjög óhvarfgjarnar eða óvirkar (e. inert)
 
-Þegar rita á rafeindaskipan stórra frumefna er vaninn að telja ekki upp öll hvolfin og rafeindirnar sem þar eru, heldur einungis gildisrafeindirnar og tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda ritháttin auk þess sem gildisrafeindir koma mun oftar við sögu en þær sem eru innar.
+Þegar rita á rafeindaskipan stórra frumefna er vaninn að telja ekki upp öll hvolfin og rafeindirnar sem þar eru, heldur einungis rafeindir á ysta hvolinu og tákn eðalgastegundarinnar fyrir framan í hornklofa. Þetta er gert til að einfalda ritháttin auk þess sem gildisrafeindir koma mun oftar við sögu en þær sem eru innar.
 
 .. tip::
 
@@ -73,12 +73,12 @@ Atóm geta komið fjölda gildisrafeinda í átta með nokkrum leiðum: þau get
   .. math::
     [Xe] 6s^2 5d^{10} 4f^{14} 6p^{2}
 
- Blý hefur því :math:`2+10+14+2=28` gildisrafeindir.
+ Ef rafeindir á d og f svigrúmum eru ekki talin með sést að blý hefur :math:`2+2=4` gildisrafeindir.
 
 Rafeindaskipan áframhald
 ------------------------
 
-Rafeindir hafa fleiri en þessar tvær skammtatölur sem hafa verið nefndar, :math:`n`og :math:`\ell` . Auk þeirra eru :math:`m_{\ell}` er *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og :math:`m_S`  sem er  *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_). :math:`m_\ell` segir til um í hvaða átt svigrúmið snýr en :math:`m_S` segir aftur á móti til um *spuna* rafeindarinnar.
+Rafeindir hafa fleiri en þessar tvær skammtatölur sem hafa verið nefndar, :math:`n` og :math:`\ell` . Auk þeirra eru :math:`m_{\ell}`, *segulskammtatalan* (e. `magnetic quantum number <https://en.wikipedia.org/wiki/Magnetic_quantum_number>`_) og :math:`m_S`  sem er  *spunaskammtatalan* (e. `spin quantum number <https://en.wikipedia.org/wiki/Spin_quantum_number>`_). :math:`m_\ell` segir til um í hvaða átt svigrúmið snýr en :math:`m_S` segir aftur á móti til um *spuna* rafeindarinnar.
 
 Ekki verður farið nánar út í það hér en gott að vita að engar tvær rafeindir á atómi hafa sömu fjórar skammtatölur og skammtatölurnar er hægt að tilgreina á myndrænan hátt.
 Þá fær hvert hvolf og undirhvolf kassa sem rafeindirnar eru svo merktar inn á. Fjöldi kassa fer eftir gerð undirhvolfa og eru helmingur fjölda rafeinda á fullu undirhvolfi.

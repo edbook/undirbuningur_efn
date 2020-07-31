@@ -152,6 +152,7 @@ Heildarformúlan fyrir þetta hvarf væri þá:
 
   \ce{A + 3B -> D + E}
 
+Takið eftir að efni C myndast í fyrsta hvarfinu en hvarfast svo sjálft og er því ekki að finna í lokahvarfinu. Efni C kallast því milliefni. Ef eitt hvarfefnanna í fyrra hvarfinu myndi myndast aftur í seinna hvarfinu og styttast þar af leiðandi út þá myndi það efni flokkast sem hvati í efnahvarfinu. Nánar verður talað um hvata í 8. kafla.
 
 Takmarkandi hvarfefni
 ---------------------

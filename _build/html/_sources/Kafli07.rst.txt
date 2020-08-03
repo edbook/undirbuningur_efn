@@ -41,13 +41,13 @@ Eðlisvarmi hefur því eininguna
 
     \mathrm{J \left/ \middle( g\! \cdot \!K \right)}  \quad \text{eða} \quad \mathrm{J \left/ \middle( g  \! \cdot \!  \!°C \right)}
 
-Þá er einnig notað *kaloría* (e. calorie) yfir eðlisvarma vatns, þ.e.
+Þá er einnig einingin *kaloría* (e. calorie) notuð yfir eðlisvarma vatns, þ.e.
 
 .. math::
 
   1 \, \mathrm{cal} = 4,186 \frac{ \mathrm{J}}{\text{g} \! \cdot \! \mathrm{K}}
 
-Til að finna varmarýmd kerfis þarf að leggja saman eðlismassa allra efna, margfaldaðan við massa af hverju efni. Jafnan sem tengir varmaorku við hitastigsbreytingu er:
+Til að finna varmarýmd kerfis þarf að margfalda eðlisvarma kerfisins við massa efnis. Jafnan sem tengir varmaorku við hitastigsbreytingu er:
 
 .. math::
 
@@ -68,7 +68,7 @@ Hér táknar :math:`q` varmaorku, :math:`m` massa efnis, :math:`c` er eðlisvarm
  **Hvað þarf mikla varmaorku til að hita 13,4 g af vatni frá 3,0 °C til 100 °C?**
 
  Hér þarf að nota jöfnuna að ofan og stinga inn gildunum. Eðlisvarmi vatns er fengin úr skilgreiningu
- á kalóríu.
+ á kalóríu hér að ofan. (Ef annað efni en vatn væri notað þyrfti að fletta gildum upp í töflu).
 
  .. math::
 
@@ -94,22 +94,22 @@ Fasabreyting
 
 Efni getur gert meira en hitnað, en við ákveðin hitastig skipta þau um fasa. Þetta er vel þekkt úr daglegu lífi þar sem við hefðbundinn þrýsting við sjávarmál, þ.e. 1 atm, bráðnar klaki við 0 °C og vatn sýður við 100 °C.
 
-Það sem gerist þegar klaki bráðnar er að vatnssameindirnar geta ekki hreyft sig hraðar í kristalbyggingunni. Til þess að geta tekið við meiri varma, rjúfa sameindirnar kristaltengin sín á milli og mynda þá vökva. Þegar vatn sýður rjúfa sameindirnar alla millisameindakrafta og hver sameind fer sína leið.
+Það sem gerist þegar klaki bráðnar er að varmi frá umhverfinu veldur aukinni hreyfingu vatnssameindanna þangað til þær geta ekki hreyft sig hraðar í kristalbyggingunni. Til þess að geta tekið við meiri varma, rjúfa sameindirnar kristaltengin sín á milli og mynda þá vökva. Þegar vatn sýður rjúfa sameindirnar alla millisameindakrafta og hver sameind fer sína leið.
 
 Þetta kostar tiltölulega mikla orku að rjúfa öll þessi tengi en það kostar 334 J/g að bræða klaka en 2265 J/g að láta vatn gufa upp. Þessi gildi eru mun stærri en 4,2 J/g sem það kostar að hita vatn um eina gráðu.
 
 Innri orka
 ----------
 
-Innri orka kerfis er öll uppsöfnuð sú orka sem býr í kerfinu s.s. varmaorka og efnaorka. Innri orkan er almennt táknuð með :math:`U` en ekki er hægt að mæla tölulegt *algildi*  (e. absolute value) fyrir innri orku. Hinsvegar er hægt að mæla breytingu í innri orku og því er oftar talað um :math:`\Delta U`.
+Innri orka kerfis er öll sú uppsafnaða orka sem býr í kerfinu s.s. varmaorka og efnaorka. Innri orkan er almennt táknuð með :math:`U` en ekki er hægt að mæla tölulegt *algildi*  (e. absolute value) fyrir innri orku. Hinsvegar er hægt að mæla breytingu í innri orku og því er oftar talað um :math:`\Delta U`.
 
-Orka er skilgreind sem geta til að framkvæma vinnu eða mynda varma, svo því er hægt að setja upp jöfnu fyrir innri orku:
+Orka er skilgreind sem getan til að framkvæma vinnu eða mynda varma, svo því er hægt að setja upp jöfnu fyrir innri orku:
 
 .. math::
 
   \Delta U = q + w
 
-þar sem :math:`q` er varmi og :math:`w` er vinna. Orka kerfisins eykst ef :math:`\Delta U` er jákvætt en til þess að það gerist þarf varmi að berast í kerfi eða vinna unnin á því.
+þar sem :math:`q` er varmi og :math:`w` er vinna. Orka kerfisins eykst ef :math:`\Delta U` er jákvætt en til þess að það gerist þarf varmi að berast í kerfi eða vinna að vera unnin á því.
 
 .. figure:: ./myndir/varmi/orka.png
   :width: 80%
@@ -177,7 +177,7 @@ Ef litið er aftur á jöfnuna fyrir innri orku, en vinnan einskorðuð við P-V
 :math:`\Delta H>0`
   Þegar vermisbreytingin er jákvæð, tekur efnahvarfið til sín orku og kallast *innvermið* (e. endothermic)
 
-Sambærilegt og fyrir innri orku er ekki hægt að mæla algildi, heldur er notað :math:`\Delta H`.
+Sambærilegt og fyrir innri orku er ekki hægt að mæla algildi vermis, heldur er notað :math:`\Delta H`.
 Hægt er að finna töflugildi fyrir efni, þar sem stöðugasta form efnisins er skilgreint sem núllpunktur.
 Dæmi um það er t.d. :math:`\ce{H2}` og :math:`\ce{N2}`. Þessar töflur má finna í mörgum kennslubókum, sem og á netinu, t.d. `hér. <https://www.chem.wisc.edu/deptfiles/genchem/netorial/modules/thermodynamics/table.htm>`_
 
@@ -219,12 +219,12 @@ Jafnan til að finna vermisbreytingu fyrir efnahvarf er:
 
   \Delta H° = \Delta H_f° ( \ce{CO2(g)})  + 2 \Delta H_f°(\ce{H2O(g)}) - \Big( \Delta H_f° ( \ce{CH4(g)})   +2\Delta H_f° ( \ce{O2(g)}) \Big)
 
- Nú er hægt að leita upp gildum fyrir þessar tölur, en eins og sjá má fæst :math:`\Delta H°(\ce{O2})=0` þar sem :math:`\ce{O2}` er stöðugasta form súrefnis. Þá fæst:
+ Nú er hægt að fletta upp gildum fyrir þessar tölur, en eins og sjá má fæst :math:`\Delta H°(\ce{O2})=0` þar sem :math:`\ce{O2}` er stöðugasta form súrefnis. Þá fæst:
 
  .. math::
 
    \begin{aligned}
-   \Delta H° &= -393.51 \text{ kJ/mól} -2 \cdot 241.82 \text{kJ/mól} - \Big(-74.81 \text{ kJ/mól} + 0 \text{ kJ/mól})\\
+   \Delta H° &= -393.51 \text{ kJ/mól} -2 \cdot 241.82 \text{kJ/mól} - \Big(-74.81 \text{ kJ/mól} + 0 \text{ kJ/mól} \Big)\\
              &= -802,34 \text{ kJ/mól}
    \end{aligned}
 
@@ -242,7 +242,7 @@ Lögmál Hess segir til um að ekki skipti máli fyrir vermisbreytingu, hvort a�
   :width: 60%
   :align: center
 
-Þar sem ekki skiptir máli hvora leið er farið frá hverfefnum til myndefna er hægt að setja fram jöfnuna:
+Þar sem ekki skiptir máli hvora leið er farið frá hvarfefnum til myndefna er hægt að setja fram jöfnuna:
 
 .. math::
 
@@ -270,7 +270,7 @@ Vermisbreyting fær öfugt formerki ef hvarfið snýst við.
 
 .. tip::
 
- **Hvert er** :math:`\Delta H` **fyrir myndun metans úr kolmónoxíð?**
+ **Hvert er** :math:`\Delta H` **fyrir myndun metans úr kolmónoxíði?**
 
  .. math::
 
@@ -396,7 +396,7 @@ Fyrir jafnan þrýsting er jafnan fyrir það:
 Gibbs frí orka
 --------------
 
-Í staðinn fyrir að reikna óreiðuna fyrir bæði kerfið og umhverfið, er það tekið saman í *Gibbs fría orku* (e. Gibbs free energy). Þetta er einnig ástandsfall og er táknað með :math:`G`, en jafnan fyrir gibbs fríu orku er:
+Í staðinn fyrir að reikna óreiðuna fyrir bæði kerfið og umhverfið, er það tekið saman í *Gibbs frí orku* (e. Gibbs free energy). Þetta er einnig ástandsfall og er táknað með :math:`G`, en jafnan fyrir gibbs frí orku er:
 
 .. math::
 
@@ -498,7 +498,7 @@ Efnahvati
 ~~~~~~~~~
 
 Virkjunarorka ræður miklu þegar kemur að hraða efnahvarfs. Fyrir efnaverksmiðju er hentugast að hvarf gerist sem hraðast.
-Til þess er notað *efnahvati* (e. catalyst). Efnahvati hraðar hvarfinu með því að lækka virkjunarorku sem þarf. Efnahvati *lækkar virkjunarhólinn* sem hvarfið þarf að komast yfir.
+Til þess er notaðUR *efnahvati* (e. catalyst). Efnahvati hraðar hvarfinu með því að lækka virkjunarorku sem þarf. Efnahvati *lækkar virkjunarhólinn* sem hvarfið þarf að komast yfir.
 
 
 .. figure:: ./myndir/varmi/virkjunar2.png

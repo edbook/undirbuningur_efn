@@ -90,7 +90,7 @@ Fyrir þessi fyrirbæri þarf enn önnur forskeyti:
   Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.
 
 Að breyta um forskeyti
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Þegar breytt er um forskeyti er til ein rétt leið til að stytta út einingarnar.
 

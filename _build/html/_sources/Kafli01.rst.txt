@@ -33,13 +33,16 @@ Einingar fyrir aðrar stærðir eru settar saman úr grunneiningum SI-einingaker
 Kelvin
 ~~~~~~
 
-Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 gráður kelvin, svo að skalarnir tengjast með jöfnunni:
+Eins og sjá á er SI-eining hitastigs kelvin en ekki celsíus. Þessir skalar eru þó nátengdir og celsíus skalinn er eins og kelvin skalinn, nema einungis hliðraður. Celsíus er skilgreint með núllpunkt við frostmark vatns, en kelvin skalinn skilgreinir núllpunkt við *alkul*, en það er algjört lágmarkshitastig. Vatn frýs aftur á móti við 273,15 kelvin, svo að skalarnir tengjast með jöfnunni:
 
 .. math::
 
   T(K) = T(C) + 273,15 \text{ K}
 
-Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celcíus
+Hér táknar :math:`T(\text{K})` hitastig í kelvin en :math:`T(\text{C})` hitastig í celsíus
+
+.. note::
+  Þegar hitastig er gefið upp á kelvinskalanum er ekki talað um gráður, þ.e. vatn frýs við 273,15 kelvin (ekki 273,15 gráður kelvin).
 
 Forskeyti SI-kerfisins
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -86,10 +89,10 @@ Fyrir þessi fyrirbæri þarf enn önnur forskeyti:
 .. note::
   Athugið að þegar fengist er við massa þá er SI-einingin kílógramm en ekki gramm.
 
-Breyta um formerki
-~~~~~~~~~~~~~~~~~~
+Að breyta um forskeyti
+~~~~~~~~~~~~~~~~~~~~~~
 
-Þegar breytt er um formerki er til ein rétt leið til að stytta út einingarnar.
+Þegar breytt er um forskeyti er til ein rétt leið til að stytta út einingarnar.
 
 Ef það á að breyta úr grömmum í kíló fæst að
 
@@ -113,7 +116,7 @@ Ef deilt er í gegn með :math:`1000 \text{ g}` fæst:
 
  .. math::
 
-   14 \bcancel{\text{ mg}} \cdot \frac{ 1\bcancel{\text{ g}}}{10^6 \bcancel{\text{ mg}}} \frac{10^9 \text{ ng}}{1 \bcancel{\text{ g}}} =14 \times 10^3 \text{ ng}
+   14 \bcancel{\text{ mg}} \cdot \frac{ 1\bcancel{\text{ g}}}{10^3 \bcancel{\text{ mg}}} \cdot \frac{10^9 \text{ ng}}{1 \bcancel{\text{ g}}} =14 \times 10^3 \text{ ng}
 
 
 Markverðir tölustafir
@@ -215,6 +218,7 @@ Ef gerðar eru margar aðgerðir, skal halda ríflegum fjölda af tölustöfum t
  Þá þarf að finna hve marga markverðu tölustafi svarið á að hafa. Byrjum á að finna markverða tölustafi í samlagningunni. Samlagningin er takmörkuð af tveimur aukastöfum, þ.e. 114,69 sem þýðir að það eru *fimm* markverðir stafir. Þá er einungis margföldunaraðgerðir eftir:
 
   .. math::
+
 
     (5) \cdot (5) \cdot (4) = (4)\\
     \small{ (\text{Markverðir tölustafir})}

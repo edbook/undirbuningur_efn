@@ -1,7 +1,7 @@
 Hraðafræði
 ==========
 
-Efnahvörf gerast mishratt og það getur verið gagnlegt að vita hvaða þættir hraða eða hægja á efnahvarfinu, til þess að geta stjórnað þeim eftir því hvað hentar. *Hraði* efnahvarfs er þá breyting á styrk á tíma, sambærilegt og í eðlisfræði er hraði breyting á staðsetningu á tíma.
+Efnahvörf gerast mishratt og það getur verið gagnlegt að vita hvaða þættir hraða eða hægja á efnahvarfinu, til þess að geta stjórnað þeim eftir því hvað hentar. *Hraði* efnahvarfs er þá breyting á styrk á tíma, sambærilegt og í eðlisfræði þar sem hraði breyting á staðsetningu á tíma.
 
 Ef það er verið að mynda járn(II) jónir úr járn(III) jónum er hægt að skrifa hraðann sem: :math:`\require{mhchem}`
 
@@ -233,7 +233,7 @@ Hraðalíkanið fyrir þetta hvarf væri þá:
 Ákvarða stig hvarfefnis
 -----------------------
 
-Til að ákvarða stig hvarfefnis í hraðalíkanið, þ.e. stuðlana :math:`m,n`, þarf tilraunir. Þá er blandað saman mismunandi styrk af hvarfefnum og athugað hvernig það hefur áhrif á hraðann.
+Til að ákvarða stig hvarfefnis í hraðalíkanið, þ.e. stuðlana :math:`m,n`, þarf tilraunir. Þá er mismunandi styrk af hvarfefnum blandað saman og athugað hvernig það hefur áhrif á hraðann.
 
 
 .. math::
@@ -246,13 +246,13 @@ Fyrir þetta efnahvarf væri hraðalíkanið
 
   \text{hraði} = k[\ce{A}]^m[\ce{B}]^n
 
-Segjum sem svo að hraðinn er mældur tvisvar og í seinna skiptið er notað tvöfaldan styrk af hvarfefni :math:`\ce{A}`. Þá er hægt að finna stuðulinn :math:`m` með jöfnunni:
+Segjum sem svo að hraðinn sé mældur tvisvar og í seinna skiptið sé styrkur hvarfefnis :math:`\ce{A}` tvöfaldaður. Þá er hægt að finna stuðulinn :math:`m` með jöfnunni:
 
 .. math::
 
   \frac{\text{hraði}(2\times \ce{A})}{\text{hraði}(1\times \ce{A})}=2^m
 
-Þessi jafna er fyrir þegar tvöfaldað er styrkinn af hvarfefni :math:`\ce{A}`. Ef notað er :math:`x` sinnum meiri styrk af hvarfefninu, er jafnan:
+Þessi jafna gildir þegar styrkur af hvarfefni :math:`\ce{A}` er tvöfaldaður. Ef :math:`x` sinnum meiri styrkur af hvarfefninu er notaður, er jafnan:
 
 .. math::
 

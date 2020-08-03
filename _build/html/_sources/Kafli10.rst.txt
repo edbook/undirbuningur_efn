@@ -7,10 +7,10 @@ Sýrur og basar
 Skilgreining
 ------------
 
-Til eru nokkrar skilgreiningar á sýru (e. acid) og má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýra en hér verður einungis litið á Brønsted-Lowry sýrur, enda
+Til eru nokkrar skilgreiningar á sýrum (e. acid) og bösum (e. base) má þar nefna *Arrhenius*, *Brønsted-Lowry* og *Lewis*. Skilgreiningar eru missértækar yfir hvað telst sýrur og basar en hér verður einungis litið á Brønsted-Lowry sýrur og basa, enda
 algengasta skilgreiningin. :math:`\require{mhchem}` :math:`\require{cancel}`
 
-Brønsted-Lowry sýra getur gefið af vetnisjón, :math:`\ce{H+}` en Brønsted-Lowry *basi* (e. base) tekur við þessari vetnisjón. Ekki er vaninn að skrifa "Brønsted-Lowry" fyrir framan sýrur og basa og verður ekki gert framar. Þegar talað er um sýrur og basa er algengara en hitt að tala um
+Brønsted-Lowry *sýra* getur losað sig við vetnisjón, :math:`\ce{H+}` en Brønsted-Lowry *basi* getur tekið við vetnisjónum. Ekki er vaninn að skrifa "Brønsted-Lowry" fyrir framan sýrur og basa og verður ekki gert framar. Þegar talað er um sýrur og basa er algengara en hitt að tala um
 prótónu eða róteind í stað vetnisjónar. Það er vegna þess að vetni hefur einungis eina róteind og eina rafeind. Í vetnisjónum hefur vetnið misst þessa rafeind og róteindin situr því ein eftir.
 
 -----------------
@@ -51,7 +51,7 @@ Sýrustig er mælt á pH skalanum sem er lógaritmískur skali af styrk vetnisj�
 Lausnir flokkast í þrennt, eftir því hvar þær eru á pH skalanum:
 
 pH<7
-  Lausnir með pH<7 eru *súrar*.
+  Lausnir með pH<7 eru *súrar*. (e. acidic)
 
 pH>7
   Lausnir með pH>7 eru *basískar* (e. basic, alkaline).
@@ -154,13 +154,13 @@ Fyrir *veikar sýrur* er ekki hægt að áætla að hún klofnar til fulls. Fyri
 
 .. math::
 
- \ce{HA(aq) + H2O(l) <=> H3O+(aq) + A-(aq)}
+ \ce{HA(aq) + H2O(l) <=> H3O+(aq) + A^{-}(aq)}
 
 er jafnvægisfastinn:
 
 .. math::
 
-  K_a=\frac{\ce{[H3O+] [A-]}}{\ce{[HA]}}
+  K_a=\frac{\ce{[H3O+] [A^{-}]}}{\ce{[HA]}}
 
 Til að finna sýrustigið í lausn með veikri sýru þarf að notast við þennan jafnvægisfasta.
 
@@ -173,7 +173,7 @@ Til að finna sýrustigið í lausn með veikri sýru þarf að notast við þen
  .. math::
 
    \begin{array}{r|llll}
-   &\ce{CH_3COOH \quad + &H2O -> &H3O+ \quad + &CH_3COOH-}\\
+   &\ce{CH_3COOH \quad + &H2O -> &H3O+ \quad + &CH_3COO-}\\
     \hline
    \text{Upphaf} & 1,0 &&0&0\\
    \text{hvarf} & -x &&+x&+x\\
@@ -186,7 +186,7 @@ Til að finna sýrustigið í lausn með veikri sýru þarf að notast við þen
  .. math::
 
    \begin{aligned}
-    K_a&=\frac{\ce{[H3O+] [CH_3COOH-]}}{\ce{[CH_3COOH]}}\\
+    K_a&=\frac{\ce{[H3O+] [CH_3COO^{-}]}}{\ce{[CH_3COOH]}}\\
        \Rightarrow 1,8\times10^{-5} &=\frac{x^2}{1,0-x}\\
    \end{aligned}
 
@@ -211,7 +211,7 @@ Samokabasar
 
  \ce{HA + H2O <=> H3O+ + A-}
 
-Þetta efnahvarf gengur í báðar áttir fyrir veikar sýrur og styrkur :math:`\ce{[HA]}` og :math:`\ce{[A-]}` er því í jafnvægi. Með því að auka styrk :math:`\ce{[A-]}` þá færi þetta hvarf *til vinstri* og lausnin yrði basískari.
+Þetta efnahvarf gengur í báðar áttir fyrir veikar sýrur og styrkur :math:`\ce{[HA]}` og :math:`[\ce{A-}]` er því í jafnvægi. Með því að auka styrk :math:`[\ce{A-}]` þá færi þetta hvarf *til vinstri* og lausnin yrði basískari.
 Ef notað væri einungis :math:`\ce{A-}` gæti eftirfarandi efnahvarf gerst:
 
 .. math::
@@ -374,7 +374,7 @@ Böffer
 
 *Böffer-lausn* (e. Buffer solution), einnig kallað stuðpúðalausn, er lausn sem helst tiltölulega stöðug í sýrustigi, þrátt fyrir viðbót sýru eða basa.
 
-Böffer-lausn er útbúin með því að blanda saman veikri sýru og salt sem inniheldur samsvarandi samokabasa. Dæmi um þetta væri t.d. blásýra, :math:`\ce{HCN}` og :math:`\ce{NaCN}`. Blásýra klofnar með efnahvarfinu:
+Böffer-lausn er útbúin með því að blanda saman veikri sýru og salti sem inniheldur samsvarandi samokabasa. Dæmi um þetta væri t.d. blásýra, :math:`\ce{HCN}` og :math:`\ce{NaCN}`. Blásýra klofnar með efnahvarfinu:
 
 .. math::
 
@@ -393,10 +393,10 @@ Ef sýrustigið félli niður fyrir 6,8 eða færi yfir 7,8 væri manneskjan í 
 
 Stuðpúðalausnir geta þó ekki tekið við endalausu magni af sýru eða basa og þegar veika sýran eða samokabasinn er uppurinn breytist sýrustigið hratt.
 
-Reikna pH í böffer-lausn
-~~~~~~~~~~~~~~~~~~~~~~~~
+Að reikna pH í böffer-lausn
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi. Til að einfalda málið er til jafna sem er nefnd eftir *Henderson-Hasselbach*
+Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi. Til að einfalda málið er til jafna sem er nefnd eftir *Henderson-Hasselbalch*
 
 .. math::
 
@@ -412,7 +412,7 @@ Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi
 
  **Ef** :math:`K_a\ = 4,4\times 10^{-7}` **, hvert er sýrustig lausnarinnar? Hvert er sýrustigið eftir að hafa bætt við bætt við 0,200 mólum af saltsýru?**
 
- Hér þarf að nota Henderson-Hasselbach en hlutfallið af mólstyrk er jafnt hlutfall móla. Því þarf ekki vita rúmmál lausnarinnar:
+ Hér þarf að nota Henderson-Hasselbach en hlutfallið af mólstyrk er jafnt hlutfalli móla. Því þarf ekki vita rúmmál lausnarinnar:
 
  .. math::
 
@@ -570,7 +570,7 @@ Hlutleysing
 
   \ce{H3O+ + OH- -> 2 H2O}
 
-Lausn er sögð hafa náð jafngildipunkti þegar blandað hefur verið jafn mörgum mólum af basa og mólum af sýru, eða öfugt. Við jafngildispunkt er ekkert lengur sem tekur á móti viðbættum styrk af sýru eða basa og sýrustigið tekur því stökk.
+Lausn er sögð hafa náð jafngildipunkti þegar blandað hefur verið jafn mörgum mólum af basa og mólum af sýru. Við jafngildispunkt er ekkert lengur sem tekur á móti viðbættum styrk af sýru eða basa og sýrustigið tekur því stökk.
 
 Fyrir lausn sem byrjar basísk er hægt að lýsa þessu myndrænt, en til að áætla hvernig kúrfan er nákvæmlega þarf að vita hversu rammur basinn og hversu römm sýran er.
 

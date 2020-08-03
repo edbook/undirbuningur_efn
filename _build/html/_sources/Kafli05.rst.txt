@@ -8,9 +8,9 @@ Efnatengi
 Samgild tengi
 -------------
 
-Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna, en þessar sameiginlegu rafeindir geta fyllt ysta hvolfið á báðum atómum.
+Atóm hafa möguleika á að deila með sér rafeindum, þannig að rafeindirnar halda kjörnum atómanna saman. Þetta hjálpar atómunum að uppfylla átturegluna (Sjá 4. kafla), en þessar sameiginlegu rafeindir geta fyllt ysta hvolfið á báðum atómum.
 
-Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð*. Skautuð samgild tengi er þegar sameiginlegu rafeindirnar dreifast ójafnt milli atóma og valda hleðslumun á kjörnunum. Rafeindirnar dreifast ójafnt vegna *rafdrægnimun* frumefnana, þ.e. frumefni "vilja" rafeindir mismikið.
+Samgild tengi geta verið annaðhvort *skautuð* (e. polarized) eða *óskautuð* (e. non polar). Samgild tengi eru sögð skautuð þegar rafeindirnar í tenginu dreifast ójafnt milli atómanna og valda hleðslumun á kjörnunum. Rafeindirnar dreifast ójafnt vegna mismikillar *rafdrægni* frumefnanna. *Rafdrægni* er í rauninni mælikvarði á hversu fast atóm halda í rafeindir, ef mikill munur er á rafdrægni atóma sem tengd eru með samgildu tengi haldast rafeindirnar nær því atómi sem hefur meiri rafdrægni og hefur það atóm þá *neikvæða hluthleðslu* (e. partial negative charge) en það verður ekkert farið frekar í það í þessu námsefni. Ef mjög mikill munur er á rafdrægni frumefna er tengið á milli þeirra *jónatengi*, þ.e. þegar báðar rafeindirnar í tenginu koma frá sama atóminu, þ.e. því atómi sem er með meiri rafdrægni.
 Sjá má *rafdrægni* (e. electronegativity) frumefnanna hér að neðan.
 
 .. figure:: ./myndir/sameindir/rafneikvaedni.png
@@ -102,7 +102,7 @@ Vok myndir
 
  **Hver er Lewis mynd fyrir nítrat jón,** :math:`\ce{NO_3^-}` ?
 
- 1. Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu svo það bætist við rafeind*. Þá eru :math:`5+3\cdot6+1=24` gildisrafeindir.
+ 1. Nitur hefur 5 gildisrafeindir og súrefni hefur 6, *en jónin hefur -1 hleðslu svo það bætist við ein auka rafeind*. Þá eru :math:`5+3\cdot6+1=24` gildisrafeindir.
 
  2. Nitrið fer í miðjuna og 6 rafeindir fara í samgild tengi til súrefnisatómanna. Þá fæst:
 
@@ -111,7 +111,7 @@ Vok myndir
    :width: 20%
 
  3. Núna eru 18 rafeindir eftir en það vantar 20 til að uppfylla átturegluna alls staðar, 6 á hvert súrefnisatóm og 2 á nituratómið.
- 4. Það vantar því tvítengi einhvers staðar, en *hvar?*  Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vok myndir við sögu, en þá teiknum við upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
+ 4. Það vantar því tvítengi einhvers staðar, en *hvar?*  Hvert og eitt N-O tengi er jafngildur kandídat. Hérna koma vokmyndir við sögu, en þá teiknum við upp *alla* möguleikana, og fáum þrjár mismunandi vok myndir.
 
    .. figure:: ./myndir/sameindir/nitrid2.svg
      :align: center
@@ -123,8 +123,7 @@ Vok myndir
 
    Heildarhleðslan er því +1-1-1=-1. Þetta stemmir við neikvæðu hleðslu nítratsins.
 
-Hafa ber í huga að í náttúrunni finnast ekki sameindir sem líkjast stakri vok mynd, heldur samblanda af öllum þremur. Þetta er sambærilegt og að lýsa nashyrning fyrir krakka sem blanda af einhyrningi og dreka.
-Hvorugt er til, en þetta getur gefið hugmynd um útlit raunverulegs hluts.
+Hafa ber í huga að í náttúrunni finnast ekki sameindir sem líkjast stakri vokmynd, heldur samblöndu af öllum þremur.
 
 Til er annar og algengari ritháttur fyrir samgild tengi, og það er að teikna strik í stað tveggja punkta.
 
@@ -262,13 +261,12 @@ Nafnakerfi fyrir jónaefni
 Jákvætt hlaðnar jónir eru kallaðar *katjónir* (e. cations), en neikvætt hlaðnar jónir *anjónir* (e. anions).
 
 Fyrir einatóma jónir, er auðvelt af gefa jónunum nafn. Katjónir fá enga endingu, en anjónir fá -íð (e. ide) endingu. Dæmi um þetta væri t.d. að kalsíum jónir og klóríð jónir
-mynda svo kalsíumklóríð. Þetta er eins og fyrir sameindir en munurinn er að ekki þarf að taka fram fjöldan af hvorri jón, heldur er hlutfallið gefið með hleðslunni.
+mynda svo kalsíumklóríð. Þetta er eins og fyrir sameindir en munurinn er að ekki þarf að taka fram fjöldan af hvorri jón, heldur er hlutfallið gefið með hleðslunni. Til dæmis væri kalsíumklóríð :math:`\ce{CaCl_2}` þar sem kalsíum jónir hafa hleðsluna 2+ þarf tvær klóríð jónir svo að efnið verði hlutlaust.
 
 Fyrir þá hliðarmálma sem geta tekið mismunandi hleðslu er síðan venjan að tilgreina hleðslu með rómverskum stöfum í sviga eftir katjóninni. Til dæmis væri jónin :math:`\ce{Fe^{2+}}` járn(II) og :math:`\ce{Pb^{4+}}` blý(IV).
 Þetta er ekki gert fyrir þau frumefni sem jónast aðeins á einn hátt.
 
-Nafnakerfið fyrir *oxóanjónir* (e. oxyanions) fylgir öðrum reglum, en það eru fjölatóma jónir þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda
-af súrefni og tekur þá mismunandi endingar.
+Nafnakerfið fyrir *oxóanjónir* (e. oxyanions) fylgir öðrum reglum, en það eru fjölatóma jónir þar sem frumefni binst við súrefni (oxast) og myndar jón. Frumefni getur oft bundist mismunandi fjölda af súrefni og tekur þá mismunandi endingar.
 
 Hægt er að líta á jónina sem endar á *-at* (e.-ate) sem upphafspunkt og tökum sem dæmi klórat :math:`\ce{ClO_3^-}`. Ef það bætist við eitt súrefnisatóm, fær jónin forskeytið *per-* og kallast þá perklórat :math:`\ce{ClO_4^-}`. Ef jónin hinsvegar minnkar um eitt súrefnisatóm
 fær jónin endinguna *-ít* (e. -ite) og verður klórít :math:`\ce{ClO2^-}`. Ef hún minnkar aftur um súrefnsatóm fær jónin forskeytið *hýpó-* (e.hypo) og verður þá hýpóklórít :math:`\ce{ClO^-}`. Fleiri dæmi má sjá í þessari töflu:
@@ -297,6 +295,8 @@ fær jónin endinguna *-ít* (e. -ite) og verður klórít :math:`\ce{ClO2^-}`. 
 Þessi listi er ekki tæmandi og athuga ber að ekki er til allar fjórar jónir fyrir öll efni. Þessi nafnagift er í grunninn byggð á
 *oxunartölu* (e. oxidation state) frumefnisins sem stendur með súrefninu, en farið verður í þær í næsta kafla.
 
+Eins og sést á töflunni helst fjöldi súrefnisatóma í jónunum ekki alveg í hendur við hvaða endingu og forskeyti jónirnar fá, t.d. hefur súlfat 4 súrefnisatóm en karbónat aðeins 3, ástæðan fyrir þessu er að þetta nafnakerfi var búið til af Antoine Lavoiser á 18. öld, áður en atómkenning Daltons kom fram.
+
 
 
 Málmtengi
@@ -318,7 +318,7 @@ Gljái
   Hægt er að pússa upp málma svo að ysta lag "rafeindasjávarins" endurkasti ljósi. Málmar eru ógegnsæir þegar þeir ná ákveðnari lágmarksþykkt.
 
 Hár eðlismassi, hátt bræðslumark og suðumark.
-  Málmatómin liggja þétt saman sem veldur háum eðlismassa. Málmtengin eru einnig í heildina sterk og því þarf mikinn hita til að rjúfa þau. Þess vegna er bræðslumark og suðumark málma hátt. Undantekning á þessu er *kvikasilfur*, en það er eini málmurinn sem er fljótandi við stofuhita.
+  Málmatómin liggja þétt saman sem veldur háum eðlismassa. Málmtengin eru einnig í heildina sterk og því þarf mikinn hita til að rjúfa þau. Þess vegna er bræðslumark og suðumark málma hátt. Undantekning á þessu er *kvikasilfur*, en það er eini málmurinn sem er fljótandi við stofuhita og svo má einni nefna *gallíum* sem bráðnar við 29,76°C.
 
 Millisameindakraftar
 --------------------
@@ -337,7 +337,7 @@ Efni getur einna helst verið í þremur fösum (e. phase); *fast efni*, *vökva
 
 - Efni á vökvaformi hafa rofið millisameindakrafa að einhverju leyti og sameindirnir eru því ekki lengur fastar á sínum stað í kristalbygginu. Eftirstandandi millisameindakraftar halda þó sameindunum saman sem heild.
 
-- Efni á gasformi hefur algjörlega slitið alla millisameindakrafta og hver sameind heldur sína leið. Efni á gasfas getur því dreift sér og fyllt því upp í það rými sem það er í.
+- Efni á gasformi hefur algjörlega slitið alla millisameindakrafta og hver sameind heldur sína leið. Efni á gasfas getur því dreift sér og fyllt upp í það rými sem það er í.
 
 Efni skipta um fasa við mismunandi hitastig. Hitastig efnis sem skilur að vökvaform og fast form er kallað *bræðslumark* (e. melting point) efnisins og hitastigið sem skilur að vökvaform og gasfasa kallast *suðumark* (e. boiling point) efnisins.
 Við þessi hitastig byrjar efnið að nota viðbættan varma í að rjúfa hluta af millisameindakröftunum. Þessi hitastig stjórnast því af hversu öflugir millisameindakraftarnir eru, en *því öflugri millisameindakraftar, því hærra hitastig er bræðslu- og suðumark efnisins.*
@@ -357,7 +357,7 @@ London kraftur
 
 London kraftar eru til í öllum sameindum og eru þeir einu sem halda saman óskautuðum sameindum. Rafeindir eru á stöðugri hreyfingu og geta dreifst tímabundið ójafnt um kjarnann. Sameindin fær þá litla tímabundna skautun og þar með skautaða póla. Þessir skautuðu póla geta svo haft áhrif á nærliggjandi sameindir og myndað *hrifskautun* (e. induced polarization).
 
-Þetta gerist t.d. þegar rafeindaríkur póll ýtir frá sér rafeindum nágrannans og þannig fær nærliggjandi hlið nágrannans rafeinasnauðan pól. Þetta eru ekki sterkir kraftar, en eru þó oft nægilegir til að halda óskautuðum sameindum saman. London kraftar eru einnig missterkir í sameindum og fer það eftir hversu auðveldlega þetta ferli gerist.
+Þetta gerist t.d. þegar rafeindaríkur póll ýtir frá sér rafeindum nágrannans og þannig fær nærliggjandi hlið nágrannans rafeindasnauðan pól. Þetta eru ekki sterkir kraftar, en eru þó oft nægilegir til að halda óskautuðum sameindum saman. London kraftar eru einnig missterkir í sameindum og fer það eftir hversu auðveldlega þetta ferli gerist.
 Það fer eftir *skautanleika* (e. polarizability) sameindarinnar. Því skautanlegri sem sameind er, því oftar fær hún tímabundna skautun og london krafturinn er sterkari.
 
 Skautanleiki sameindar er einna helst háður *stærð* og *lögun* sameindarinnar. Því stærri sem sameind er, því fleiri rafeindir hefur hún og á stærra svæði. Þetta gerir auðveldara fyrir misdreifingu rafeinda og sameindin á því auðveldara með að skautast.
@@ -367,7 +367,7 @@ Skautanleiki sameindar er einna helst háður *stærð* og *lögun* sameindarinn
 Vetnistengi
 ~~~~~~~~~~~
 
-Vetnistengi myndast þegar vetni (:math:`\ce{H}`) tengist við rafeinaneikvæðu atómin; súrefni (:math:`\ce{O}`), flúor (:math:`\ce{F}`) og nitur (:math:`\ce{F}`). Þetta er stundum kallað :math:`\ce{OFN}` reglan.
+Vetnistengi myndast þegar vetni (:math:`\ce{H}`) tengist við rafeinaneikvæðu atómin; súrefni (:math:`\ce{O}`), flúor (:math:`\ce{F}`) eða nitur (:math:`\ce{F}`). Þetta er stundum kallað :math:`\ce{OFN}` reglan.
 
 Fyrir tengi milli þessara efna er mikill munur í rafeindaþéttleika, þ.e. vetnið er rafeindasnautt, meðan :math:`\ce{O}`, :math:`\ce{F}`, eða :math:`\ce{N}` eru rafeindarík. Þessi mikli rafeindamunur veldur sterku aðdráttarafli milli vetnis og :math:`\ce{O}`, :math:`\ce{F}` eða :math:`\ce{N}` atóma í öðrum sameindum.  Þetta aðdráttarafl kallast vetnistengi og heldur sameindunum saman með sterkari böndum en öðrum tvípóls-tvípóls kröftum.
 
@@ -414,7 +414,7 @@ Tvípóls-hrifskaut kraftar
    :align: center
    :width: 50%
 
- Hér eru C-H tengin með 0,4 í rafdrægnimismun og því óskautuð. Sameindin er einnig symmetrísk þannig að skautunin myndi jafnast út, ef einhver væri. Metan er því *óskautað* og hefur því einungis *london krafta.*
+ C-H tengin eru með 0,4 í rafdrægnimismun (sjá töflu efst á síðu) og því óskautuð. Sameindin er einnig symmetrísk þannig að skautunin myndi jafnast út, ef einhver væri. Metan er því *óskautað* og hefur því einungis *london krafta.*
 
  Vatn er aftur á móti með einkennandi *vetnistengi*, sem og *London krafta*. Þetta eru sterkari millisameindakraftar en hjá metani og því má áætla að vatn hafi hærra suðumark. Það er hægt að staðfesta, þar sem metan er gas við stofuhita, en vatn vökvi.
 
@@ -425,4 +425,4 @@ Tvípóls-hrifskaut kraftar
    :width: 60%
 
  Hér eru einungis óskautuð C-H tengi, svo báðar sameindirnar eru óskautaðar. Þá hafa þær hvorar um sig einungis *London krafta* sem millisameindakrafta, svo suðumarkið ræðst af því hvort efnið er skautanlegra. Efnin hafa bæði sömu sameindaformúlu :math:`\ce{C6H14}` svo þau eru jafn stór. Eini munurinn er lögunin á þeim.
- Vinstra efnið er ílangt og því skautanlegra en greinótta og þéttara hægri efnið. Vinstri efnið er því skautanlegra og hefur hærra bræðslumark.
+ Vinstra efnið er ílangt og því skautanlegra en greinótta og þéttara hægri efnið. Vinstri efnið er hefur því hærra suðumark. Ef báðum efnunum er flett upp kemur í ljós að efnið vinstra megin sýður við u.þ.b. 68°C en efnið hægra megin 58°C

@@ -394,7 +394,7 @@ Ef sýrustigið félli niður fyrir 6,8 eða færi yfir 7,8 væri manneskjan í 
 Stuðpúðalausnir geta þó ekki tekið við endalausu magni af sýru eða basa og þegar veika sýran eða samokabasinn er uppurinn breytist sýrustigið hratt.
 
 Að reikna pH í böffer-lausn
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Til að reikna pH í böffer lausn þarf að reikna sýrustig við efnajafnvægi. Til að einfalda málið er til jafna sem er nefnd eftir *Henderson-Hasselbalch*
 

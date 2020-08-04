@@ -236,13 +236,16 @@ Jafnvægisfasti fyrir sameinuð hvörf
 
 .. tip::
 
-Gefin eru eftirfarandi efnahvörf
+   Gefin eru eftirfarandi efnahvörf
+   .. math::
 
-  .. math::
-    
-    \ce{A + B <=> C} \qquad K_1
-    \ce{B <=> 2D} \qquad K_2
-    \ce{2C <=> E \qquad K_3
+    \begin{array}{c|c}
+    \text{Efnahvarf}& \text{Jafnvægisfasti}\\
+      \hline
+    \ce{ A + B <=> C} & K_1 \\
+    \ce{B <=> 2D} & K_2 \\
+    \ce{2C <=> E} & K_3\\
+    \end{array}
 
 Hver væri jafnvægisfasti eftirfarandi efnahvarfs?
 
@@ -250,10 +253,10 @@ Hver væri jafnvægisfasti eftirfarandi efnahvarfs?
     
     \ce{A + 2D <=> 1/2E}
 
-Ef við köllum efnahvarfið sem við viljum :math:`E_4` og hin efnahvörfin þrjú :math:`E_1` , :math:`E_2` og :math:`E_3` þá gætum við búið til :math:`E_4` með jöfnunni:
+Ef við köllum efnahvarfið sem við viljum :math:`H_4` og hin efnahvörfin þrjú :math:`H_1` , :math:`H_2` og :math:`H_3` þá gætum við búið til :math:`H_4` með jöfnunni:
 
   .. math::
-   \ce{E_4} = \ce{E_1} - \ce{E_2} +\ce{1/2E_3}
+   \ce{H_4} = \ce{H_1} - \ce{H_2} +\ce{1/2H_3}
 
 Jafnvægisfasti hvarfsins er þá
 

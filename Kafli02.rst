@@ -18,7 +18,7 @@ miðað við hinar tvær öreindirnar (:math:`m_n \approx m_p=1,67\cdot 10^{-27}
 
 .. figure:: ./myndir/atom/symbols.png
   :align: center
-  :width: 100%
+  :width: 50%
 
 .. math::
 
@@ -177,11 +177,7 @@ Byrjum á að skoða klofnun :math:`\ce{MgCl2}`
 
 .. math::
 
-   \begin{aligned}
-
 	  \ce{MgCl2 -> Mg^{2+} + Cl^{-}}
-
-   \end{aligned}
 
  Hér eru tvær gerðir af eindum og því betra að tákna styrkinn með hornklofum til aðgreiningar. Í hverri sameind af :math:`\ce{MgCl2}` er ein magnesíum jón og tvær klóríð jónir.
 

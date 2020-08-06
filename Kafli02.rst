@@ -173,9 +173,9 @@ Jafnan fyrir mólstyrk er:
 
  **Hver er mólstyrkur magnesíums og klóríðs ef blandað er 2,00 mólum af** :math:`\ce{MgCl2}` **í 1,00 líter af vatni?**
 
-Byrjum á að skoða klofnun :math:`\ce{MgCl2}` 
+ Byrjum á að skoða klofnun :math:`\ce{MgCl2}` 
 
-.. math::
+ .. math::
    \ce{MgCl2 -> Mg^{2+} + Cl^{-}}
 
 

@@ -190,6 +190,7 @@ Jafnan fyrir mólstyrk er:
 
    \end{aligned}
 
+
 Mólalstyrkur
 ~~~~~~~~~~~~
 
